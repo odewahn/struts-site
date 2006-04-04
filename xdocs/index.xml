@@ -54,11 +54,14 @@ limitations under the License.
                 <p>
                     The best available version is
                     <a href="announce.html#a20050322">
-                        Struts 1.2.9,
+                        <strong>Struts 1.2.9,</strong>
                     </a>
                     which was classified "General Availability"
-                    (or "Ready for Primetime")
-                    on 22 March 2006.
+                    (or "Ready for Primetime") on 22 March 2006.
+                    The 1.2.9 release
+                    <a href="http://www.frsirt.com/english/advisories/2006/1205">
+                        resolves three security issues,</a>
+                    and supercedes the Struts 1.2.8 release.
                 </p>
 
             </subsection>
@@ -117,8 +120,8 @@ limitations under the License.
                     Not by a long shot!
                     Soon, we will also offer a new Action 2 framework, based on
                     <a href="http://www.opensymphony.com/webwork/">WebWork</a>
-                    technology. Essentially, 
-                    <a href="announce.html#a20051214.3">Struts Action 2.0</a> 
+                    technology. Essentially,
+                    <a href="announce.html#a20051214.3">Struts Action 2.0</a>
                     will be WebWork 2.3.
                 </p>
 
@@ -130,7 +133,7 @@ limitations under the License.
 
                 <p>
                     For more, see our
-                    <a href="kickstart.html">KickStart FAQ.</a>
+                    <a href="roadmap.html">Roadmap FAQ.</a>
                 </p>
             </subsection>
 

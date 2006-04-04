@@ -90,14 +90,15 @@ limitations under the License.
                         http://struts.apache.org/struts-shale/api-stability.html</a>
                 </li>
             </ul>
+            <hr/>
 
             <h4 id="a20050322">22 March 2006 - Struts 1.2.9 (General
                 Availability)</h4>
             <p>
                 The Struts team is pleased to announce the release of Struts
-                1.2.9 for General Availability.
-                This release is primarily to fix three security issues which have
-                been identified and supersedes the earlier 1.2.8 version as
+                1.2.9 for General Availability. This release is primarily to
+                <a href="http://www.frsirt.com/english/advisories/2006/1205">fix three security issues</a> 
+                which have been identified and supersedes the earlier 1.2.8 version as
                 the latest official release of Struts from The Apache Software
                 Foundation.
             </p>

@@ -16,8 +16,8 @@ limitations under the License.
 <!--
 // ======================================================================== 78
 -->
-<faqs title="Product Line FAQ">
-    <title>Product Line</title>
+<faqs title="Roadmap FAQ">
+    <title>Roadmap FAQ</title>
 
     <part>
         <faq id="shale">
@@ -240,34 +240,6 @@ limitations under the License.
             </answer>
         </faq>
 
-        <faq id="overdrive">
-            <question>What about OverDrive or Struts Nexus?</question>
-            <answer>
-                <p>
-                    <a href="http://wiki.apache.org/struts/StrutsOverDrive">
-                        OverDrive</a>
-                    is a working proposal to use a set of case-study
-                    applications
-                    to drive the design and creation of a business layer
-                    framework.
-                    The codename for the business layer framework under
-                    development is "Nexus".
-                    Like Action and Shale, the Nexus internals are based on
-                    the Chain of Responsibility pattern.
-                </p>
-                <p>
-                    OverDrive and Nexus do not complete with frameworks like
-                    Action and Shale.
-                    Nexus begins where these frameworks end.
-                    Nexus is the "rest of the stack".
-                </p>
-                <p>
-                    The codebase underlying the proposal is being coded in C#,
-                    but a version for Java is expected in due course.
-                </p>
-            </answer>
-        </faq>
-
         <faq id="choice">
             <question>Which Apache Struts Framework should I use on my next
                 project?</question>
@@ -321,20 +293,25 @@ limitations under the License.
                     or
                     <a href="http://struts.apache.org/struts-action/index.html">
                         Struts Action</a>
-                    for JSP.
-                    Other likely candidates for a Web MVC framework include
+                    for JSP. 
+                    If you choose Action, and you or your team is forward-looking, 
+                    you may want to start with 
+                    <a href="http://www.opensymphony.com/webwork/">WebWork 2.2</a>
+                    today and migrate to Struts Action 2.0 when it arrives.
+                </p>
+                <p>
+                    Other likely candidates for a Java Web MVC framework include
                     <a href="http://cocoon.apache.org/">Apache Cocoon,</a>
                     <a href="http://jakarta.apache.org/tapestry/">Apache Tapestry,</a>
                     <a href="http://jakarta.apache.org/turbine/">Apache Turbine,</a>
-                    ,
-                    <a href="http://www.springframework.org/docs/reference/mvc.html">Spring MVC.</a>
-                    , and
+                    <a href="http://www.springframework.org/docs/reference/mvc.html">Spring MVC,</a>
+                    and
                     <a href="http://wicket.sourceforge.net/">Wicket.</a>
                 </p>
             </answer>
         </faq>
 
-        <faq>
+        <faq id="decisions">
             <question>So many decisions! Shouldn't it be simpler?</question>
             <answer>
                 <p>
@@ -352,7 +329,8 @@ limitations under the License.
                     the container, which is where
                     <a href="#choice">choosing Apache Struts</a>
                     comes in. Then, most teams also use a data access framework.
-                    Choices there include Cayenne, iBATIS, Hibernate, and OJB.
+                    Choices there include Cayenne, iBATIS, Hibernate,  JDO, Turbine, 
+                    and OJB, to name a few.
                 </p>
 
                 <p>
@@ -362,8 +340,7 @@ limitations under the License.
 
                 <p>
                     But, wait, there's more! You also have to choose an editor or
-                    IDE:
-                    Eclipse? IDEA? NetBeans? UltraEdit? Some other?
+                    IDE: Eclipse? IDEA? NetBeans? UltraEdit? Some other?
                     (Many teams decide to use more than one!)
                     And do we use Ant, Maven, or the IDE to build it all?
                 </p>
@@ -527,6 +504,33 @@ limitations under the License.
                         create and release the seven new subprojects we extracted from
                         Struts 1.2. It is not a product per-se, but shorthand for the
                         1.3.0 build of the seven projects.
+                    </p>
+                </answer>
+            </faq>
+
+            <faq id="overdrive">
+                <question>What about OverDrive or Struts Nexus?</question>
+                <answer>
+                    <p>
+                        <a href="http://wiki.apache.org/struts/StrutsOverDrive">
+                            OverDrive</a>
+                        is a working proposal to use a set of case-study
+                        applications to drive the design and creation of a
+                        business layer framework.
+                        The codename for the business layer framework under
+                        development is "Nexus".
+                        Like Action 1.3 and Shale, the Nexus internals are based
+                        on the Chain of Responsibility pattern.
+                    </p>
+                    <p>
+                        OverDrive and Nexus do not complete with frameworks like
+                        Action 1.3 and Shale.
+                        Nexus begins where these frameworks end.
+                        Nexus is the "rest of the stack".
+                    </p>
+                    <p>
+                        The codebase underlying the proposal is being coded in C#,
+                        but a version for Java is expected in due course.
                     </p>
                 </answer>
             </faq>
