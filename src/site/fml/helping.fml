@@ -18,6 +18,7 @@ limitations under the License.
 -->
 <faqs title="How to Help FAQ">
 
+<!--    
     <part>
         <p align="center">
             "You can't always get what you want /
@@ -31,7 +32,7 @@ limitations under the License.
             [Rolling Stones]
         </p>
     </part>
-
+-->
     <part>
 
         <faq id="involved">
@@ -876,7 +877,7 @@ limitations under the License.
         </faq>
 
     </part>
-
+<!--
     <part>
 
         <p class="right">
@@ -885,5 +886,5 @@ limitations under the License.
         </p>
 
     </part>
-
+-->
 </faqs>

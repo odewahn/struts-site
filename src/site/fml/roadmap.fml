@@ -17,7 +17,7 @@ limitations under the License.
 // ======================================================================== 78
 -->
 <faqs title="Roadmap FAQ">
-    <title>Roadmap FAQ</title>
+    <!--<title>Roadmap FAQ</title>-->
 
     <part>
         <faq id="shale">
@@ -421,6 +421,7 @@ limitations under the License.
                     <a href="helping.html">we could use your help.</a>
                 </p>
             </answer>
+        </faq>
 
             <faq id="subprojects">
                 <question>Why are there so many "extensions" for Action 1 now?</question>
@@ -535,14 +536,15 @@ limitations under the License.
                 </answer>
             </faq>
 
-        </faq>
     </part>
 
+    <!--
     <part>
         <p class="right">
             <strong>Next:</strong>
             <a href="helping.html">How to Help FAQ</a>
         </p>
     </part>
+    -->
 
 </faqs>
