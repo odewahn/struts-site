@@ -19,7 +19,7 @@ limitations under the License.
 <faqs title="Roadmap FAQ">
     <!--<title>Roadmap FAQ</title>-->
 
-    <part>
+    <part id="general">
         <faq id="shale">
             <question>Why are you offering both the Struts Shale and the Struts Action
                 Framework? Don't they compete for new development?</question>

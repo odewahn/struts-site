@@ -33,7 +33,7 @@ limitations under the License.
         </p>
     </part>
 -->
-    <part>
+    <part id="general">
 
         <faq id="involved">
             <question>Getting Involved</question>
