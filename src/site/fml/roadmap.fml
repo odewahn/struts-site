@@ -122,7 +122,7 @@ limitations under the License.
                         Apache Incubator.</a>
                     Once licensing and related issues are resolved,
                     the codebase will be made part of the Apache Struts
-                    framework.
+                    project.
                 </p>
                 <p>
                     WebWork started as a
@@ -205,7 +205,7 @@ limitations under the License.
            </p>
             </answer>
         </faq>
-
+        
         <faq id="xwork">
             <question>What about other Open Symphony products, like
                 XWork?</question>
@@ -239,6 +239,49 @@ limitations under the License.
                 </p>
             </answer>
         </faq>
+
+        <faq id="obsolete">
+          <question>Is Struts Action 1 obsolete?</question>
+          <answer>
+            <p>
+            	There is a robust and vibrant community of developers using Struts Action 1 
+            	in production, and we expect that thousands of teams will continue to base new 
+            	projects on Action 1 and support existing projects, for many, many years 
+            	to come. 
+            </p>
+            <p>
+            	New and improved extensions to Action 1 continue to appear reguarly. 
+            	In <strong>2006 alone</strong>, we've seen the release of 
+            	
+            	<a href="http://strecks.sourceforge.net/">Strecks,</a>
+            	<a href="http://www.jspcontrols.net">JSP Control Tags,</a>
+            	<a href="http://mojodna.net/sprout/">Sprout,</a>
+            	<a href="http://www.springframework.org/node/239">Spring Web Flow,</a>
+            	<a href="http://getahead.ltd.uk/dwr/">DWR,</a>
+            	<a href="http://calyxo.org/">Calyxo,</a>
+            	<a href="https://formdef.dev.java.net/">FormDef,</a> and
+            	<a href="http://javawebparts.sourceforge.net/">Java Web Parts</a>.            	
+
+            	There are <a href="http://opensource.atlassian.com/confluence/oss/display/BOOKS/Books+about+Struts">dozens of books</a> and 
+            	<a href="http://www.husted.com/central/Resources/Action/articles-2006.html">hundreds of articles</a> available 
+            	to help people get started with Action 1 or improve the application they already have.
+            </p>
+            <p>
+            	A new build of <a href="http://svn.apache.org/dist/struts/action-lib/">Struts Action 1.3 is available for testing</a>, 
+            	and a stable release is expected sometime in the first half of 2006.
+            	Apache Struts Action 1 continues to be the most popular and best supported 
+            	web application framework for Java.
+		If time is of the essence, a proven solution can be easiest path.            	
+            </p>
+            
+            <p>
+               Of course, both Struts Shale and Struts Action 2 are on the horizon. 
+               If you are starting a new project, and have your choice of frameworks, 
+               this would be a good time to consider whether you would like to continue to use 
+               Action 1 or <a href="#choice">whether it's time to try something else</a>. 
+	    </p>            
+          </answer>          
+         </faq>
 
         <faq id="choice">
             <question>Which Apache Struts Framework should I use on my next
@@ -300,13 +343,21 @@ limitations under the License.
                     today and migrate to Struts Action 2.0 when it arrives.
                 </p>
                 <p>
-                    Other likely candidates for a Java Web MVC framework include
+                    Aside from Apache Struts products, 
+                    other likely candidates for a Java Web MVC framework include
                     <a href="http://cocoon.apache.org/">Apache Cocoon,</a>
                     <a href="http://jakarta.apache.org/tapestry/">Apache Tapestry,</a>
                     <a href="http://jakarta.apache.org/turbine/">Apache Turbine,</a>
                     <a href="http://www.springframework.org/docs/reference/mvc.html">Spring MVC,</a>
+                    <a href="http://stripes.mc4j.org/confluence/display/stripes/Home">Stripes,</a>
                     and
                     <a href="http://wicket.sourceforge.net/">Wicket.</a>
+                </p>
+                <p>
+                   If you are using Java 5 as a development platform, 
+                   then you might want to consider 
+                   <a href="http://strecks.sourceforge.net/">Strecks,</a> 
+		   a set of Java 5 extensions for Struts 1.2.
                 </p>
             </answer>
         </faq>
@@ -433,69 +484,24 @@ limitations under the License.
                         optional classes that some people liked, but not everyone needed
                         (like DispatchAction).
                     </p>
-
+                    
                     <p>
-                        Releasing all of this code together has been like hanging wall
-                        paper. We smooth a crease here, and another wrinkle crops up over
-                        there. In order to promote lighter, regular releases, we've
-                        subdivided the monolithic Struts 1.2 distribution into seven
-                        distinct subprojects: Action, EL, Extras, Site, Taglib, and
-                        Tiles.
+                        For the Stuts Action 1.3.0 build, we tried creating separate 
+                        distributions for the various packages that make up
+                        Struts Action. 
+                        Creating the separate distributions created problems of its own, 
+                        so for the Struts Action 1.3.1 build, and beyond, 
+                        we are consolidating the extensions back into a single 
+                        Struts Action 1.3 distribution. 
                     </p>
-
+                    
                     <p>
-                        Now, if we want to make a change to a JSP tag, we can release
-                        Taglib without re-releasing everything else. Likewise, if we want
-                        to add a nifty new Action to Extras, we can just release Extras,
-                        without re-releasing everything else.
-                    </p>
-
-                    <p>
-                        Of course, the next question is: "Which versions work with the
-                        best available release of Action?" To answer that question,
-                        we provide the Struts Action Library, which contains the set of
-                        JARs that work with the "best available" release of Action 1.3.
+                        The work is ongoing, and the upper part of the website has not 
+                        been updated to reflect the latest release plan for Action 1.3. 
                     </p>
                 </answer>
             </faq>
 
-            <faq id="dependencies">
-                <question>
-                    But what if a new feature in Taglibs depends on a new feature in
-                    Action 1? Won't you still have to release them together?
-                </question>
-                <answer>
-                    <p>
-                        Hmmm, almost. This sort of thing already happens with the Commons
-                        components. We might have to release a new version of Commons
-                        Validator and test it against the development build of Struts
-                        Action. The same thing would continue to happen. It's just
-                        instead of
-                        being a Commons component and a Struts component, it's two
-                        Struts components. No big woof.
-                    </p>
-                    <p>
-                        The difference is that now we get to choose what is released
-                        together. The infrastructure does not make that decision for us.
-                    </p>
-                </answer>
-            </faq>
-
-            <faq id="confusing">
-                <question>Won't it be confusing for people to bundle, say, Action 1.3.4
-                    with Taglib 1.3.2?</question>
-                <answer>
-                    <p>
-                        We also bundle Action 1.3.0 with Commons-Validator 1.2.0.
-                        and Commons-BeanUtils 1.7.0, and several other JARs with their
-                        own version numbers. Same difference.
-                    </p>
-                    <p>
-                        To make it easy for people to grab the "best available"
-                        combination of JARs, we offer the Struts Action Library.
-                    </p>
-                </answer>
-            </faq>
 
             <faq id="classic">
                 <question>Is Struts Classic another name for the Struts Action Framework?

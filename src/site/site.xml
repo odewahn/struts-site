@@ -197,11 +197,22 @@
                     href="http://www.springframework.org/docs/reference/mvc.html"
                     />
             <item
+                    name="Stripes"
+                    href="http://stripes.mc4j.org/confluence/display/stripes/Home"
+                    />
+            <item
                     name="Wicket"
                     href="http://wicket.sourceforge.net/"
                     />
-
          </menu>
+
+        <menu name="Java 5">
+            <item
+                    name="Strecks"
+                    href="http://strecks.sourceforge.net//"
+                    />
+         </menu>
+
 
         <menu name="See Also">
             <item
