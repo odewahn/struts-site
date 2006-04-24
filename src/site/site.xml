@@ -77,12 +77,6 @@
             <item name="Shale Framework" href="http://struts.apache.org/struts-shale/index.html"/>
         </menu>
 
-        <menu name="Extensions">
-            <item name="Tiles" href="http://struts.apache.org/struts-tiles/index.html"/>
-            <item name="Other Extensions"
-                  href="http://wiki.apache.org/struts/StrutsExtensions"/>
-        </menu>
-
         <menu name="Subprojects">
             <item name="Sandbox" href="http://struts.apache.org/struts-sandbox/index.html"/>
         </menu>
