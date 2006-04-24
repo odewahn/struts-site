@@ -49,4 +49,11 @@
     <url>http://svn.apache.org/repos/asf/struts/site/trunk</url>
   </scm>
 
+  <distributionManagement>
+    <site>
+      <id>apache-site</id>
+      <url>scp://people.apache.org/www/struts.apache.org</url>
+    </site>
+  </distributionManagement>
+
 </project>
