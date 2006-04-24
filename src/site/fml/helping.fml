@@ -102,7 +102,7 @@ limitations under the License.
 
                 <p>
                     Just using the products is a very important role.
-                    We need people who will report bugs, contribute patches,
+                    We need people who will report issues, contribute patches,
                     suggest
                     features, and so forth.
                     Your feedback helps the technology to evolve.
@@ -172,7 +172,7 @@ limitations under the License.
                     one afternoon a week (or more if you can spare the
                     resources).
                     Have your team member browse
-                    <a href="#bugs">Bugzilla</a>
+                    <a href="#issues">JIRA</a>
                     for any issues
                     without a
                     <a href="#patches">patch</a>
@@ -268,8 +268,8 @@ limitations under the License.
 
                 <p>
                     Then, create a
-                    <a href="#bugs">Bugzilla
-                        report</a>
+                    <a href="#issues">JIRA
+                        issue</a>
                     about the change, and attach the patch file.
                 </p>
 
@@ -278,8 +278,8 @@ limitations under the License.
                     the mailing
                     list.
                     We would prefer that you create a
-                    Bugzilla report and then attach the patch to the report.
-                    To do this, you must first create the report,
+                    JIRA issue and then attach the patch to the issue.
+                    To do this, you must first create the issue,
                     and then modify the report to add your patch.
                     We realize this is a bit clumsy, but it keeps us from
                     losing things,
@@ -297,17 +297,16 @@ limitations under the License.
             </answer>
         </faq>
 
-        <faq id="bugs">
-            <question>How can I report bugs or suggest features?</question>
+        <faq id="issues">
+            <question>How can I report defects or suggest features?</question>
             <answer>
                 <p>
-                    Tracking of bug reports and enhancement suggestions for
+                    Tracking of defect reports and enhancement suggestions for
                     Apache Struts
-                    subprojects is handled
+                    products is handled
                     through the
-                    <a href="http://issues.apache.org/bugzilla">Apache Bug
-                        Database</a>
-                    (Bugzilla).
+                    <a href="http://issues.apache.org/struts/">Apache Struts 
+                        JIRA instance.</a>
                     Please select
                     <strong>Struts</strong>
                     from the product list, along with
@@ -315,7 +314,7 @@ limitations under the License.
                     report
                     relates to, and details of your operating environment.
                     You will automatically be notified by email as the status
-                    of your bug or
+                    of your defect or
                     enhancement report changes.
                     Please be sure to read
                     <a href="http://www.chiark.greenend.org.uk/~sgtatham/bugs.html">
@@ -325,31 +324,16 @@ limitations under the License.
                 </p>
 
                 <p>
-                    You can research and report outstanding fixes and feature
-                    suggestions
-                    using Bugzilla.
-                    If you are unsure if this is an actual problem,
-                    feel free to bring it up on the list first.
-                    But to be sure that an issue is resolved, read
-                    <a href="http://www.chiark.greenend.org.uk/~sgtatham/bugs.html">
-                        How to Report Bugs Effectively</a>
-                    and report it to
-                    <a href="http://issues.apache.org/bugzilla">
-                        <strong>Bugzilla.</strong>
-                    </a>
-                </p>
-
-                <p>
                     If you can't write a
                     <a href="#patches">patch</a>
-                    to fix your bug,
+                    to address your issue,
                     a unit test that demonstrates the problem is also welcome.
                     (And, of course, unit tests that prove your patch works
                     are equally welcome.)
                 </p>
 
                 <p>
-                    If your bug or feature is already in Bugzilla,
+                    If the defect or feature is already being tracked,
                     you can vote for the issue and call more attention to it.
                     Each user can cast up to six votes at a time.
                 </p>
@@ -368,13 +352,12 @@ limitations under the License.
 
                 <p>
                     Feature suggestions are also maintained in the
-                    <a href="http://issues.apache.org/bugzilla">Bugzilla
-                        database.</a>
+                    <a href="#issues">JIRA issue 
+                    tracker.</a>
                 </p>
-
+<!--
                 <p>
-                    For your convenience, here are some common Bugzilla
-                    queries:
+                    For your convenience, here are some common queries:
                 </p>
 
                 <ul>
@@ -415,7 +398,7 @@ limitations under the License.
                             Reports to be handled "LATER"</a>
                     </li>
                 </ul>
-
+-->
             </answer>
         </faq>
 
@@ -427,9 +410,8 @@ limitations under the License.
                 <p>
                     A very good place to start is by
                     <strong>reviewing the list of open issues</strong>
-                    and pending feature suggestions (
-                    <a href="#bugs">Bugzilla</a>
-                    ).
+                    and pending feature suggestions in the
+                    <a href="#issues">issue tracker.</a>
                     If you see an issue that needs a patch you can write,
                     feel free to annex your patch.
                     If you seen an issue that needs a unit test to prove its
@@ -454,8 +436,8 @@ limitations under the License.
                     <a href="#patches">patch</a>
                     to either the code or documentation by creating a feature
                     suggestion
-                    in
-                    <a href="#Bugs">Bugzilla</a>
+                    in the
+                    <a href="#issues">issue tracker.</a>
                     .
                     <strong>After creating the ticket</strong>
                     , you can go back and upload a
@@ -705,8 +687,8 @@ limitations under the License.
                         development release
                         and test it against your own applications.
                         Report any and all issues or suspected issues to
-                        <a href="http://issues.apache.org/bugzilla">
-                            Bugzilla.</a>
+                        <a href="http://issues.apache.org/struts/">
+                            the issue tracker.</a>
                         The sooner we resolve any problems, the fewer
                         betas or
                         release candidates
@@ -728,7 +710,7 @@ limitations under the License.
                         when applying patches.
                         Tests that prove that a pending issue is actually
                         a
-                        bug are the most
+                        defect are the most
                         welcome ones.
                         But we are eager for any and all tests for any and
                         all
@@ -739,7 +721,7 @@ limitations under the License.
                     <li>
                         <strong>Review the list of issues</strong>
                         at
-                        <a href="#bugs">Bugzilla.</a>
+                        <a href="#issues">the issue tracker.</a>
                         If there are any to which you can respond, please
                         do.
                         If there any patches posted, feel free to test
@@ -773,7 +755,7 @@ limitations under the License.
                     </li>
 
                     <li>
-                        Use Bugzilla to
+                        Use the issue tracker to
                         <strong>vote for issues</strong>
                         you feel should be handled first.
                         If an issue on your ballot doesn't include a
