@@ -215,7 +215,7 @@ limitations under the License.
                     For the time being, there is no plan to migrate XWork to
                     the ASF. Struts Action has always had many dependencies on
                     external
-                    packages. So long as packages like XWork and Sitemesh are doing
+                    packages. So long as packages like XWork and SiteMesh are doing
                     well at OpenSymphony, there is no reason to make further changes.
                 </p>
             </answer>
@@ -250,7 +250,7 @@ limitations under the License.
             	to come. 
             </p>
             <p>
-            	New and improved extensions to Action 1 continue to appear reguarly. 
+            	New and improved extensions to Action 1 continue to appear regularly. 
             	In <strong>2006 alone</strong>, we've seen the release of 
             	
             	<a href="http://strecks.sourceforge.net/">Strecks,</a>
@@ -486,7 +486,7 @@ limitations under the License.
                     </p>
                     
                     <p>
-                        For the Stuts Action 1.3.0 build, we tried creating separate 
+                        For the Struts Action 1.3.0 build, we tried creating separate 
                         distributions for the various packages that make up
                         Struts Action. 
                         Creating the separate distributions created problems of its own, 

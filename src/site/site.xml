@@ -47,10 +47,6 @@
                     href="http://wiki.apache.org/struts"
                     />
             <item
-                    name="Issue Tracker (Bugzilla)"
-                    href="http://issues.apache.org/bugzilla"
-                    />
-            <item
                     name="Website Stats"
                     href="http://people.apache.org/~vgritsenko/stats/projects/struts"
                     />
@@ -99,8 +95,8 @@
                     href="http://svn.apache.org/viewcvs.cgi/struts/"
                     />
             <item
-                    name="Issue Tracker (Bugzilla)"
-                    href="http://issues.apache.org/bugzilla"
+                    name="Issue Tracker (JIRA)"
+                    href="http://issues.apache.org/struts/"
                     />
         </menu>
 
@@ -139,6 +135,10 @@
             <item
                     name="WebWork2 as Action2"
                     href="http://incubator.apache.org/projects/webwork2.html"
+                    />
+            <item
+                    name="Confluence instance"
+                    href="http://confluence.twdata.org/"
                     />
         </menu>
 

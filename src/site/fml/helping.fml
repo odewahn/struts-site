@@ -70,7 +70,7 @@ limitations under the License.
                     Turbine Mailing
                     List about the open source process and the contrast
                     between how an
-                    opensource product and a proprietary product improve
+                    open source product and a proprietary product improve
                     through the user
                     community.
                 </p>
@@ -254,7 +254,7 @@ limitations under the License.
                     To create a patch, you first have to
                     <a href="downloads.html#Source_Code">
                         checkout</a>
-                    a copy of the sourcecode or documentation from the main
+                    a copy of the source code or documentation from the main
                     repository.
                     You can then change your copy, and create the patch using
                     a simple
@@ -575,9 +575,10 @@ limitations under the License.
                     much like it reports
                     where a bad programming expression is.
                     If it does, then your page should be available under
-                    target/documentation/.
+                    target/site/
                 </p>
 
+<!--
                 <p>
                     To display markup, substitute &amp;lt; for &lt;.
                     The unmatched trailing > will be ignored.
@@ -586,7 +587,6 @@ limitations under the License.
                     as
                     &lt;br/> and &lt;hr/>.
                 </p>
-
                 <p>
                     Also watch for the length of code samples - these do
                     not
@@ -597,7 +597,7 @@ limitations under the License.
                     screen or
                     printed page.
                 </p>
-
+-->
 
                 <p>
                     You can also post documentation to the
@@ -775,7 +775,7 @@ limitations under the License.
                     <li>
                         Use Bugzilla to
                         <strong>vote for issues</strong>
-                        you feel should be handle first.
+                        you feel should be handled first.
                         If an issue on your ballot doesn't include a
                         patch,
                         feel free to try coding one yourself.
@@ -847,7 +847,7 @@ limitations under the License.
                     As PMC members take note of Struts developers who meet our
                     qualifications, one of us will call for a vote on the
                     internal
-                    PMC maining list.
+                    PMC mailing list.
                     (This usually happens when someone gets tired of applying
                     the volunteer's patches!)
                     The internal list is rarely used, and it is never used for
