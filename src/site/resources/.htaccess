@@ -13,4 +13,7 @@ Redirect permanent /struts-el           http://struts.apache.org/struts-action/s
 Redirect permanent /learning.html       http://struts.apache.org/struts-action/learning.html
 Redirect permanent /using.html          http://struts.apache.org/struts-action/userGuide/index.html
 Redirect permanent /shale               http://struts.apache.org/struts-shale
+Redirect permanent /flow                http://struts.apache.org/struts-sandbox/struts-flow
+Redirect permanent /struts-flow         http://struts.apache.org/struts-sandbox/struts-flow
+Redirect permanent /struts-apps         http://struts.apache.org/struts-action/struts-apps
 
