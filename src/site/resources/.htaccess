@@ -10,6 +10,7 @@ Redirect permanent /struts-plugins      http://struts.apache.org/struts-action/s
 Redirect permanent /struts-extras       http://struts.apache.org/struts-action/struts-extras
 Redirect permanent /struts-taglib       http://struts.apache.org/struts-action/struts-taglib
 Redirect permanent /struts-el           http://struts.apache.org/struts-action/struts-el
+Redirect permanent /struts-tiles        http://struts.apache.org/struts-action/struts-tiles
 Redirect permanent /learning.html       http://struts.apache.org/struts-action/learning.html
 Redirect permanent /using.html          http://struts.apache.org/struts-action/userGuide/index.html
 Redirect permanent /shale               http://struts.apache.org/struts-shale
