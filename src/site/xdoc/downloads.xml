@@ -130,22 +130,15 @@ limitations under the License.
                     Use at your own risk!
                 </p>
 
-                <p>
-                    Apache Struts development builds are managed using
-                    <a href="http://maven.apache.org/">Apache Maven</a>
-                    .
-                    Maven acquires the various JARs needed by Struts products
-                    and automaticaly shares JARs between Struts subprojects
-                    and other
-                    Maven projects.
-                </p>
-
                 <ul>
 
                     <li>
-                        <a href="http://svn.apache.org/builds/struts/maven/">
-                            Nightly Builds</a>
-                        .
+                        <a href="http://cvs.apache.org/builds/struts/maven/trunk/nightly/struts-action/">
+                            Action 1 Nightly Builds</a>
+                    </li>
+                    <li>
+                        <a href="http://cvs.apache.org/builds/struts/nightly/struts-shale/">
+                            Shale Nightly Builds</a>
                     </li>
 
                 </ul>
@@ -173,8 +166,8 @@ limitations under the License.
                 </p>
 
                 <p>
-                    To download the trunk (HEAD revision) of any Struts
-                    subproject,
+                    To download the trunk (HEAD revision) of all Struts
+                    subprojects,
                     a convenience directory has been added, named
                     <b>current</b>
                     .
@@ -222,23 +215,10 @@ limitations under the License.
                 </p>
 
                 <ul>
-                    <li>
-                        http://svn.apache.org/repos/asf/struts/action/trunk</li>
-                    <li>http://svn.apache.org/repos/asf/struts/apps/trunk</li>
-                    <li>http://svn.apache.org/repos/asf/struts/el/trunk</li>
-                    <li>
-                        http://svn.apache.org/repos/asf/struts/faces/trunk</li>
-                    <li>http://svn.apache.org/repos/asf/struts/flow/trunk</li>
-                    <li>
-                        http://svn.apache.org/repos/asf/struts/sandbox/trunk</li>
-                    <li>
-                        http://svn.apache.org/repos/asf/struts/scripting/trunk</li>
-                    <li>
-                        http://svn.apache.org/repos/asf/struts/shale/trunk</li>
-                    <li>
-                        http://svn.apache.org/repos/asf/struts/taglib/trunk</li>
-                    <li>
-                        http://svn.apache.org/repos/asf/struts/tiles/trunk</li>
+                    <li>http://svn.apache.org/repos/asf/struts/action/trunk</li>
+                    <li>http://svn.apache.org/repos/asf/struts/sandbox/trunk</li>
+                    <li>http://svn.apache.org/repos/asf/struts/shale/trunk</li>
+                    <li>http://svn.apache.org/repos/asf/struts/site</li>
                 </ul>
 
                 <p>
@@ -285,7 +265,7 @@ limitations under the License.
                     we recommend that you install and use
                     <a href="http://maven.apache.org">
                         Apache Maven</a>
-                    1.0.2,
+                    2.0,
                     since Maven will acquire whatever external JARs your
                     system may need.
                     Of course,
@@ -295,11 +275,11 @@ limitations under the License.
                 </p>
 
                 <p>
-                    With Maven installed, building the entire Struts codebase
+                    With Maven installed, building the entire Struts Action 1 codebase
                     is as simple as
                 </p>
 
-                <code>/current/build/&gt; maven build-all</code>
+                <code>/current/action/&gt; mvn install</code>
 
                 <p>
                     Maven will automatically download any dependencies as
