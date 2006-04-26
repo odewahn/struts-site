@@ -62,10 +62,6 @@
                     name="Source Code"
                     href="downloads.html#Source_Code"
                     />
-            <item
-                    name="Development Releases"
-                    href="http://svn.apache.org/dist/struts/"
-                    />
         </menu>
 
         <menu name="Frameworks">
