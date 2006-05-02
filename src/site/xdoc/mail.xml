@@ -176,9 +176,6 @@ limitations under the License.
                     products to send email, there are several bugs in the
                     software that
                     prevent you from turning off the sending of HTML email.
-                    Please read this
-                    <a href="./micromail.html">page</a>
-                    as well...
                 </p>
 
                 <p>
@@ -263,6 +260,26 @@ limitations under the License.
                         <a href="http://mail-archives.apache.org/">ASF Mail
                             Archives</a>
                     </li>
+                    <ul>
+                        <li>
+                            <a href="http://mail-archives.apache.org/mod_mbox/struts-user/">
+                            User list</a>
+                        </li>
+                        <li>
+                            <a href="http://mail-archives.apache.org/mod_mbox/struts-dev/">
+                            Dev. list</a>
+                        </li>
+                        <li>
+                            <a href="http://mail-archives.apache.org/mod_mbox/struts-commits/">
+                            Commits list</a>
+                        </li>
+                        <li>
+                            <a href="http://mail-archives.apache.org/mod_mbox/struts-issues/">
+                            Issues list</a>
+                        </li>
+
+                        </ul>
+
                     <li>Mail-Archive</li>
                     <ul>
                         <li>
@@ -296,10 +313,18 @@ limitations under the License.
                                 Dev. List</a>
                         </li>
                     </ul>
-                    <li>
-                        <a href="http://www.servlets.com/archive/servlet/SummarizeList?listName=struts-user">
-                            Servlets.com servlet and JSP list archives</a>
-                    </li>
+                    <li>Nabble</li>
+                    <ul>
+                        <li>
+                            <a href="http://www.nabble.com/Struts---User-f206.html">
+                                User List</a>
+                        </li>
+                        <li>
+                            <a href="http://www.nabble.com/Struts---Dev-f205.html">
+                                Dev. List</a>
+                        </li>
+                    </ul>
+
                 </ul>
             </subsection>
 
@@ -351,26 +376,6 @@ limitations under the License.
                             Unsubscribe</a>
                         ]
                     </li>
-
-                    <li>
-                        <strong>STRUTS-DEV Mailing List</strong>
-                        - Subscribe to this mailing
-                        list to communicate with other developers interested
-                        in expanding and
-                        improving the functionality supported by Struts
-                        itself.
-                        <br/>
-                        [
-                        <a href="mailto:dev-subscribe@struts.apache.org">
-                            Subscribe</a>
-                        ]
-                        <br/>
-                        [
-                        <a href="mailto:dev-unsubscribe@struts.apache.org">
-                            Unsubscribe</a>
-                        ]
-                    </li>
-
                     <li>
                         <strong>STRUTS-USER Digest</strong>
                         - Subscribe to this list to receive
@@ -410,6 +415,59 @@ limitations under the License.
                         regular list.
                         <br/>
                     </li>
+
+                    <li>
+                        <strong>STRUTS-DEV Mailing List</strong>
+                        - Subscribe to this mailing
+                        list to communicate with other developers interested
+                        in expanding and
+                        improving the functionality supported by Struts
+                        itself.
+                        <br/>
+                        [
+                        <a href="mailto:dev-subscribe@struts.apache.org">
+                            Subscribe</a>
+                        ]
+                        <br/>
+                        [
+                        <a href="mailto:dev-unsubscribe@struts.apache.org">
+                            Unsubscribe</a>
+                        ]
+                    </li>
+
+                    <li>
+                        <strong>STRUTS-COMMITS Mailing List</strong>
+                        - Subscribe to this mailing
+                        to receive notifications of changes to the Struts
+                        source code repository.
+                        <br/>
+                        [
+                        <a href="mailto:commits-subscribe@struts.apache.org">
+                            Subscribe</a>
+                        ]
+                        <br/>
+                        [
+                        <a href="mailto:commits-unsubscribe@struts.apache.org">
+                            Unsubscribe</a>
+                        ]
+                    </li>
+                    <li>
+                        <strong>STRUTS-ISSUES Mailing List</strong>
+                        - Subscribe to this mailing
+                        to receive notifications from the Struts JIRA issue
+                        tracker.
+                        <br/>
+                        [
+                        <a href="mailto:issues-subscribe@struts.apache.org">
+                            Subscribe</a>
+                        ]
+                        <br/>
+                        [
+                        <a href="mailto:issues-unsubscribe@struts.apache.org">
+                            Unsubscribe</a>
+                        ]
+                    </li>
+
                 </ul>
 
                 <p>
