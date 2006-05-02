@@ -44,10 +44,20 @@
   </description>
 
   <scm>
-    <connection>scm|svn|http://svn.apache.org/repos/asf/struts/site/trunk</connection>
-    <developerConnection>scm|svn|https://svn.apache.org/repos/asf/struts/site/trunk</developerConnection>
-    <url>http://svn.apache.org/repos/asf/struts/site/trunk</url>
+    <connection>scm|svn|http://svn.apache.org/repos/asf/struts/site</connection>
+    <developerConnection>scm|svn|https://svn.apache.org/repos/asf/struts/site</developerConnection>
+    <url>http://svn.apache.org/repos/asf/struts/site</url>
   </scm>
+  
+  <repositories>
+    <repository>
+      <id>apache.snapshots</id>
+      <name>Apache Maven Repository (Snapshots and Test Builds)</name>
+      <url>http://cvs.apache.org/maven-snapshot-repository</url>
+      <releases><enabled>true</enabled></releases>
+      <snapshots><enabled>true</enabled></snapshots>
+    </repository>
+  </repositories>
 
   <distributionManagement>
     <site>
