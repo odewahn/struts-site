@@ -29,26 +29,14 @@ limitations under the License.
             <table>
                 <tr>
                     <th>
-                        <a href="struts-action/javadoc.html">Struts
-                            Action Framework</a>
+                        <a href="struts-action/apidocs/index.html">Struts
+                            Action Framework 1</a>
                     </th>
                 </tr>
                 <tr>
                     <th>
                         <a href="struts-shale/index.html#Shale_Documentation">
                         Struts Shale Framework</a>
-                    </th>
-                </tr>
-                <tr>
-                    <th>
-                        <a href="struts-sandbox/apidocs/index.html">Struts
-                            Sandbox</a>
-                    </th>
-                </tr>
-                <tr>
-                    <th>
-                        <a href="struts-tiles/apidocs/index.html">Struts
-                            Tiles</a>
                     </th>
                 </tr>
             </table>
