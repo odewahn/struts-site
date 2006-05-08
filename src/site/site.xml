@@ -66,7 +66,7 @@
 
         <menu name="Frameworks">
             <item name="Action 1 Framework" href="http://struts.apache.org/struts-action/index.html"/>
-            <item name="Action 2 Framework" href="http://struts.apache.org/struts-action2/index.html"/>
+            <item name="Action 2 Framework" href="http://confluence.twdata.org/display/WW/Home"/>
             <item name="Shale Framework" href="http://struts.apache.org/struts-shale/index.html"/>
         </menu>
 
