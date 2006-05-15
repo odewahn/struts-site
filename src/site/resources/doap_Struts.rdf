@@ -21,7 +21,7 @@
     <asfext:pmc rdf:resource="http://struts.apache.org" />
     <shortdesc>Home of several MVC Web Frameworks</shortdesc>
     <description>The goal of the Apache Struts project is to encourage application architectures based on the "Model 2" approach, a variation of the classic Model-View-Controller (MVC) design paradigm.</description>
-    <bug-database rdf:resource="http://issues.apache.org/bugzilla/" />
+    <bug-database rdf:resource="http://issues.apache.org/struts/" />
     <mailing-list rdf:resource="http://struts.apache.org/mail.html" />
     <download-page rdf:resource="http://struts.apache.org/downloads.html" />
     <programming-language>Java</programming-language>
