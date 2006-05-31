@@ -65,9 +65,9 @@
         </menu>
 
         <menu name="Frameworks">
-            <item name="Action 1 Framework" href="http://struts.apache.org/struts-action/index.html"/>
-            <item name="Action 2 Framework" href="http://confluence.twdata.org/display/WW/Home"/>
-            <item name="Shale Framework" href="http://struts.apache.org/struts-shale/index.html"/>
+            <item name="Action 1" href="http://struts.apache.org/struts-action/index.html"/>
+            <item name="Action 2" href="http://confluence.twdata.org/display/WW/Home"/>
+            <item name="Shale" href="http://struts.apache.org/struts-shale/index.html"/>
         </menu>
 
         <menu name="Development">
@@ -94,37 +94,6 @@
             <item
                     name="Issue Tracker (JIRA)"
                     href="http://issues.apache.org/struts/"
-                    />
-        </menu>
-
-        <menu name="Site Archive">
-            <item
-                    name="Struts 1.2.x"
-                    href="http://struts.apache.org/struts-doc-1.2.x/index.html"
-                    />
-            <item
-                    name="Struts 1.2.9"
-                    href="http://struts.apache.org/struts-doc-1.2.9/index.html"
-                    />
-            <item
-                    name="Struts 1.2.8"
-                    href="http://struts.apache.org/struts-doc-1.2.8/index.html"
-                    />
-            <item
-                    name="Struts 1.2.7"
-                    href="http://struts.apache.org/struts-doc-1.2.7/index.html"
-                    />
-            <item
-                    name="Struts 1.2.4"
-                    href="http://struts.apache.org/struts-doc-1.2.4/index.html"
-                    />
-            <item
-                    name="Struts 1.1"
-                    href="http://struts.apache.org/struts-doc-1.1/index.html"
-                    />
-            <item
-                    name="Struts 1.0.2"
-                    href="http://struts.apache.org/struts-doc-1.0.2/index.html"
                     />
         </menu>
 
