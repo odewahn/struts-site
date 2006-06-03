@@ -25,13 +25,97 @@ limitations under the License.
     <body>
 
         <section name="Announcements">
+        
+            <h4 id="a20060603.3">03 Jun 2006 - New Struts Committer: 
+            	Bob Lee</h4>            
+            <p>
+		Please join us in welcoming Bob Lee as a new Struts committer. 
+            </p>
+            <p>
+		Some of us have known Bob for several years through his Struts, 
+		WebWork, and Dynaop work, or in person from a conference. 
+		At this last JavaOne, he met other PMC members: Craig, Martin, 
+		Gary, and Wendy -- and Bob is well known to the WebWork folks.
+            </p>
+            <p>
+		Bob's current focus is to develop a kinder, gentler API for 
+		Action 2, having already submitted several patches and 
+		<a href="http://wiki.apache.org/struts/RoughSpots">
+		constructively engaged the community</a> 
+		while handling criticisms well. He has committed several 
+		patches for WebWork and Xwork, started the Dynaop project, 
+		and has been peripherally involved in the Struts community 
+		for many years.  
+            </p>
+            <p>
+		Welcome, Bob  ... Our only worry is that we haven't yet seen 
+		the Crazy part of Crazy Bob.
+            </p>
+            <p>
+		PMC vote: 8 +1 (binding), 4 +1 (non-binding).            
+            </p>
+            <hr/>
+            
+            <h4 id="a20060603.2">03 Jun 2006 - New Struts Committer: Michael 
+            	Jouravlev</h4>            
+            <p>
+		Please join us in welcoming Michael Jouravlev as a new Struts 
+		committer. 
+            </p>
+            <p>
+		Michael has been an active member of our community for a very 
+		long time. His posts to user@ and dev@ are consistently 
+		helpful. Michael often participates in development 
+		discussions, including the Action2 discussions. He has 
+		<a href="http://tinyurl.com/ls7ga">
+		submitted code and patches and collaborated on changes</a> 
+		that were accepted to the code base.
+            </p>
+            <p>
+		Michael has also make many contributions to the wiki, 
+		including reorganizing the area so that it is more useful to 
+		others.
+            </p>
+            <p>
+		Welcome, Michael ... Just don't start downsizing the fonts :)
+            </p>
+            <p>
+		PMC vote: 7 +1.            
+            </p>
+            <hr/>
 
-            <h4 id="a20050328">23 March 2006 - Struts Shale Framework 1.0.2 Alpha</h4>
-
+            <h4 id="a20060603.1">03 Jun 2006 - New Struts Committer: </h4>
+            <p>
+		Please join us in welcoming Paul Benedict as a new Struts 
+		committer. 
+	    </p>
+	    <p>
+	    	Paul has been an earnest and helpful member of our community 
+	    	for well over a year now. He has submitted patches and ideas, 
+	    	andvmany useful posts to the user list. Paul was particularly 
+		active in the 
+		<a href="http://issues.apache.org/bugzilla/show_bug.cgi?id=38374">
+		discussion</a> 
+		that lead to the addition of the "Opt-in Cancel" feature, 
+	    </p>
+	    <p>
+		In this and other discussions, Paul has demonstrated an 
+		ability to collaborate with others and create a better 
+		solution than the one originally proposed. 
+ 	    </p>
+	    <p>
+		Welcome, Paul ... Hey, we're always looking for release
+		managers! 
+ 	    </p>
+	    <p>
+	    	PMC vote: 3 +1.
+ 	    </p>
+            <hr/>
+            
+            <h4 id="a20050328">23 Mar 2006 - Struts Shale Framework 1.0.2 Alpha</h4>
             <p>
                 The Struts team is pleased to announce the release of Struts Shale 1.0.2 Alpha.
             </p>
-
             <ul>
                 <li>
                     <a href="http://struts.apache.org/downloads.html">
@@ -92,7 +176,7 @@ limitations under the License.
             </ul>
             <hr/>
 
-            <h4 id="a20050322">22 March 2006 - Struts 1.2.9 (General
+            <h4 id="a20050322">22 Mar 2006 - Struts 1.2.9 (General
                 Availability)</h4>
             <p>
                 The Struts team is pleased to announce the release of Struts
