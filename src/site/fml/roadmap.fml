@@ -46,7 +46,7 @@ limitations under the License.
                     leverage their existing investment in Struts Action
                     Framework. All are welcome.</p>
                 <p>For more about volunteering, visit our
-                    <a href="http://struts.apache.org/faqs/helping.html">how
+                    <a href="http://struts.apache.org/helping.html">how
                         to help page.</a>
                 </p>
             </answer>
@@ -138,7 +138,7 @@ limitations under the License.
                     If you look the Struts Action 1.x roadmap and the WebWork
                     2.x feature set,
                     you'll see that WebWork has already does most of what we
-                    wanted Struts Action to do.
+                    wanted Struts Action framework to do.
                     If we finished the roadmap ourselves, Struts Action would
                     end up as a WebWork workalike.
                     Rather than reinvent the wheel,
@@ -159,7 +159,7 @@ limitations under the License.
             <answer>
             <p>
               The Struts Action 1.x series is deeply into "backward compatibility" mode.
-              Backward compatibility has almost become an obsession with us.
+              Backward compatibility is an obsession with Action 1.
               Before making any API change, we deprecate the existing member,
               and make at least one milestone release before removing the deprecated member.
               Each Struts Action milestone is drop-and-go compatible with the last.
@@ -167,7 +167,7 @@ limitations under the License.
               but given the installed base, we feel it is worth the time and trouble.
             </p>
             <p>
-              There have been several proposals for a new Struts Action 2 codebase.
+              There have been several proposals for a new Action 2 codebase.
               The first formal proposal was
               <a href="http://wiki.apache.org/struts/StrutsJericho">Jericho,</a>
               followed by
@@ -181,7 +181,7 @@ limitations under the License.
               the Apache Struts PMC found that many of us were not ready to
               adopt JSF just yet.
               Shale is now a separate but equal framework,
-              created and maintained by the Struts community.
+              created and maintained by the Apache Struts community.
            </p>
            <p>
                The Ti proposal included the idea of collaborating with other
@@ -201,7 +201,7 @@ limitations under the License.
            <p>
                 Out of these collaborations,
                 the <a href="http://struts.apache.org/announce.html#a20051214.3">
-                Apache Struts/OpenSymphony WebWork</a> merger was born.
+                Apache Struts/OpenSymphony WebWork</a> merger arose.
            </p>
             </answer>
         </faq>
@@ -275,7 +275,7 @@ limitations under the License.
             </p>
             
             <p>
-               Of course, both Struts Shale and Struts Action 2 are on the horizon. 
+               Of course, both Struts Shale and Struts Action Framework 2 are on the horizon. 
                If you are starting a new project, and have your choice of frameworks, 
                this would be a good time to consider whether you would like to continue to use 
                Action 1 or <a href="#choice">whether it's time to try something else</a>. 
@@ -340,7 +340,7 @@ limitations under the License.
                     If you choose Action, and you or your team is forward-looking, 
                     you may want to start with 
                     <a href="http://www.opensymphony.com/webwork/">WebWork 2.2</a>
-                    today and migrate to Struts Action 2.0 when it arrives.
+                    today and migrate to Struts Action Framework 2 when it arrives.
                 </p>
                 <p>
                     Aside from Apache Struts products, 
@@ -459,8 +459,8 @@ limitations under the License.
                 </p>
                 <p>
                     Entities like Microsoft, and Sun, and Zend, exist to promote one
-                    technology over another, mainly to make it easier for them to
-                    sell you something.
+                    technology over another (mainly to make it easier for them to
+                    sell you something)
                     The Apache Struts team is not trying to sell you anything.
                     We're collaborating on the frameworks that we want to use, and
                     we are trying to share the wealth with others who might want to
@@ -479,7 +479,7 @@ limitations under the License.
                 <answer>
                     <p>
                         Over the years, the Action 1 framework grew to include not only a
-                        controller and a set of taglibs but several other extensions,
+                        controller and a set of taglibs but several other comonents,
                         like Tiles, EL, Scripting, and Flow. There were also some
                         optional classes that some people liked, but not everyone needed
                         (like DispatchAction).
@@ -492,13 +492,8 @@ limitations under the License.
                         Creating the separate distributions created problems of its own, 
                         so for the Struts Action 1.3.1 build, and beyond, 
                         we are consolidating the extensions back into a single 
-                        Struts Action 1.3 distribution. 
-                    </p>
-                    
-                    <p>
-                        The work is ongoing, and the upper part of the website has not 
-                        been updated to reflect the latest release plan for Action 1.3. 
-                    </p>
+                        Struts Action 1.3 distribution. Each component has its own                     </p>
+			JAR but all share the same release cycle.
                 </answer>
             </faq>
 
@@ -508,10 +503,9 @@ limitations under the License.
                 </question>
                 <answer>
                     <p>Struts Classic is a codename for the work we needed to do to
-                        create and release the seven new subprojects we extracted from
+                        create and release the seven components we extracted from
                         Struts 1.2. It is not a product per-se, but shorthand for the
-                        1.3.0 build of the seven projects.
-                    </p>
+                        1.3.0 build of the seven components. The term is obsolete.                     </p>
                 </answer>
             </faq>
 

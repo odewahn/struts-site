@@ -26,14 +26,12 @@ limitations under the License.
         <a name="status"/>
         <section name="Release Guidelines">
             <p>This document describes the Apache Struts
-                <a href="#Releases">release process</a>
+                release process 
                 and our
-                <a href="#Coding">coding conventions</a>
-                ,
+                <a href="#Coding">coding conventions,</a>
                 which are applicable to all subprojects.
                 Both stable and development releases are
-                <a href="downloads.html">available for download</a>
-                .
+                <a href="downloads.html">available for download.</a>
             </p>
 
             <a name="Releasing"/>
@@ -58,12 +56,10 @@ limitations under the License.
                     team
                     and must observe the
                     <a href="http://apache.org/dev/mirrors.html">Apache
-                        Mirroring guidelines</a>
-                    .
+                        Mirroring guidelines.</a>
                     See also
                     <a href="http://wiki.apache.org/incubator/SigningReleases">
-                        Signing Releases</a>
-                    .
+                        Signing Releases.</a>
                 </p>
                 <p>Additional remarks:</p>
                 <ul>
@@ -77,7 +73,7 @@ limitations under the License.
                         <ul>
                             <li>
                                 <strong>Rolling</strong>
-                                - Bugzilla, dependencies, release notes, JAR
+                                - Issues, dependencies, release notes, JAR
                                 manifest, licenses, copyrights, and build
                                 (using the release target).
                             </li>
@@ -129,14 +125,14 @@ limitations under the License.
                         At a minimum, new features and deprecations should be
                         summarized, since these are commonly asked questions.
                         Ideally, the release notes should be maintained
-                        continuously for the nightly build so that we they do
+,                        continuously for the nightly build so that we they do
                         not need to be assembled at the last minute.</li>
                     <li>Try building the distribution under prior version of
                         J2SE, if possible, to ensure that we are still
                         backwardly-compatible. But, our distributions should
                         be built using the
-                        <strong>latest production release of J2SE</strong>
-                        , to take advantage of all available compiler
+                        <strong>latest production release of J2SE,</strong>
+                        to take advantage of all available compiler
                         enhancements.
                     </li>
                     <li>If you have multiple J2SE versions configured, run the
@@ -167,8 +163,7 @@ limitations under the License.
                         to be mirrored, wait at least 24 hours after submittal
                         before making public announcements (as stated in the
                         <a href="http://apache.org/dev/mirrors.html">Apache
-                            Mirroring guidelines</a>
-                        ).
+                            Mirroring guidelines).</a>
                     </li>
                     <li>If a serious flaw if found in a test build or release,
                         it may be withdrawn by a majority vote of the PMC and
@@ -182,17 +177,14 @@ limitations under the License.
                 <ul>
                     <li>
                         The
-                        "
                         <a href="http://java.sun.com/docs/codeconv/html/CodeConvTOC.doc.html">
-                            Code Conventions for the Java Programming
-                            Language</a>
-                        ",
+                            "Code Conventions for the Java Programming
+                            Language", </a>
                         as published by Sun.
                     </li>
                     <li>
                         <a href="http://www.ambysoft.com/elementsJavaStyle.html">
-                            Elements of Java Style</a>
-                        , and
+                            Elements of Java Style, </a> and
                     </li>
                     <li>
                         <a href="http://java.sun.com/j2se/javadoc/writingdoccomments/">
@@ -216,8 +208,7 @@ limitations under the License.
                         control alerts. Trimming trailing spaces creates
                         unnecessary changes.</li>
                     <li>Specify imported classes (do not use
-                        <code>.*</code>
-                        ).
+                        <code>.*).</code>
                     </li>
                     <li>Write all if/else statements as full blocks with each
                         clause within braces, unless the entire statement fits
@@ -236,14 +227,13 @@ limitations under the License.
                     <li>Use
                         <code>@since</code>
                         to document changes between Struts versions, as in
-                        <code>@since Struts 1.1</code>
-                        .
+                        <code>@since Struts 1.1.</code>
                     </li>
                     <li>Wrap lines of code and JavaDoc at column 78. You can
                         include a "comment rule" in the source to help with
                         this.
                         <br/>
-                        <small>//
+                        <small>
                             ------------------------------------------------------------------------
                             78</small>
                     </li>
@@ -259,8 +249,7 @@ limitations under the License.
                         use test-driven design and write the test first &lt;head-slap/&gt;.
                         For more about TDD, see the
                         <a href="http://sourceforge.net/projects/mockobjects">
-                            MockObjects project</a>
-                        .
+                            MockObjects project.</a>
                     </li>
                     <li>As files are updated from year to year, the copyright
                         on each file should be extended to include the current
@@ -277,7 +266,7 @@ limitations under the License.
                         (++#.x.x).</li>
                     <li>Our favorite books about programming are
                         <a href="http://www.amazon.com/exec/obidos/ISBN=0201633612/apachesoftwar-20/">
-                            Design Patterns</a>
+                            Design Patterns,</a>
                         ,
                         <a href="http://www.amazon.com/exec/obidos/ISBN=0201485672/apachesoftwar-20/">
                             Refactoring</a>

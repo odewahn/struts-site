@@ -31,16 +31,16 @@
                     name="FAQs"
                     href="faqs.html"
                     />
-            <item
-                    name="Who We Are"
-                    href="volunteers.html"
-                    />
         </menu>
 
         <menu name="Community">
             <item
                     name="Mailing Lists"
                     href="mail.html"
+                    />
+            <item
+                    name="Issue Tracker (JIRA)"
+                    href="http://issues.apache.org/struts/"
                     />
             <item
                     name="Wiki Pages"
@@ -71,9 +71,9 @@
         </menu>
 
         <menu name="Development">
-            <item 
-                    name="Sandbox" 
-                    href="http://struts.apache.org/struts-sandbox/index.html"
+            <item
+                    name="Who We Are"
+                    href="volunteers.html"
                     />
             <item
                     name="Charter"
@@ -91,9 +91,9 @@
                     name="Source Repository"
                     href="http://svn.apache.org/viewcvs.cgi/struts/"
                     />
-            <item
-                    name="Issue Tracker (JIRA)"
-                    href="http://issues.apache.org/struts/"
+            <item 
+                    name="Sandbox" 
+                    href="http://struts.apache.org/struts-sandbox/index.html"
                     />
         </menu>
 

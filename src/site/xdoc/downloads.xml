@@ -31,8 +31,7 @@ limitations under the License.
                 charge
                 in both binary and source distributions under the
                 <a href="http://apache.org/licenses/">Apache Software
-                    License</a>
-                .
+                    License.</a>
                 Each subproject offers a production release, as well as a
                 milestone
                 releases and "nightly" development builds.
@@ -40,16 +39,15 @@ limitations under the License.
                 <a href="http://maven.apache.org">Apache Maven</a>
                 repositories,
                 like
-                <a href="http://ibiblio.org">ibiblio</a>
-                .
+                <a href="http://ibiblio.org">ibiblio.</a>
             </p>
 
             <subsection name="Releases and Milestone Builds">
                 <a name="ReleasesAndMilestones"/>
                 <p>
-                    Releases and milestone builds of Struts products are
+                    Releases and milestone builds of Apache Struts products are
                     available from
-                    the main Apache Struts distribution site, or from mirror
+                    our distribution site, or from mirror
                     sites.
                 </p>
                 <ul>
@@ -98,7 +96,7 @@ limitations under the License.
                 <p>
                     The latest
                     <em>development build</em>
-                    of Struts products are available
+                    of Apache Struts products are available
                     <a href="http://svn.apache.org/dist/struts/">here</a>
                     in binary, source and library distributions.
                     Library distributions include any external depdencies
@@ -261,7 +259,7 @@ limitations under the License.
             <subsection name="Building Struts">
 
                 <p>
-                    If you are building a Struts subproject from source,
+                    If you are building an Apache Struts subproject from source,
                     we recommend that you install and use
                     <a href="http://maven.apache.org">
                         Apache Maven</a>
@@ -275,7 +273,7 @@ limitations under the License.
                 </p>
 
                 <p>
-                    With Maven installed, building the entire Struts Action 1 codebase
+                    With Maven installed, building the entire Action 1 codebase
                     is as simple as
                 </p>
 
@@ -301,7 +299,7 @@ limitations under the License.
         <section>
             <p class="right">
                 Next:
-                <a href="bylaws.html">PMC Bylaws</a>
+                <a href="bylaws.html">Project Charter</a>
             </p>
         </section>
 

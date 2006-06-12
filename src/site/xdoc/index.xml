@@ -121,7 +121,7 @@ limitations under the License.
                     Soon, we will also offer a new Action 2 framework, based on
                     <a href="http://www.opensymphony.com/webwork/">WebWork</a>
                     technology. Essentially,
-                    <a href="announce.html#a20051214.3">Struts Action 2.0</a>
+                    <a href="announce.html#a20051214.3">Struts Action Framework 2.0</a>
                     will be WebWork 2.3.
                 </p>
 
@@ -144,11 +144,10 @@ limitations under the License.
                     Apache Struts is a volunteer project and
                     all support for the framework is provided by unpaid
                     volunteers.
-                    This documentation bundle and the mailing lists are the
-                    primary ways
-                    to learn how to use Struts.
-                    The next few pages are devoted to helping you understand
-                    what resources are available to you.
+                    The documentation bundled with each release and the mailing 
+                    lists are the primary ways to learn how to use the software.
+                    The next few pages are devoted to helping everyone understand
+                    what support resources are available.
                     Since Apache Struts is a volunteer project,
                     and our resources are limited,
                     it is important that we first help you help yourself.

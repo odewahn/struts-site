@@ -103,8 +103,7 @@ limitations under the License.
                 <p>
                     Just using the products is a very important role.
                     We need people who will report issues, contribute patches,
-                    suggest
-                    features, and so forth.
+                    suggest features, and so forth.
                     Your feedback helps the technology to evolve.
                 </p>
 
@@ -122,7 +121,7 @@ limitations under the License.
                 </p>
 
                 <p>
-                    Before joining any Apache mailing list, please be sure to
+                    Before joining any ASF mailing list, please be sure to
                     read the
                     <a href="mail.html#Guidelines">Mailing List Guidelines.</a>
                     If you have read and understood these guidelines, you are
@@ -161,7 +160,7 @@ limitations under the License.
                     Our customers are the volunteers who donate their time and
                     energy to
                     supporting the product.
-                    If you want to support Struts, and become one of our
+                    If you want to support Apache Struts, and become one of our
                     customers,
                     then you need to get involved and become a volunteer.
                 </p>
@@ -179,9 +178,8 @@ limitations under the License.
                     or unit test,
                     and
                     <a href="#contribute">add the patch or test.</a>
-                    Please note that we do not use @author tags in our
-                    JavaDocs and
-                    documentation.
+                    (Please note that we do not use @author tags in our
+                    JavaDocs an documentation.)
                     If your patch includes an @author tag, we would have to
                     ask that it be removed.
                 </p>
@@ -583,7 +581,7 @@ limitations under the License.
 
                 <p>
                     You can also post documentation to the
-                    <a href="wiki.apache.org/struts/">Struts Wiki.</a>
+                    <a href="http://wiki.apache.org/struts/">Apache Struts wiki.</a>
                 </p>
             </answer>
         </faq>

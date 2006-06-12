@@ -26,12 +26,12 @@ limitations under the License.
             <answer>
             <p>
             The best available release of Apache Struts is
-            <a href="http://struts.apache.org/announce.html#a20050322">
+            <a href="http://struts.apache.org/announce-2005.html#a20050322">
             Struts 1.2.9.</a>
             The Struts 1.2.9 release has its
             <a href="http://struts.apache.org/struts-doc-1.2.9/index.html">
             own area of the website</a>.
-            If you are new to Java or web development as well as Struts,
+            If you are new to Java or web development as well as Apache Struts,
             be sure to review the
             <a href="http://struts.apache.org/struts-doc-1.2.9/userGuide/index.html">
             Preface to the User Guide</a>.
@@ -46,19 +46,17 @@ limitations under the License.
             </p>
 
             <p>
-            Meanwhile, we are in the process of "joining forces" with another
-            project,
+            Meanwhile, for the Struts Action 2 release, 
+            we "joined forces" with another project,
             <a href="http://www.opensymphony.com/webwork/">OpenSymphony
             WebWork.</a>
-            The WebWork codebase is being
-            <a href="http://incubator.apache.org/projects/webwork2.html">
-            donated to Apache Struts</a>
+            The WebWork codebase was donated to Apache Struts;
             and the WebWork developers have joined the Apache Struts team.
-            Essentially, Struts Action 2.0 will be WebWork 2.3.
+            Essentially, Struts Action Framework 2.0 will be WebWork 2.3.
             </p>
 
             <p>
-            To learn more about using Apache Struts, you can also visit
+            To learn more about using Apache Struts frameworks, you can also visit
             <a href="http://www.StrutsCentral.net/">Struts Central</a>,
             which catalogs all the known resources about Apache Struts, whether it is
             <a href="http://struts.apache.org/struts-action/">Action 1</a>,
@@ -76,9 +74,9 @@ limitations under the License.
         </faq>
 
         <faq id="struts">
-            <question>Why is the project called Struts?</question>
+            <question>Why is the project called "Struts"?</question>
             <answer>
-                <p>It's a reference to struts in the architectural sense, a
+                <p>It's a reference to "struts" in the architectural sense, a
                     reminder of the nearly invisible pieces that hold up
                     buildings, houses, and bridges.</p>
             </answer>
@@ -131,7 +129,7 @@ limitations under the License.
         </faq>
 
         <faq id="providers">
-            <question>Are there ISPs that will host my Struts
+            <question>Are there ISPs that will host my Java web
                 application?</question>
             <answer>
                 <p>For a listing of some Java and Struts Action Framework
@@ -144,14 +142,13 @@ limitations under the License.
         </faq>
 
         <faq id="ide">
-            <question>Is there a particularly good IDE to use with Struts
-                Action Framework"</question>
+            <question>Is there a particularly good IDE to use?</question>
             <answer>
                 <p>
-                    Struts should work well with any development environment
+                    The frameworks should work well with any development environment
                     that you would like to use, as well as with any
                     programmers editor.
-                    The members of the Struts development team each use their
+                    The members of the Apache Struts development team each use their
                     own tools such as
                     <a href="http://www.gnu.org/software/emacs/emacs.html">
                         Emacs,</a>
@@ -159,11 +156,6 @@ limitations under the License.
                     <a href="http://www.eclipse.org/">Eclipse,</a>
                     and
                     <a href="http://www.netbeans.org/">NetBeans.</a>
-                </p>
-                <p>
-                    See the
-                    <a href="../faqs/index.html">Howto Guides</a>
-                    for more about configuring IDEs to work with Struts.
                 </p>
             </answer>
         </faq>
@@ -184,8 +176,7 @@ limitations under the License.
                     <a href="../api/index.html">Javadocs</a>
                     are included
                     along with the
-                    <strong>full source code</strong>
-                    .
+                    <strong>full source code.</strong>
                 </p>
                 <p>
                     The
@@ -248,7 +239,7 @@ limitations under the License.
                     but the best way to see that something gets added to the
                     framework is to do as much of the work as you can, rather
                     than rely on the "kindness of strangers". Worst case, you
-                    can apply the patch to your copy of Struts and still use
+                    can apply the patch to your copy of the framework and still use
                     the feature in your own application. (Which is what open
                     source is ~really~ all about.)
                 </p>
@@ -284,7 +275,7 @@ limitations under the License.
             <question>Is there an Apache Struts newsgroup?</question>
             <answer>
                 <p>
-                    Not a usenet group, but the Struts User list can be
+                    Not a usenet group, but the Apache Struts User list can be
                     accessed with your
                     favorite newsgroup reader from the
                     <a href="http://news.gmane.org/">GMane News Site.</a>
