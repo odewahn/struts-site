@@ -174,6 +174,10 @@ limitations under the License.
                         <strong>Ian Roughley</strong>
                         (roughley at apache.org)
                     </li>
+                    <li>
+                        <strong>Michael Jouravlev</strong>
+                        (mikus at apache.org)
+                    </li>
                 </ul>
             </subsection>
 
@@ -1253,6 +1257,45 @@ limitations under the License.
                     sub-projects, though I'm keeping an eye on Ti and some of
                     the
                     other experimental work that's going on.</p>
+
+                <h4 id="mikus">Michael Jouravlev -- Committer</h4>
+
+		<p>In 2001 I joined a team that had been tasked with building a front
+		end to a lottery system using Java technology. The system had to have
+		Web interface (HTML), cellular phone interface (WML and later SMS)
+		as well as audio interface for regular telephone
+		(VoiceXML). Someone suggested to use Struts. I did not know about Struts
+		at that time, but the framework quickly proved to be superior to simple
+		JSP-based Model1 approach. The team effort resulted in a multi-layer
+		application that is still competitive and maintainable today.</p>
+
+		<p>Struts proved its value, but some common practices seemed
+		inconvenient or plain wrong to me. I started to read what other people
+		say. I found great value in Ted Husted's tips, as well as in the book
+		by Chuck Cavaness. After a while I devised some practices of my own
+		(or just 
+		<a href="http://www.theserverside.com/tt/articles/article.tss?l=RedirectAfterPost">rediscovered</a>
+		something that others has been doing for long time)
+		and since then I have been trying to improve Struts in different
+		ways.</p>
+
+		<p>I started to think about page flows and Back button support back in
+		2002, this resulted in a simple but robust wizard engine. I also
+		wanted to make development with Struts more object-oriented. I found
+		DispatchAction useful in this regards but with quirks of its own. So I
+		created my own dispatch action that allowed me to process both input
+		and render phases of a web resource. Promoting this approach is a
+		job of its own.</p>
+
+		<p>My most recent area of interest is web components and Ajax.
+		Creating independent components using Ajax is actually simpler than
+		using less fancy patterns like redirect-after-post. In attempt to
+		combine Ajax and non-Ajax components into one package I came up with
+		idea of <a href="http://www.jspcontrols.net/">dual-mode components</a>
+		that work either with or without Javascript.</p>
+
+		<p>Struts has been good to me. I want Struts to keep being improved and to
+		remain the Java web framework of choice.</p>
 
             </subsection>
         </section>
