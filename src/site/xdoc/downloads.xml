@@ -71,7 +71,7 @@ limitations under the License.
                         <ul>
                             <li>
                                 <a href="http://cvs.apache.org/dist/struts/shale/v1.0.2">
-                                    Struts Shale 1.0.2
+                                    Struts Shale 1.0.2 (now Apache Shale)
                                 </a>
                             </li>
                         </ul>
@@ -132,13 +132,12 @@ limitations under the License.
 
                     <li>
                         <a href="http://cvs.apache.org/builds/struts/maven/trunk/nightly/struts-action/">
-                            Action 1 Nightly Builds</a>
+                            Struts 1 Nightly Builds</a>
                     </li>
-                    <li>
+                     <li>
                         <a href="http://cvs.apache.org/builds/struts/nightly/struts-shale/">
                             Shale Nightly Builds</a>
                     </li>
-
                 </ul>
 
                 <p>
@@ -213,9 +212,9 @@ limitations under the License.
                 </p>
 
                 <ul>
-                    <li>http://svn.apache.org/repos/asf/struts/action/trunk</li>
+                    <li>http://svn.apache.org/repos/asf/struts/struts1/trunk</li>
+                    <li>http://svn.apache.org/repos/asf/struts/struts2/trunk</li>
                     <li>http://svn.apache.org/repos/asf/struts/sandbox/trunk</li>
-                    <li>http://svn.apache.org/repos/asf/struts/shale/trunk</li>
                     <li>http://svn.apache.org/repos/asf/struts/site</li>
                 </ul>
 
@@ -273,7 +272,7 @@ limitations under the License.
                 </p>
 
                 <p>
-                    With Maven installed, building the entire Action 1 codebase
+                    With Maven installed, building the entire Struts 1 codebase
                     is as simple as
                 </p>
 

@@ -29,14 +29,13 @@ limitations under the License.
             <table>
                 <tr>
                     <th>
-                        <a href="struts-action/apidocs/index.html">Struts
-                            Action Framework 1</a>
+                        <a href="1.x/apidocs/index.html">Struts 1</a>
                     </th>
                 </tr>
                 <tr>
                     <th>
-                        <a href="struts-shale/index.html#Shale_Documentation">
-                        Struts Shale Framework</a>
+                        <a href="2.0/apidocs/index.html">
+                        Struts 2</a>
                     </th>
                 </tr>
             </table>
@@ -45,7 +44,7 @@ limitations under the License.
 
         <section>
             <p class="right">Next:
-                <a href="http://svn.apache.org/viewcvs.cgi/struts/action/trunk/?root=Apache-SVN">
+                <a href="http://svn.apache.org/viewcvs.cgi/struts/?root=Apache-SVN">
                     Source Repository</a>
             </p>
         </section>

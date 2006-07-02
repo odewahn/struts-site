@@ -84,7 +84,7 @@ limitations under the License.
             <p>
                Shale began as a proposal for Struts 2.0, but instead became a
                subproject, so as to provide a JSF alternative for Struts
-               developers. Recent developments for Struts Action 2 now make it
+               developers. Recent developments for Struts 2 now make it
                easier for Struts developers to access JSF components from within
                an "action-based" application.
             </p>
@@ -107,7 +107,7 @@ limitations under the License.
             </p>
             <p>
 		Bob's current focus is to develop a kinder, gentler API for 
-		Action 2, having already submitted several patches and 
+		Struts 2, having already submitted several patches and 
 		<a href="http://wiki.apache.org/struts/RoughSpots">
 		constructively engaged the community</a> 
 		while handling criticisms well. He has committed several 
@@ -258,7 +258,7 @@ limitations under the License.
             <p>
                 For more information on the security issues and solutions
                 please see the
-                <a href="http://struts.apache.org/struts-doc-1.2.9/userGuide/release-notes.html">
+                <a href="http://struts.apache.org/1.2.9/userGuide/release-notes.html">
                     Release Notes</a>
                 and the
                 <a href="http://wiki.apache.org/struts/StrutsUpgrade">

@@ -22,7 +22,7 @@
 
    <parent>
       <groupId>org.apache.struts</groupId>
-      <artifactId>struts-parent</artifactId>
+      <artifactId>struts-master</artifactId>
       <version>3-SNAPSHOT</version>
    </parent>
 
@@ -39,8 +39,7 @@
     <!-- ################################################################ -->
 
   <description>
-    Struts Site is the Apache Struts home page, 
-    the top-level portal to all other Struts frameworks and subprojects. 
+    Struts Site is the Apache Struts home page, covering all versions of Struts. 
   </description>
 
   <scm>

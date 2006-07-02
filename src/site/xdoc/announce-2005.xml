@@ -58,7 +58,7 @@ limitations under the License.
             <p>
                 The Apache Struts flagship product,
                 the leading web application framework for Java,
-                is now known as the "Struts Action Framework".
+                is now known as the "Struts".
             </p>
 
             <p>
@@ -71,16 +71,16 @@ limitations under the License.
                 and may be downloaded separately.
                 For consistency, the original core framework component also
                 has its own name
-                now: "Struts Action Framework".
+                now: "Struts".
                 The JARs and external dependencies for the extensions to
-                Struts Action Framework
+                Struts
                 are being bundled into a convenient distribution known as the
                 "Struts Action
                 Framework Library".
             </p>
 
             <p>
-                The Struts Action Framework 1.3.0 release will include several
+                The Struts 1.3.0 release will include several
                 exciting new
                 features, including:
             </p>
@@ -113,7 +113,7 @@ limitations under the License.
             </p>
 
             <p>
-                The Struts Action Framework 1.3.0 release,
+                The Struts 1.3.0 release,
                 and other milestones on the Apache Struts roadmap,
                 were discussed at ApacheCon on Tuesday, December 13, 2005, in
                 a talk,
@@ -218,7 +218,7 @@ limitations under the License.
                 scalable
                 web applications for the enterprise,
                 Apache Struts now offers the Shale Framework.
-                Like the original "Struts Action Framework",
+                Like the original "Struts",
                 Shale provides developers with a front controller,
                 and several other components,
                 to provide the "invisible underpinnings that hold an
@@ -330,8 +330,8 @@ limitations under the License.
             </p>
             <p>
                 The Release Notes are available on the Struts web site at:
-                <a href="http://struts.apache.org/struts-doc-1.2.8/userGuide/release-notes.html">
-                    http://struts.apache.org/struts-doc-1.2.8/userGuide/release-notes.html</a>
+                <a href="http://struts.apache.org/1.2.8/userGuide/release-notes.html">
+                    http://struts.apache.org/1.2.8/userGuide/release-notes.html</a>
             </p>
             <p>
                 Please check the wiki for the latest information on upgrading:

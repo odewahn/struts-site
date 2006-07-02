@@ -13,9 +13,8 @@
     <body>
         <links>
             <item name="Apache" href="http://www.apache.org" /> 
-            <item name="Action 1" href="http://struts.apache.org/struts-action" />
-            <item name="Action 2" href="http://struts.apache.org/struts-action2" />
-            <item name="Shale" href="http://struts.apache.org/struts-shale" /> 
+            <item name="Struts 1" href="http://struts.apache.org/1.x" />
+            <item name="Struts 2" href="http://struts.apache.org/2.0" />
         </links>
 
         <menu name="Apache Struts Project">
@@ -64,10 +63,19 @@
                     />
         </menu>
 
-        <menu name="Frameworks">
-            <item name="Action 1" href="http://struts.apache.org/struts-action/index.html"/>
-            <item name="Action 2" href="http://struts.apache.org/struts-action2/index.html"/>
-            <item name="Shale" href="http://struts.apache.org/struts-shale/index.html"/>
+        <menu name="Current Versions">
+            <item name="Struts 1.x" href="http://struts.apache.org/1.x/index.html"/>
+            <item name="Struts 2.0" href="http://struts.apache.org/2.0/index.html"/>
+        </menu>
+        
+        <menu name="Past Releases">
+            <item name="Struts 1.2.x" href="http://struts.apache.org/1.2.x/index.html"/>
+            <item name="Struts 1.2.9" href="http://struts.apache.org/1.2.9/index.html"/>
+            <item name="Struts 1.2.8" href="http://struts.apache.org/1.2.8/index.html"/>
+            <item name="Struts 1.2.7" href="http://struts.apache.org/1.2.7/index.html"/>
+            <item name="Struts 1.2.4" href="http://struts.apache.org/1.2.4/index.html"/>
+            <item name="Struts 1.1" href="http://struts.apache.org/1.1/index.html"/>
+            <item name="Struts 1.0.2" href="http://struts.apache.org/1.0.2/index.html"/>
         </menu>
 
         <menu name="Development">
@@ -98,6 +106,10 @@
         </menu>
 
         <menu name="Related Projects">
+            <item
+                    name="Apache Shale"
+                    href="http://struts.apache.org/struts-shale/"
+                    />
             <item
                     name="Apache Beehive"
                     href="http://beehive.apache.org/"

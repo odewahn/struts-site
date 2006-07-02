@@ -27,9 +27,7 @@ limitations under the License.
         <a name="Welcome"/>
         <section name="Welcome to Apache Struts!">
             <p>
-                The goal of the Apache Struts project is to encourage
-                application
-                architectures based on the "Model 2" approach, a variation of
+                Apache Struts is a web development framework based on the "Model 2" approach, a variation of
                 the
                 classic Model-View-Controller (MVC) design paradigm.
                 Under Model 2,
@@ -38,10 +36,11 @@ limitations under the License.
             </p>
 
             <p>
-                The Apache Struts project encourages Model 2 designs in two
+                The Apache Struts project makes web development easier in two
                 ways.
-                First, by providing open source frameworks and toolkits
-                that help developers build applications for the web.
+                First, by providing an open source framework (briefly known as the 
+                Struts Action Framework)
+                that helps developers build applications for the web.
                 Second, by providing friendly and honest
                 <a href="mail.html">mailing lists</a>
                 where both newcomers and veterans discuss how to use Apache Struts
@@ -65,66 +64,40 @@ limitations under the License.
                 </p>
 
             </subsection>
-
+            
+            <a name="shale"/>
+            <subsection name="What Happened to Struts Shale?">
+                <p>
+                    <a href="http://struts.apache.org/struts-shale">Struts Shale</a>
+                    started as a Struts subproject, but
+                    later <a href="announce.html#a20060628.1">graduated</a>
+                    to a full top level Apache project.  Apache Shale, as it is now
+                    called, builds on JavaServer Faces (JSF), making JSF applications easier to 
+                    develop.  Until the new Apache Struts project gets established, its pages
+                    are still located at 
+                    <a href="http://struts.apache.org/struts-shale">http://struts.apache.org/struts-shale/</a>.
+                </p>
+            </subsection>
+            
             <a name="cooking"/>
             <subsection name="What's Cooking?">
 
                 <p>
                     The Apache Struts project is now comprised of two distinct
-                    frameworks.
-                    The two frameworks are the
-                    <strong>Struts Action Framework</strong>
+                    versions of the Struts framework.
+                    The two versions are 
+                    <strong>Struts 1</strong>
                     and the
-                    <strong>Struts Shale Framework.</strong>
-                    Struts Action is the original request-based framework.
-                    Struts Shale is a component-based framework for JavaServer Faces.
-                    Both frameworks are first-class citizens of the Apache Struts
-                    project.
+                    <strong>Struts 2.</strong>
+                    Struts 1 is the original request-based framework that has a large and 
+                    active following.  Struts 2
+                    started with a merger with the <a href="http://www.opensymphony.com/webwork">
+                    Opensymphony WebWork</a> project and aims to exploit Java 5 annotations
+                    and other modern web framework features in an effort to make Struts easier to
+                    use and more powerful. Both versions are actively developed and supported by
+                    the Apache Struts project.
                 </p>
-
-                <p>
-
-                    <b>Why two frameworks?</b>
-                    When
-                    <a href="http://java.sun.com/j2ee/javaserverfaces/">
-                        JavaServer Faces</a>
-                    arrived, our development community chose to "make new friends but
-                    keep the old".
-                    Some of us want to stick with a request-based framework.
-                    Others are ready to switch to a component-based framework
-                    that builds on JavaServer Faces.
-                    We offer both frameworks because we have volunteers to
-                    create and maintain both frameworks.
-                </p>
-
-                <p>
-                    If you have mature Action Framework applications in
-                    production, don't worry,
-                    we are still here, same as ever.
-                    After all, we have our share of mature application in
-                    production too.
-                </p>
-
-                <p>
-                    If you are starting a new project and want to use the latest
-                    technology,
-                    don't worry, we are still blazing trails, same as ever.
-                    For projects using JavaServer Faces, we offer the Shale
-                    Framework.
-                    For projects using JSP and templating technologies, we offer the
-                    original Action framework.
-                </p>
-
-                <p>
-                    <b>Is that all there is?</b>
-                    Not by a long shot!
-                    Soon, we will also offer a new Action 2 framework, based on
-                    <a href="http://www.opensymphony.com/webwork/">WebWork</a>
-                    technology. Essentially,
-                    <a href="announce.html#a20051214.3">Struts Action Framework 2.0</a>
-                    will be WebWork 2.3.
-                </p>
-
+                
                 <p>
                     Whether you are staying the course, or ready to leap forward,
                     the Apache Struts project is here to help you do what you want
