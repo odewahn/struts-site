@@ -131,8 +131,8 @@ limitations under the License.
                 <ul>
 
                     <li>
-                        <a href="http://cvs.apache.org/builds/struts/maven/trunk/nightly/struts-action/">
-                            Struts 1 Nightly Builds</a>
+                        <a href="http://cvs.apache.org/builds/struts/maven/trunk/nightly/struts/">
+                            Struts Nightly Builds</a>
                     </li>
                      <li>
                         <a href="http://cvs.apache.org/builds/struts/nightly/struts-shale/">
@@ -154,7 +154,7 @@ limitations under the License.
                     Access to the Apache Struts source repository is available
                     through
                     both
-                    <a href="http://svn.apache.org/viewcvs.cgi/struts/action/trunk/?root=Apache-SVN">
+                    <a href="http://svn.apache.org/viewcvs.cgi/struts/?root=Apache-SVN">
                         web browser</a>
                     and
                     <a href="http://subversion.tigris.org/">
