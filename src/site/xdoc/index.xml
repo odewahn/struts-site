@@ -25,33 +25,97 @@ limitations under the License.
     <body>
 
         <a name="Welcome"/>
-        <section name="Welcome to Apache Struts!">
+        <section name="Apache Struts">
             <p>
-                Apache Struts is a web development framework based on the "Model 2" approach, a variation of
-                the
-                classic Model-View-Controller (MVC) design paradigm.
-                Under Model 2,
-                a servlet (or equivalent) manages business logic execution,
-                and presentation logic resides mainly in server pages.
+								Apache Struts is a web development framework based on the 
+                classic Model-View-Controller design.
             </p>
 
             <p>
-                The Apache Struts project makes web development easier in two
-                ways.
-                First, by providing an open source framework (briefly known as the 
-                Struts Action Framework)
-                that helps developers build applications for the web.
-                Second, by providing friendly and honest
-                <a href="mail.html">mailing lists</a>
-                where both newcomers and veterans discuss how to use Apache Struts
-                software in their own Model 2 applications.
+                In the Struts framework, requests first pass through an 
+                extensible "front controller". 
+                After pre-processing the request and applying any global 
+                concerns, like logging and security, the controller 
+                selects a handler, or "action". 
+                The action manages the business logic and transfers 
+                control to another resource that will complete the 
+                response, such as a JavaServer Page, Velocity Template, 
+                or PDF report generator. 
+                To close the loop, the framework provides custom tags 
+                that make it easier to access the dynamic data obtained by 
+                the action handler. 
+                The framework's architecture and tags work well with 
+                conventional REST applications, as well as AJAX and SOAP. 
             </p>
+            
+            <p>
+            		The project is called Struts because the framework is meant to 
+            		provide the "invisible underpinnings" that support professional 
+            		application development. 
+            		Struts provides the glue that joins the various elements
+            		of the standard Java platform into a coherent whole. 
+            		Our goal is to leverage existing standards by providing the 
+            		missing pieces we need to create enterprise-grade applications 
+            		that are easy to maintain over time. 
+            </p>
+				</section>
+                
+        <a name="Project"/>
+        <section name="The Apache Struts Project">
+        
+        		<p>
+								The Apache Struts Project is the open source community 
+								that creates and maintains the the Apache Struts framework. 
+								The project consists of a diverse group of volunteers who 
+								share common values regarding collaborative, community-based 
+								open source development. 
+								The Apache Struts Project is proud to share these values with 
+								our parent organization: The Apache Software Foundation.								
+						</p>
+						
+						<p>
 
-            <a name="release"/>
-            <subsection name="Best Available Version">
+								The Apache Sruts project offers two major versions of the 
+								Struts framework. <strong>Struts 1.x</strong> is recognized as 
+								<em>the</em> most popular web application framework for Java. 
+								The 1.x framework is mature, well-documented, and widely 
+								supported. 
+								Struts 1 is the best choice for teams who value proven 
+								solutions.
+						</p>
+						
+     				<p>
+              	<strong>Struts 2</strong> is a ground-up rewrite of the original 
+              	action-centric framework.
+                Struts 2 was originally known as 
+                <a href="http://www.opensymphony.com/webwork">WebWork 2</a>. 
+                After working independently for several years, 
+                the WebWork and Struts teams 
+                <a href="announce-2005.html#a20051214.3">joined forces</a>
+                to create Struts 2.
+                The new framework is the best choice for teams who value 
+                elegant solutions to difficult problems. 
+						</p>
+						
+						<p>
+								Struts 2 is still under construction. An initial release is 
+								expected in the third quarter of 2006.
+						</p>
+						
+            <p>
+                For more about the future of Struts, see our
+                <a href="roadmap.html">Roadmap FAQ, </a> especially 
+                <a href="roadmap.html#choice">"What framework should I use for 
+                my next project?".</a>
+             </p>
+			</section>
+			
+			<section>
+            <a name="1.2.9"/>
+            <subsection name="Struts 1.2.9 released">
 
                 <p>
-                    The best available version is
+                    The best available version of Struts is
                     <a href="announce.html#a20050322">
                         <strong>Struts 1.2.9,</strong>
                     </a>
@@ -65,79 +129,22 @@ limitations under the License.
 
             </subsection>
             
+        </section>
+
+        <section>
             <a name="shale"/>
-            <subsection name="What Happened to Struts Shale?">
+            <subsection name="Hey! What Happened to Struts Shale?">
                 <p>
-                    <a href="http://struts.apache.org/struts-shale">Struts Shale</a>
-                    started as a Struts subproject, but
-                    later <a href="announce.html#a20060628.1">graduated</a>
-                    to a full top level Apache project.  Apache Shale, as it is now
-                    called, builds on JavaServer Faces (JSF), making JSF applications easier to 
-                    develop.  Until the new Apache Struts project gets established, its pages
-                    are still located at 
-                    <a href="http://struts.apache.org/struts-shale">http://struts.apache.org/struts-shale/</a>.
+                    <a href="http://struts.apache.org/struts-shale">Struts 
+                    Shale</a>
+                    started as an Apache Struts subproject and then 
+                    <a href="announce.html#a20060628.1">graduated</a>
+                    to a full top-level Apache project in its own right.  
+                    Apache Shale builds on JavaServer Faces (JSF), making JSF 
+                    applications easier to develop. For details, visit the 
+                    <a href="http://shale.apache.org">Apache Shale</a> 
+                    site.
                 </p>
-            </subsection>
-            
-            <a name="cooking"/>
-            <subsection name="What's Cooking?">
-
-                <p>
-                    The Apache Struts project is now comprised of two distinct
-                    versions of the Struts framework.
-                    The two versions are 
-                    <strong>Struts 1</strong>
-                    and the
-                    <strong>Struts 2.</strong>
-                    Struts 1 is the original request-based framework that has a large and 
-                    active following.  Struts 2
-                    started with a merger with the <a href="http://www.opensymphony.com/webwork">
-                    Opensymphony WebWork</a> project and aims to exploit Java 5 annotations
-                    and other modern web framework features in an effort to make Struts easier to
-                    use and more powerful. Both versions are actively developed and supported by
-                    the Apache Struts project.
-                </p>
-                
-                <p>
-                    Whether you are staying the course, or ready to leap forward,
-                    the Apache Struts project is here to help you do what you want
-                    to do.
-                </p>
-
-                <p>
-                    For more, see our
-                    <a href="roadmap.html">Roadmap FAQ, </a> especially 
-                    <a href="roadmap.html#choice">What should I use for my next project?</a>.
-                </p>
-            </subsection>
-
-            <a name="about"/>
-            <subsection name="About Apache Struts">
-                <p>
-                    Apache Struts is a volunteer project and
-                    all support for the framework is provided by unpaid
-                    volunteers.
-                    The documentation bundled with each release and the mailing 
-                    lists are the primary ways to learn how to use the software.
-                    The next few pages are devoted to helping everyone understand
-                    what support resources are available.
-                    Since Apache Struts is a volunteer project,
-                    and our resources are limited,
-                    it is important that we first help you help yourself.
-                </p>
-
-                <ul>
-                    <li>
-                        Struts is a project of the
-                        <a href="http://www.apache.org">
-                            The Apache Software Foundation.</a>
-                    </li>
-                    <li>
-                        The official Apache Struts home page is at
-                        <a href="http://struts.apache.org/">
-                            http://struts.apache.org/.</a>
-                    </li>
-                </ul>
             </subsection>
         </section>
 

@@ -36,25 +36,15 @@ limitations under the License.
             <a href="http://struts.apache.org/1.2.9/userGuide/index.html">
             Preface to the User Guide</a>.
             </p>
-
+            
             <p>
-            The main website is devoted to the upcoming version, Struts
-            1.3. This version is at the
-            "<a href="http://svn.apache.org/dist/struts/action-lib/">test
-            build</a>" stage now, but it is still 100% backwardly compatible
-            with Struts 1.2.9.
+            The main Struts website covers the latest, unreleased version of 
+            each major release series (Struts 1.3 and Struts 2.0). 
+            The documentation for past releases are also available online. 
+            See the navigational menu for links to the documentation for 
+            each release. 
             </p>
-
-            <p>
-            Meanwhile, for the Struts 2 release, 
-            we "joined forces" with another project,
-            <a href="http://www.opensymphony.com/webwork/">OpenSymphony
-            WebWork.</a>
-            The WebWork codebase was donated to Apache Struts;
-            and the WebWork developers have joined the Apache Struts team.
-            Essentially, Struts 2.0 will be WebWork 2.3.
-            </p>
-
+            
             <p>
             To learn more about using Apache Struts, you can also visit
             <a href="http://www.StrutsCentral.net/">Struts Central</a>,
@@ -160,20 +150,16 @@ limitations under the License.
     </part>
 
     <part id="support">
-        <title>Support</title>
+        <title>Product Support</title>
         <faq id="help">
             <question>Where can I get help with Apache Struts?</question>
             <answer>
-                <p>Struts comes complete with a
-                    <a href="../userGuide/index.html">Users Guide</a>
-                    to
-                    introduce people to the framework and its underlying
-                    technologies. Various components
+                <p>Each release of Struts comes with a
+                    User Guide or set of Tutorials to introduce people to the 
+                    framework and its underlying technologies. Various components
                     also have their own in-depth Developers Guide, to cover
-                    more advanced topics. Comprehensive
-                    <a href="../api/index.html">Javadocs</a>
-                    are included
-                    along with the
+                    more advanced topics. Comprehensive Javadocs
+                    are provided for each release, along with the
                     <strong>full source code.</strong>
                 </p>
                 <p>
@@ -199,12 +185,12 @@ limitations under the License.
             </answer>
         </faq>
 
-        <faq id="support">
+        <faq id="commercial">
             <question>Is commercial support available?</question>
             <answer>
                 <p>The Apache Software Foundation does not provide commercial
                     support for any of our software products, including Apache
-                    Struts products.
+                    Struts.
                     However, third parties may offer different degrees of
                     support.</p>
             </answer>
@@ -245,8 +231,8 @@ limitations under the License.
         </faq>
     </part>
 
-    <part id="community">
-        <title>Community</title>
+    <part id="lists">
+        <title>Mailing Lists</title>
         <faq id="digest">
             <question>Is there a digest for the User list?</question>
             <answer>
@@ -304,6 +290,24 @@ limitations under the License.
                 </p>
             </answer>
         </faq>
+
+        <faq id="labels">
+            <question>Are there separate user lists for Struts 1 and Struts 2?</question>
+            <answer>
+                <p>
+                    No. Each major version has it's own JIRA project, 
+                    but we share the mailing lists.  
+                </p>
+                <p>
+                   To get the best response to an inquiry, 
+                   please specify which version of Struts is being used, 
+                   including the milestone ("Struts 1.2.4", for example).
+                   You can also include the label <strong>[struts1]</strong> or 
+                   <strong>[struts2]</strong> in the subject line of your post. 
+                </p>
+            </answer>
+        </faq>
+
 
         <faq id="unsubscribe">
             <question>How do I unsubscribe from the mailing list?</question>

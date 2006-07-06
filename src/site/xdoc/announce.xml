@@ -44,43 +44,26 @@ limitations under the License.
                stable release. As a top-level project, it will be easier for
                Shale to attract new developers and expand its growing community.
             </p>
-            <p>
-               The initial set of PMC members and committers for Shale is:
+
+            
+           <p>
+               The initial set of PMC members and committers for Shale is 
+               Craig McClanahan, James Mitchell, Greg Reddin, Sean Schofield, 
+               Wendy Smoak, Gary VanMatre, Matthias Wessendorf.
             </p>
-            <ul>
-                <li>
-                    Craig McClanahan
-                </li>
-                <li>
-                    James Mitchell
-                </li>
-                <li>
-                    Greg Reddin
-                </li>
-                <li>
-                    Sean Schofield
-                </li>
-                <li>
-                    Wendy Smoak
-                </li>
-                <li>
-                    Gary VanMatre
-                </li>
-                <li>
-                    Matthias Wessendorf
-                </li>
-            </ul>
 
             <p>
                Apache Shale has strong ties to both the Struts and MyFaces
                projects. Most of the Shale PMC members are already involved
-               in both projects, and plan on continuing to remain involved in
+               in both projects and plan on continuing to remain involved in
                them, along with Shale.
             </p>
+
             <p>
                Apache Shale is a modern web application framework, intended for
                developers adopting JavaServer Faces as a core technology.
             </p>
+
             <p>
                Shale began as a proposal for Struts 2.0, but instead became a
                subproject, so as to provide a JSF alternative for Struts
@@ -88,12 +71,20 @@ limitations under the License.
                easier for Struts developers to access JSF components from within
                an "action-based" application.
             </p>
+
             <p>
                The initial Shale codebase was donated by Craig McClanahan, who
                also donated the original Struts codebase.
             </p>
+            
+            <p>
+            [Note: To accomodate Shale, the original framework had been given 
+            the name "Action". Now that Shale has graduated, the "Action" 
+            label is being dropped, and Struts is just Struts again.]
+            </p>
+
             <hr/>
-        
+
             <h4 id="a20060603.3">03 Jun 2006 - New Struts Committer: 
             	Bob Lee</h4>            
             <p>

@@ -34,12 +34,11 @@ limitations under the License.
                     Pursuant to this plan, WebWork 2.3 was
                     donated to the ASF in March 2006,
                     and the active WebWork committers joined the Apache Struts project.
-                    The WebWork 2.3 codebase is being brought into the ASF through
+                    The WebWork 2.3 codebase was brought into the ASF through
                     the
                     <a href="http://incubator.apache.org/projects/webwork2.html">
                         Apache Incubator.</a>
-                    Once licensing and related issues are resolved,
-                    the codebase will be made part of the Apache Struts
+                    The donated codebase is now part of the Apache Struts 
                     project.
                 </p>
                 <p>
@@ -50,23 +49,22 @@ limitations under the License.
                     framework that retains many Struts 1.x paradigms.
                 </p>
                 <p>
-                    People who have worked with both Struts 1.x and WebWork
-                    2.x tend to agree that it is a logical candidate for
-                    Struts 2.0.
-                    If you look the Struts 1.x roadmap and the WebWork
-                    2.x feature set,
-                    you'll see that WebWork has already does most of what we
-                    wanted Struts framework to do.
-                    If we finished the roadmap ourselves, Struts would
-                    end up as a WebWork workalike.
+                    People who have worked with both Struts 1 and WebWork
+                    2 tend to agree that it is a logical candidate for
+                    Struts 2.
+                    If you looked at the Struts 1 roadmap and the WebWork
+                    2 feature set,
+                    you'd see that WebWork has already does most of what we
+                    had wanted the Struts framework to do.
+                    If we had finished the original Struts 1 roadmap ourselves, 
+                    Struts 1 would have ended up being a WebWork 2 workalike.
                     Rather than reinvent the wheel,
                     Ti has become a proposal to put the WebWork wheel back on
                     the Struts axle.
                 </p>
                 <p>
                     At this point, the Ti codename has being dropped,
-                    and we are referring to the incoming WebWork codebase as Struts
-                    2.
+                    and we are referring to the donated codebase as Struts 2.
                 </p>
             </answer>
         </faq>
@@ -76,13 +74,16 @@ limitations under the License.
             why did WebWork evolve more quickly than Struts 1?</question>
             <answer>
             <p>
-              The Struts 1.x series is deeply into "backward compatibility" mode.
-              Backward compatibility is an obsession with Struts 1.
+              The Struts 1.x release series is deeply into "backward 
+              compatibility" mode.
+              Backward compatibility has become an obsession with Struts 1.
               Before making any API change, we deprecate the existing member,
-              and make at least one milestone release before removing the deprecated member.
+              and make at least one milestone release before removing the 
+              deprecated member.
               Each Struts milestone is drop-and-go compatible with the last.
               Maintaining this degree of stability takes a lot of effort,
-              but given the installed base, we feel it is worth the time and trouble.
+              but given the installed base, we feel it is worth the time and 
+              trouble.
             </p>
             <p>
               There have been several proposals for a new Struts 2 codebase.
@@ -98,15 +99,15 @@ limitations under the License.
               Shale is based on JavaServer Faces, and, when the time came,
               the Apache Struts PMC found that many of us were not ready to
               adopt JSF just yet.
-              Shale was a separate but equal framework,
-              created and maintained by the Apache Struts community,
-              but later moved to its own <a href="http://struts.apache.org/struts-shale">Struts Shale</a>
-              project.
+              Initially, Shale was a Struts subproject,
+              but later Shale graduated to its own 
+              <a href="http://struts.apache.org/struts-shale">top-level ASF 
+              project.</a>
            </p>
            <p>
                The Ti proposal included the idea of collaborating with other
                projects to build a "best of breed" framework that incorporated
-               everything we had learned over the past five years.
+               everything we had learned over the past six years.
                The original Ti proposal includes technology developed by
                <a href="http://beehive.apache.org/">Apache BeeHive,</a>
                <a href="http://www.springframework.org/">Spring,</a> and
@@ -146,16 +147,17 @@ limitations under the License.
                 Struts 2?</question>
             <answer>
                 <p>
-                    Many of us have significant Struts 1.x
+                    Many of us have significant Struts 1 
                     applications in production.
                     Being able to migrate both applications and developer
                     skill sets is important to all of us.
                 </p>
                 <p>
-                    Several
-                    <a href="http://wiki.apache.org/struts/MigrationStrategy">
-                        migration strategies</a>
-                    are being developed.
+                    The Struts 2 documentation includes a Migration Guide 
+                    that outlines several migration strategies. 
+                    Several classic Struts example applications, 
+                    including the MailReader, 
+                    are being migrated to Struts 2. 
                 </p>
             </answer>
         </faq>
@@ -187,23 +189,22 @@ limitations under the License.
             	to help people get started with Struts 1 or improve the application they already have.
             </p>
             <p>
-            	A new build of <a href="http://svn.apache.org/dist/struts/action-lib/">Struts 1.3 is available for testing</a>, 
-            	and a stable release is expected sometime in the first half of 2006.
+            	Since the merger, Struts 1.x has gone on to release a new minor version, Struts 1.3, 
+            	and new 1.x releases are being planned.
             	Apache Struts 1 continues to be the most popular and best supported 
             	web application framework for Java.
-		If time is of the essence, a proven solution can be easiest path.            	
             </p>
             
             <p>
-               If you are starting a new project, and have your choice of frameworks, 
+               Of course, if you are starting a new project, and have your choice of frameworks, 
                this would be a good time to consider whether you would like to continue to use 
                Struts 1 or <a href="#choice">whether it's time to try something else</a>. 
-	    </p>            
+            </p>            
           </answer>          
          </faq>
 
         <faq id="choice">
-            <question>Which Apache Struts version should I use on my next
+            <question>Which framework should I use on my next
                 project?</question>
 
             <answer>
@@ -223,7 +224,8 @@ limitations under the License.
                 <p>
                     JSF is designed to work well with visual design tools, much
                     like ASP.NET. Some people are finding that JSF is a faster way to
-                    write new applications. A good place to learn more about JSF is
+                    write new applications, especially modest intranet applications. 
+                    A good place to learn more about JSF is
                     <a href="http://jsfcentral.com/">JSF Central</a>
                     .
                 </p>
@@ -235,7 +237,7 @@ limitations under the License.
                 </p>
                 <p>
                     If you are a sole developer working on a small application,
-                    then you might not even need a framework.
+                    then <strong>you might not even need a framework.</strong>
                     Simple applications can be written with JSF or JSP with
                     <a href="http://java.sun.com/products/jsp/jstl/index.jsp">
                         JSTL</a>
@@ -247,12 +249,30 @@ limitations under the License.
                 </p>
                 <p>
                     Multi-developer teams working on larger applications will
-                    probably find a MVC framework useful.  While both Struts 1 and 2
-                    support JSP, Struts 2.0 has support for JSF and enhanced support
-                    for template languages like Velocity or Freemarker. 
-                    Struts 1.x has a ton of books, articles, and other resources, so it is
-                    the better choice if you need support materials.
+                    probably find a MVC framework useful.  
                 </p>
+
+	<p>
+  	    The original 1.x framework is mature, well-documented, and widely 
+  	    supported. 
+                    Struts 1 is the best choice for teams who value proven solutions.
+ 	    The new Struts 2 framework is the best choice for teams who value 
+                    elegant solutions to difficult problems.               
+                </p>
+                
+                <p>
+                    While both Struts 1 and 2 support JSP and Velocity, 
+                    Struts 2 has better support for JSF and enhanced support
+                    for template languages like Velocity and Freemarker, 
+                    along with optonal plugins for report generators like 
+                    JasperReports.
+                    Both frameworks work well with AJAX, but Struts 2 includes an 
+                    AJAX theme that can give your AJAX pages a boost.
+                    Under the name WebWork, Struts 2 already powers many large 
+                    enterprise-grade solutions, including Atlassian's JIRA and 
+                    Confluence applications.
+                </p> 
+
                 <p>
                     Aside from Apache Struts products, 
                     other likely candidates for a Java Web MVC framework include
@@ -322,7 +342,7 @@ limitations under the License.
         </faq>
 
         <faq id="steering">
-            <question>Shouldn't the Apache Struts team focus on a single version
+            <question>Shouldn't the Apache Struts Project focus on a single version
                 and help reduce choice for the rest of us?</question>
             <answer>
                 <p>
@@ -331,8 +351,8 @@ limitations under the License.
                     we want to use to build our own applications. Some of us are
                     working on legacy Struts 1 applications, some of us are working on
                     WebWork 2 or Struts 2 applications, and some of us are working on both. Since we have
-                    volunteers to work on two versions, we offer two
-                    versions.</p>
+                    volunteers to work on two major versions, we offer two
+                    major versions.</p>
 
                 <p>The Struts committers work for different employers all over
                     the world. It is not feasible for us to say this technology or
@@ -347,12 +367,12 @@ limitations under the License.
                     Entities like Microsoft, and Sun, and Zend, exist to promote one
                     technology over another (mainly to make it easier for them to
                     sell you something)
-                    The Apache Struts team is not trying to sell you anything.
+                    The Apache Struts group is not trying to sell you anything.
                     We're collaborating on the frameworks that we want to use, and
                     we are trying to share the wealth with others who might want to
                     help us.
-                    If you choose to use one of our versions, that's great. We're
-                    glad we could help. If you'd like to help us make the versions
+                    If you choose to use Struts, that's great. We're
+                    glad we could help. If you'd like to help us make Struts
                     even better, feel free to return the favor. We don't want your
                     money, but
                     <a href="helping.html">we could use your help.</a>
@@ -361,7 +381,7 @@ limitations under the License.
         </faq>
 
             <faq id="subprojects">
-                <question>Why are there so many "extensions" for Struts 1 now?</question>
+                <question>Why are there so many "components" for Struts 1 now?</question>
                 <answer>
                     <p>
                         Over the years, the Struts 1 framework grew to include not only a
@@ -378,9 +398,11 @@ limitations under the License.
                         Creating the separate distributions created problems of its own, 
                         so for the Struts 1.3.1 build, and beyond, 
                         we are consolidating the extensions back into a single 
-                        Struts 1.3 distribution. Each component has its own                     </p>
-			JAR but all share the same release cycle.
-                </answer>
+                        Struts 1.3 distribution. Each component has its own 
+	        JAR but all share the same release cycle.
+                    </p>
+                 </answer>
+	                        
             </faq>
 
 
@@ -406,13 +428,13 @@ limitations under the License.
                         business layer framework.
                         The codename for the business layer framework under
                         development is "Nexus".
-                        Like Struts 1.3 and Shale, the Nexus internals are based
+                        Like Struts 1.3 and Apache Shale, the Nexus internals are based
                         on the Chain of Responsibility pattern.
                     </p>
                     <p>
                         OverDrive and Nexus do not complete with frameworks like
-                        Struts 1.3 and Struts 2.
-                        Nexus begins where these frameworks end.
+                        Struts.
+                        Nexus begins where most presentation-layer frameworks end.
                         Nexus is the "rest of the stack".
                     </p>
                     <p>

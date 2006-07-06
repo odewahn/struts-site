@@ -68,26 +68,38 @@ limitations under the License.
                         questions and
                         comments about the actual software source code and
                         general
-                        "development" types of questions.
+                        "development" types of questions. 
+                        Questions about the "future" of Struts are 
+                        best addressed to the dev list.
                     </li>
                 </ul>
 
-                <p>Some questions are appropriate for posting on both the
+                <p>Some questions may seem appropriate for posting on both the
                     "user" and
-                    the "developer" lists. In this case, pick one and only
-                    one. Do not
-                    cross post.</p>
+                    the "developer" lists. 
+                    In this case, pick one and only one. 
+                    Do not cross post, unless a Committer asks that the 
+                    thread be moved to the other list.
+                </p>
 
                 <p>Asking a configuration question on the developers list is
-                    frowned
-                    upon because developers' time is as precious as yours. By
-                    contacting
-                    them directly instead of the user base you are abusing
-                    resources. In
-                    fact, it is unlikely that you will get a quicker answer,
-                    if at
-                    all.</p>
-
+                    discouraged because the time of our developers is as 
+                    precious as yours. 
+                    By contacting the developers directly instead of the user 
+                    base you are abusing resources. 
+                    In fact, it is unlikely that you will get a quicker answer,
+                    if any answer at all 
+                </p>
+                
+                <p>
+                	Conversely, a question about the future of Struts 
+                	or the operation of the Struts project is best posted to the 
+	                dev list. 
+	                The focus of the user list should be one "how" to do 
+	                something with the framework we have today. 
+	                The focus of the dev list is how we want to do something 
+	                with a future version of the framework. 
+                </p>
                 <p>
                     <strong>
                         Join the lists that are appropriate for your
@@ -131,10 +143,8 @@ limitations under the License.
                     essay entitled
                     <a
                             href="http://www.catb.org/~esr/faqs/smart-questions.html">
-                        "
-                        <strong>Asking
-                            Smart Questions</strong>
-                        "
+                        <strong>"Asking
+                            Smart Questions"</strong>
                     </a>
                     precisely on this topic.
                 </p>

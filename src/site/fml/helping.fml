@@ -305,12 +305,10 @@ limitations under the License.
                     through the
                     <a href="http://issues.apache.org/struts/">Apache Struts 
                         JIRA instance.</a>
-                    Please select
-                    <strong>Struts</strong>
-                    from the product list, along with
-                    the details of which component of Struts you feel this
-                    report
-                    relates to, and details of your operating environment.
+                    Please select the appropriate Apache Struts product from 
+                    the list, 
+                    and then select the component to which you feel this report
+                    relates.
                     You will automatically be notified by email as the status
                     of your defect or
                     enhancement report changes.
@@ -318,7 +316,7 @@ limitations under the License.
                     <a href="http://www.chiark.greenend.org.uk/~sgtatham/bugs.html">
                         How to
                         Report Bugs Effectively</a>
-                    before posting.
+                    before posting a report.
                 </p>
 
                 <p>
@@ -478,27 +476,34 @@ limitations under the License.
             <question>How can I contribute to the
                 documentation?</question>
             <answer>
-
+            
+            	<p>
+            	    The Struts 2 documentation is maintained using a 
+            	    Atlassian Confluence wiki and then exported to HTML 
+            	    for viewing on the website. 
+            	    To help out, 
+            	    <a href="http://confluence.twdata.org/display/WW/Home">
+            	    sign up for account on the wiki.</a>
+                </p>
                 <p>
-                    The documentation is maintained in the repository
+                    The Struts 1 documentation is maintained in the repository
                     under
                     the
                     <code>xdocs</code>
                     folder for the subproject.
                     To build just the documentation for a subproject,
                     change to the subprojects trunk directory and run
-                    <code>maven site</code>
-                    .
+                    <code>maven site</code>.                    .
                     The Maven build compiles the site and stores the
                     output
                     under
-                    <code>target/docs/</code>
-                    .
+                    <code>target/docs/</code>.
+                    See <a href="http://wiki.apache.org/struts/StrutsMaintenanceWebsite">
+                    Struts Maintenance Website</a> for details.
                 </p>
-
                 <p>
                     Procedurally, the only difference between patching
-                    documentation and
+                    the Struts 1 documentation and
                     software is that the docs are kept in XML rather than
                     Java
                     source code.
