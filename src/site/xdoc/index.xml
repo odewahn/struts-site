@@ -42,8 +42,8 @@ limitations under the License.
                 response, such as a JavaServer Page, Velocity Template, 
                 or PDF report generator. 
                 To close the loop, the framework provides custom tags 
-                that make it easier to access the dynamic data obtained by 
-                the action handler. 
+                that make it easier to access the dynamic data obtained  
+                through the action handler. 
                 The framework's architecture and tags work well with 
                 conventional REST applications, as well as AJAX and SOAP. 
             </p>
@@ -105,7 +105,7 @@ limitations under the License.
             <p>
                 For more about the future of Struts, see our
                 <a href="roadmap.html">Roadmap FAQ, </a> especially 
-                <a href="roadmap.html#choice">"What framework should I use for 
+                <a href="roadmap.html#choice">"What should I use with  
                 my next project?".</a>
              </p>
 			</section>

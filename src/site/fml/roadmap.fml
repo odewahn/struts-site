@@ -204,8 +204,7 @@ limitations under the License.
          </faq>
 
         <faq id="choice">
-            <question>Which framework should I use on my next
-                project?</question>
+            <question>What should I use with my next project?</question>
 
             <answer>
                 <p>
@@ -237,7 +236,7 @@ limitations under the License.
                 </p>
                 <p>
                     If you are a sole developer working on a small application,
-                    then <strong>you might not even need a framework.</strong>
+                    <strong>you might not even need a framework.</strong>
                     Simple applications can be written with JSF or JSP with
                     <a href="http://java.sun.com/products/jsp/jstl/index.jsp">
                         JSTL</a>
@@ -262,12 +261,12 @@ limitations under the License.
                 
                 <p>
                     While both Struts 1 and 2 support JSP and Velocity, 
-                    Struts 2 has better support for JSF and enhanced support
+                    Struts 2 has better support for JSF and first-class support
                     for template languages like Velocity and Freemarker, 
-                    along with optonal plugins for report generators like 
+                    along with optional plugins for report generators like 
                     JasperReports.
                     Both frameworks work well with AJAX, but Struts 2 includes an 
-                    AJAX theme that can give your AJAX pages a boost.
+                    AJAX theme that can give your interactive pages a boost.
                     Under the name WebWork, Struts 2 already powers many large 
                     enterprise-grade solutions, including Atlassian's JIRA and 
                     Confluence applications.
@@ -277,7 +276,8 @@ limitations under the License.
                     Aside from Apache Struts products, 
                     other likely candidates for a Java Web MVC framework include
                     <a href="http://cocoon.apache.org/">Apache Cocoon,</a>
-                    <a href="http://jakarta.apache.org/tapestry/">Apache Tapestry,</a>
+                    <a href="http://shale.apache.org/">Apache Shale,</a>
+                    <a href="http://tapestry.apache.org/">Apache Tapestry,</a>
                     <a href="http://jakarta.apache.org/turbine/">Apache Turbine,</a>
                     <a href="http://www.springframework.org/docs/reference/mvc.html">Spring MVC,</a>
                     <a href="http://stripes.mc4j.org/confluence/display/stripes/Home">Stripes,</a>
@@ -346,20 +346,24 @@ limitations under the License.
                 and help reduce choice for the rest of us?</question>
             <answer>
                 <p>
-                    Apache Struts is neither a steering committee nor a vendor. We're
-                    a group of engineers creating the web application frameworks that
-                    we want to use to build our own applications. Some of us are
-                    working on legacy Struts 1 applications, some of us are working on
-                    WebWork 2 or Struts 2 applications, and some of us are working on both. Since we have
-                    volunteers to work on two major versions, we offer two
-                    major versions.</p>
+                    We're a group of engineers creating and maintaining the 
+                    framework that we want to use to build our own enterprise 
+                    web applications. 
+                    Some of us are working on legacy Struts 1 applications, 
+                    some of us are working on bleeding-edge Struts 2 
+                    applications, and a lot of us are working on both.
+                    Since we have volunteers to work on two major versions, 
+                    we offer two major versions.
+                </p>
 
                 <p>The Struts committers work for different employers all over
                     the world. It is not feasible for us to say this technology or
                     that technology is the only technology anyone in our group can
                     use.
                     One of our employers might choose JSF, and another might stick
-                    with JSP. We are a working group of engineers who live in the
+                    with JSP. 
+                    Apache Struts is neither a steering committee nor a vendor. 
+                    We are a working group of engineers who live in the
                     real world, and we are faced with all the same choices every Java
                     engineer faces today.
                 </p>
@@ -405,15 +409,15 @@ limitations under the License.
 	                        
             </faq>
 
-
             <faq id="classic">
-                <question>Is Struts Classic another name for the Struts?
+                <question>Is Struts Classic another name for Struts 1?
                 </question>
                 <answer>
                     <p>Struts Classic is a codename for the work we needed to do to
                         create and release the seven components we extracted from
                         Struts 1.2. It is not a product per-se, but shorthand for the
-                        1.3.0 build of the seven components. The term is obsolete.                     </p>
+                        1.3.0 build of the seven components. 
+                     </p>
                 </answer>
             </faq>
 

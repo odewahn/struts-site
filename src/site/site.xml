@@ -64,8 +64,8 @@
         </menu>
 
         <menu name="Current Versions">
-            <item name="Struts 1.x" href="http://struts.apache.org/1.x/index.html"/>
-            <item name="Struts 2.0" href="http://struts.apache.org/2.0/index.html"/>
+            <item name="Struts 1" href="http://struts.apache.org/1.x/index.html"/>
+            <item name="Struts 2" href="http://struts.apache.org/2.0/index.html"/>
         </menu>
         
         <menu name="Past Releases">
@@ -107,10 +107,6 @@
 
         <menu name="Related Projects">
             <item
-                    name="Apache Shale"
-                    href="http://struts.apache.org/struts-shale/"
-                    />
-            <item
                     name="Apache Beehive"
                     href="http://beehive.apache.org/"
                     />
@@ -139,8 +135,12 @@
                     href="http://cocoon.apache.org/"
                     />
             <item
-                    name="Jakarta Tapestry"
-                    href="http://jakarta.apache.org/tapestry/"
+                    name="Apache Shale"
+                    href="http://shale.apache.org/"
+                    />
+            <item
+                    name="Apache Tapestry"
+                    href="http://apache.apache.org/"
                     />
             <item
                     name="Jakarta Turbine"
