@@ -29,7 +29,7 @@
     <repository>
       <SVNRepository>
         <location rdf:resource="https://svn.apache.org/repos/asf/struts/"/>
-        <browse rdf:resource="http://svn.apache.org/viewcvs.cgi/struts/"/>
+        <browse rdf:resource="http://svn.apache.org/viewcvs/struts/"/>
       </SVNRepository>
     </repository>
   </Project>
