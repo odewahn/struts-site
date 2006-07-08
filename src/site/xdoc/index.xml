@@ -44,12 +44,16 @@ limitations under the License.
                 To close the loop, the framework provides custom tags 
                 that make it easier to access the dynamic data obtained  
                 through the action handler. 
-                The framework's architecture and tags work well with 
-                conventional REST applications, as well as AJAX and SOAP. 
+            </p>
+
+            <p>
+                The framework's architecture and tags are buzzword compliant. 
+                Struts works well with conventional REST applications
+                and with nouveau technologies like SOAP and AJAX. 
             </p>
             
             <p>
-            		The project is called Struts because the framework is meant to 
+            		The project is called "Struts" because the framework is meant to 
             		provide the "invisible underpinnings" that support professional 
             		application development. 
             		Struts provides the glue that joins the various elements
@@ -75,8 +79,8 @@ limitations under the License.
 						
 						<p>
 
-								The Apache Sruts project offers two major versions of the 
-								Struts framework. <strong>Struts 1.x</strong> is recognized as 
+								The Apache Sruts Project offers two major versions of the 
+								Struts framework. <strong>Struts 1</strong> is recognized as 
 								<em>the</em> most popular web application framework for Java. 
 								The 1.x framework is mature, well-documented, and widely 
 								supported. 
@@ -135,9 +139,7 @@ limitations under the License.
             <a name="shale"/>
             <subsection name="Hey! What Happened to Struts Shale?">
                 <p>
-                    <a href="http://struts.apache.org/struts-shale">Struts 
-                    Shale</a>
-                    started as an Apache Struts subproject and then 
+                    Shale started as an Apache Struts subproject and then 
                     <a href="announce.html#a20060628.1">graduated</a>
                     to a full top-level Apache project in its own right.  
                     Apache Shale builds on JavaServer Faces (JSF), making JSF 

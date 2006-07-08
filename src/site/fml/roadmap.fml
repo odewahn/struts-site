@@ -33,13 +33,13 @@ limitations under the License.
                         Symphony WebWork.</a>
                     Pursuant to this plan, WebWork 2.3 was
                     donated to the ASF in March 2006,
-                    and the active WebWork committers joined the Apache Struts project.
+                    and the active WebWork committers joined the Apache Struts Project.
                     The WebWork 2.3 codebase was brought into the ASF through
                     the
                     <a href="http://incubator.apache.org/projects/webwork2.html">
                         Apache Incubator.</a>
                     The donated codebase is now part of the Apache Struts 
-                    project.
+                    Project.
                 </p>
                 <p>
                     WebWork started as a
@@ -142,67 +142,6 @@ limitations under the License.
             </answer>
         </faq>
 
-        <faq id="migrate">
-            <question>Will it be difficult to migration from Struts 1 to
-                Struts 2?</question>
-            <answer>
-                <p>
-                    Many of us have significant Struts 1 
-                    applications in production.
-                    Being able to migrate both applications and developer
-                    skill sets is important to all of us.
-                </p>
-                <p>
-                    The Struts 2 documentation includes a Migration Guide 
-                    that outlines several migration strategies. 
-                    Several classic Struts example applications, 
-                    including the MailReader, 
-                    are being migrated to Struts 2. 
-                </p>
-            </answer>
-        </faq>
-
-        <faq id="obsolete">
-          <question>Is Struts 1 obsolete?</question>
-          <answer>
-            <p>
-            	There is a robust and vibrant community of developers using Struts 1 
-            	in production, and we expect that thousands of teams will continue to base new 
-            	projects on Struts 1 and support existing projects, for many, many years 
-            	to come. 
-            </p>
-            <p>
-            	New and improved extensions to Struts 1 continue to appear regularly. 
-            	In <strong>2006 alone</strong>, we've seen the release of 
-            	
-            	<a href="http://strecks.sourceforge.net/">Strecks,</a>
-            	<a href="http://www.jspcontrols.net">JSP Control Tags,</a>
-            	<a href="http://mojodna.net/sprout/">Sprout,</a>
-            	<a href="http://www.springframework.org/node/239">Spring Web Flow,</a>
-            	<a href="http://getahead.ltd.uk/dwr/">DWR,</a>
-            	<a href="http://calyxo.org/">Calyxo,</a>
-            	<a href="https://formdef.dev.java.net/">FormDef,</a> and
-            	<a href="http://javawebparts.sourceforge.net/">Java Web Parts</a>.            	
-
-            	There are <a href="http://opensource.atlassian.com/confluence/oss/display/BOOKS/Books+about+Struts">dozens of books</a> and 
-            	<a href="http://www.husted.com/central/Resources/Action/articles-2006.html">hundreds of articles</a> available 
-            	to help people get started with Struts 1 or improve the application they already have.
-            </p>
-            <p>
-            	Since the merger, Struts 1.x has gone on to release a new minor version, Struts 1.3, 
-            	and new 1.x releases are being planned.
-            	Apache Struts 1 continues to be the most popular and best supported 
-            	web application framework for Java.
-            </p>
-            
-            <p>
-               Of course, if you are starting a new project, and have your choice of frameworks, 
-               this would be a good time to consider whether you would like to continue to use 
-               Struts 1 or <a href="#choice">whether it's time to try something else</a>. 
-            </p>            
-          </answer>          
-         </faq>
-
         <faq id="choice">
             <question>What should I use with my next project?</question>
 
@@ -262,14 +201,14 @@ limitations under the License.
                 <p>
                     While both Struts 1 and 2 support JSP and Velocity, 
                     Struts 2 has better support for JSF and first-class support
-                    for template languages like Velocity and Freemarker, 
-                    along with optional plugins for report generators like 
-                    JasperReports.
+                    for template languages like Velocity and Freemarker. 
+                    Struits 2 also suppports XSLT, PDF, and, optionally, JasperReports.
                     Both frameworks work well with AJAX, but Struts 2 includes an 
                     AJAX theme that can give your interactive pages a boost.
                     Under the name WebWork, Struts 2 already powers many large 
-                    enterprise-grade solutions, including Atlassian's JIRA and 
-                    Confluence applications.
+                    enterprise-grade solutions, including 
+                    <a href="http://www.atlassian.com/">Atlassian's</a> 
+                    JIRA and Confluence applications.
                 </p> 
 
                 <p>
@@ -309,7 +248,7 @@ limitations under the License.
                     few.
                     Of course, you also have to build the application that runs in
                     the container, which is where
-                    <a href="#choice">choosing Apache Struts</a>
+                    <a href="#choice">choosing Struts</a>
                     comes in. Then, most teams also use a data access framework.
                     Choices there include Cayenne, iBATIS, Hibernate,  JDO, Turbine, 
                     and OJB, to name a few.
@@ -346,9 +285,9 @@ limitations under the License.
                 and help reduce choice for the rest of us?</question>
             <answer>
                 <p>
-                    We're a group of engineers creating and maintaining the 
-                    framework that we want to use to build our own enterprise 
-                    web applications. 
+                    The Apache Struts Project is a group of volunteers creating and 
+                    maintaining the framework that we want to use to build our own 
+                    enterprise-grade web applications. 
                     Some of us are working on legacy Struts 1 applications, 
                     some of us are working on bleeding-edge Struts 2 
                     applications, and a lot of us are working on both.
@@ -356,13 +295,15 @@ limitations under the License.
                     we offer two major versions.
                 </p>
 
-                <p>The Struts committers work for different employers all over
+                <p> 
+                    The Struts committers work for different employers all over
                     the world. It is not feasible for us to say this technology or
                     that technology is the only technology anyone in our group can
                     use.
                     One of our employers might choose JSF, and another might stick
                     with JSP. 
-                    Apache Struts is neither a steering committee nor a vendor. 
+                    The Apache Struts Project is neither a steering committee nor 
+                    a commercial vendor. 
                     We are a working group of engineers who live in the
                     real world, and we are faced with all the same choices every Java
                     engineer faces today.
@@ -371,7 +312,7 @@ limitations under the License.
                     Entities like Microsoft, and Sun, and Zend, exist to promote one
                     technology over another (mainly to make it easier for them to
                     sell you something)
-                    The Apache Struts group is not trying to sell you anything.
+                    The Apache Struts Project is not trying to sell you anything.
                     We're collaborating on the frameworks that we want to use, and
                     we are trying to share the wealth with others who might want to
                     help us.
@@ -380,6 +321,109 @@ limitations under the License.
                     even better, feel free to return the favor. We don't want your
                     money, but
                     <a href="helping.html">we could use your help.</a>
+                </p>
+            </answer>
+        </faq>
+
+        <faq id="migrate_ww">
+            <question>Will it be difficult to migrate from WebWork 2 to
+                Struts 2?</question>
+            <answer>
+                <p>
+                    No. Many of us have significant WebWork2  
+                    applications in production.
+                </p>
+                <p>
+                    Essentially, Struts 2.0 will be the technical 
+                    equivalent of WebWork 2.3.
+                    Aside from the package and property renaming, 
+                    it shouldn't be much different than migrating from 
+                    WebWork 2.1 to 2.2. 
+                </p>
+            </answer>
+        </faq>
+        
+           <faq id="now">
+            <question>If I'm starting a new project right now, 
+            should I use Struts 2 or WebWork 2?</question>
+            <answer>
+                <p>
+                    An initial release of Struts 2 is anticipated in the 
+                    third quarter of 2006. 
+                    In the meantime, 
+                    unless you are an eager early-adopter, 
+                    the prudent course would be to start new projects with 
+                    <a href="http://www.opensymphony.com/webwork/">
+                    WebWork 2.2,</a> 
+                    at least until there is a stable release of Struts 2.0, 
+                </p>
+                <p>
+                    WebWork 2 is going to be supported for some time to come, 
+                    just as Struts 1 will be supported. 
+                    Both products have a robust user community, 
+                    and many of us have mature projects in production 
+                    that will never be migrated to a new major release. 
+                </p>
+            </answer>
+        </faq>
+                
+        <faq id="obsolete">
+          <question>Is Struts 1 obsolete?</question>
+          <answer>
+            <p>
+            	There is a robust and vibrant community of developers using Struts 1 
+            	in production, and we expect that thousands of teams will continue to base new 
+            	projects on Struts 1 and support existing projects, for many, many years 
+            	to come. 
+            </p>
+            <p>
+            	New and improved extensions to Struts 1 continue to appear regularly. 
+            	In <strong>2006 alone</strong>, we've seen the release of 
+            	
+            	<a href="http://strecks.sourceforge.net/">Strecks,</a>
+            	<a href="http://www.jspcontrols.net">JSP Control Tags,</a>
+            	<a href="http://mojodna.net/sprout/">Sprout,</a>
+            	<a href="http://www.springframework.org/node/239">Spring Web Flow,</a>
+            	<a href="http://getahead.ltd.uk/dwr/">DWR,</a>
+            	<a href="http://calyxo.org/">Calyxo,</a>
+            	<a href="https://formdef.dev.java.net/">FormDef,</a> and
+            	<a href="http://javawebparts.sourceforge.net/">Java Web Parts</a>.            	
+
+            	There are <a href="http://opensource.atlassian.com/confluence/oss/display/BOOKS/Books+about+Struts">dozens of books</a> and 
+            	<a href="http://www.husted.com/central/Resources/Action/articles-2006.html">hundreds of articles</a> available 
+            	to help people get started with Struts 1 or improve the application they already have.
+            </p>
+            <p>
+            	Since the merger, Struts 1 has gone on to release a new minor version, Struts 1.3, 
+            	and new 1.x releases are being planned.
+            	Struts 1 continues to be the most popular and best supported 
+            	web application framework for Java.
+            </p>
+            
+            <p>
+               Of course, if you are starting a new project, and have your choice of frameworks, 
+               this would be a good time to consider whether you would like to continue to use 
+               Struts 1 or <a href="#choice">whether it's time to try something else</a>. 
+            </p>            
+          </answer>          
+         </faq>
+
+        <faq id="migrate_s1">
+            <question>Will it be difficult to migrate from Struts 1 to
+                Struts 2?</question>
+            <answer>
+                <p>
+                    Many of us have significant Struts 1 
+                    applications in production.
+                    Being able to migrate both applications and developer
+                    skill sets is important to all of us.
+                </p>
+                <p>
+                    The Struts 2 documentation includes a Migration Guide 
+                    that outlines several migration strategies. 
+                    Several classic Struts example applications, 
+                    including the MailReader, 
+                    are being migrated to Struts 2. 
                 </p>
             </answer>
         </faq>

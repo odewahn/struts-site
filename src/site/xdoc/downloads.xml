@@ -258,11 +258,11 @@ limitations under the License.
             <subsection name="Building Struts">
 
                 <p>
-                    If you are building an Apache Struts subproject from source,
+                    If you are building Struts source,
                     we recommend that you install and use
                     <a href="http://maven.apache.org">
                         Apache Maven</a>
-                    2.0,
+                    2.0 (beta 5 or later),
                     since Maven will acquire whatever external JARs your
                     system may need.
                     Of course,
@@ -276,7 +276,7 @@ limitations under the License.
                     is as simple as
                 </p>
 
-                <code>/current/action/&gt; mvn install</code>
+                <code>/current/struts1/&gt; mvn install</code>
 
                 <p>
                     Maven will automatically download any dependencies as
