@@ -261,22 +261,26 @@ limitations under the License.
                     If you are building Struts source,
                     we recommend that you install and use
                     <a href="http://maven.apache.org">
-                        Apache Maven</a>
-                    2.0 (beta 5 or later),
-                    since Maven will acquire whatever external JARs your
-                    system may need.
-                    Of course,
+                        Apache Maven 2.</a>
+                    During the build process, Maven will automatically acquire 
+                    whatever external JARs your system may need.
+                    (Of course,
                     you can still use your build system of choice to build
-                    your own
-                    applications!
+                    your own applications!)
                 </p>
 
                 <p>
-                    With Maven installed, building the entire Struts 1 codebase
-                    is as simple as
+                    With Maven installed, building a Struts codebase is as 
+                    simple as
                 </p>
 
                 <code>/current/struts1/&gt; mvn install</code>
+                
+                <p>
+                or
+                </p>
+                
+                <code>/current/struts2/&gt; mvn install</code>
 
                 <p>
                     Maven will automatically download any dependencies as
@@ -287,8 +291,7 @@ limitations under the License.
                     For more about using Maven to build Apache Struts,
                     see our
                     <a href="http://wiki.apache.org/struts/StrutsMaintenanceMaven">
-                        Maven wiki page</a>
-                    .
+                        Maven wiki page.</a>
                 </p>
 
             </subsection>

@@ -147,34 +147,7 @@ limitations under the License.
 
             <answer>
                 <p>
-                    First, you should decide which user interface technology you
-                    would like to use:
-                    <a href="http://java.sun.com/j2ee/javaserverfaces/">JavaServer
-                        Faces</a>
-                    (JSF),
-                    conventional
-                    <a href="http://java.sun.com/products/jsp/">JavaServer Pages</a>
-                    (JSP),
-                    or another templating technology like
-                    <a href="http://jakarta.apache.org/velocity/">Velocity</a>
-                    .
-                </p>
-                <p>
-                    JSF is designed to work well with visual design tools, much
-                    like ASP.NET. Some people are finding that JSF is a faster way to
-                    write new applications, especially modest intranet applications. 
-                    A good place to learn more about JSF is
-                    <a href="http://jsfcentral.com/">JSF Central</a>
-                    .
-                </p>
-                <p>
-                    Conventional JSP is a tried and true strategy.
-                    When used as part of a MVC architecture, applications based on
-                    server pages or templates are known to be easy to create,
-                    maintain, and extend over time.
-                </p>
-                <p>
-                    If you are a sole developer working on a small application,
+                    First, if you are a sole developer working on a small application,
                     <strong>you might not even need a framework.</strong>
                     Simple applications can be written with JSF or JSP with
                     <a href="http://java.sun.com/products/jsp/jstl/index.jsp">
@@ -189,160 +162,52 @@ limitations under the License.
                     Multi-developer teams working on larger applications will
                     probably find a MVC framework useful.  
                 </p>
-
-	<p>
-  	    The original 1.x framework is mature, well-documented, and widely 
-  	    supported. 
-                    Struts 1 is the best choice for teams who value proven solutions.
- 	    The new Struts 2 framework is the best choice for teams who value 
-                    elegant solutions to difficult problems.               
-                </p>
-                
                 <p>
-                    While both Struts 1 and 2 support JSP and Velocity, 
+                    When choosing a framework, an important consideration is 
+                    which user interface technology you would like to use:
+                    <a href="http://java.sun.com/j2ee/javaserverfaces/">JavaServer
+                        Faces</a>
+                    (JSF),
+                    conventional
+                    <a href="http://java.sun.com/products/jsp/">JavaServer Pages</a>
+                    (JSP),
+                    or another templating technology like
+                    <a href="http://jakarta.apache.org/velocity/">Velocity.</a>
+                </p>
+                <p>
+                    While both Struts 1 and 2 support JSP, Velocity, and XSLT, 
                     Struts 2 has better support for JSF and first-class support
-                    for template languages like Velocity and Freemarker. 
-                    Struits 2 also suppports XSLT, PDF, and, optionally, JasperReports.
+                    for template languages like Velocity and 
+                    <a href="http://www.freemarker.org/">FreeMarker.</a>
+                    and, optionally, JasperReports.
+                </p>
+                <p>
                     Both frameworks work well with AJAX, but Struts 2 includes an 
                     AJAX theme that can give your interactive pages a boost.
                     Under the name WebWork, Struts 2 already powers many large 
                     enterprise-grade solutions, including 
                     <a href="http://www.atlassian.com/">Atlassian's</a> 
                     JIRA and Confluence applications.
-                </p> 
-
+                </p>                 
                 <p>
-                    Aside from Apache Struts products, 
-                    other likely candidates for a Java Web MVC framework include
-                    <a href="http://cocoon.apache.org/">Apache Cocoon,</a>
-                    <a href="http://shale.apache.org/">Apache Shale,</a>
-                    <a href="http://tapestry.apache.org/">Apache Tapestry,</a>
-                    <a href="http://jakarta.apache.org/turbine/">Apache Turbine,</a>
-                    <a href="http://www.springframework.org/docs/reference/mvc.html">Spring MVC,</a>
-                    <a href="http://stripes.mc4j.org/confluence/display/stripes/Home">Stripes,</a>
-                    and
-                    <a href="http://wicket.sourceforge.net/">Wicket.</a>
+                    On the JVM front, Struts 2 is targeted for Java 5, but  
+                    provides backward compatibility for Java 4.
+                    Struts 1 is targeted for Java 4. 
+                    (Struts 1 developers using Java 5 want to consider 
+                    <a href="http://strecks.sourceforge.net/">Strecks,</a> 
+		    a set of Java 5 extensions for Struts 1.2.)
                 </p>
                 <p>
-                   If you are using Java 5 as a development platform, 
-                   then you might want to consider 
-                   <a href="http://strecks.sourceforge.net/">Strecks,</a> 
-		   a set of Java 5 extensions for Struts 1.2.
+                    If you would like to use JSF exclusively, 
+		    then <a href="http://shale.apache.org/">
+		    Apache Shale</a> 
+                    is a good choice.
+                    Originally a Struts subproject, 
+                    Shale is now a top-level ASF project.
                 </p>
             </answer>
         </faq>
 
-        <faq id="decisions">
-            <question>So many decisions! Shouldn't it be simpler?</question>
-            <answer>
-                <p>
-                    Yes, there seems to be nothing but choice when it comes to
-                    developing web applications.
-                </p>
-
-                <p>
-                    To begin with, someone has to choose between ASPX, Java, PHP,
-                    Python, Ruby, et al.
-                    Once you choose Java, then you have to choose a web container,
-                    such as Jetty, Tomcat, Resin, WebLogic, or WebSphere, to name a
-                    few.
-                    Of course, you also have to build the application that runs in
-                    the container, which is where
-                    <a href="#choice">choosing Struts</a>
-                    comes in. Then, most teams also use a data access framework.
-                    Choices there include Cayenne, iBATIS, Hibernate,  JDO, Turbine, 
-                    and OJB, to name a few.
-                </p>
-
-                <p>
-                    (Right about now, Ruby's single-stack approach must be sounding
-                    pretty good!)
-                </p>
-
-                <p>
-                    But, wait, there's more! You also have to choose an editor or
-                    IDE: Eclipse? IDEA? NetBeans? UltraEdit? Some other?
-                    (Many teams decide to use more than one!)
-                    And do we use Ant, Maven, or the IDE to build it all?
-                </p>
-
-                <p>
-                    Lest we forget: Someone also needs to choose a database system
-                    (DB2? Derby? Oracle? PostGres? MySQL?), a version control system
-                    (CVS? Subversion? Perforce?),
-                    a development methodology (eXtreme Programming? RUP? Scrum?
-                    Waterfall?),
-                    and, if you're lucky, an issue tracker (Bugzilla? JIRA? Scarab?).
-                </p>
-                <p>
-                    Welcome to the jungle!
-                </p>
-            </answer>
-        </faq>
-
-        <faq id="steering">
-            <question>Shouldn't the Apache Struts Project focus on a single version
-                and help reduce choice for the rest of us?</question>
-            <answer>
-                <p>
-                    The Apache Struts Project is a group of volunteers creating and 
-                    maintaining the framework that we want to use to build our own 
-                    enterprise-grade web applications. 
-                    Some of us are working on legacy Struts 1 applications, 
-                    some of us are working on bleeding-edge Struts 2 
-                    applications, and a lot of us are working on both.
-                    Since we have volunteers to work on two major versions, 
-                    we offer two major versions.
-                </p>
-
-                <p> 
-                    The Struts committers work for different employers all over
-                    the world. It is not feasible for us to say this technology or
-                    that technology is the only technology anyone in our group can
-                    use.
-                    One of our employers might choose JSF, and another might stick
-                    with JSP. 
-                    The Apache Struts Project is neither a steering committee nor 
-                    a commercial vendor. 
-                    We are a working group of engineers who live in the
-                    real world, and we are faced with all the same choices every Java
-                    engineer faces today.
-                </p>
-                <p>
-                    Entities like Microsoft, and Sun, and Zend, exist to promote one
-                    technology over another (mainly to make it easier for them to
-                    sell you something)
-                    The Apache Struts Project is not trying to sell you anything.
-                    We're collaborating on the frameworks that we want to use, and
-                    we are trying to share the wealth with others who might want to
-                    help us.
-                    If you choose to use Struts, that's great. We're
-                    glad we could help. If you'd like to help us make Struts
-                    even better, feel free to return the favor. We don't want your
-                    money, but
-                    <a href="helping.html">we could use your help.</a>
-                </p>
-            </answer>
-        </faq>
-
-        <faq id="migrate_ww">
-            <question>Will it be difficult to migrate from WebWork 2 to
-                Struts 2?</question>
-            <answer>
-                <p>
-                    No. Many of us have significant WebWork2  
-                    applications in production.
-                </p>
-                <p>
-                    Essentially, Struts 2.0 will be the technical 
-                    equivalent of WebWork 2.3.
-                    Aside from the package and property renaming, 
-                    it shouldn't be much different than migrating from 
-                    WebWork 2.1 to 2.2. 
-                </p>
-            </answer>
-        </faq>
-        
            <faq id="now">
             <question>If I'm starting a new project right now, 
             should I use Struts 2 or WebWork 2?</question>
@@ -355,7 +220,7 @@ limitations under the License.
                     the prudent course would be to start new projects with 
                     <a href="http://www.opensymphony.com/webwork/">
                     WebWork 2.2,</a> 
-                    at least until there is a stable release of Struts 2.0, 
+                    at least until there is a stable release of Struts 2.0.
                 </p>
                 <p>
                     WebWork 2 is going to be supported for some time to come, 
@@ -367,18 +232,39 @@ limitations under the License.
             </answer>
         </faq>
                 
+        <faq id="migrate_ww">
+            <question>Will it be difficult to migrate from WebWork 2 to
+                Struts 2?</question>
+            <answer>
+                <p>
+                    No. 
+                </p>
+                <p>
+                    Essentially, Struts 2.0 will be the technical 
+                    equivalent of WebWork 2.3.
+                    Aside from the package and property renaming, 
+                    it shouldn't be much different than, say, migrating 
+                    from WebWork 2.1 to 2.2. 
+                </p>
+            </answer>
+        </faq>
+        
         <faq id="obsolete">
           <question>Is Struts 1 obsolete?</question>
           <answer>
             <p>
-            	There is a robust and vibrant community of developers using Struts 1 
-            	in production, and we expect that thousands of teams will continue to base new 
-            	projects on Struts 1 and support existing projects, for many, many years 
-            	to come. 
+                 No.
             </p>
             <p>
-            	New and improved extensions to Struts 1 continue to appear regularly. 
-            	In <strong>2006 alone</strong>, we've seen the release of 
+            	There is a robust and vibrant community of developers using 
+            	Struts 1 in production, and we expect that thousands of teams 
+            	will continue to base new projects on Struts 1 and support 
+            	existing projects, for many, many years to come. 
+            </p>
+            <p>
+            	New and improved extensions to Struts 1 continue to appear 
+            	regularly. 
+                In <strong>2006 alone</strong>, we've seen the release of 
             	
             	<a href="http://strecks.sourceforge.net/">Strecks,</a>
             	<a href="http://www.jspcontrols.net">JSP Control Tags,</a>
@@ -389,21 +275,27 @@ limitations under the License.
             	<a href="https://formdef.dev.java.net/">FormDef,</a> and
             	<a href="http://javawebparts.sourceforge.net/">Java Web Parts</a>.            	
 
-            	There are <a href="http://opensource.atlassian.com/confluence/oss/display/BOOKS/Books+about+Struts">dozens of books</a> and 
-            	<a href="http://www.husted.com/central/Resources/Action/articles-2006.html">hundreds of articles</a> available 
-            	to help people get started with Struts 1 or improve the application they already have.
+            	There are 
+            	<a href="http://opensource.atlassian.com/confluence/oss/display/BOOKS/Books+about+Struts">
+            	dozens of books</a> and 
+            	<a href="http://www.StrutsCentral.net/Resources/Action/articles-2006.html">
+            	hundreds of articles</a> available to help people get started with 
+            	Struts 1 or improve the application they already have.
             </p>
             <p>
-            	Since the merger, Struts 1 has gone on to release a new minor version, Struts 1.3, 
+            	Since the merger, Struts 1 has gone on to release a new minor 
+            	version, Struts 1.3, 
             	and new 1.x releases are being planned.
             	Struts 1 continues to be the most popular and best supported 
             	web application framework for Java.
             </p>
             
             <p>
-               Of course, if you are starting a new project, and have your choice of frameworks, 
-               this would be a good time to consider whether you would like to continue to use 
-               Struts 1 or <a href="#choice">whether it's time to try something else</a>. 
+               Of course, if you are starting a new project, and have your 
+               choice of frameworks, 
+               this would be a good time to consider whether you would like to 
+               continue to use Struts 1 or <a href="#choice">
+               whether it's time to try something else.</a> 
             </p>            
           </answer>          
          </faq>
