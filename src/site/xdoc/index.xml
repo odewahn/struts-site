@@ -26,9 +26,19 @@ limitations under the License.
 
         <a name="Welcome"/>
         <section name="Apache Struts">
+
             <p>
-                Apache Struts is a web development framework based on the 
-                classic Model-View-Controller design.
+                Apache Struts is an open-source framework for creating 
+                Java web applications, based on the classic 
+                Model-View-Controller design. 
+            </p>
+            
+            <p>
+                Web applications differ from conventional websites in that 
+                web applications can create a dynamic response. 
+                Most websites deliver only static pages. 
+                A web application can interact with databases and 
+                business logic engines to customize a response.
             </p>
 
             <p>
@@ -42,8 +52,8 @@ limitations under the License.
                 response, such as a JavaServer Page, Velocity Template, 
                 or PDF report generator. 
                 To close the loop, the framework provides custom tags 
-                that make it easier to access the dynamic data obtained  
-                through the action handler. 
+                that make it easier for pages to access the dynamic data 
+                obtained through the action handler. 
             </p>
 
             <p>
@@ -94,7 +104,7 @@ limitations under the License.
                 Struts 2 was originally known as 
                 <a href="http://www.opensymphony.com/webwork">WebWork 2</a>. 
                 After working independently for several years, 
-                the WebWork and Struts teams 
+                the WebWork and Struts communities  
                 <a href="announce-2005.html#a20051214.3">joined forces</a>
                 to create Struts 2.
                 The new framework is the best choice for teams who value 
@@ -157,5 +167,14 @@ limitations under the License.
             </p>
         </section>
 
+        <section name="Google Site Search">
+            <form onsubmit="q.value = query.value + ' site:struts.apache.org'" action="http://www.google.com/search" method="get">
+                <table><tr><td>
+                    <input name="q" type="hidden" />
+                    <input id="query" type="text" />
+                    <input name="Search" value="Search" type="submit" />
+                </td></tr></table>
+             </form>
+        </section>
     </body>
 </document>

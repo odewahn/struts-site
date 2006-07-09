@@ -31,14 +31,14 @@ limitations under the License.
             The Struts 1.2.9 release has its
             <a href="http://struts.apache.org/1.2.9/index.html">
             own area of the website</a>.
-            If you are new to Java or web development as well as Apache Struts,
+            If you are new to Java or web development, as well as Apache Struts,
             be sure to review the
             <a href="http://struts.apache.org/1.2.9/userGuide/index.html">
             Preface to the User Guide</a>.
             </p>
             
             <p>
-            The main Struts website covers the latest, unreleased version of 
+            The main Struts web site covers the latest, unreleased version of 
             each major release series (Struts 1.3 and Struts 2.0). 
             The documentation for past releases are also available online. 
             See the navigational menu for links to the documentation for 
@@ -48,8 +48,8 @@ limitations under the License.
             <p>
             To learn more about using Apache Struts, you can also visit
             <a href="http://www.StrutsCentral.net/">Struts Central</a>,
-            which catalogs all the known resources about Apache Struts, whether it is
-            <a href="http://struts.apache.org/1.x/">Struts 1</a>,
+            which catalogs all the known resources about Apache Struts for both
+            <a href="http://struts.apache.org/1.x/">Struts 1</a> and  
             <a href="http://struts.apache.org/2.0/">Struts 2</a>.
             To keep up on the latest news about "everything Struts",
             point your RSS reader at the
@@ -96,7 +96,7 @@ limitations under the License.
 
         <faq id="credits">
             <question>Do I have to credit Apache Struts on my own
-                website?</question>
+                web site?</question>
             <answer>
                 <p>You need to credit Apache Struts if you
                     <strong>redistribute your own framework</strong>
@@ -136,7 +136,7 @@ limitations under the License.
                     The frameworks should work well with any development environment
                     that you would like to use, as well as with any
                     programmers editor.
-                    The members of the Apache Struts development team each use their
+                    The members of the Apache Struts development group each use their
                     own tools such as
                     <a href="http://www.gnu.org/software/emacs/emacs.html">
                         Emacs,</a>
@@ -144,6 +144,12 @@ limitations under the License.
                     <a href="http://www.eclipse.org/">Eclipse,</a>
                     and
                     <a href="http://www.netbeans.org/">NetBeans.</a>
+                </p>
+                <p>
+                    For more, see the 
+                    <a href="http://wiki.apache.org/struts/StrutsMyFavoriteIDE">
+                     IDE discussion page</a> 
+                    in the wiki.
                 </p>
             </answer>
         </faq>
