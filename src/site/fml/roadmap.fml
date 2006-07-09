@@ -26,15 +26,15 @@ limitations under the License.
                 <p>
                     <a href="http://wiki.apache.org/struts/StrutsTi">Struts
                         Ti</a>
-                    (short for Titanium) was a codename for Struts 2.0.
+                    (short for Titanium) was a codename for Struts 2.
                     In late November 2005, the Ti proposal was amended to
                     include a merger with
                     <a href="http://www.opensymphony.com/webwork/">Open
                         Symphony WebWork.</a>
-                    Pursuant to this plan, WebWork 2.3 was
+                    Pursuant to this plan, WebWork 2.2 was
                     donated to the ASF in March 2006,
                     and the active WebWork committers joined the Apache Struts Project.
-                    The WebWork 2.3 codebase was brought into the ASF through
+                    The WebWork codebase was brought into the ASF through
                     the
                     <a href="http://incubator.apache.org/projects/webwork2.html">
                         Apache Incubator.</a>
@@ -46,7 +46,7 @@ limitations under the License.
                     <a href="http://incubator.apache.org/learn/rules-for-revolutionaries.html">
                         Struts Revolution.</a>
                     Over the years, it has evolved into a superb action-based
-                    framework that retains many Struts 1.x paradigms.
+                    framework that retains many Struts 1 paradigms.
                 </p>
                 <p>
                     People who have worked with both Struts 1 and WebWork
@@ -59,11 +59,11 @@ limitations under the License.
                     If we had finished the original Struts 1 roadmap ourselves, 
                     Struts 1 would have ended up being a WebWork 2 workalike.
                     Rather than reinvent the wheel,
-                    Ti has become a proposal to put the WebWork wheel back on
+                    Ti became a proposal to put the WebWork wheel back on
                     the Struts axle.
                 </p>
                 <p>
-                    At this point, the Ti codename has being dropped,
+                    At this point, the Ti codename has been dropped,
                     and we are referring to the donated codebase as Struts 2.
                 </p>
             </answer>
@@ -73,57 +73,53 @@ limitations under the License.
             <question>If they share the same roots,
             why did WebWork evolve more quickly than Struts 1?</question>
             <answer>
-            <p>
-              The Struts 1.x release series is deeply into "backward 
-              compatibility" mode.
-              Backward compatibility has become an obsession with Struts 1.
-              Before making any API change, we deprecate the existing member,
-              and make at least one milestone release before removing the 
-              deprecated member.
-              Each Struts milestone is drop-and-go compatible with the last.
-              Maintaining this degree of stability takes a lot of effort,
-              but given the installed base, we feel it is worth the time and 
-              trouble.
-            </p>
-            <p>
-              There have been several proposals for a new Struts 2 codebase.
-              The first formal proposal was
-              <a href="http://wiki.apache.org/struts/StrutsJericho">Jericho,</a>
-              followed by
-              <a href="http://wiki.apache.org/struts/StrutsShale">Shale,</a>
-              and then
-              <a href="http://wiki.apache.org/struts/StrutsTi">Ti.</a>
-            </p>
-            <p>
-              Jericho never progressed past the trial balloon stage.
-              Shale is based on JavaServer Faces, and, when the time came,
-              the Apache Struts PMC found that many of us were not ready to
-              adopt JSF just yet.
-              Initially, Shale was a Struts subproject,
-              but later Shale graduated to its own 
-              <a href="http://struts.apache.org/struts-shale">top-level ASF 
-              project.</a>
-           </p>
-           <p>
-               The Ti proposal included the idea of collaborating with other
-               projects to build a "best of breed" framework that incorporated
-               everything we had learned over the past six years.
-               The original Ti proposal includes technology developed by
-               <a href="http://beehive.apache.org/">Apache BeeHive,</a>
-               <a href="http://www.springframework.org/">Spring,</a> and
-               <a href="http://www.opensymphony.com/webwork/">OpenSympony WebWork.</a>
-           </p>
-           <p>
-                In the course of developing the initial Ti codebase,
-                the WebWork developers offered to "join forces" with
-                the Apache Struts developers,
-                so that we could work more closely together.
-           </p>
-           <p>
-                Out of these collaborations,
-                the <a href="http://struts.apache.org/announce.html#a20051214.3">
-                Apache Struts/OpenSymphony WebWork</a> merger arose.
-           </p>
+                <p>
+                    The Struts 1.x release series is deeply into "backward 
+                    compatibility" mode.
+                    Backward compatibility has become an obsession with Struts 1.
+                    Before making any API change, we deprecate the existing member,
+                    and make at least one milestone release before removing the 
+                    deprecated member.
+                    Each Struts milestone is drop-and-go compatible with the last.
+                    Maintaining this degree of stability takes a lot of effort,
+                    but given the installed base, we feel it is worth the time and 
+                    trouble.
+                </p>
+                <p>
+                  There have been several proposals for a new Struts 2 codebase.
+                  The first formal proposal was
+                  <a href="http://wiki.apache.org/struts/StrutsJericho">Jericho,</a>
+                  followed by
+                  <a href="http://wiki.apache.org/struts/StrutsShale">Shale,</a>
+                  and then
+                  <a href="http://wiki.apache.org/struts/StrutsTi">Ti.</a>
+                </p>
+                <p>
+                  Jericho never progressed past the trial balloon stage.
+                  Shale is based on JavaServer Faces, and, when the time came,
+                  the Apache Struts PMC found that many of us were not ready to
+                  adopt JSF just yet.
+                  Initially, Shale was a Struts subproject,
+                  but later Shale graduated to its own 
+                  <a href="http://struts.apache.org/struts-shale">top-level ASF 
+                  project.</a>
+               </p>
+               <p>
+                   The Ti proposal includes the idea of collaborating with other
+                   projects to build a "best of breed" framework that incorporates
+                   everything we have learned over the past six years.
+                   The original Ti proposal included technology developed by
+                   <a href="http://beehive.apache.org/">Apache BeeHive,</a>
+                   <a href="http://www.springframework.org/">Spring,</a> and
+                   <a href="http://www.opensymphony.com/webwork/">OpenSympony WebWork.</a>
+                   In the course of co-developing the initial Ti codebase,
+                   the WebWork team offered to "join forces" with
+                   the Apache Struts group,
+                   so that we could work more closely together.
+                   Out of these collaborations,
+                   the <a href="http://struts.apache.org/announce.html#a20051214.3">
+                   Apache Struts/OpenSymphony WebWork</a> merger arose.
+               </p>
             </answer>
         </faq>
         
@@ -134,10 +130,13 @@ limitations under the License.
 
                 <p>
                     For the time being, there is no plan to migrate XWork to
-                    the ASF. Struts has always had many dependencies on
-                    external
-                    packages. So long as packages like XWork and SiteMesh are doing
-                    well at OpenSymphony, there is no reason to make further changes.
+                    to the ASF. 
+                    Struts has always had many dependencies on external 
+                    packages. 
+                    So long as projects like XWork and SiteMesh are doing  
+                    well at OpenSymphony, there is no reason to change venues.
+                    Of course, if another OpenSymphony project were ready to 
+                    join the ASF, our door is open.
                 </p>
             </answer>
         </faq>
@@ -177,12 +176,12 @@ limitations under the License.
                 <p>
                     While both Struts 1 and 2 support JSP, Velocity, and XSLT, 
                     Struts 2 has better support for JSF and first-class support
-                    for template languages like Velocity and 
-                    <a href="http://www.freemarker.org/">FreeMarker.</a>
+                    for template engines like Velocity and 
+                    <a href="http://www.freemarker.org/">FreeMarker,</a>
                     and, optionally, JasperReports.
                 </p>
                 <p>
-                    Both frameworks work well with AJAX, but Struts 2 includes an 
+                    Both versions work well with AJAX, but Struts 2 includes an 
                     AJAX theme that can give your interactive pages a boost.
                     Under the name WebWork, Struts 2 already powers many large 
                     enterprise-grade solutions, including 
@@ -193,14 +192,14 @@ limitations under the License.
                     On the JVM front, Struts 2 is targeted for Java 5, but  
                     provides backward compatibility for Java 4.
                     Struts 1 is targeted for Java 4. 
-                    (Struts 1 developers using Java 5 want to consider 
+                    (Struts 1 developers using Java 5 might want to consider 
                     <a href="http://strecks.sourceforge.net/">Strecks,</a> 
-		    a set of Java 5 extensions for Struts 1.2.)
+                    a set of Java 5 extensions for Struts 1.2.)
                 </p>
                 <p>
                     If you would like to use JSF exclusively, 
-		    then <a href="http://shale.apache.org/">
-		    Apache Shale</a> 
+                    then <a href="http://shale.apache.org/">
+                        Apache Shale</a> 
                     is a good choice.
                     Originally a Struts subproject, 
                     Shale is now a top-level ASF project.
@@ -250,54 +249,55 @@ limitations under the License.
         </faq>
         
         <faq id="obsolete">
-          <question>Is Struts 1 obsolete?</question>
-          <answer>
-            <p>
-                 No.
-            </p>
-            <p>
-            	There is a robust and vibrant community of developers using 
-            	Struts 1 in production, and we expect that thousands of teams 
-            	will continue to base new projects on Struts 1 and support 
-            	existing projects, for many, many years to come. 
-            </p>
-            <p>
-            	New and improved extensions to Struts 1 continue to appear 
-            	regularly. 
-                In <strong>2006 alone</strong>, we've seen the release of 
-            	
-            	<a href="http://strecks.sourceforge.net/">Strecks,</a>
-            	<a href="http://www.jspcontrols.net">JSP Control Tags,</a>
-            	<a href="http://mojodna.net/sprout/">Sprout,</a>
-            	<a href="http://www.springframework.org/node/239">Spring Web Flow,</a>
-            	<a href="http://getahead.ltd.uk/dwr/">DWR,</a>
-            	<a href="http://calyxo.org/">Calyxo,</a>
-            	<a href="https://formdef.dev.java.net/">FormDef,</a> and
-            	<a href="http://javawebparts.sourceforge.net/">Java Web Parts</a>.            	
+            <question>Is Struts 1 obsolete?</question>
+            <answer>
+                <p>
+                     No.
+                </p>
+                <p>
+                    There is a robust and vibrant community of developers using 
+                    Struts 1 in production, and we expect that thousands of teams 
+                    will continue to base new projects on Struts 1, and continue 
+                    to support existing projects, for many, many years to come. 
+                </p>
+                <p>
+                    New and improved extensions for Struts 1 continue to appear 
+                    regularly. 
+                    In <strong>2006 alone</strong>, we've seen releases of 
 
-            	There are 
-            	<a href="http://opensource.atlassian.com/confluence/oss/display/BOOKS/Books+about+Struts">
-            	dozens of books</a> and 
-            	<a href="http://www.StrutsCentral.net/Resources/Action/articles-2006.html">
-            	hundreds of articles</a> available to help people get started with 
-            	Struts 1 or improve the application they already have.
-            </p>
-            <p>
-            	Since the merger, Struts 1 has gone on to release a new minor 
-            	version, Struts 1.3, 
-            	and new 1.x releases are being planned.
-            	Struts 1 continues to be the most popular and best supported 
-            	web application framework for Java.
-            </p>
-            
-            <p>
-               Of course, if you are starting a new project, and have your 
-               choice of frameworks, 
-               this would be a good time to consider whether you would like to 
-               continue to use Struts 1 or <a href="#choice">
-               whether it's time to try something else.</a> 
-            </p>            
-          </answer>          
+                    <a href="http://www.sundog.net/index.php/hoople/page/struts/">Hoople,</a>
+                    <a href="http://strecks.sourceforge.net/">Strecks,</a>
+                    <a href="http://www.jspcontrols.net">JSP Control Tags,</a>
+                    <a href="http://mojodna.net/sprout/">Sprout,</a>
+                    <a href="http://www.springframework.org/node/239">Spring Web Flow,</a>
+                    <a href="http://getahead.ltd.uk/dwr/">DWR,</a>
+                    <a href="http://calyxo.org/">Calyxo,</a>
+                    <a href="https://formdef.dev.java.net/">FormDef,</a> and
+                    <a href="http://javawebparts.sourceforge.net/">Java Web Parts</a>.              
+
+                    There are 
+                    <a href="http://opensource.atlassian.com/confluence/oss/display/BOOKS/Books+about+Struts">
+                    dozens of books</a> and 
+                    <a href="http://www.StrutsCentral.net/Resources/Action/articles-2006.html">
+                    hundreds of articles</a> available to help people get started with 
+                    Struts 1 or improve the application they already have.
+                </p>
+                <p>
+                    Since the merger, Struts 1 has gone on to release a new minor 
+                    version, Struts 1.3, 
+                    and new 1.x releases are being planned.
+                    Struts 1 continues to be the most popular and best supported 
+                    web application framework for Java.
+                </p>
+
+                <p>
+                   Of course, if you are starting a new project, and have your 
+                   choice of frameworks, 
+                   this might be a good time to consider whether you would like to 
+                   continue to use Struts 1 or <a href="#choice">
+                   whether it's time to try something else.</a> 
+                </p>            
+            </answer>          
          </faq>
 
         <faq id="migrate_s1">
@@ -309,8 +309,6 @@ limitations under the License.
                     applications in production.
                     Being able to migrate both applications and developer
                     skill sets is important to all of us.
-                </p>
-                <p>
                     The Struts 2 documentation includes a Migration Guide 
                     that outlines several migration strategies. 
                     Several classic Struts example applications, 
@@ -320,69 +318,69 @@ limitations under the License.
             </answer>
         </faq>
 
-            <faq id="subprojects">
-                <question>Why are there so many "components" for Struts 1 now?</question>
-                <answer>
-                    <p>
-                        Over the years, the Struts 1 framework grew to include not only a
-                        controller and a set of taglibs but several other comonents,
-                        like Tiles, EL, Scripting, and Flow. There were also some
-                        optional classes that some people liked, but not everyone needed
-                        (like DispatchAction).
-                    </p>
-                    
-                    <p>
-                        For the Struts 1.3.0 build, we tried creating separate 
-                        distributions for the various packages that make up
-                        Struts. 
-                        Creating the separate distributions created problems of its own, 
-                        so for the Struts 1.3.1 build, and beyond, 
-                        we are consolidating the extensions back into a single 
-                        Struts 1.3 distribution. Each component has its own 
-	        JAR but all share the same release cycle.
-                    </p>
-                 </answer>
-	                        
-            </faq>
+        <faq id="subprojects">
+            <question>Why are there so many "components" for Struts 1 now?</question>
+            <answer>
+                <p>
+                    Over the years, the Struts 1 framework grew to include not only a
+                    controller and a set of taglibs but several other comonents,
+                    like Tiles, EL, Scripting, and Flow. There were also some
+                    optional classes that some people liked, but not everyone needed
+                    (like DispatchAction).
+                </p>
 
-            <faq id="classic">
-                <question>Is Struts Classic another name for Struts 1?
-                </question>
-                <answer>
-                    <p>Struts Classic is a codename for the work we needed to do to
-                        create and release the seven components we extracted from
-                        Struts 1.2. It is not a product per-se, but shorthand for the
-                        1.3.0 build of the seven components. 
-                     </p>
-                </answer>
-            </faq>
+                <p>
+                    For the Struts 1.3.0 build, we tried creating separate 
+                    distributions for the various packages that make up
+                    Struts. 
+                    Creating the separate distributions created problems of its own, 
+                    so for the Struts 1.3.1 build, and beyond, 
+                    we are consolidating the extensions back into a single 
+                    Struts 1.3 distribution. Each component has its own 
+                    JAR but all share the same release cycle.
+                </p>
+             </answer>
+        </faq>
 
-            <faq id="overdrive">
-                <question>What about OverDrive or Struts Nexus?</question>
-                <answer>
-                    <p>
-                        <a href="http://wiki.apache.org/struts/StrutsOverDrive">
-                            OverDrive</a>
-                        is a working proposal to use a set of case-study
-                        applications to drive the design and creation of a
-                        business layer framework.
-                        The codename for the business layer framework under
-                        development is "Nexus".
-                        Like Struts 1.3 and Apache Shale, the Nexus internals are based
-                        on the Chain of Responsibility pattern.
-                    </p>
-                    <p>
-                        OverDrive and Nexus do not complete with frameworks like
-                        Struts.
-                        Nexus begins where most presentation-layer frameworks end.
-                        Nexus is the "rest of the stack".
-                    </p>
-                    <p>
-                        The codebase underlying the proposal is being coded in C#,
-                        but a version for Java is expected in due course.
-                    </p>
-                </answer>
-            </faq>
+        <faq id="classic">
+            <question>Is Struts Classic another name for Struts 1?
+            </question>
+            <answer>
+                <p>
+                    Struts Classic is a codename for the work we needed to do to
+                    create and release the seven components we extracted from
+                    Struts 1.2. It is not a product per-se, but shorthand for the
+                    1.3.0 build of the seven components. 
+                 </p>
+            </answer>
+        </faq>
+
+        <faq id="overdrive">
+            <question>What about OverDrive or Struts Nexus?</question>
+            <answer>
+                <p>
+                    <a href="http://wiki.apache.org/struts/StrutsOverDrive">
+                        OverDrive</a>
+                    is a working proposal to use a set of case-study
+                    applications to drive the design and creation of a
+                    business layer framework.
+                    The codename for the business layer framework under
+                    development is "Nexus".
+                    Like Struts 1.3 and Apache Shale, the Nexus internals are based
+                    on the Chain of Responsibility pattern.
+                </p>
+                <p>
+                    OverDrive and Nexus do not complete with frameworks like
+                    Struts.
+                    Nexus begins where most presentation-layer frameworks end.
+                    Nexus is the "rest of the stack".
+                </p>
+                <p>
+                    The codebase underlying the proposal is being coded in C#,
+                    but a version for Java is expected in due course.
+                </p>
+            </answer>
+        </faq>
 
     </part>
 

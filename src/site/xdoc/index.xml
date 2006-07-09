@@ -27,7 +27,7 @@ limitations under the License.
         <a name="Welcome"/>
         <section name="Apache Struts">
             <p>
-								Apache Struts is a web development framework based on the 
+                Apache Struts is a web development framework based on the 
                 classic Model-View-Controller design.
             </p>
 
@@ -53,44 +53,44 @@ limitations under the License.
             </p>
             
             <p>
-            		The project is called "Struts" because the framework is meant to 
-            		provide the "invisible underpinnings" that support professional 
-            		application development. 
-            		Struts provides the glue that joins the various elements
-            		of the standard Java platform into a coherent whole. 
-            		Our goal is to leverage existing standards by providing the 
-            		missing pieces we need to create enterprise-grade applications 
-            		that are easy to maintain over time. 
+                The project is called "Struts" because the framework is meant to 
+                provide the "invisible underpinnings" that support professional 
+                application development. 
+                Struts provides the glue that joins the various elements
+                of the standard Java platform into a coherent whole. 
+                Our goal is to leverage existing standards by providing the 
+                missing pieces we need to create enterprise-grade applications 
+                that are easy to maintain over time. 
             </p>
-				</section>
+                </section>
                 
         <a name="Project"/>
         <section name="The Apache Struts Project">
         
-        		<p>
-								The Apache Struts Project is the open source community 
-								that creates and maintains the the Apache Struts framework. 
-								The project consists of a diverse group of volunteers who 
-								share common values regarding collaborative, community-based 
-								open source development. 
-								The Apache Struts Project is proud to share these values with 
-								our parent organization: The Apache Software Foundation.								
-						</p>
-						
-						<p>
+            <p>
+                The Apache Struts Project is the open source community 
+                that creates and maintains the the Apache Struts framework. 
+                The project consists of a diverse group of volunteers who 
+                share common values regarding collaborative, community-based 
+                open source development. 
+                The Apache Struts Project is proud to share these values with 
+                our parent organization: The Apache Software Foundation.                                
+            </p>
+                        
+            <p>
 
-								The Apache Sruts Project offers two major versions of the 
-								Struts framework. <strong>Struts 1</strong> is recognized as 
-								<em>the</em> most popular web application framework for Java. 
-								The 1.x framework is mature, well-documented, and widely 
-								supported. 
-								Struts 1 is the best choice for teams who value proven 
-								solutions.
-						</p>
-						
-     				<p>
-              	<strong>Struts 2</strong> is a ground-up rewrite of the original 
-              	action-centric framework.
+                The Apache Sruts Project offers two major versions of the 
+                Struts framework. <strong>Struts 1</strong> is recognized as 
+                <em>the</em> most popular web application framework for Java. 
+                The 1.x framework is mature, well-documented, and widely 
+                supported. 
+                Struts 1 is the best choice for teams who value proven 
+                solutions.
+            </p>
+                        
+            <p>
+                <strong>Struts 2</strong> is a ground-up rewrite of the original 
+                action-centric framework.
                 Struts 2 was originally known as 
                 <a href="http://www.opensymphony.com/webwork">WebWork 2</a>. 
                 After working independently for several years, 
@@ -99,37 +99,37 @@ limitations under the License.
                 to create Struts 2.
                 The new framework is the best choice for teams who value 
                 elegant solutions to difficult problems. 
-						</p>
-						
-						<p>
-								Struts 2 is still under construction. An initial release is 
-								expected in the third quarter of 2006.
-						</p>
-						
+            </p>
+                        
+            <p>
+                Struts 2 is still under construction. An initial release is 
+                expected in the third quarter of 2006.
+            </p>
+                        
             <p>
                 For more about the future of Struts, see our
                 <a href="roadmap.html">Roadmap FAQ, </a> especially 
                 <a href="roadmap.html#choice">"What should I use with  
                 my next project?".</a>
              </p>
-			</section>
-			
-			<section>
+            </section>
+            
+            <section>
             <a name="1.2.9"/>
             <subsection name="Struts 1.2.9 released">
 
-                <p>
-                    The best available version of Struts is
-                    <a href="announce.html#a20050322">
-                        <strong>Struts 1.2.9,</strong>
-                    </a>
-                    which was classified "General Availability"
-                    (or "Ready for Primetime") on 22 March 2006.
-                    The 1.2.9 release
-                    <a href="http://www.frsirt.com/english/advisories/2006/1205">
-                        resolves three security issues,</a>
-                    and supercedes the Struts 1.2.8 release.
-                </p>
+            <p>
+                The best available version of Struts is
+                <a href="announce.html#a20050322">
+                    <strong>Struts 1.2.9,</strong>
+                </a>
+                which was classified "General Availability"
+                (or "Ready for Primetime") on 22 March 2006.
+                The 1.2.9 release
+                <a href="http://www.frsirt.com/english/advisories/2006/1205">
+                    resolves three security issues,</a>
+                and supercedes the Struts 1.2.8 release.
+            </p>
 
             </subsection>
             
