@@ -75,8 +75,8 @@ limitations under the License.
             <answer>
                 <p>
                     The Struts 1.x release series is deeply into "backward 
-                    compatibility" mode.
-                    Backward compatibility has become an obsession with Struts 1.
+                    compatibility" mode. In fact, 
+                    backward compatibility has become an obsession with Struts 1.
                     Before making any API change, we deprecate the existing member,
                     and make at least one milestone release before removing the 
                     deprecated member.
@@ -204,6 +204,70 @@ limitations under the License.
                     Originally a Struts subproject, 
                     Shale is now a top-level ASF project.
                 </p>
+            </answer>
+        </faq>
+        
+        <faq id="new">
+        <question>What's changed in Struts 2?</question>
+           <answer>
+               <p>
+                  Struts 2 is designed to be simpler to use and closer to how 
+                  Struts was always meant to be. 
+                  To Struts 1 developers, 
+                  Struts 2 feels strange but familiar. 
+                  Some key changes from Struts 1 are:
+               </p>
+
+        	<ul>
+        	  <li>
+        	    Improved design - All Struts 2 classes are based on interfaces. 
+        	    Core interfaces are HTTP independant.
+        	  </li>
+        	  <li>
+        	    Easy-to-test Actions - Struts 2 Actions are HTTP independant and 
+        	    can be tested without resorting to mocks.
+        	  </li>
+        	  <li>
+        	    Easy-to-customize controller - Struts 1 lets you customize the 
+        	    request processor per module, Struts 2 lets you customize the request 
+        	    handling <em>per action,</em> if you like.
+        	  </li>
+	  <li>
+	    Easy-to-customize tags - Struts 2 tags can be customized by 
+        	    changing an underlying stylesheet. Individual tags can be customized by 
+	    editing a FreeMarker template. No need to grok the taglib API! Both JSP 
+	    and FreeMarker tags are fully supported.
+	  </li>
+        	  <li>
+        	    No Cancel quirks - The Struts 2 Cancel button can go directly to a 
+        	    different action. 
+        	  </li>
+        	  <li>
+        	     Intelligent Defaults - Most configuration elements have a default 
+        	     value that you can set and forget.
+        	  </li>
+        	  <li>
+        	     POJO forms - No more ActionForms! Use any JavaBean you like or put 
+        	     properties directly on your Action. No need to use all String 
+        	     properties!
+        	  </li>
+        	  <li>
+        	     POJO Actions - Any class can be used as an Action class. You don't 
+        	     even have to implement an interface!
+        	  </li>
+        	  <li>
+        	     Enhanced Results - Unlike ActionForwards, Struts 2 Results can 
+        	     actually help prepare the response.
+        	  </li>
+        	  <li>
+        	     Better AJAX support - The AJAX theme gives your interactive 
+        	     applications a jump start.
+        	  </li> 
+        	  <li>
+        	     QuickStart - Many changes can be made on the fly without 
+        	     restarting a web container.
+        	  </li>
+        	</ul>        
             </answer>
         </faq>
 

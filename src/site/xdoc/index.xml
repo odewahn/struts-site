@@ -28,33 +28,57 @@ limitations under the License.
         <section name="Apache Struts">
 
             <p>
-                Apache Struts is an open-source framework for creating 
-                Java web applications, based on the classic 
-                Model-View-Controller design. 
+                Apache Struts is a free open-source framework for creating 
+                Java web applications. 
             </p>
             
             <p>
                 Web applications differ from conventional websites in that 
                 web applications can create a dynamic response. 
-                Most websites deliver only static pages. 
+                Many websites deliver only static pages. 
                 A web application can interact with databases and 
                 business logic engines to customize a response.
             </p>
 
             <p>
-                In the Struts framework, requests first pass through an 
-                extensible "front controller". 
-                After pre-processing the request and applying any global 
-                concerns, like logging and security, the controller 
-                selects a handler, or "action". 
-                The action manages the business logic and transfers 
-                control to another resource that will complete the 
-                response, such as a JavaServer Page, Velocity Template, 
-                or PDF report generator. 
-                To close the loop, the framework provides custom tags 
-                that make it easier for pages to access the dynamic data 
-                obtained through the action handler. 
+            	 Web applications based on JavaServer Pages sometimes 
+            	 commingle database code, page design code, and control 
+            	 flow code.
+            	 In practice, we find that unless these concerns are 
+            	 separated, 
+            	 larger applications become difficult to maintain. 
             </p>
+
+            <p>
+            	 One way to separate concerns in an application is to 
+            	 use a Model-View-Controller (MVC) architecture.
+            	 The <em>Model</em> represents the business or database code, 
+            	 the <em>View</em> represents the page design code, 
+            	 and the <em>Controller</em> represents the navigational code. 
+            	 The Struts framework is designed to help developers create 
+            	 web applications that utilize a MVC architecture. 
+						</p>
+
+            <p>
+						   The framework provides three key components:
+						</p>
+						 
+						<ul>
+						<li>
+							An extensible "front controller" that dispatches requests to  
+							an "action" handler provided by the application developer. 
+						</li>
+						<li>
+						  A location handler that transfers control to another resource 
+						  that completes the response.
+						</li>
+						<li>
+						   A tag library that helps developers create interactive 
+						   form-based applications.
+						</li>
+						</ul>
+						
+						<p/><p/><p/>
 
             <p>
                 The framework's architecture and tags are buzzword compliant. 
@@ -62,24 +86,14 @@ limitations under the License.
                 and with nouveau technologies like SOAP and AJAX. 
             </p>
             
-            <p>
-                The project is called "Struts" because the framework is meant to 
-                provide the "invisible underpinnings" that support professional 
-                application development. 
-                Struts provides the glue that joins the various elements
-                of the standard Java platform into a coherent whole. 
-                Our goal is to leverage existing standards by providing the 
-                missing pieces we need to create enterprise-grade applications 
-                that are easy to maintain over time. 
-            </p>
-                </section>
+       </section>
                 
         <a name="Project"/>
         <section name="The Apache Struts Project">
         
             <p>
                 The Apache Struts Project is the open source community 
-                that creates and maintains the the Apache Struts framework. 
+                that creates and maintains the Apache Struts framework. 
                 The project consists of a diverse group of volunteers who 
                 share common values regarding collaborative, community-based 
                 open source development. 
@@ -88,9 +102,21 @@ limitations under the License.
             </p>
                         
             <p>
+                The project is called "Struts" because the framework is meant to 
+                furnish the "invisible underpinnings" that support professional 
+                application development. 
+                Struts provides the glue that joins the various elements
+                of the standard Java platform into a coherent whole. 
+                Our goal is to leverage existing standards by producing the 
+                missing pieces we need to create enterprise-grade applications 
+                that are easy to maintain over time. 
+            </p>
+       
+            <p>
 
                 The Apache Sruts Project offers two major versions of the 
-                Struts framework. <strong>Struts 1</strong> is recognized as 
+                Struts framework. 
+                <a href="1.x/index.html">Struts 1</a> is recognized as 
                 <em>the</em> most popular web application framework for Java. 
                 The 1.x framework is mature, well-documented, and widely 
                 supported. 
@@ -99,8 +125,8 @@ limitations under the License.
             </p>
                         
             <p>
-                <strong>Struts 2</strong> is a ground-up rewrite of the original 
-                action-centric framework.
+                <a href="2.0/index.html">Struts 2</a> is a ground-up 
+                rewrite of the original action-centric framework.
                 Struts 2 was originally known as 
                 <a href="http://www.opensymphony.com/webwork">WebWork 2</a>. 
                 After working independently for several years, 
