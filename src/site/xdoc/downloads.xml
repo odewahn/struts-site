@@ -131,12 +131,8 @@ limitations under the License.
                 <ul>
 
                     <li>
-                        <a href="http://cvs.apache.org/builds/struts/maven/trunk/nightly/struts/">
+                        <a href="http://people.apache.org/builds/struts/">
                             Struts Nightly Builds</a>
-                    </li>
-                     <li>
-                        <a href="http://cvs.apache.org/builds/struts/nightly/struts-shale/">
-                            Shale Nightly Builds</a>
                     </li>
                 </ul>
 

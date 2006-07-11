@@ -178,7 +178,8 @@ limitations under the License.
                     Struts 2 has better support for JSF and first-class support
                     for template engines like Velocity and 
                     <a href="http://www.freemarker.org/">FreeMarker,</a>
-                    and, optionally, JasperReports.
+                    and, optionally, 
+                    <a href="http://www.jaspersoft.com/">JasperReports.</a>
                 </p>
                 <p>
                     Both versions work well with AJAX, but Struts 2 includes an 
@@ -200,7 +201,7 @@ limitations under the License.
                     If you would like to use JSF exclusively, 
                     then <a href="http://shale.apache.org/">
                         Apache Shale</a> 
-                    is a good choice.
+                    might be a good choice.
                     Originally a Struts subproject, 
                     Shale is now a top-level ASF project.
                 </p>
@@ -261,7 +262,7 @@ limitations under the License.
         	  </li>
         	  <li>
         	     Better AJAX support - The AJAX theme gives your interactive 
-        	     applications a jump start.
+        	     applications a boost.
         	  </li> 
         	  <li>
         	     QuickStart - Many changes can be made on the fly without 

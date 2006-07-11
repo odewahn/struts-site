@@ -50,7 +50,7 @@ limitations under the License.
             </p>
 
             <p>
-            	 One way to separate concerns in an application is to 
+            	 One way to separate concerns in a software application is to 
             	 use a Model-View-Controller (MVC) architecture.
             	 The <em>Model</em> represents the business or database code, 
             	 the <em>View</em> represents the page design code, 
