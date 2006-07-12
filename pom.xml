@@ -32,7 +32,7 @@
     <version>1</version>
     <packaging>pom</packaging>
     <name>Struts Site</name>
-    <url>http://struts.apache.org</url>
+    <url>http://struts.apache.org/index.html</url>
 
     <!-- ################################################################ -->
     <!--        Project management section                                -->
@@ -43,16 +43,16 @@
   </description>
 
   <scm>
-    <connection>scm|svn|http://svn.apache.org/repos/asf/struts/site</connection>
+    <connection>scm|svn|http://svn.apache.org/repos/asf/struts/site/</connection>
     <developerConnection>scm|svn|https://svn.apache.org/repos/asf/struts/site</developerConnection>
-    <url>http://svn.apache.org/repos/asf/struts/site</url>
+    <url>http://svn.apache.org/repos/asf/struts/site/</url>
   </scm>
   
   <repositories>
     <repository>
       <id>apache.snapshots</id>
       <name>Apache Maven Repository (Snapshots and Test Builds)</name>
-      <url>http://cvs.apache.org/maven-snapshot-repository</url>
+      <url>http://cvs.apache.org/maven-snapshot-repository/</url>
       <releases><enabled>true</enabled></releases>
       <snapshots><enabled>true</enabled></snapshots>
     </repository>
@@ -61,7 +61,7 @@
   <distributionManagement>
     <site>
       <id>apache-site</id>
-      <url>scp://people.apache.org/www/struts.apache.org</url>
+      <url>scp://people.apache.org/www/struts.apache.org/</url>
     </site>
   </distributionManagement>
 
