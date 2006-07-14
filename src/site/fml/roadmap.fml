@@ -219,56 +219,56 @@ limitations under the License.
                   Some key changes from Struts 1 are:
                </p>
 
-        	<ul>
-        	  <li>
-        	    Improved design - All Struts 2 classes are based on interfaces. 
-        	    Core interfaces are HTTP independant.
-        	  </li>
-        	  <li>
-        	    Easy-to-test Actions - Struts 2 Actions are HTTP independant and 
-        	    can be tested without resorting to mocks.
-        	  </li>
-        	  <li>
-        	    Easy-to-customize controller - Struts 1 lets you customize the 
-        	    request processor per module, Struts 2 lets you customize the request 
-        	    handling <em>per action,</em> if you like.
-        	  </li>
-	  <li>
-	    Easy-to-customize tags - Struts 2 tags can be customized by 
-        	    changing an underlying stylesheet. Individual tags can be customized by 
-	    editing a FreeMarker template. No need to grok the taglib API! Both JSP 
-	    and FreeMarker tags are fully supported.
-	  </li>
-        	  <li>
-        	    No Cancel quirks - The Struts 2 Cancel button can go directly to a 
-        	    different action. 
-        	  </li>
-        	  <li>
-        	     Intelligent Defaults - Most configuration elements have a default 
-        	     value that you can set and forget.
-        	  </li>
-        	  <li>
-        	     POJO forms - No more ActionForms! Use any JavaBean you like or put 
-        	     properties directly on your Action. No need to use all String 
-        	     properties!
-        	  </li>
-        	  <li>
-        	     POJO Actions - Any class can be used as an Action class. You don't 
-        	     even have to implement an interface!
-        	  </li>
-        	  <li>
-        	     Enhanced Results - Unlike ActionForwards, Struts 2 Results can 
-        	     actually help prepare the response.
-        	  </li>
-        	  <li>
-        	     Better AJAX support - The AJAX theme gives your interactive 
-        	     applications a boost.
-        	  </li> 
-        	  <li>
-        	     QuickStart - Many changes can be made on the fly without 
-        	     restarting a web container.
-        	  </li>
-        	</ul>        
+            <ul>
+              <li>
+                Improved design - All Struts 2 classes are based on interfaces. 
+                Core interfaces are HTTP independant.
+              </li>
+              <li>
+                Easy-to-test Actions - Struts 2 Actions are HTTP independant and 
+                can be tested without resorting to mocks.
+              </li>
+              <li>
+                Easy-to-customize controller - Struts 1 lets you customize the 
+                request processor per module, Struts 2 lets you customize the request 
+                handling <em>per action,</em> if you like.
+              </li>
+      <li>
+        Easy-to-customize tags - Struts 2 tags can be customized by 
+                changing an underlying stylesheet. Individual tags can be customized by 
+        editing a FreeMarker template. No need to grok the taglib API! Both JSP 
+        and FreeMarker tags are fully supported.
+      </li>
+              <li>
+                No Cancel quirks - The Struts 2 Cancel button can go directly to a 
+                different action. 
+              </li>
+              <li>
+                 Intelligent Defaults - Most configuration elements have a default 
+                 value that you can set and forget.
+              </li>
+              <li>
+                 POJO forms - No more ActionForms! Use any JavaBean you like or put 
+                 properties directly on your Action. No need to use all String 
+                 properties!
+              </li>
+              <li>
+                 POJO Actions - Any class can be used as an Action class. You don't 
+                 even have to implement an interface!
+              </li>
+              <li>
+                 Enhanced Results - Unlike ActionForwards, Struts 2 Results can 
+                 actually help prepare the response.
+              </li>
+              <li>
+                 Better AJAX support - The AJAX theme gives your interactive 
+                 applications a boost.
+              </li> 
+              <li>
+                 QuickStart - Many changes can be made on the fly without 
+                 restarting a web container.
+              </li>
+            </ul>        
             </answer>
         </faq>
 
@@ -360,7 +360,7 @@ limitations under the License.
                    choice of frameworks, 
                    this might be a good time to consider whether you would like to 
                    continue to use Struts 1 or <a href="#choice">
-                   whether it's time to try something else.</a> 
+                   whether it's time to try Struts 2.</a> 
                 </p>            
             </answer>          
          </faq>

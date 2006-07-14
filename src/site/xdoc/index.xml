@@ -41,45 +41,43 @@ limitations under the License.
             </p>
 
             <p>
-            	 Web applications based on JavaServer Pages sometimes 
-            	 commingle database code, page design code, and control 
-            	 flow code.
-            	 In practice, we find that unless these concerns are 
-            	 separated, 
-            	 larger applications become difficult to maintain. 
+                 Web applications based on JavaServer Pages sometimes 
+                 commingle database code, page design code, and control 
+                 flow code.
+                 In practice, we find that unless these concerns are 
+                 separated, 
+                 larger applications become difficult to maintain. 
             </p>
 
             <p>
-            	 One way to separate concerns in a software application is to 
-            	 use a Model-View-Controller (MVC) architecture.
-            	 The <em>Model</em> represents the business or database code, 
-            	 the <em>View</em> represents the page design code, 
-            	 and the <em>Controller</em> represents the navigational code. 
-            	 The Struts framework is designed to help developers create 
-            	 web applications that utilize a MVC architecture. 
-						</p>
+                 One way to separate concerns in a software application is to 
+                 use a Model-View-Controller (MVC) architecture.
+                 The <em>Model</em> represents the business or database code, 
+                 the <em>View</em> represents the page design code, 
+                 and the <em>Controller</em> represents the navigational code. 
+                 The Struts framework is designed to help developers create 
+                 web applications that utilize a MVC architecture. 
+                        </p>
 
             <p>
-						   The framework provides three key components:
-						</p>
-						 
-						<ul>
-						<li>
-							An extensible "front controller" that dispatches requests to  
-							an "action" handler provided by the application developer. 
-						</li>
-						<li>
-						  A location handler that transfers control to another resource 
-						  that completes the response.
-						</li>
-						<li>
-						   A tag library that helps developers create interactive 
-						   form-based applications.
-						</li>
-						</ul>
-						
-						<p/><p/><p/>
-
+                           The framework provides three key components:
+                        </p>
+                         
+                        <ul>
+                        <li>
+                            An extensible "front controller" that dispatches requests to  
+                            an "action" handler provided by the application developer. 
+                        </li>
+                        <li>
+                          A location handler that transfers control to another resource 
+                          that completes the response.
+                        </li>
+                        <li>
+                           A tag library that helps developers create interactive 
+                           form-based applications.
+                        </li>
+                        </ul>
+                        
             <p>
                 The framework's architecture and tags are buzzword compliant. 
                 Struts works well with conventional REST applications
@@ -116,7 +114,8 @@ limitations under the License.
 
                 The Apache Sruts Project offers two major versions of the 
                 Struts framework. 
-                <a href="1.x/index.html">Struts 1</a> is recognized as 
+                <a href="http://struts.apache.org/1.x/index.html">Struts 1</a> 
+                is recognized as 
                 <em>the</em> most popular web application framework for Java. 
                 The 1.x framework is mature, well-documented, and widely 
                 supported. 
@@ -125,9 +124,8 @@ limitations under the License.
             </p>
                         
             <p>
-                <a href="2.0/index.html">Struts 2</a> is a ground-up 
-                rewrite of the original action-centric framework.
-                Struts 2 was originally known as 
+                <a href="http://struts.apache.org/2.0/index.html">Struts 2</a> 
+                was originally known as 
                 <a href="http://www.opensymphony.com/webwork">WebWork 2</a>. 
                 After working independently for several years, 
                 the WebWork and Struts communities  
