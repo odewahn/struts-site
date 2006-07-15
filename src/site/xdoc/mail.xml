@@ -92,13 +92,13 @@ limitations under the License.
                 </p>
                 
                 <p>
-                	Conversely, a question about the future of Struts 
-                	or the operation of the Struts project is best posted to the 
-	                dev list. 
-	                The focus of the user list should be one "how" to do 
-	                something with the framework we have today. 
-	                The focus of the dev list is how we want to do something 
-	                with a future version of the framework. 
+                    Conversely, a question about the future of Struts 
+                    or the operation of the Struts project is best posted to the 
+                    dev list. 
+                    The focus of the user list should be one "how" to do 
+                    something with the framework we have today. 
+                    The focus of the dev list is how we want to do something 
+                    with a future version of the framework. 
                 </p>
                 <p>
                     <strong>
@@ -502,7 +502,7 @@ limitations under the License.
         <section>
             <p class="right">
                 <strong>Next:</strong>
-                <a href="volunteers.html">Who we are</a>
+                <a href="bylaws.html">PMC Charter</a>
             </p>
         </section>
 

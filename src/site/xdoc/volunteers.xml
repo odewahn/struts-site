@@ -19,11 +19,18 @@ limitations under the License.
 <document>
 
     <properties>
-        <title>Who We Are</title>
+        <title>Volunteers</title>
     </properties>
 
     <body>
-        <section name="Who We Are">
+        <section name="Volunteers">
+                
+        <p>
+        The project consists of a diverse group of volunteers who share 
+        common values regarding collaborative, community-based open source 
+        development. 
+        </p>
+        
 
             <a name="statistics"/>
             <subsection name="List Subscribers and Downloads">
@@ -38,13 +45,20 @@ limitations under the License.
 
                 <p>According to recently released
                     <a href="http://www.apache.org/~vgritsenko/stats/projects/struts">
-                        statistics</a>
-                    , Struts downloads range around 15,000 a month.
+                        statistics,</a>
+                    Struts downloads range around 15,000 a month.
                 </p>
             </subsection>
 
             <a name="pmc"/>
             <subsection name="Project Management Committee Members">
+            
+                <p>
+                Committee members are listed in the chronological order, 
+                according to the date each person become a committer 
+                or committee member.
+                </p>
+            
                 <ul>
                     <li>
                         <strong>Craig R. McClanahan</strong>
@@ -116,10 +130,6 @@ limitations under the License.
                         (gvanmatre at apache.org)
                     </li>
                     <li>
-                        <strong>Sean Schofield</strong>
-                        (schof at apache.org)
-                    </li>
-                    <li>
                         <strong>Greg Reddin</strong>
                         (greddin at apache.org)
                     </li>
@@ -128,6 +138,12 @@ limitations under the License.
 
             <a name="committers"/>
             <subsection name="Committers">
+            
+                <p>
+                Other committers are listed in the chronological order, 
+                according to the date each person became a committer.
+                </p>
+                        
                 <ul>
 
                     <li>
@@ -183,6 +199,13 @@ limitations under the License.
 
             <a name="emeritus"/>
             <subsection name="Emeritus Committers">
+            
+            <p>
+            Emeritus committers are no longer active in the project. 
+            An emeritus committer can become active again upon request. 
+            ("Merit never expires.")
+            </p>
+            
                 <ul>
                     <li>Luis Arias</li>
 
@@ -203,12 +226,20 @@ limitations under the License.
                     <li>Steve Raeburn</li>
 
                     <li>James Turner</li>
-
+                    
+                    <li>Sean Schofield (PMC)</li>
+                    
                 </ul>
             </subsection>
 
             <a name="about"/>
-            <subsection name="More About Us">
+            <subsection name="About the Committers">
+            
+            <p>
+            Project committers are the core Apache Struts community. 
+            </p>
+            
+            
                 <h4 id="craigmcc">Craig R. McClanahan -- PMC Member</h4>
 
                 <p>
@@ -1079,7 +1110,7 @@ limitations under the License.
                     invitation to become a Struts Committer in June, 2005, and
                     was invited to join the PMC in December, 2005.</p>
 
-                <h4 id="gvanmatre">Gary VanMatre -- Committer</h4>
+                <h4 id="gvanmatre">Gary VanMatre -- PMC Member</h4>
 
                 <p>I landed an internship in college working with the big blue
                     iron where
@@ -1122,7 +1153,7 @@ limitations under the License.
                     plug-in. I was
                     invited to become a Struts Committer in July 2005.</p>
 
-                <h4 id="schof">Sean Schofield -- Committer</h4>
+                <h4 id="schof">Sean Schofield -- Emeritus PMC Member</h4>
 
                 <p>During a job interview in 2002 I was asked if I had any
                     experience with
@@ -1171,7 +1202,7 @@ limitations under the License.
                     Struts lies with the
                     Shale subproject.</p>
 
-                <h4 id="greddin">Greg Reddin -- Committer</h4>
+                <h4 id="greddin">Greg Reddin -- PMC Member</h4>
 
                 <p>In early 2000 I was working on a client-server application
                     that
@@ -1297,7 +1328,7 @@ limitations under the License.
         <section>
             <p class="right">
                 Next:
-                <a href="bylaws.html">PMC Charter</a>
+                <a href="releases.html">Release Guidelines</a>                
             </p>
         </section>
     </body>

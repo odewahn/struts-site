@@ -26,6 +26,11 @@ limitations under the License.
 
         <section name="Announcements - 2005">
         
+            <p class="right">
+                Skip to: <a href="announce-2004.html">Announcements - 2004</a>
+            </p>
+        
+        
             <h4 id="a20051218.1">18 Dec 2005 - New Struts Committer: Richard
                 Feit</h4>
             <p>
@@ -220,7 +225,7 @@ limitations under the License.
                 for JSF</h4>
                 
             <p>[Note: <a href="http://shale.apache.org/">
-            		Shale is now a top-level ASF project.</a>]
+                    Shale is now a top-level ASF project.</a>]
             </p>
             
             <p>

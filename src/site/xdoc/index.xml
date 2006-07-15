@@ -57,13 +57,13 @@ limitations under the License.
                  and the <em>Controller</em> represents the navigational code. 
                  The Struts framework is designed to help developers create 
                  web applications that utilize a MVC architecture. 
-                        </p>
+            </p>
 
             <p>
-                           The framework provides three key components:
-                        </p>
+                  The framework provides three key components:
+           </p>
                          
-                        <ul>
+                    <ul>
                         <li>
                             An extensible "front controller" that dispatches requests to  
                             an "action" handler provided by the application developer. 
@@ -76,7 +76,7 @@ limitations under the License.
                            A tag library that helps developers create interactive 
                            form-based applications.
                         </li>
-                        </ul>
+                    </ul>
                         
             <p>
                 The framework's architecture and tags are buzzword compliant. 
