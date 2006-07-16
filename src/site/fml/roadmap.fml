@@ -162,16 +162,26 @@ limitations under the License.
                     probably find a MVC framework useful.  
                 </p>
                 <p>
-                    When choosing a framework, an important consideration is 
-                    which user interface technology you would like to use:
+                    When choosing a framework, two keys considerations are 
+                    which user interface technology and which version of Java 
+                    you would like to use.
+                    Popular user interface technologies include 
                     <a href="http://java.sun.com/j2ee/javaserverfaces/">JavaServer
                         Faces</a>
-                    (JSF),
-                    conventional
+                    (JSF), conventional
                     <a href="http://java.sun.com/products/jsp/">JavaServer Pages</a>
                     (JSP),
-                    or another templating technology like
+                    and templating technologies like
                     <a href="http://jakarta.apache.org/velocity/">Velocity.</a>
+                    Another popular UI technology to consider is 
+                    <a href="http://www.adaptivepath.com/publications/essays/archives/000385.php">
+                    AJAX.</a>
+                </p>
+                <p>
+                    (For more about the technologies underlying modern web 
+                    applications, see the 
+                    <a href="../primer.html">
+                        Key Technologies</a> primer.)
                 </p>
                 <p>
                     While both Struts 1 and 2 support JSP, Velocity, and XSLT, 
