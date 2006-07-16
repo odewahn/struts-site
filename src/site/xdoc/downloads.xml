@@ -19,16 +19,15 @@ limitations under the License.
 <document>
 
     <properties>
-        <title>Acquiring</title>
+        <title>Downloads</title>
     </properties>
 
     <body>
-        <a name="Acquiring"/>
-        <section name="Acquiring Apache Struts products">
+        <section name="Apache Struts Downloads">
 
             <p>
-                Apache Struts products are made available to the public at no
-                charge
+                The Apache Struts framework is available to the public 
+                at no charge
                 in both binary and source distributions under the
                 <a href="http://apache.org/licenses/">Apache Software
                     License.</a>

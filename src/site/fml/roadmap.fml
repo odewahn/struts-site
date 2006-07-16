@@ -17,7 +17,6 @@ limitations under the License.
 // ======================================================================== 78
 -->
 <faqs title="Roadmap FAQ">
-    <!--<title>Roadmap FAQ</title>-->
 
     <part id="general">
         <faq id="ti">
@@ -381,7 +380,7 @@ limitations under the License.
                 <p>
                     Over the years, the Struts 1 framework grew to include not only a
                     controller and a set of taglibs but several other comonents,
-                    like Tiles, EL, Scripting, and Flow. There were also some
+                    like EL, Faces, Taglib, and Scripting. There were also some
                     optional classes that some people liked, but not everyone needed
                     (like DispatchAction).
                 </p>

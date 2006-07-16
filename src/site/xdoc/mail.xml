@@ -19,13 +19,12 @@ limitations under the License.
 <document>
 
     <properties>
-        <title>Mailing List Guidelines</title>
+        <title>Mailing Lists</title>
     </properties>
 
     <body>
 
-        <section name="Mailing Lists - Guidelines">
-            <a name="Guidelines"/>
+        <section name="Mailing Lists">
 
             <p>
                 A mailing list is an electronic discussion forum that anyone
@@ -39,7 +38,7 @@ limitations under the License.
                 for people working within the Apache Struts Project.
             </p>
 
-            <subsection name="Mailing Lists - Guidelines">
+            <subsection name="Guidelines">
 
                 <p>
                     Mailing lists provide a simple and effective communication
