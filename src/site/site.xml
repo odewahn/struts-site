@@ -14,7 +14,7 @@
         <links>
             <item name="Apache" href="http://www.apache.org" /> 
             <item name="Struts 1" href="http://struts.apache.org/1.x/" />
-            <item name="Struts 2" href="http://struts.apache.org/2.0/" />
+            <item name="Struts 2" href="http://struts.apache.org/2.x/" />
         </links>
 
         <menu name="Apache Struts Project">
@@ -69,7 +69,7 @@
 
         <menu name="Current Versions">
             <item name="Struts 1" href="http://struts.apache.org/1.x/index.html"/>
-            <item name="Struts 2" href="http://struts.apache.org/2.0/index.html"/>
+            <item name="Struts 2" href="http://struts.apache.org/2.x/index.html"/>
         </menu>
         
         <menu name="Past Releases">

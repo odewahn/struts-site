@@ -19,12 +19,13 @@ Redirect permanent /flow                http://struts.apache.org/struts-sandbox/
 Redirect permanent /struts-flow         http://struts.apache.org/struts-sandbox/struts-flow
 Redirect permanent /struts-apps         http://struts.apache.org/1.x/struts-apps
 Redirect permanent /struts-action       http://struts.apache.org/1.x
-Redirect permanent /struts-action2      http://struts.apache.org/2.0
+Redirect permanent /struts-action2      http://struts.apache.org/2.x
+Redirect permanent /2.0                 http://struts.apache.org/2.x
 Redirect permanent /struts-doc-1.2.x    http://struts.apache.org/1.2.x
 Redirect permanent /struts-doc-1.2.9    http://struts.apache.org/1.2.9
 Redirect permanent /struts-doc-1.2.8    http://struts.apache.org/1.2.8
 Redirect permanent /struts-doc-1.2.7    http://struts.apache.org/1.2.7
 Redirect permanent /struts-doc-1.2.4    http://struts.apache.org/1.2.4
 Redirect permanent /struts-doc-1.1      http://struts.apache.org/1.1
-Redirect permanent /struts-doc-1.0.2      http://struts.apache.org/1.0.2
+Redirect permanent /struts-doc-1.0.2    http://struts.apache.org/1.0.2
 
