@@ -161,7 +161,7 @@ limitations under the License.
                     probably find a MVC framework useful.  
                 </p>
                 <p>
-                    When choosing a framework, two keys considerations are 
+                    When choosing a framework, two key considerations are 
                     which user interface technology and which version of Java 
                     you would like to use.
                     Popular user interface technologies include 
@@ -381,7 +381,7 @@ limitations under the License.
                     Over the years, the Struts 1 framework grew to include not only a
                     controller and a set of taglibs but several other comonents,
                     like EL, Faces, Taglib, and Scripting. There were also some
-                    optional classes that some people liked, but not everyone needed
+                    optional classes that some people like, but not everyone needs
                     (like DispatchAction).
                 </p>
 
