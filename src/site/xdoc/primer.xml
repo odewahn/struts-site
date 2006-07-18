@@ -66,7 +66,7 @@ limitations under the License.
                             ResourceBundles</a>
                     </li>
                     <li>
-                        <a href="#servlets">Java Servlets and Web Containers</a>
+                        <a href="#containers">Servlets, Filters and Web Containers</a>
                     </li>
                     <li>
                         <a href="#jsp">JavaServer Pages and JSP Tag
@@ -509,8 +509,8 @@ limitations under the License.
 
             </subsection>
 
-            <a name="servlets"/>
-            <subsection name="Java Servlets and Web Containers">
+            <a name="containers"/>
+            <subsection name="Servlets, Filters, and Web Containers">
                 <p>
                     Since Java is an object-orientated language, the
                     <a href="http://www.novocode.com/doc/servlet-essentials/">
@@ -950,8 +950,8 @@ limitations under the License.
 
             </subsection>
 
-            <a name="filter"/>
-            <subsection name="Filtering">
+            <a name="filters"/>
+            <subsection name="Filters">
 
                 <p> 
                     If you are using a servlet container based on version
@@ -972,16 +972,15 @@ limitations under the License.
                 </p>
 
                 <p> 
-                    The Struts 1.0, 1.1, and 1.2 versions require only version
-                    2.2 or later
-                    of the Servlet Specification to be implemented by your
-                    servlet container,
-                    so those versions do not use Filters. Beginning with the
-                    1.3 version, a container that supports version 2.3 or
-                    later of the Servlet
-                    Specification is required, and it is possible that the
-                    framework might use
-                    Filters in the future.</p>
+                    Struts 1.2 and earlier require your container to implement 
+                    version 2.2 or later of the Servlet Specification,
+                    so those versions of the Struts framework do not use 
+                    Filters internaly. Beginning with Struts 1.3, a container 
+                    that supports version 2.3 or later of the Servlet
+                    Specification is required.
+                    Struts 2 uses a filter as the base of the controller, 
+                    instead of a servlet.
+                    </p>
 
                 <p>
                     For more about filters, see:
@@ -991,6 +990,10 @@ limitations under the License.
                     <li>
                         <a href="http://java.sun.com/j2ee/tutorial/1_3-fcs/doc/Servlets8.html#103101">
                             Filtering Requests and Responses</a>
+                    </li>
+                    <li>
+                        <a href="http://java.sun.com/products/servlet/Filters.html">
+                            The Essentials of Filters</a>
                     </li>
                 </ul>
 

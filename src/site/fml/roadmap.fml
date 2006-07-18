@@ -55,7 +55,7 @@ limitations under the License.
                     2 feature set,
                     you'd see that WebWork has already does most of what we
                     had wanted the Struts framework to do.
-                    If we had finished the original Struts 1 roadmap ourselves, 
+                    If we had finished the original Struts 1 roadmap as written, 
                     Struts 1 would have ended up being a WebWork 2 workalike.
                     Rather than reinvent the wheel,
                     Ti became a proposal to put the WebWork wheel back on
