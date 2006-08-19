@@ -30,6 +30,78 @@ limitations under the License.
                 Skip to: <a href="announce-2005.html">Announcements - 2005</a>
             </p>
 
+            <h4 id="a20060818.1">18 Aug 2006 - Struts v1.3.5 Beta</h4>
+
+            <p>The Apache Struts team is pleased to announce the release of Struts 1.3.5 Beta.</p>
+
+            <p>Struts 1.3.5 is available in a full distribution, or as separate library, source, example and
+                documentation distributions.</p>
+
+            <p>http://struts.apache.org/download.cgi#struts135</p>
+
+            <p>It is also available in the central Maven repository under Group ID "org.apache.struts".</p>
+
+            <p>Major changes since Struts 1.2 include</p>
+
+            <ul>
+                <li>Composable Request Processor</li>
+                <li>Arbitrary configuration properties</li>
+                <li>Opt-In Cancel Handling</li>
+                <li>Enhanced Global Exception Handlers</li>
+                <li>Extends attribute</li>
+                <li>"isCommitted" Exception Handling</li>
+                <li>Postback Actions</li>
+                <li>Wildcard ActionConfig properties</li>
+            </ul>
+
+            <p>Composable Request Processor: For Struts 1.3, we turned the request processor methods into Commands that
+                are part of a flexible Chain of Commands.</p>
+
+            <p>Arbitrary configuration properties: Most every Struts configuration element now accepts a map of
+                key/value pairs. Arbitrary configuration properties let us externalize more of our configurations,
+                encouraging reuse.</p>
+
+            <p>Opt-In Cancel Handling: In Struts 1.3, the Cancel token is only honored if the new property "cancellable"
+                is set for the Action Mapping. If the Cancel token is present, but cancellable is not set, then an
+                InvalidCancelException is thrown. The InvalidCancelExeption may be caught by a Declarative Exception
+                Handler, like any other Exception.</p>
+
+            <p>Enhanced Global Exception Handlers: We now support use of global exception handlers in cases when no
+                ActionConfig has yet been identified, as in with "preprocessing" commands in a custom request processing
+                chain.</p>
+
+            <p>Extends attribute: In the Struts configuration file, we can now use the extends attribute to adopt
+                default settings from another element, as we already can in the Tiles configuration files.</p>
+
+            <p>"isCommitted" Exception Handling: When using Tiles, sometimes the response is already committed when an
+                exception occurs. Now, the ExceptionHandler tests response.isCommitted, and, if true, includes the
+                configured view path, rather than forwarding to it.</p>
+
+            <p>Postback Forms: The action attribute of the Form taglib is now optional. If omitted, the original URI of
+                the original request is used.</p>
+
+            <p>Wildcard ActionConfig properties: Wildcards can now be used in the properties of an ActionConfig.</p>
+
+            <p>The 1.3.x series of the Apache Struts framework has a minumum requirement of the following specification
+                versions:</p>
+
+            <ul>
+                <li>Java Servlet 2.3 and JavaServer Pages (JSP) 1.2</li>
+                <li>Java 2 Standard Platform Edition (J2SE) 1.4</li>
+            </ul>
+
+            <p>The release notes are available online at:</p>
+
+            <p><a href="http://struts.apache.org/1.x/userGuide/release-notes.html">
+                http://struts.apache.org/1.x/userGuide/release-notes.html</a></p>
+
+            <p>Notes on upgrading from prior versions can be found on the community-maintained wiki:</p>
+
+            <p><a href="http://wiki.apache.org/struts/StrutsUpgradeNotes12to13">
+                http://wiki.apache.org/struts/StrutsUpgradeNotes12to13</a></p>
+
+            <hr/>
+
             <h4 id="a20060628.1">28 Jun 2006 - Shale to Become Top-Level
                 ASF Project</h4>            
             <p>
