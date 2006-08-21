@@ -76,16 +76,6 @@ limitations under the License.
                         </ul>
                     </li>
                     <li>
-                        <strong>Alpha Releases</strong>
-                        <ul>
-                            <li>
-                                <a href="http://cvs.apache.org/dist/struts/shale/v1.0.2">
-                                    Struts Shale 1.0.2 (now Apache Shale)
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
                         <strong>Older Releases</strong>
                         are available from the
                         <ul>
@@ -122,7 +112,7 @@ limitations under the License.
                     If the community feel that a build requires more testing,
                     then it may be marked with "Beta" status.
                 </p>
-
+                
             </subsection>
 
             <a name="NightlyBuilds"/>
@@ -149,6 +139,14 @@ limitations under the License.
                     Be sure to check the Release Notes for a nightly build,
                     so you have a better idea of what you are getting!
                 </p>
+                
+                <ul><li>
+                    Snapshot builds of 
+                    <a href="http://people.apache.org/builds/struts/2.0.0">
+                    <strong>Struts 2.0.0</strong>
+                    </a>
+                    are now available for early testing.
+                 </li></ul>
 
             </subsection>
 
