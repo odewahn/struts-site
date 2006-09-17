@@ -99,6 +99,9 @@
                                 <get src="http://svn.apache.org/repos/asf/struts/struts1/trunk/tiles/src/main/resources/org/apache/struts/resources/tiles-config_1_3.dtd"
                                      dest="${project.build.directory}/site/dtds/tiles-config_1_3.dtd"
                                      ignoreerrors="true"/>
+                                <get src="http://svn.apache.org/repos/asf/struts/sandbox/trunk/tiles/tiles-core/src/main/resources/org/apache/tiles/resources/tiles-config_2_0.dtd"
+                                     dest="${project.build.directory}/site/dtds/tiles-config_2_0.dtd"
+                                     ignoreerrors="true"/>
                                 <get src="http://svn.apache.org/repos/asf/struts/struts2/trunk/core/src/main/resources/struts-2.0.dtd"
                                      dest="${project.build.directory}/site/dtds/struts-2.0.dtd"
                                      ignoreerrors="true"/>
