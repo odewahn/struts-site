@@ -65,16 +65,16 @@ limitations under the License.
                          
                     <ul>
                         <li>
-                            An extensible "front controller" that dispatches requests to  
-                            an "action" handler provided by the application developer. 
+                          A "request" handler provided by the application developer 
+                          that is mapped to a standard URI.
                         </li>
                         <li>
-                          A location handler that transfers control to another resource 
-                          that completes the response.
+                          A "response" handler that transfers control to another resource 
+                          which completes the response.
                         </li>
                         <li>
-                           A tag library that helps developers create interactive 
-                           form-based applications.
+                          A tag library that helps developers create interactive 
+                          form-based applications with server pages.
                         </li>
                     </ul>
                         
@@ -112,7 +112,7 @@ limitations under the License.
        
             <p>
 
-                The Apache Sruts Project offers two major versions of the 
+                The Apache Struts Project offers two major versions of the 
                 Struts framework. 
                 <a href="http://struts.apache.org/1.x/index.html">Struts 1</a> 
                 is recognized as 
@@ -120,7 +120,7 @@ limitations under the License.
                 The 1.x framework is mature, well-documented, and widely 
                 supported. 
                 Struts 1 is the best choice for teams who value proven 
-                solutions.
+                solutions to common problems.
             </p>
                         
             <p>

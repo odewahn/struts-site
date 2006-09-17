@@ -240,6 +240,8 @@ limitations under the License.
                         </li><li>
                         <strong>First-class AJAX support</strong> - The AJAX theme gives your interactive applications a boost.
                         </li><li>
+                        <strong>Stateful Checkboxes</strong> - Struts 2 checkboxes do not require special handling for false values.                        
+                        </li><li>                        
                         <strong>QuickStart</strong> - Many changes can be made on the fly without restarting a web container.
                         </li></ul></li>
                      <li>Easier!
@@ -251,6 +253,10 @@ limitations under the License.
                         <strong>Easy-to-customize tags</strong> - Struts 2 tags can be customized by changing an underlying stylesheet. Individual tags can be customized by editing a FreeMarker template. No need to grok the taglib API! Both JSP and FreeMarker tags are fully supported.
                         </li><li>
                         <strong>Easy cancel handling</strong> - The Struts 2 Cancel button can go directly to a different action.
+                        </li><li>
+                        <strong>Easy Spring integration</strong> - Struts 2 Actions are Spring-aware. Just add your own Spring beans!
+                        </li><li>
+                        <strong>Easy Plugins</strong> - Struts 2 extensions can be added by dropping in a JAR. No manual configuration required!
                         </li></ul></li>
                      <li>POJO-ier!
                         <ul><li>
