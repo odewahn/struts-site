@@ -54,6 +54,11 @@ limitations under the License.
                         <strong>General Availability (GA) Releases</strong>
                         <ul>
                             <li>
+                                <a href="http://struts.apache.org/download.cgi#struts135">
+                                    Struts 1.3.5
+                                </a>
+                            </li>
+                            <li>
                                 <a href="http://struts.apache.org/download.cgi">
                                     Struts 1.2.9
                                 </a>
@@ -68,11 +73,7 @@ limitations under the License.
                     <li>
                         <strong>Beta Releases</strong>
                         <ul>
-                            <li>
-                                <a href="http://struts.apache.org/download.cgi#struts135">
-                                    Struts 1.3.5
-                                </a>
-                            </li>
+                            <li>None at this time.</li>
                         </ul>
                     </li>
                     <li>
@@ -96,9 +97,9 @@ limitations under the License.
                     The latest
                     <em>development build</em>
                     of Apache Struts products are available
-                    <a href="http://svn.apache.org/dist/struts/">here</a>
+                    <a href="http://people.apache.org/builds/struts/">here</a>
                     in binary, source and library distributions.
-                    Library distributions include any external depdencies
+                    Library distributions include any external dependencies
                     needed to use a product with your application.
                 </p>
 
@@ -109,7 +110,7 @@ limitations under the License.
                     it is promoted to "General Availability" status and may be
                     made
                     the "Best Available" release.
-                    If the community feel that a build requires more testing,
+                    If the community feels that a build requires more testing,
                     then it may be marked with "Beta" status.
                 </p>
                 
@@ -130,7 +131,7 @@ limitations under the License.
                 <ul>
 
                     <li>
-                        <a href="http://people.apache.org/builds/struts/">
+                        <a href="http://people.apache.org/builds/struts/nightlies/">
                             Struts Nightly Builds</a>
                     </li>
                 </ul>
