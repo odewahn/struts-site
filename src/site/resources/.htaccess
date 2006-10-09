@@ -1,3 +1,4 @@
+# This file is maintained at site/src/site/resources.htaccess
 Redirect permanent /userGuide           http://struts.apache.org/1.x/userGuide
 Redirect permanent /faqs                http://struts.apache.org/1.x/faqs
 Redirect permanent /struts-core         http://struts.apache.org/1.x
@@ -28,4 +29,6 @@ Redirect permanent /struts-doc-1.2.7    http://struts.apache.org/1.2.7
 Redirect permanent /struts-doc-1.2.4    http://struts.apache.org/1.2.4
 Redirect permanent /struts-doc-1.1      http://struts.apache.org/1.1
 Redirect permanent /struts-doc-1.0.2    http://struts.apache.org/1.0.2
+Redirect permanent /struts-action       http://struts.apache.org/1.x
+Redirect permanent /struts-action2      http://struts.apache.org/2.x
 
