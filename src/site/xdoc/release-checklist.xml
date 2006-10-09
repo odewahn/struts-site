@@ -85,7 +85,7 @@
             || A1. || Tag release in cvs: ${STRUTS_x_x_x} || ${STATUS} ||
             || A2. || Run Distribution Target || ${STATUS} ||
             || A3. || Upload Distribution to
-            cvs.apache.org:/www/cvs.apache.org/dist/struts/x.x.x || ${STATUS}
+            cvs.apache.org:/www/svn.apache.org/dist/struts/x.x.x || ${STATUS}
             ||
             || A4. || Post release-quality vote on dev@ and user@ lists || ${STATUS ||
 
