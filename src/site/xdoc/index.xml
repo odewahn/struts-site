@@ -24,38 +24,11 @@ limitations under the License.
 
     <body>
 
-        <a name="ApacheCon"/>
-        <section name="Struts @ ApacheCon 2006 US">
-            <iframe src="http://www.apache.org/ads/bannerbar.html" style="border-width:0; float: right" frameborder="0" scrolling="no" width="275" height="275"> </iframe>
-            <p>
-            Three Struts related events will be hosted at 
-            <a href="http://www.us.apachecon.com/">ApacheCon US 2006</a>. 
-            </p>
-            <ul><li>
-            <a href="http://www.us.apachecon.com/html/sessions.html#T10"><strong>
-            Migrating to Struts 2
-            </strong></a> - Tutorial with Ted Husted, Monday, October 9 at 1:30pm in Room 3 (pre-registration required).
-            </li><li>
-            <a href="http://www.us.apachecon.com/html/sessions.html#WE9"><strong>
-            Struts 2.0
-            </strong></a> - Session with Don Brown, Wednesday, October 11 at 11:30am in Room 4.
-            </li><li>
-            <a href="http://wiki.apache.org/apachecon/BirdsOfaFeatherUs06"><strong>
-            Apache Struts Birds of a Feather session</strong></a>
-            - Thursday, October 12 at 9pm in Room 4.
-            </li></ul>
-            <p>
-            Join us at ApacheCon to get the latest information on all 
-            things Apache and meet an international crowd of Apache 
-            enthusiasts.            
-            </p>
-        </section>
-
         <a name="Releases"/>
         <section name="Recent Releases">
         
         <p>
-            Visit the <a href="downloads.html">downloads</a> page for links to other releases and distributions, including development builds of Struts 2.            
+            Visit the <a href="downloads.html">downloads</a> page for links to other releases and distributions, including development builds of <a href="2.x/index.html">Struts 2</a>.            
         </p>
 
             <a name="1.3.5"/>
