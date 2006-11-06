@@ -30,6 +30,129 @@ limitations under the License.
                 Skip to: <a href="announce-2005.html">Announcements - 2005</a>
             </p>
             
+            <h4 id="a20061107">07 Nov 2006 - Struts v2.0.1 BETA Release</h4>
+            
+            <p>
+            The Apache Struts project is pleased to announce the availability of 
+            the <a href="http://struts.apache.org/download.cgi#struts201">
+            Struts 2.0.1 BETA release</a>. 
+            </p>
+            
+            <p>
+            Apache Struts 2 is an elegant, extensible framework, well suited for 
+            enterprise-ready Java web applications. 
+            The framework is designed to streamline the full development cycle, 
+            from building, to deploying, to maintaining applications over time.
+            </p>
+            
+            <p>
+            Apache Struts 2 was originally known as WebWork 2. 
+            After working independently for several years, 
+            the WebWork and Struts communities joined forces to create Struts<sup>2</sup>. 
+            This new version of Struts is simpler to use and closer to how 
+            Struts was always meant to be. 
+            </p>
+            
+            <ul>
+            <li>
+                <em>Build!</em> 
+                <ul>
+                <li>
+                    <strong>Easy startup</strong> - A Maven archetype, template application, and bootstrap 
+                    tutorial help jumpstart new projects.               
+                </li>
+                <li>
+                    <strong>Improved Design</strong> - All framework classes are based on interfaces. 
+                    Core interfaces are HTTP independent.
+                </li>
+                <li>
+                    <strong>Enhanced Results</strong> - Unlike ActionForwards, Struts<sup>2</sup> Results can
+                    actually help prepare the response. 
+                </li>
+                <li>
+                    <strong>Enhanced Tags</strong> - Struts<sup>2</sup> tags don't just output data, but provide 
+                    stylesheet-driven markup, so that we can create consistent pages with less code.
+                </li>
+                <li>
+                    <strong>Stateful Checkboxes</strong> - Struts<sup>2</sup> checkboxes do not require special 
+                    handling for false values.
+                </li>
+                <li>
+                    <strong>Easy cancel handling</strong> - The Struts<sup>2</sup> Cancel button can go directly to 
+                    a different action. 
+                </li>
+                <li>
+                    <strong>POJO forms</strong> - No more ActionForms! We can use any JavaBean we like or 
+                    put properties directly on our Action classes. No need to use all String properties! 
+                </li>
+                <li>
+                    <strong>POJO Actions</strong> - Any class can be used as an Action class. Even the 
+                    interface is optional! 
+                </li>
+                <li>
+                    <strong>Easy Spring integration</strong> - Struts<sup>2</sup> Actions are Spring-aware. Just 
+                    add Spring beans!
+                </li>
+                <li>
+                    <strong>First-class AJAX support</strong> - The AJAX theme gives interactive 
+                    applications a boost. 
+                </li>
+                </ul></li>
+
+                <li>
+                    <em>Deploy!</em> 
+                <ul>
+                <li>
+                    <strong>QuickStart</strong> - Configuration files are reloadable so many changes 
+                    can be made on the fly without restarting a web container. 
+                </li>
+                <li>
+                    <strong>Easy plugins</strong> - Framework extensions can be added by dropping in a JAR. 
+                    No manual configuration required! Bundled plugins add support for JavaServer Faces, 
+                    JasperReports, JFreeChart, Tiles, and more ...
+                </li>
+                <li>
+                    <strong>Easy portlets</strong> - Automatic portlet support allows portal and servlet 
+                    deployments with no code changes.
+                </li>
+
+                </ul></li>
+                <li>
+                <em>Maintain!</em> 
+                <ul>
+                <li>
+                    <strong>Easy-to-test Actions</strong> - Struts<sup>2</sup> Actions are HTTP independent and 
+                    can be tested without resorting to mock objects. 
+                </li>
+                <li>
+                    <strong>Intelligent Defaults</strong> - Most framework configuration elements have a default 
+                    value that we can set and forget. 
+                </li>
+                <li>
+                    <strong>Easy-to-customize controller</strong> - Struts 1 lets us customize the request 
+                    processor per module, Struts<sup>2</sup> lets us customize the request handling 
+                    per action, if desired. 
+                </li>
+                <li>
+                    <strong>Easy-to-tweak tags</strong> - Struts<sup>2</sup> tag markup can be altered by changing 
+                    an underlying stylesheet. Individual tag markup can be changed by 
+                    editing a FreeMarker template. No need to grok the taglib API!
+                    <em>JSP, FreeMarker, and Velocity tags are fully supported.</em>
+                </li>
+                <li>
+                    <strong>Integrating Debugging</strong> - Built-in debugging tools supporting profiling, 
+                    problem reports, and interactive object model queries.
+                </li>
+                </ul></li></ul>                                
+            <p>
+            For more,  
+            <a href="http://struts.apache.org/2.x/">
+              visit the Apache Struts 2 website.
+            </a>
+            </p>
+            <hr/>
+
+
             <h4 id="a20061020.1">20 Oct 2006 - New Struts Committer: David DeWolf</h4>            
             <p>
             Please join us in welcoming David DeWolf as a new Struts committer. 
@@ -54,7 +177,7 @@ limitations under the License.
             
             <p>
             The Apache Struts project is pleased to announce the availability of 
-            the <a href="http://cwiki.apache.org/WW/home.html#Home-Distributions">
+            the <a href="http://struts.apache.org/download.cgi#struts201">
             Struts 2.0.1 development build</a>. 
             </p>
             

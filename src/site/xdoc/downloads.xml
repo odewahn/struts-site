@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+                              <?xml version="1.0"?>
 <!--
 Copyright 1999-2006 The Apache Software Foundation
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -19,11 +19,11 @@ limitations under the License.
 <document>
 
     <properties>
-        <title>Downloads</title>
+        <title>Distributions</title>
     </properties>
 
     <body>
-        <section name="Apache Struts Downloads">
+        <section name="Apache Struts Distributions">
 
             <p>
                 The Apache Struts framework is available to the public 
@@ -41,13 +41,11 @@ limitations under the License.
                 <a href="http://ibiblio.org">ibiblio.</a>
             </p>
 
+            <a name="ReleasesAndMilestones"/>
             <subsection name="Releases and Milestone Builds">
-                <a name="ReleasesAndMilestones"/>
                 <p>
                     Releases and milestone builds of Apache Struts products are
-                    available from
-                    our distribution site, or from mirror
-                    sites.
+                    available from our distribution site, or from mirror sites.
                 </p>
                 <ul>
                     <li>
@@ -59,12 +57,12 @@ limitations under the License.
                                 </a>
                             </li>
                             <li>
-                                <a href="http://struts.apache.org/download.cgi">
+                                <a href="http://struts.apache.org/download.cgi#struts129">
                                     Struts 1.2.9
                                 </a>
                             </li>
                             <li>
-                                <a href="http://struts.apache.org/download.cgi">
+                                <a href="http://struts.apache.org/download.cgi#scripting101">
                                     Struts Scripting 1.0.1
                                 </a>
                             </li>
@@ -72,9 +70,11 @@ limitations under the License.
                     </li>
                     <li>
                         <strong>Beta Releases</strong>
-                        <ul>
-                            <li>None at this time.</li>
-                        </ul>
+                            <li>
+                                <a href="http://struts.apache.org/download.cgi#struts201">
+                                    Struts 2.0.1
+                                </a>
+                            </li>
                     </li>
                     <li>
                         <strong>Older Releases</strong>
@@ -170,8 +170,7 @@ limitations under the License.
                     To download the trunk (HEAD revision) of all Struts
                     subprojects,
                     a convenience directory has been added, named
-                    <b>current</b>
-                    .
+                    <b>current</b>.
                     The current directory uses a Subversion feature called
                     externals
                     which stores properties on the directory.
@@ -201,11 +200,9 @@ limitations under the License.
                     relative paths might not work the way you expect.
                     For more, see the
                     <a href="http://svnbook.red-bean.com/en/1.1/ch07s04.html">
-                        Externals
-                        Definitions</a>
+                        Externals Definitions</a>
                     section of the
-                    <a href="http://svnbook.red-bean.com/">Subversion Book</a>
-                    .
+                    <a href="http://svnbook.red-bean.com/">Subversion Book.</a>
                 </p>
 
 
@@ -300,6 +297,57 @@ limitations under the License.
 
             </subsection>
 
+        <subsection name="Maven Snapshots">
+        <p>
+            When a distribution is first made available, 
+            it is rated as a development build or "snapshot". 
+            Later, the quality of the distribution may be upgraded to "Beta" or 
+            "General Availability", based on feedback from the community, 
+            and then made available through ibiblio and other public Maven repositories. 
+            To obtain an early distribution via Maven, 
+            specify the ASF Snapshot repository in the project's POM. 
+        </p>
+        
+        <p><pre><code>
+        &lt;repositories>
+          &lt;repository>
+            &lt;id>apache.snapshots&lt;/id>
+            &lt;name>ASF Maven 2 Snapshot&lt;/name>
+            &lt;url>http://people.apache.org/repo/m2-snapshot-repository&lt;/url>
+          &lt;/repository>
+        &lt;/repositories>
+        </code></pre></p>
+
+        </subsection>                        
+        </section>
+
+        <section name="Licensing of Apache Struts Distributions">
+        <p>        
+            Apache Struts 2 source code and documentation is 
+            licensed to the Apache Software Foundation (ASF) under one
+            or more contributor license agreements. See the NOTICE file
+            included in distribution for additional information
+            regarding copyright ownership. The ASF licenses the source 
+            code and documentation files in our Apache Struts distribution 
+            to you under the Apache License, Version 2.0 (the "License"); 
+            you may not use the Apache Struts product except in compliance
+            with the License. 
+        </p>
+
+        <p>
+            You may obtain a copy of the License at
+            <a href="http://www.apache.org/licenses/LICENSE-2.0">
+            http://www.apache.org/licenses/LICENSE-2.0</a>.
+        </p> 
+
+        <p>
+            Unless required by applicable law or agreed to in writing,
+            software distributed under the License is distributed on an
+            "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+            KIND, either express or implied.  See the License for the
+            specific language governing permissions and limitations
+            under the License.  
+        </p> 
         </section>
 
         <section>

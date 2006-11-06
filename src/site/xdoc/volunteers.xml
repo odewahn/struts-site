@@ -87,16 +87,6 @@ limitations under the License.
                     </li>
 
                     <li>
-                        <strong>David M. Karr</strong>
-                        (dmkarr at apache.org)
-                    </li>
-
-                    <li>
-                        <strong>David Graham</strong>
-                        (dgraham at apache.org)
-                    </li>
-
-                    <li>
                         <strong>James Mitchell</strong>
                         (jmitchell at apache.org)
                     </li>
@@ -210,15 +200,30 @@ limitations under the License.
             </subsection>
 
             <a name="emeritus"/>
-            <subsection name="Emeritus Committers">
+            <subsection name="Emeritus Volunteers">
             
             <p>
-            Emeritus committers are no longer active in the project. 
-            An emeritus committer can become active again upon request. 
+            Emeritus volunteers are no longer active in the project. 
+            An emeritus volunteers can become active again upon request. 
             ("Merit never expires.")
             </p>
             
                 <ul>
+                    <li>
+                        <strong>David M. Karr</strong> 
+                        (dmkarr at apache.org) (PMC) 
+                    </li>
+
+                    <li>
+                        <strong>David Graham</strong>
+                        (dgraham at apache.org) (PMC) 
+                    </li>
+
+                    <li>
+                        <strong>Steve Raeburn</strong> 
+                        (Steve Raeburn (sraeburn at apache.org) (PMC) 
+                    </li>
+
                     <li>Luis Arias</li>
 
                     <li>Pierre Delilse</li>
