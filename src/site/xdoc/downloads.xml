@@ -1,4 +1,4 @@
-                              <?xml version="1.0"?>
+<?xml version="1.0"?>
 <!--
 Copyright 1999-2006 The Apache Software Foundation
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -19,11 +19,11 @@ limitations under the License.
 <document>
 
     <properties>
-        <title>Distributions</title>
+        <title>Downloads</title>
     </properties>
 
     <body>
-        <section name="Apache Struts Distributions">
+        <section name="Apache Struts Downloads">
 
             <p>
                 The Apache Struts framework is available to the public 
@@ -41,11 +41,12 @@ limitations under the License.
                 <a href="http://ibiblio.org">ibiblio.</a>
             </p>
 
-            <a name="ReleasesAndMilestones"/>
             <subsection name="Releases and Milestone Builds">
+                <a name="ReleasesAndMilestones"/>
                 <p>
-                    Releases and milestone builds of Apache Struts products are
-                    available from our distribution site, or from mirror sites.
+                    Releases and milestone builds of Apache Struts products 
+                    are available from our distribution site, or from mirror
+                    sites.
                 </p>
                 <ul>
                     <li>
@@ -57,12 +58,12 @@ limitations under the License.
                                 </a>
                             </li>
                             <li>
-                                <a href="http://struts.apache.org/download.cgi#struts129">
+                                <a href="http://struts.apache.org/download.cgi">
                                     Struts 1.2.9
                                 </a>
                             </li>
                             <li>
-                                <a href="http://struts.apache.org/download.cgi#scripting101">
+                                <a href="http://struts.apache.org/download.cgi">
                                     Struts Scripting 1.0.1
                                 </a>
                             </li>
@@ -70,11 +71,13 @@ limitations under the License.
                     </li>
                     <li>
                         <strong>Beta Releases</strong>
+                        <ul>
                             <li>
                                 <a href="http://struts.apache.org/download.cgi#struts201">
                                     Struts 2.0.1
                                 </a>
                             </li>
+                        </ul>
                     </li>
                     <li>
                         <strong>Older Releases</strong>
@@ -108,14 +111,35 @@ limitations under the License.
                     by the Apache Struts community.
                     When a build is judged "ready for prime time",
                     it is promoted to "General Availability" status and may be
-                    made
-                    the "Best Available" release.
+                    made the "Best Available" release.
                     If the community feels that a build requires more testing,
                     then it may be marked with "Beta" status.
                 </p>
                 
             </subsection>
 
+            <a name="MavenSnapshots"/>
+            <subsection name="Maven Snapshots">
+            <p>
+                    When a distribution is first made available, 
+                    it is rated as a development build or "snapshot". 
+                    Later, the quality of the distribution may be upgraded to 
+                    "Beta" or "General Availability", based on feedback from 
+                    the community, and then made available through ibiblio and 
+                    other public Maven repositories. 
+                    To obtain an early distribution via Maven, 
+                    specify the ASF Snapshot repository in the project's POM. 
+            </p>
+        
+<p><pre><code>&lt;repositories>
+  &lt;repository>
+    &lt;id>apache.snapshots&lt;/id>
+    &lt;name>ASF Maven 2 Snapshot&lt;/name>
+    &lt;url>http://people.apache.org/repo/m2-snapshot-repository&lt;/url>
+  &lt;/repository>
+&lt;/repositories></code></pre></p>
+            </subsection>      
+        
             <a name="NightlyBuilds"/>
             <subsection name="Nightly Builds">
 
@@ -172,8 +196,7 @@ limitations under the License.
                     a convenience directory has been added, named
                     <b>current</b>.
                     The current directory uses a Subversion feature called
-                    externals
-                    which stores properties on the directory.
+                    externals which stores properties on the directory.
                     With those properties,
                     Subversion has all the information it needs to
                     automaticaly download
@@ -202,9 +225,8 @@ limitations under the License.
                     <a href="http://svnbook.red-bean.com/en/1.1/ch07s04.html">
                         Externals Definitions</a>
                     section of the
-                    <a href="http://svnbook.red-bean.com/">Subversion Book.</a>
+                    <a href="http://svnbook.red-bean.com/">Subversion Book</a>.
                 </p>
-
 
                 <p>
                     To check out individual sub-projects from the Subversion
@@ -249,8 +271,7 @@ limitations under the License.
                     page.
                     For more about how Apache Struts uses Subversion, see our
                     <a href="http://wiki.apache.org/struts/StrutsMaintenanceSvn">
-                        Subversion wiki page</a>
-                    .
+                        Subversion wiki page</a>.
                 </p>
 
             </subsection>
@@ -297,57 +318,35 @@ limitations under the License.
 
             </subsection>
 
-        <subsection name="Maven Snapshots">
-        <p>
-            When a distribution is first made available, 
-            it is rated as a development build or "snapshot". 
-            Later, the quality of the distribution may be upgraded to "Beta" or 
-            "General Availability", based on feedback from the community, 
-            and then made available through ibiblio and other public Maven repositories. 
-            To obtain an early distribution via Maven, 
-            specify the ASF Snapshot repository in the project's POM. 
-        </p>
-        
-        <p><pre><code>
-        &lt;repositories>
-          &lt;repository>
-            &lt;id>apache.snapshots&lt;/id>
-            &lt;name>ASF Maven 2 Snapshot&lt;/name>
-            &lt;url>http://people.apache.org/repo/m2-snapshot-repository&lt;/url>
-          &lt;/repository>
-        &lt;/repositories>
-        </code></pre></p>
+            <a name="Licensing"/>
+            <subsection name="Licensing of Apache Struts Distributions">
+                <p>        
+                    Apache Struts 2 source code and documentation is 
+                    licensed to the Apache Software Foundation (ASF) under one
+                    or more contributor license agreements. See the NOTICE file
+                    included in any distribution for additional information
+                    regarding copyright ownership. The ASF licenses the source 
+                    code and documentation files in our Apache Struts distribution 
+                    to you under the Apache License, Version 2.0 (the "License"); 
+                    you may not use the Apache Struts product except in compliance
+                    with the License. 
+                </p>
 
-        </subsection>                        
-        </section>
+                <p>
+                    You may obtain a copy of the License at
+                    <a href="http://www.apache.org/licenses/LICENSE-2.0">
+                    http://www.apache.org/licenses/LICENSE-2.0</a>.
+                </p> 
 
-        <section name="Licensing of Apache Struts Distributions">
-        <p>        
-            Apache Struts 2 source code and documentation is 
-            licensed to the Apache Software Foundation (ASF) under one
-            or more contributor license agreements. See the NOTICE file
-            included in distribution for additional information
-            regarding copyright ownership. The ASF licenses the source 
-            code and documentation files in our Apache Struts distribution 
-            to you under the Apache License, Version 2.0 (the "License"); 
-            you may not use the Apache Struts product except in compliance
-            with the License. 
-        </p>
-
-        <p>
-            You may obtain a copy of the License at
-            <a href="http://www.apache.org/licenses/LICENSE-2.0">
-            http://www.apache.org/licenses/LICENSE-2.0</a>.
-        </p> 
-
-        <p>
-            Unless required by applicable law or agreed to in writing,
-            software distributed under the License is distributed on an
-            "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-            KIND, either express or implied.  See the License for the
-            specific language governing permissions and limitations
-            under the License.  
-        </p> 
+                <p>
+                    Unless required by applicable law or agreed to in writing,
+                    software distributed under the License is distributed on an
+                    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+                    KIND, either express or implied.  See the License for the
+                    specific language governing permissions and limitations
+                    under the License.  
+                </p> 
+        </subsection>
         </section>
 
         <section>
