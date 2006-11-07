@@ -167,11 +167,6 @@ limitations under the License.
                 </p>
                         
                 <ul>
-
-                    <li>
-                        <strong>Eddie Bush</strong>
-                        (ekbush at apache.org)
-                    </li>
                     <li>
                         <strong>David Geary</strong>
                         (dgeary at apache.org)
@@ -210,18 +205,23 @@ limitations under the License.
             
                 <ul>
                     <li>
-                        <strong>David M. Karr</strong> 
+                        David M. Karr
                         (dmkarr at apache.org) (PMC) 
                     </li>
 
                     <li>
-                        <strong>David Graham</strong>
+                        David Graham
                         (dgraham at apache.org) (PMC) 
                     </li>
 
                     <li>
-                        <strong>Steve Raeburn</strong> 
+                        Steve Raeburn
                         (Steve Raeburn (sraeburn at apache.org) (PMC) 
+                    </li>
+
+                    <li>
+                        Eddie Bush
+                        (ekbush at apache.org)
                     </li>
 
                     <li>Luis Arias</li>
