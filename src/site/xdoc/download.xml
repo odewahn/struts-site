@@ -280,8 +280,8 @@ limitations under the License.
             
             <p>       
              <a href="http://struts.apache.org/2.x/">Apache Struts 2</a> 
-             is an elegant, extensible framework, well suited 
-             for creating enterprise-ready Java web applications. 
+             is an elegant, extensible framework, 
+             for building enterprise-ready Java web applications. 
              It is available in a full distribution, or as
              separate library, source, example and documentation
              distributions.
