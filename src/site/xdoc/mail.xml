@@ -356,12 +356,12 @@ limitations under the License.
                         read-only list.
                         <br/>
                         [
-                        <a href="mailto:announcements-subscribe@struts.apache.org">
+                        <a href="mailto:announcements-subscribe@struts.apache.org?subject=subscribe&amp;body=subscribe">
                             Subscribe</a>
                         ]
                         <br/>
                         [
-                        <a href="mailto:announcements-unsubscribe@struts.apache.org">
+                        <a href="mailto:announcements-unsubscribe@struts.apache.org?subject=unsubscribe&amp;body=unsubscribe">
                             Unsubscribe</a>
                         ]
                     </li>
@@ -376,12 +376,12 @@ limitations under the License.
                         Struts features.
                         <br/>
                         [
-                        <a href="mailto:user-subscribe@struts.apache.org">
+                        <a href="mailto:user-subscribe@struts.apache.org?subject=subscribe&amp;body=subscribe">
                             Subscribe</a>
                         ]
                         <br/>
                         [
-                        <a href="mailto:user-unsubscribe@struts.apache.org">
+                        <a href="mailto:user-unsubscribe@struts.apache.org?subject=unsubscribe&amp;body=unsubscribe">
                             Unsubscribe</a>
                         ]
                     </li>
@@ -391,12 +391,12 @@ limitations under the License.
                         a daily digest of the Struts USER list.
                         <br/>
                         [
-                        <a href="mailto:user-digest-subscribe@struts.apache.org">
+                        <a href="mailto:user-digest-subscribe@struts.apache.org?subject=subscribe&amp;body=subscribe">
                             Subscribe</a>
                         ]
                         <br/>
                         [
-                        <a href="mailto:user-digest-unsubscribe@struts.apache.org">
+                        <a href="mailto:user-digest-unsubscribe@struts.apache.org?subject=unsubscribe&amp;body=unsubscribe">
                             Unsubscribe</a>
                         ]
                         <br/>
@@ -434,12 +434,12 @@ limitations under the License.
                         itself.
                         <br/>
                         [
-                        <a href="mailto:dev-subscribe@struts.apache.org">
+                        <a href="mailto:dev-subscribe@struts.apache.org?subject=subscribe&amp;body=subscribe">
                             Subscribe</a>
                         ]
                         <br/>
                         [
-                        <a href="mailto:dev-unsubscribe@struts.apache.org">
+                        <a href="mailto:dev-unsubscribe@struts.apache.org?subject=unsubscribe&amp;body=unsubscribe">
                             Unsubscribe</a>
                         ]
                     </li>
@@ -451,12 +451,12 @@ limitations under the License.
                         source code repository.
                         <br/>
                         [
-                        <a href="mailto:commits-subscribe@struts.apache.org">
+                        <a href="mailto:commits-subscribe@struts.apache.org?subject=subscribe&amp;body=subscribe">
                             Subscribe</a>
                         ]
                         <br/>
                         [
-                        <a href="mailto:commits-unsubscribe@struts.apache.org">
+                        <a href="mailto:commits-unsubscribe@struts.apache.org?subject=unsubscribe&amp;body=unsubscribe">
                             Unsubscribe</a>
                         ]
                     </li>
@@ -467,12 +467,12 @@ limitations under the License.
                         tracker.
                         <br/>
                         [
-                        <a href="mailto:issues-subscribe@struts.apache.org">
+                        <a href="mailto:issues-subscribe@struts.apache.org?subject=subscribe&amp;body=subscribe">
                             Subscribe</a>
                         ]
                         <br/>
                         [
-                        <a href="mailto:issues-unsubscribe@struts.apache.org">
+                        <a href="mailto:issues-unsubscribe@struts.apache.org?subject=unsubscribe&amp;body=unsubscribe">
                             Unsubscribe</a>
                         ]
                     </li>
