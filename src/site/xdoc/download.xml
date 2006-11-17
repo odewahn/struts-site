@@ -19,17 +19,17 @@ limitations under the License.
 <document>
 
     <properties>
-        <title>Download</title>
+        <title>Download a Release</title>
     </properties>
 
     <body>
 
         <a name="download"/>
-        <section name="Download Struts">
+        <section name="Download a Release of Apache Struts">
 
             <p>
-                Use the links below to download Apache Struts from one of our
-                mirrors. You can 
+                Use the links below to download a release of Apache Struts 
+                from one of our mirrors. You can 
                 <a href="#verify">verify the integrity</a>
                 of the downloaded files using signatures downloaded from our
                 main distribution directory.

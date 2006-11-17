@@ -263,7 +263,7 @@ limitations under the License.
             </subsection>
 
             <subsection name="Archives">
-                <p>Archives Carrying Struts Lists</p>
+                <p>Archives Carrying Struts User List</p>
                 <ul>
                     <li>
                         <a href="http://mail-archives.apache.org/">ASF Mail
@@ -274,30 +274,13 @@ limitations under the License.
                             <a href="http://mail-archives.apache.org/mod_mbox/struts-user/">
                             User list</a>
                         </li>
-                        <li>
-                            <a href="http://mail-archives.apache.org/mod_mbox/struts-dev/">
-                            Dev. list</a>
-                        </li>
-                        <li>
-                            <a href="http://mail-archives.apache.org/mod_mbox/struts-commits/">
-                            Commits list</a>
-                        </li>
-                        <li>
-                            <a href="http://mail-archives.apache.org/mod_mbox/struts-issues/">
-                            Issues list</a>
-                        </li>
-
-                        </ul>
+                   </ul>
 
                     <li>Mail-Archive</li>
                     <ul>
                         <li>
                             <a href="http://www.mail-archive.com/user%40struts.apache.org/">
                                 User list</a>
-                        </li>
-                        <li>
-                            <a href="http://www.mail-archive.com/dev%40struts.apache.org/">
-                                Dev. list</a>
                         </li>
                     </ul>
                     <li>Gmane</li>
@@ -306,10 +289,6 @@ limitations under the License.
                             <a href="http://news.gmane.org/gmane.comp.jakarta.struts.user/">
                                 User List</a>
                         </li>
-                        <li>
-                            <a href="http://news.gmane.org/gmane.comp.jakarta.struts.devel/">
-                                Dev. List</a>
-                        </li>
                     </ul>
                     <li>Mailing list ARChives</li>
                     <ul>
@@ -317,20 +296,12 @@ limitations under the License.
                             <a href="http://marc.theaimsgroup.com/?l=struts-user&amp;r=1&amp;w=2">
                                 User List</a>
                         </li>
-                        <li>
-                            <a href="http://marc.theaimsgroup.com/?l=struts-dev&amp;r=1&amp;w=2">
-                                Dev. List</a>
-                        </li>
                     </ul>
                     <li>Nabble</li>
                     <ul>
                         <li>
                             <a href="http://www.nabble.com/Struts---User-f206.html">
                                 User List</a>
-                        </li>
-                        <li>
-                            <a href="http://www.nabble.com/Struts---Dev-f205.html">
-                                Dev. List</a>
                         </li>
                     </ul>
 
@@ -342,8 +313,7 @@ limitations under the License.
                     Now that you've read the guidelines (you
                     <em>have</em>
                     read the rest of the page, haven't you?), please subscribe
-                    to
-                    whichever Struts lists are of interest.
+                    to whichever Struts lists are of interest.
                 </p>
 
                 <ul>
@@ -424,60 +394,13 @@ limitations under the License.
                         regular list.
                         <br/>
                     </li>
-
-                    <li>
-                        <strong>STRUTS-DEV Mailing List</strong>
-                        - Subscribe to this mailing
-                        list to communicate with other developers interested
-                        in expanding and
-                        improving the functionality supported by Struts
-                        itself.
-                        <br/>
-                        [
-                        <a href="mailto:dev-subscribe@struts.apache.org?subject=subscribe&amp;body=subscribe">
-                            Subscribe</a>
-                        ]
-                        <br/>
-                        [
-                        <a href="mailto:dev-unsubscribe@struts.apache.org?subject=unsubscribe&amp;body=unsubscribe">
-                            Unsubscribe</a>
-                        ]
-                    </li>
-
-                    <li>
-                        <strong>STRUTS-COMMITS Mailing List</strong>
-                        - Subscribe to this mailing
-                        to receive notifications of changes to the Struts
-                        source code repository.
-                        <br/>
-                        [
-                        <a href="mailto:commits-subscribe@struts.apache.org?subject=subscribe&amp;body=subscribe">
-                            Subscribe</a>
-                        ]
-                        <br/>
-                        [
-                        <a href="mailto:commits-unsubscribe@struts.apache.org?subject=unsubscribe&amp;body=unsubscribe">
-                            Unsubscribe</a>
-                        ]
-                    </li>
-                    <li>
-                        <strong>STRUTS-ISSUES Mailing List</strong>
-                        - Subscribe to this mailing
-                        to receive notifications from the Struts JIRA issue
-                        tracker.
-                        <br/>
-                        [
-                        <a href="mailto:issues-subscribe@struts.apache.org?subject=subscribe&amp;body=subscribe">
-                            Subscribe</a>
-                        ]
-                        <br/>
-                        [
-                        <a href="mailto:issues-unsubscribe@struts.apache.org?subject=unsubscribe&amp;body=unsubscribe">
-                            Unsubscribe</a>
-                        ]
-                    </li>
-
                 </ul>
+                
+                <p>
+                    <em>To subscribe to the Dev list,
+                    please visit the <a href="dev-mail.html">
+                    product development</a> area.</em>
+                </p>
 
                 <p>
                     Please note that the Struts User list enjoys a "casual
@@ -490,8 +413,7 @@ limitations under the License.
                     mail filter accordingly.
                     Posting [FRIDAY] articles on any other weekday is
                     <strong>strongly
-                        discouraged</strong>
-                    .
+                        discouraged.</strong>
                     We thank you for your cooperation.
                 </p>
 
@@ -501,7 +423,7 @@ limitations under the License.
         <section>
             <p class="right">
                 <strong>Next:</strong>
-                <a href="bylaws.html">PMC Charter</a>
+                <a href="helping.html">How to Help FAQ</a>
             </p>
         </section>
 

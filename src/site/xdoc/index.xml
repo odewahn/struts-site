@@ -28,7 +28,8 @@ limitations under the License.
         <section name="Recent Releases">
         
         <p>
-            Visit the <a href="downloads.html">distributions</a> page for links to releases and distributions.            
+            Scroll down for more about <a href="#Welcome">Apache Struts</a> 
+            and the <a href="#Project">Apache Struts project.</a>
         </p>
         
             <a name="2.0.1"/>
@@ -188,7 +189,7 @@ limitations under the License.
             <p>
                 A stable release of Struts 2 is expected in the fourth 
                 quarter of 2006. 
-                An intitial <a href="downloads.html">BETA release</a> 
+                A <a href="downloads.html">BETA release</a>
                 is now available.
             </p>
                         
@@ -218,7 +219,7 @@ limitations under the License.
         <section>
             <p class="right">
                 <strong>Next:</strong>
-                <a href="announce.html">Announcements</a>
+                <a href="downloads.html">Releases</a>
             </p>
         </section>
 
