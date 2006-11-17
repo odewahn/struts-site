@@ -23,7 +23,7 @@
                     href="http://struts.apache.org/1.x/" />
         </links>
 
-        <menu name="Apache Struts Framework">
+        <menu name="Apache Struts">
             <item
                     name="Welcome"
                     href="index.html"
@@ -46,7 +46,7 @@
                     />
         </menu>
 
-        <menu name="Product Documentation">
+        <menu name="Documentation">
             <item 
                     name="Key Technologies" 
                     href="primer.html" />
@@ -64,31 +64,7 @@
                     href="http://struts.apache.org/1.2.x/index.html"/>
         </menu>
         
-        <menu name="Past Releases">
-            <item 
-                    name="Struts 1.3.5" 
-                    href="http://struts.apache.org/1.3.5/index.html"/>
-            <item   
-                    name="Struts 1.2.9" 
-                    href="http://struts.apache.org/1.2.9/index.html"/>
-            <item   
-                    name="Struts 1.2.8" 
-                    href="http://struts.apache.org/1.2.8/index.html"/>
-            <item 
-                    name="Struts 1.2.7" 
-                    href="http://struts.apache.org/1.2.7/index.html"/>
-            <item 
-                    name="Struts 1.2.4" 
-                    href="http://struts.apache.org/1.2.4/index.html"/>
-            <item 
-                    name="Struts 1.1" 
-                    href="http://struts.apache.org/1.1/index.html"/>
-            <item 
-                    name="Struts 1.0.2" 
-                    href="http://struts.apache.org/1.0.2/index.html"/>
-        </menu>
-
-        <menu name="Product Support">
+        <menu name="Support">
             <item
                     name="User Mailing List"
                     href="mail.html"
@@ -99,32 +75,32 @@
                     />
         </menu>
 
-        <menu name="Product Development">
+        <menu name="Development">
             <item
                     name="How to Help FAQ"
                     href="helping.html"
                     />
 
             <item
-                    name="Dev Mailing List"
-                    href="dev-mail.html"
+                    name="Development Mailing List"
+                    href="dev\dev-mail.html"
                     />
             <item
-                    name="Nightly Builds"
-                    href="builds.html"
+                    name="Source Code"
+                    href="dev\builds.html"
                     />
                    
             <item
                     name="Release Guidelines"
-                    href="releases.html"
+                    href="dev\releases.html"
                     />
             <item
                     name="Volunteers"
-                    href="volunteers.html"
+                    href="dev\volunteers.html"
                     />
             <item
                     name="PMC Charter"
-                    href="bylaws.html"
+                    href="dev\bylaws.html"
                     />
             <item 
                     name="Sandbox" 
