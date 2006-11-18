@@ -24,7 +24,7 @@ limitations under the License.
 
     <body>
 
-        <section name="Mailing Lists">
+        <section name="Development Lists">
 
             <p>
                 The project hosts several mailing lists. The
@@ -163,7 +163,7 @@ limitations under the License.
         <section>
             <p class="right">
                 <strong>Next:</strong>
-                <a href="builds.html">Nightly Builds</a>
+                <a href="builds.html">Source Code</a>
             </p>
         </section>
 

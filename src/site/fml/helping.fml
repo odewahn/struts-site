@@ -434,9 +434,8 @@ limitations under the License.
                     suggestion
                     in the
                     <a href="#issues">issue tracker.</a>
-                    .
-                    <strong>After creating the ticket</strong>
-                    , you can go back and upload a
+                    <strong>After creating the ticket.</strong>
+                    you can go back and upload a
                     file containing your patch.
                 </p>
 
@@ -696,9 +695,9 @@ limitations under the License.
 
                 <ul>
                     <li>
-                        Most importantly, download the latest nightly
-                        build or
-                        development release
+                        Most importantly, download the latest
+                        <a href="dev/builds.html#NightlyBuilds">nightly build</a>
+                        or development release
                         and test it against your own applications.
                         Report any and all issues or suspected issues to
                         <a href="http://issues.apache.org/struts/">

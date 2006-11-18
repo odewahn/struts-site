@@ -85,7 +85,7 @@ limitations under the License.
                     trouble.
                 </p>
                 <p>
-                  There have been several proposals for a new Struts 2 codebase.
+                  There were several proposals for a new Struts 2 codebase.
                   The first formal proposal was
                   <a href="http://wiki.apache.org/struts/StrutsJericho">Jericho,</a>
                   followed by
@@ -274,9 +274,9 @@ limitations under the License.
             should I use Struts 2 or WebWork 2?</question>
             <answer>
                 <p>
-                    An initial release of Struts 2 is anticipated in the 
-                    third quarter of 2006. 
-                    In the meantime, 
+                    A beta release of Struts 2 is now available, and
+                    a stable release is anticipated by the end of the year.
+                    In the meantime,
                     unless you are an eager early-adopter, 
                     the prudent course would be to start new projects with 
                     <a href="http://www.opensymphony.com/webwork/">
@@ -340,7 +340,7 @@ limitations under the License.
                     There are 
                     <a href="http://opensource.atlassian.com/confluence/oss/display/BOOKS/Books+about+Struts">
                     dozens of books</a> and 
-                    <a href="http://www.StrutsCentral.net/Resources/Action/articles-2006.html">
+                    <a href="http://www.StrutsCentral.net/Resources/Struts1/articles-2006.html">
                     hundreds of articles</a> available to help people get started with 
                     Struts 1 or improve the application they already have.
                 </p>
@@ -356,8 +356,8 @@ limitations under the License.
                    Of course, if you are starting a new project, and have your 
                    choice of frameworks, 
                    this might be a good time to consider whether you would like to 
-                   continue to use Struts 1 or <a href="#choice">
-                   whether it's time to try Struts 2.</a> 
+                   continue to use Struts 1 or
+                   whether it's time to try Struts 2. 
                 </p>            
             </answer>          
          </faq>

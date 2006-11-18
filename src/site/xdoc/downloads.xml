@@ -27,7 +27,7 @@ limitations under the License.
 
             <p>
                 Releases of the Apache Struts framework 
-                are made available to the public at no charge,
+                are made available to the general public at no charge,
                 under the
                 <a href="http://apache.org/licenses/">Apache License,</a>                
                 in both binary and source distributions.
@@ -168,7 +168,7 @@ limitations under the License.
         <section>
             <p class="right">
                 Next:
-                <a href="kickstart.html">Kickstart FAQ</a>
+                <a href="announce.html">Announcements</a>
             </p>
         </section>
 

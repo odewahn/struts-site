@@ -195,22 +195,16 @@ limitations under the License.
 
                 <p>
                     As part of our continuous integration practice,
-                    we also make available each morning the latest development build.
+                    we also make available each morning the
+                    <a href="http://people.apache.org/builds/struts/nightlies/">
+                        latest development build.</a>
                     <em>Again: Use at your own risk!</em>
                 </p>
-
-                <ul>
-
-                    <li>
-                        <a href="http://people.apache.org/builds/struts/nightlies/">
-                            Struts Nightly Builds</a>
-                    </li>
-                </ul>
 
                 <p>
                     If you do <strong>not</strong> plan to contribute to the development of the framework,
                     then you probably want to download a
-                    <a href="../downloads.html">Release</a> instead.
+                    <a href="../downloads.html">release</a> instead.
                 </p>
 
               <p>
@@ -246,7 +240,7 @@ limitations under the License.
                     When a test build is upgraded to "Beta" or "GA" 
                     by a vote of the project members, 
                     we make the distribution available as 
-                    a formal <a href="download.html">Apache Release.</a>
+                    a formal <a href="../downloads.html">release.</a>
                 </p>                
             <a name="MavenSnapshots"/>
             <subsection name="Maven Snapshots">

@@ -33,6 +33,10 @@
                     href="downloads.html"
                     />
             <item
+                    name="Announcements"
+                    href="announce.html"
+                    />
+            <item
                     name="Kickstart FAQ"
                     href="kickstart.html"
                     />
@@ -50,18 +54,9 @@
             <item 
                     name="Key Technologies" 
                     href="primer.html" />
-            <item 
-                    name="Javadoc Index" 
-                    href="javadoc.html" />
-            <item   
-                    name="Struts 2.x" 
-                    href="http://struts.apache.org/2.x/index.html"/>
-            <item 
-                    name="Struts 1.3" 
-                    href="http://struts.apache.org/1.x/index.html"/>
-            <item   
-                    name="Struts 1.2" 
-                    href="http://struts.apache.org/1.2.x/index.html"/>
+            <item
+                    name="Struts 1.3.5"
+                    href="http://struts.apache.org/1.3.5/index.html" />
         </menu>
         
         <menu name="Support">
@@ -77,19 +72,25 @@
 
         <menu name="Development">
             <item
+                    name="Struts 2.x Draft Docs"
+                    href="http://struts.apache.org/2.x/index.html"/>
+
+            <item
+                    name="Struts 1.3 Draft Docs"
+                    href="http://struts.apache.org/1.x/index.html"/>
+
+            <item
                     name="How to Help FAQ"
                     href="helping.html"
                     />
-
             <item
-                    name="Development Mailing List"
+                    name="Development Lists"
                     href="dev\dev-mail.html"
                     />
             <item
                     name="Source Code"
                     href="dev\builds.html"
                     />
-                   
             <item
                     name="Release Guidelines"
                     href="dev\releases.html"

@@ -25,24 +25,19 @@ limitations under the License.
             </question>
             <answer>
             <p>
-            The best available release of Apache Struts is
-            <a href="http://struts.apache.org/announce-2005.html#a20050322">
-            Struts 1.2.9.</a>
-            The Struts 1.2.9 release has its
-            <a href="http://struts.apache.org/1.2.9/index.html">
-            own area of the website</a>.
+            The best place to start is with the "best available" 
+                <a href="downloads.html">release.</a>
             If you are new to Java or web development, as well as Apache Struts,
             be sure to review the
-            <a href="http://struts.apache.org/1.2.9/userGuide/index.html">
-            Preface to the User Guide</a>.
+            <a href="primer.html">
+                Key Technologies Primer.</a>
             </p>
             
             <p>
             The main Struts web site covers the latest, unreleased version of 
             each major release series (Struts 1.3 and Struts 2.0). 
-            The documentation for past releases are also available online. 
-            See the navigational menu for links to the documentation for 
-            each release. 
+            Documentation for past  <a href="downloads.html">releases</a>
+                is also available.
             </p>
             
             <p>
@@ -50,14 +45,14 @@ limitations under the License.
             <a href="http://www.StrutsCentral.net/">Struts Central</a>,
             which catalogs all the known resources about Apache Struts for both
             <a href="http://struts.apache.org/1.x/">Struts 1</a> and  
-            <a href="http://struts.apache.org/2.0/">Struts 2</a>.
+            <a href="http://struts.apache.org/2.x/">Struts 2</a>.
             To keep up on the latest news about "everything Struts",
             point your RSS reader at the
             <a href="http://www.PlanetStruts.org/">Planet Struts</a> news site.
             If you still have questions, you can search the
             <a href="mail.html#Archives">User Mailing List archives,</a>
             or <a href="mail.html">post your own question to the list</a>.
-            (Plain old Google often works too!)</p>
+            (Plain old Google usually works too!)</p>
             </answer>
         </faq>
 
@@ -149,7 +144,7 @@ limitations under the License.
                     For more, see the 
                     <a href="http://wiki.apache.org/struts/StrutsMyFavoriteIDE">
                      IDE discussion page</a> 
-                    in the wiki.
+                    in the Struts 1 wiki.
                 </p>
             </answer>
         </faq>
@@ -270,8 +265,6 @@ limitations under the License.
                     favorite newsgroup reader from the
                     <a href="http://news.gmane.org/">GMane News Site.</a>
                     Subscribe to groups
-                    <code>gmane.comp.jakarta.struts.devel</code>
-                    for the developer list, or
                     <code>gmane.comp.jakarta.struts.user</code>
                     for the user list.
                 </p>
@@ -307,9 +300,9 @@ limitations under the License.
                 <p>
                    To get the best response to an inquiry, 
                    please specify which version of Struts is being used, 
-                   including the milestone ("Struts 1.2.4", for example).
-                   You can also include the label <strong>[struts1]</strong> or 
-                   <strong>[struts2]</strong> in the subject line of your post. 
+                   including the milestone ("Struts 1.2.9", for example).
+                   You can also include the label <strong>[s1]</strong> or
+                   <strong>[s2]</strong> in the subject line of your post.
                 </p>
             </answer>
         </faq>

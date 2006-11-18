@@ -25,7 +25,13 @@ limitations under the License.
 
     <body>
 
-        <section name="Javadoc">
+        <section name="Draft Javadocs">
+            <p>
+                These Javadocs pertain to the latest development revision.
+                See the documentation bundled with a
+                <a href="downloads.html">release</a>
+                for the Javadocs for that release.
+            </p>
             <table>
                 <tr>
                     <th>
