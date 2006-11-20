@@ -175,9 +175,9 @@ limitations under the License.
             <p>
                 For more about using Maven to build Struts 2,
                 see
-                <a href="2.x/WW/building-the-framework-from-source.html">Bulding the framework from source</a>
+                <a href="../2.x/docs/building-the-framework-from-source.html">Bulding the framework from source</a>
                 in the
-                <a href="2.x/WW/contributors-guide.html">Struts 2 Contributors Guide.</a>
+                <a href="../2.x/docs/contributors-guide.html">Struts 2 Contributors Guide.</a>
             </p>
 
             <p>
