@@ -92,8 +92,6 @@ limitations under the License.
                   <a href="http://wiki.apache.org/struts/StrutsShale">Shale,</a>
                   and then
                   <a href="http://wiki.apache.org/struts/StrutsTi">Ti.</a>
-                </p>
-                <p>
                   Jericho never progressed past the trial balloon stage.
                   Shale is based on JavaServer Faces, and, when the time came,
                   the Apache Struts PMC found that many of us were not ready to
@@ -119,6 +117,10 @@ limitations under the License.
                    the <a href="http://struts.apache.org/announce.html#a20051214.3">
                    Apache Struts/OpenSymphony WebWork</a> merger arose.
                </p>
+               <p>
+                    For additional background, see 
+                    <a href="http://www.oreillynet.com/onjava/blog/2006/10/my_history_of_struts_2.html">My History of Struts 2</a>.
+               </p>
             </answer>
         </faq>
         
@@ -140,83 +142,7 @@ limitations under the License.
             </answer>
         </faq>
 
-        <faq id="choice">
-            <question>What should I use with my next project?</question>
-
-            <answer>
-                <p>
-                    First, if you are a sole developer working on a small application,
-                    <strong>you might not even need a framework.</strong>
-                    Simple applications can be written with JSF or JSP with
-                    <a href="http://java.sun.com/products/jsp/jstl/index.jsp">
-                        JSTL</a>
-                    "out of the box."
-                    (If you choose JSF, be sure to give
-                    <a href="http://developers.sun.com/prodtech/javatools/jscreator/">
-                        Java Studio Creator</a>
-                    a try.)
-                </p>
-                <p>
-                    Multi-developer teams working on larger applications will
-                    probably find a MVC framework useful.  
-                </p>
-                <p>
-                    When choosing a framework, two key considerations are 
-                    which user interface technology and which version of Java 
-                    you would like to use.
-                    Popular user interface technologies include 
-                    <a href="http://java.sun.com/j2ee/javaserverfaces/">JavaServer
-                        Faces</a>
-                    (JSF), conventional
-                    <a href="http://java.sun.com/products/jsp/">JavaServer Pages</a>
-                    (JSP),
-                    and templating technologies like
-                    <a href="http://jakarta.apache.org/velocity/">Velocity.</a>
-                    Another popular UI technology to consider is 
-                    <a href="http://www.adaptivepath.com/publications/essays/archives/000385.php">
-                    AJAX.</a>
-                </p>
-                <p>
-                    (For more about the technologies underlying modern web 
-                    applications, see the 
-                    <a href="../primer.html">
-                        Key Technologies</a> primer.)
-                </p>
-                <p>
-                    While both Struts 1 and 2 support JSP, Velocity, and XSLT, 
-                    Struts 2 has better support for JSF and first-class support
-                    for template engines like Velocity and 
-                    <a href="http://www.freemarker.org/">FreeMarker,</a>
-                    and, optionally, 
-                    <a href="http://www.jaspersoft.com/">JasperReports.</a>
-                </p>
-                <p>
-                    Both versions work well with AJAX, but Struts 2 includes an 
-                    AJAX theme that can give your interactive pages a boost.
-                    Under the name WebWork, Struts 2 already powers many large 
-                    enterprise-grade solutions, including 
-                    <a href="http://www.atlassian.com/">Atlassian's</a> 
-                    JIRA and Confluence applications.
-                </p>                 
-                <p>
-                    On the JVM front, Struts 2 is targeted for Java 5, but  
-                    provides backward compatibility for Java 4.
-                    Struts 1 is targeted for Java 4. 
-                    (Struts 1 developers using Java 5 might want to consider 
-                    <a href="http://strecks.sourceforge.net/">Strecks,</a> 
-                    a set of Java 5 extensions for Struts 1.2.)
-                </p>
-                <p>
-                    If you would like to use JSF exclusively, 
-                    then <a href="http://shale.apache.org/">
-                        Apache Shale</a> 
-                    might be a good choice.
-                    Originally a Struts subproject, 
-                    Shale is now a top-level ASF project.
-                </p>
-            </answer>
-        </faq>
-        
+       
         <faq id="new">
         <question>What's changed in Struts 2?</question>
            <answer>
@@ -225,50 +151,34 @@ limitations under the License.
                   Struts was always meant to be. 
                   To Struts 1 developers, 
                   Struts 2 feels strange but familiar. 
-                  Some key changes from Struts 1 are:
+                  For more, visit the 
+                  <a href="http://struts.apache.org/2.x/">Struts 2 homepage</a>.
                </p>
 
-
-                <ul>
-                    <li>Smarter!
-                        <ul><li>
-                        <strong>Improved design</strong> - All Struts 2 classes are based on interfaces. Core interfaces are HTTP independant.
-                        </li><li>
-                        <strong>Intelligent Defaults</strong> - Most configuration elements have a default value that you can set and forget.
-                        </li><li>
-                        <strong>Enhanced Results</strong> - Unlike ActionForwards, Struts 2 Results can actually help prepare the response.
-                        </li><li>
-                        <strong>First-class AJAX support</strong> - The AJAX theme gives your interactive applications a boost.
-                        </li><li>
-                        <strong>Stateful Checkboxes</strong> - Struts 2 checkboxes do not require special handling for false values.                        
-                        </li><li>                        
-                        <strong>QuickStart</strong> - Many changes can be made on the fly without restarting a web container.
-                        </li></ul></li>
-                     <li>Easier!
-                        <ul><li>
-                        <strong>Easy-to-test Actions</strong> - Struts 2 Actions are HTTP independant and can be tested without resorting to mocks.
-                        </li><li>
-                        <strong>Easy-to-customize controller</strong> - Struts 1 lets you customize the request processor per module, Struts 2 lets you customize the request handling per action, if you like.
-                        </li><li>
-                        <strong>Easy-to-customize tags</strong> - Struts 2 tags can be customized by changing an underlying stylesheet. Individual tags can be customized by editing a FreeMarker template. No need to grok the taglib API! Both JSP and FreeMarker tags are fully supported.
-                        </li><li>
-                        <strong>Easy cancel handling</strong> - The Struts 2 Cancel button can go directly to a different action.
-                        </li><li>
-                        <strong>Easy Spring integration</strong> - Struts 2 Actions are Spring-aware. Just add your own Spring beans!
-                        </li><li>
-                        <strong>Easy Plugins</strong> - Struts 2 extensions can be added by dropping in a JAR. No manual configuration required!
-                        </li></ul></li>
-                     <li>POJO-ier!
-                        <ul><li>
-                        <strong>POJO forms</strong> - No more ActionForms! Use any JavaBean you like or put properties directly on your Action. No need to use all String properties!
-                        </li><li>
-                        <strong>POJO Actions</strong> - Any class can be used as an Action class. You don't even have to implement an interface!
-                        </li></ul>
-                        </li>
-                 </ul>
             </answer>
         </faq>
-
+        
+        <faq id="stable">
+            <question>Is Struts 2 stable?</question>
+            <answer>
+                <p>
+                  Struts 2.0 is very stable. It's the direct descendant of 
+                  WebWork 2, and we have dubbed the 2.0.x series the 
+                  "compatiblity release". The bits themselves are ready-to-go. 
+                  We're just finishing-up on peripheral concerns that don't 
+                  affect the code itself, and new, optional features that 
+                  don't affect the existing feature set.
+                </p>
+                <p>
+                  In Struts 2.0, we won't be straying far from the path 
+                  WebWork 2 has already blazed. WW2 powers some of the 
+                  greatest web applications on the planet, including 
+                  Confluence and Jive Forums. 
+                  There's no arguing with success!
+                </p>
+            </answer>
+        </faq>
+            
            <faq id="now">
             <question>If I'm starting a new project right now, 
             should I use Struts 2 or WebWork 2?</question>
@@ -277,7 +187,6 @@ limitations under the License.
                     A beta release of Struts 2 is now available, and
                     a stable release is anticipated by the end of the year.
                     In the meantime,
-                    unless you are an eager early-adopter, 
                     the prudent course would be to start new projects with 
                     <a href="http://www.opensymphony.com/webwork/">
                     WebWork 2.2,</a> 
@@ -367,41 +276,84 @@ limitations under the License.
                 Struts 2?</question>
             <answer>
                 <p>
-                    Many of us have significant Struts 1 
-                    applications in production.
-                    Being able to migrate both applications and developer
-                    skill sets is important to all of us.
-                    The Struts 2 documentation includes a Migration Guide 
-                    that outlines several migration strategies. 
-                    Several classic Struts example applications, 
-                    including the MailReader, 
-                    are being migrated to Struts 2. 
+                    We do not recommend migrating stable Struts 1 
+                    applications to Struts 2, unless significant new 
+                    development is planned. 
+                    Struts 1 will be supported for some time to come, 
+                    and there is no reason to rework code that already works. 
                 </p>
-            </answer>
-        </faq>
+                <p>
+                    If new features are being added to an existing 
+                    application, the Struts 1 and Struts 2 codebases 
+                    can coexist in the same application. 
+                    Struts 1 actions can handle the *.dos and 
+                    Struts 2 can handle the *.actions.
+                    Once a team is committed to Struts 2, 
+                    one way to stage a migration would be to migrate 
+                    one action at a time 
+                    (until there's nothing left to do).
+                </p>
+                <p>
+                    For help with migrations, see the 
+                    <a href="http://struts.apache.org/2.x/WW/migration-guide.html">
+                    Struts 2 Migration Guide.</a>
+                </p>
+            </answer>          
+         </faq>
 
-        <faq id="subprojects">
-            <question>Why are there so many "components" for Struts 1 now?</question>
+        <faq id="migrate_s1">
+            <question>What circumstances justify a migration?</question>
             <answer>
                 <p>
-                    Over the years, the Struts 1 framework grew to include not only a
-                    controller and a set of taglibs but several other comonents,
-                    like EL, Faces, Taglib, and Scripting. There were also some
-                    optional classes that some people like, but not everyone needs
-                    (like DispatchAction).
-                </p>
+                 Five reasons to migrate:
+                 </p>
+                 <ol>
+                    <li>
+                       Your S1 application is ready for its own version 2.
+                    </li>
+                    <li>
+                        Your S1 application is still under development 
+                        or in the planning stages.
+                    </li>
+                    <li>
+                        You inherited a S1 application that needs work, 
+                        and you don't understand how it works.
+                    </li>
+                    <li>
+                        You would like to integrate a few JSF components 
+                        into your application.
+                    </li>
+                    <li>
+                        The charming quirks of S1 have become downright 
+                        annoyances, 
+                        and your team is ready for an elegant yet familiar 
+                        solution.
+                    </li>
+                    </ol>
 
-                <p>
-                    For the Struts 1.3.0 build, we tried creating separate 
-                    distributions for the various packages that make up
-                    Struts. 
-                    Creating the separate distributions created problems of its own, 
-                    so for the Struts 1.3.1 build, and beyond, 
-                    we are consolidating the extensions back into a single 
-                    Struts 1.3 distribution. Each component has its own 
-                    JAR but all share the same release cycle.
-                </p>
-             </answer>
+                    <p>
+                    Five reasons <strong>not</strong> to migrate:
+                    </p>
+                 <ol>
+                    <li>
+                        Your S1 application that is stable and 
+                        simply being maintained (stay the course).
+                    </li>
+                    <li>                    
+                        You're afraid S1 won't be maintained 
+                        (won't happen).
+                    </li>
+                    <li>                    
+                        You want to move to Ajax (try Java WebParts).
+                    </li>
+                    <li>                    
+                        You want to move to Java 5 (try Strecks).
+                    </li>
+                    <li>
+                        It's a shiny new toy (find a new project).                
+                    </li>
+                 </ol>                
+            </answer>
         </faq>
 
         <faq id="classic">

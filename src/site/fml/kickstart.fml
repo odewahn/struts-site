@@ -34,8 +34,12 @@ limitations under the License.
             </p>
             
             <p>
-            The main Struts web site covers the latest, unreleased version of 
-            each major release series (Struts 1.3 and Struts 2.0). 
+            The main Struts web site includes documentation for the latest 
+            "General Availability" release in each major release series. 
+            The development section of the site inclues draft documentation 
+            for upcoming releases. 
+            If you are just getting started, focus on the latest General 
+            Availability release, 
             Documentation for past  <a href="downloads.html">releases</a>
                 is also available.
             </p>
