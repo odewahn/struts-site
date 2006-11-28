@@ -298,10 +298,10 @@ limitations under the License.
                     <a href="http://struts.apache.org/2.x/WW/migration-guide.html">
                     Struts 2 Migration Guide.</a>
                 </p>
-            </answer>          
+            </answer>  
          </faq>
 
-        <faq id="migrate_s1">
+        <faq id="migrate_reasons">
             <question>What circumstances justify a migration?</question>
             <answer>
                 <p>
@@ -353,6 +353,20 @@ limitations under the License.
                         It's a shiny new toy (find a new project).                
                     </li>
                  </ol>                
+            </answer>
+        </faq>
+
+        <faq id="jsf">
+            <question>Wouldn't it be just as easy to migrate to JavaServer Faces?</question>
+            <answer>
+                <p>
+                    <a href="http://struts.apache.org/2.x/docs/javaserver-faces.html">
+                    Struts 2 supports JSF components,</a> 
+                    so it's not an either/or proposition.
+                    For a complete JSF solution designed with 
+                    Struts developers in mind, 
+                    see <a href="http://shale.apache.org/">Apache Shale.</a>
+                </p>
             </answer>
         </faq>
 
