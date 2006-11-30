@@ -57,6 +57,12 @@
             <item
                     name="Struts 1.3.5"
                     href="http://struts.apache.org/1.3.5/index.html" />
+            <item
+                    name="Struts 1.2.9"
+                    href="http://struts.apache.org/1.2.9/index.html" />
+            <item
+                    name="Prior Releases"
+                    href="downloads.html#PriorReleases" />
         </menu>
         
         <menu name="Support">
@@ -168,7 +174,7 @@
                     />
          </menu>
 
-        <menu name="Java 5">
+        <menu name="Java 5 for Struts 1">
             <item
                     name="Strecks"
                     href="http://strecks.sourceforge.net//"
