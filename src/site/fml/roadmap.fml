@@ -184,8 +184,7 @@ limitations under the License.
             should I use Struts 2 or WebWork 2?</question>
             <answer>
                 <p>
-                    A beta release of Struts 2 is now available, and
-                    a stable release is anticipated by the end of the year.
+                    A beta release of Struts 2 is now available. 
                     In the meantime,
                     the prudent course would be to start new projects with 
                     <a href="http://www.opensymphony.com/webwork/">
