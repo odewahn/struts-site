@@ -233,7 +233,7 @@ limitations under the License.
                 <p>
                     New and improved extensions for Struts 1 continue to appear 
                     regularly. 
-                    In <strong>2006 alone</strong>, we've seen releases of 
+                    In <strong>2006 alone</strong>, we saw releases of 
 
                     <a href="http://www.sundog.net/index.php/hoople/page/struts/">Hoople,</a>
                     <a href="http://strecks.sourceforge.net/">Strecks,</a>
@@ -365,6 +365,15 @@ limitations under the License.
                     For a complete JSF solution designed with 
                     Struts developers in mind, 
                     see <a href="http://shale.apache.org/">Apache Shale.</a>
+                </p>
+                <p>
+                    The overall direction of Struts 2 is to continue to become the 
+                    framework that we actually <em>want</em> to use to build our own 
+                    applications. Sometimes that means supporting J2EE technologies, 
+                    like JavaServer Faces. Sometimes that means 
+                    <a href="http://struts.apache.org/2.x/docs/architecture.html">
+                    creating our own technologies,</a> 
+                    like Interceptors, the Value Stack, and Taglib Themes.
                 </p>
             </answer>
         </faq>
