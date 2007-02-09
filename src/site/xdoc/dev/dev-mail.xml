@@ -28,12 +28,12 @@ limitations under the License.
 
             <p>
                 The project hosts several mailing lists. The
-                <a href="../mail.html">user list</a> is devoted to product support. 
+                <a href="../mail.html">user list</a> is devoted to product support.
                 The project also hosts several <bold>product development</bold> lists.
                 <strong>For help using Struts,
                 subscribe to <a href="../mail.html">user list.</a></strong>
             </p>
-            
+
 
             <subsection name="Archives">
                 <p>Archives Carrying Struts Development Lists</p>
@@ -90,14 +90,22 @@ limitations under the License.
                         </li>
                     </ul>
 
+                    <li>Open Symphony</li>
+                    <ul>
+                        <li>
+                            <a href="http://forums.opensymphony.com/forum.jspa?forumID=34">
+                                Dev. List (as a Forum)</a>
+                        </li>
+                    </ul>
+
                 </ul>
             </subsection>
 
             <subsection name="Subscribing">
                 <p>
-                    If you've read the 
+                    If you've read the
                     <a href="mail.html">guidelines</a>,
-                    please subscribe to whichever 
+                    please subscribe to whichever
                     Struts development lists are of interest.
                 </p>
 

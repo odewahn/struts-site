@@ -67,37 +67,37 @@ limitations under the License.
                         questions and
                         comments about the actual software source code and
                         general
-                        "development" types of questions. 
-                        Questions about the "future" of Struts are 
+                        "development" types of questions.
+                        Questions about the "future" of Struts are
                         best addressed to the dev list.
                     </li>
                 </ul>
 
                 <p>Some questions may seem appropriate for posting on both the
                     "user" and
-                    the "developer" lists. 
-                    In this case, pick one and only one. 
-                    Do not cross post, unless a Committer asks that the 
+                    the "developer" lists.
+                    In this case, pick one and only one.
+                    Do not cross post, unless a Committer asks that the
                     thread be moved to the other list.
                 </p>
 
                 <p>Asking a configuration question on the developers list is
-                    discouraged because the time of our developers is as 
-                    precious as yours. 
-                    By contacting the developers directly instead of the user 
-                    base you are abusing resources. 
+                    discouraged because the time of our developers is as
+                    precious as yours.
+                    By contacting the developers directly instead of the user
+                    base you are abusing resources.
                     In fact, it is unlikely that you will get a quicker answer,
-                    if any answer at all 
+                    if any answer at all
                 </p>
-                
+
                 <p>
-                    Conversely, a question about the future of Struts 
-                    or the operation of the Struts project is best posted to the 
-                    dev list. 
-                    The focus of the user list should be one "how" to do 
-                    something with the framework we have today. 
-                    The focus of the dev list is how we want to do something 
-                    with a future version of the framework. 
+                    Conversely, a question about the future of Struts
+                    or the operation of the Struts project is best posted to the
+                    dev list.
+                    The focus of the user list should be one "how" to do
+                    something with the framework we have today.
+                    The focus of the dev list is how we want to do something
+                    with a future version of the framework.
                 </p>
                 <p>
                     <strong>
@@ -266,45 +266,32 @@ limitations under the License.
                 <p>Archives Carrying Struts User List</p>
                 <ul>
                     <li>
-                        <a href="http://mail-archives.apache.org/">ASF Mail
-                            Archives</a>
+                        <a href="http://mail-archives.apache.org/mod_mbox/struts-user/">
+                          ASF Mail Archives</a>
                     </li>
-                    <ul>
-                        <li>
-                            <a href="http://mail-archives.apache.org/mod_mbox/struts-user/">
-                            User list</a>
-                        </li>
-                   </ul>
-
-                    <li>Mail-Archive</li>
-                    <ul>
-                        <li>
-                            <a href="http://www.mail-archive.com/user%40struts.apache.org/">
-                                User list</a>
-                        </li>
-                    </ul>
-                    <li>Gmane</li>
-                    <ul>
-                        <li>
-                            <a href="http://news.gmane.org/gmane.comp.jakarta.struts.user/">
-                                User List</a>
-                        </li>
-                    </ul>
-                    <li>Mailing list ARChives</li>
-                    <ul>
-                        <li>
-                            <a href="http://marc.theaimsgroup.com/?l=struts-user&amp;r=1&amp;w=2">
-                                User List</a>
-                        </li>
-                    </ul>
-                    <li>Nabble</li>
-                    <ul>
-                        <li>
-                            <a href="http://www.nabble.com/Struts---User-f206.html">
-                                User List</a>
-                        </li>
-                    </ul>
-
+                    <li>
+                        <a href="http://www.mail-archive.com/user%40struts.apache.org/">
+                            Mail-Archive</a>
+                    </li>
+                    <li>
+                        <a href="http://news.gmane.org/gmane.comp.jakarta.struts.user/">
+                            Gmane</a>
+                    </li>
+                    <li>
+                        <a href="http://marc.theaimsgroup.com/?l=struts-user&amp;r=1&amp;w=2">
+                            Mailing list ARChives</a>
+                    </li>
+                    <li>
+                        <a href="http://www.nabble.com/Struts---User-f206.html">
+                            Nabble</a>
+                    </li>
+                    <li>
+                        Struts 2 is derived from WebWork 2,
+                        and the many of the posts on the WebWork list
+                        also apply to Struts 2 --
+                        <a href="http://forums.opensymphony.com/forum.jspa?forumID=1">
+                          WebWork User Forum</a>
+                    </li>
                 </ul>
             </subsection>
 
@@ -375,27 +362,8 @@ limitations under the License.
                         (Just don't quote the entire Digest mailing in a
                         reply!)
                     </li>
-
-                    <li>
-                        <strong>STRUTS-USER Newsgroup</strong>
-                        - The User list is also mirrored online,
-                        so that you can participate
-                        <strong>without</strong>
-                        subscribing to the regular mailing
-                        list.
-                        <br/>
-                        [
-                        <a href="http://struts_user.roomity.com">Struts User
-                            on Roomity</a>
-                        ]
-                        <br/>
-                        This is another way to post to the User list without
-                        subscribing to the
-                        regular list.
-                        <br/>
-                    </li>
                 </ul>
-                
+
                 <p>
                     <em>To subscribe to the Dev list,
                     please visit the <a href="dev/dev-mail.html">
