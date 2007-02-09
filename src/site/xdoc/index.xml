@@ -45,6 +45,21 @@ limitations under the License.
               and the <a href="#Project">Apache Struts project.</a>
             </p>
 
+            <a name="XW-2.0.0"/>
+            <subsection name="6 Jan 2007 - XWork 2.0.0 Release">
+
+            <p>
+              While not an Apache Struts product,
+              <a href="http://forums.opensymphony.com/thread.jspa?threadID=57131">
+                XWork 2 by Open Symphony
+              </a>
+              is a major dependency.
+              Now that there is a stable release of XWork 2,
+              a GA release of Struts 2 should be forthcoming.
+            </p>
+
+            </subsection>
+
             <a name="2.0.1"/>
             <subsection name="20 Oct 2006 - Struts 2.0.1 BETA Release">
 
