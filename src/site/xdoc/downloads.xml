@@ -26,10 +26,10 @@ limitations under the License.
         <section name="Apache Struts Releases">
 
             <p>
-                Releases of the Apache Struts framework 
+                Releases of the Apache Struts framework
                 are made available to the general public at no charge,
                 under the
-                <a href="http://apache.org/licenses/">Apache License,</a>                
+                <a href="http://apache.org/licenses/">Apache License,</a>
                 in both binary and source distributions.
                 Individual JARs are also made available through
                 <a href="http://maven.apache.org">Apache Maven</a>
@@ -85,21 +85,25 @@ limitations under the License.
             <p>
                 Project releases are approved by vote of the
                 Apache Struts  <a href="bylaws.html">Project Management Committee.</a>
-                Support for a release is provided by 
-                <a href="dev/volunteers.html">project volunteers</a> 
+                Support for a release is provided by
+                <a href="dev/volunteers.html">project volunteers</a>
                 on the <a href="mail.html">User mailing list.</a>
-                Additional free support is provided by many other 
-                volunteer subscribers to the list. 
-                Issues with a release may be discussed on the list 
-                and reported through the 
+                Additional free support is provided by many other
+                volunteer subscribers to the list.
+                Issues with a release may be discussed on the list
+                and reported through the
                 <a href="http://issues.apache.org/struts/">issue tracker.</a>
             </p>
-            
+
             <p>
-                The user mailing list and issue tracker are the <strong>only</strong> 
-                support options hosted by the Apache Struts project. 
+                The user mailing list and issue tracker are the <strong>only</strong>
+                support options hosted by the Apache Struts project.
             </p>
-            
+
+            <p>
+                <a href="kickstart.html#releases"><strong>Why are some version numbers missing?</strong></a>
+            </p>
+
             </section>
 
         <a name="PriorReleases"/>
@@ -109,7 +113,7 @@ limitations under the License.
                 As a couresty, we retain archival copies of the website for each "General Availablity" release.
                 Product support for older releases may be limited.
             </p>
-            
+
             <ul>
                 <li>
                     <a href="http://struts.apache.org/1.3.5/index.html">Struts 1.3.5</a>
@@ -133,33 +137,33 @@ limitations under the License.
                     <a href="http://struts.apache.org/1.0.2/index.html">Struts 1.0.2</a>
                 </li>
             </ul>
-            
+
             <p>
                 The documentation is bundled with each <a href="http://archive.apache.org/dist/struts/">
-                distribution.</a> We <strong>strongly recommend</strong> installing the documentation 
+                distribution.</a> We <strong>strongly recommend</strong> installing the documentation
                 for a release locally, so as to conserve bandwidth.
             </p>
 
         </section>
 
             <section name="Licensing of Apache Struts Releases">
-                <p>        
-                    Apache Struts 2 source code and documentation is 
+                <p>
+                    Apache Struts 2 source code and documentation is
                     licensed to the Apache Software Foundation (ASF) under one
                     or more contributor license agreements. See the NOTICE file
                     included in any distribution for additional information
-                    regarding copyright ownership. The ASF licenses the source 
-                    code and documentation files in our Apache Struts distribution 
-                    to you under the Apache License, Version 2.0 (the "License"); 
+                    regarding copyright ownership. The ASF licenses the source
+                    code and documentation files in our Apache Struts distribution
+                    to you under the Apache License, Version 2.0 (the "License");
                     you may not use the Apache Struts product except in compliance
-                    with the License. 
+                    with the License.
                 </p>
 
                 <p>
                     You may obtain a copy of the License at
                     <a href="http://www.apache.org/licenses/LICENSE-2.0">
                     http://www.apache.org/licenses/LICENSE-2.0</a>.
-                </p> 
+                </p>
 
                 <p>
                     Unless required by applicable law or agreed to in writing,
@@ -167,8 +171,8 @@ limitations under the License.
                     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
                     KIND, either express or implied.  See the License for the
                     specific language governing permissions and limitations
-                    under the License.  
-                </p> 
+                    under the License.
+                </p>
         </section>
 
         <section>

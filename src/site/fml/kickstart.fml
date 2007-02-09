@@ -43,7 +43,6 @@ limitations under the License.
             Documentation for past  <a href="downloads.html">releases</a>
                 is also available.
             </p>
-            
             <p>
             To learn more about using Apache Struts, you can also visit
             <a href="http://www.StrutsCentral.net/">Struts Central</a>,
@@ -59,7 +58,46 @@ limitations under the License.
             (Plain old Google usually works too!)</p>
             </answer>
         </faq>
-
+        <faq id="releases">
+           <question>
+            Looking at the releases page, some versions seem to be missing. 
+            What happened to them?
+           </question>
+           <answer>
+           <p>
+            Apache Struts uses a "milestone build" system. 
+            First, we create a build with a milestone version number, 
+            like Struts 2.0.42, and post the distribution in the development area. 
+            The development group tests the distribution, 
+            and then we decide whether or not to release it. 
+            The distribution includes everything that would be released, 
+            including the documentation and the release notes for this version.
+           </p><p>
+            If we find a significant problem with the distribution, 
+            we may decide not to release it, 
+            and just leave the distribution as a "test build". 
+            The testing may take several days, and in the meantime, 
+            we want to keep the project moving, 
+            and so we just go onto the next version number.
+            Using our example, the next distribution would be labeled 
+            2.0.43, even if version 2.0.42 was never officially released. 
+           </p><p>            
+            Often. we will first grade a release as a "beta", 
+            and invite other users to test it too. 
+            If this second round of beta testing goes well, 
+            then we can mark the release "General Availability". 
+            Usually, that designation would also make it the new 
+            "Best Available" release.
+            In this case, we don't create another distribution, 
+            but simply adjust the status of the same set of bits 
+            that people have been testing all along.
+           </p><p>
+            In practice, this approach is fast and efficient 
+            and creates the fewest number of "candidate builds" 
+            between releases. 
+           </p>
+          </answer>    
+        </faq>
         <faq id="struts">
             <question>Why is the project called "Struts"?</question>
             <answer>
