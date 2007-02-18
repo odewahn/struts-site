@@ -9,18 +9,18 @@
         <name>Apache Struts</name>
         <src>http://struts.apache.org/images/struts.gif</src>
         <href>http://struts.apache.org/</href>
-    </bannerRight>     
+    </bannerRight>
     <body>
         <links>
             <item
-                    name="Apache" 
-                    href="http://www.apache.org" /> 
-            <item   
-                    name="Struts 2" 
-                    href="http://struts.apache.org/2.x/" />
-            <item 
-                    name="Struts 1" 
-                    href="http://struts.apache.org/1.x/" />
+                    name="Apache"
+                    href="http://www.apache.org" />
+            <item
+                    name="Struts 2"
+                    href="http://struts.apache.org/2.0.5/" />
+            <item
+                    name="Struts 1"
+                    href="http://struts.apache.org/1.3.5/" />
         </links>
 
         <menu name="Apache Struts">
@@ -51,8 +51,8 @@
         </menu>
 
         <menu name="Documentation">
-            <item 
-                    name="Key Technologies" 
+            <item
+                    name="Key Technologies"
                     href="primer.html" />
             <item
                     name="Struts 1.3.5"
@@ -64,7 +64,7 @@
                     name="Prior Releases"
                     href="downloads.html#PriorReleases" />
         </menu>
-        
+
         <menu name="Support">
             <item
                     name="User Mailing List"
@@ -109,8 +109,8 @@
                     name="PMC Charter"
                     href="dev\bylaws.html"
                     />
-            <item 
-                    name="Sandbox" 
+            <item
+                    name="Sandbox"
                     href="http://struts.apache.org/struts-sandbox/index.html"
                     />
             <item

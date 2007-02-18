@@ -45,6 +45,18 @@ limitations under the License.
               and the <a href="#Project">Apache Struts project.</a>
             </p>
 
+            <a name="2.0.1"/>
+            <subsection name="9 Feb 2007 - Struts 2.0.5 BETA Release">
+
+            <p>
+             <a href="http://struts.apache.org/download.cgi#struts205">Apache Struts 2</a>
+             is an elegant, extensible framework
+             for creating enterprise-ready Java web applications.
+             Struts 2.0.5 was promoted to "Beta" quality on 9 February 2007.
+            </p>
+
+            </subsection>
+
             <a name="XW-2.0.0"/>
             <subsection name="6 Jan 2007 - XWork 2.0.0 Release">
 

@@ -29,123 +29,157 @@ limitations under the License.
             <p class="right">
                 Skip to: <a href="announce-2005.html">Announcements - 2005</a>
             </p>
-            
-            <h4 id="a20061107">07 Nov 2006 - Struts v2.0.1 BETA Release</h4>
-            
+
+            <h4 id="a20070209">09 Feb 2007 - Struts v2.0.5 BETA Release</h4>
+
             <p>
-            The Apache Struts project is pleased to announce the availability of 
-            the <a href="http://struts.apache.org/download.cgi#struts201">
-            Struts 2.0.1 BETA release</a>. 
+                The Apache Struts project is pleased to announce the release
+                of Struts 2.0.5 BETA
             </p>
-            
+
             <p>
-            Apache Struts 2 is an elegant, extensible framework, well suited for 
-            enterprise-ready Java web applications. 
-            The framework is designed to streamline the full development cycle, 
+                Struts 2.0.5 is available in a full distribution, or as
+                separate library, source, example and documentation
+                distributions from the
+                <a href="http://struts.apache.org/download.cgi?struts205">
+                  Releases page.</a>
+            </p>
+
+            <p>
+                It is also available in the central Maven repository under
+                Group ID "org.apache.struts".
+            </p>
+
+            <p>
+              The 2.0.5 series of the Apache Struts framework has a minimum
+              requirement of the following specification versions:
+              Servlet API 2.4, JSP API 2.0, Java 5, Backported Java 4 JARs
+              are also available.
+            </p>
+
+            <p>
+              The release notes are
+                <a href="http://struts.apache.org/2.0.5/docs/release-notes-205.html">
+                  available online</a>.
+            </p>
+            <hr/>
+
+            <h4 id="a20061107">07 Nov 2006 - Struts v2.0.1 BETA Release</h4>
+
+            <p>
+            The Apache Struts project is pleased to announce the availability of
+            the <a href="http://struts.apache.org/download.cgi#struts201">
+            Struts 2.0.1 BETA release</a>.
+            </p>
+
+            <p>
+            Apache Struts 2 is an elegant, extensible framework, well suited for
+            enterprise-ready Java web applications.
+            The framework is designed to streamline the full development cycle,
             from building, to deploying, to maintaining applications over time.
             </p>
-            
+
             <p>
-            Apache Struts 2 was originally known as WebWork 2. 
-            After working independently for several years, 
-            the WebWork and Struts communities joined forces to create Struts<sup>2</sup>. 
-            This new version of Struts is simpler to use and closer to how 
-            Struts was always meant to be. 
+            Apache Struts 2 was originally known as WebWork 2.
+            After working independently for several years,
+            the WebWork and Struts communities joined forces to create Struts<sup>2</sup>.
+            This new version of Struts is simpler to use and closer to how
+            Struts was always meant to be.
             </p>
-            
+
             <ul>
             <li>
-                <em>Build!</em> 
+                <em>Build!</em>
                 <ul>
                 <li>
-                    <strong>Easy startup</strong> - A Maven archetype, template application, and bootstrap 
-                    tutorial help jumpstart new projects.               
+                    <strong>Easy startup</strong> - A Maven archetype, template application, and bootstrap
+                    tutorial help jumpstart new projects.
                 </li>
                 <li>
-                    <strong>Improved Design</strong> - All framework classes are based on interfaces. 
+                    <strong>Improved Design</strong> - All framework classes are based on interfaces.
                     Core interfaces are HTTP independent.
                 </li>
                 <li>
                     <strong>Enhanced Results</strong> - Unlike ActionForwards, Struts<sup>2</sup> Results can
-                    actually help prepare the response. 
+                    actually help prepare the response.
                 </li>
                 <li>
-                    <strong>Enhanced Tags</strong> - Struts<sup>2</sup> tags don't just output data, but provide 
+                    <strong>Enhanced Tags</strong> - Struts<sup>2</sup> tags don't just output data, but provide
                     stylesheet-driven markup, so that we can create consistent pages with less code.
                 </li>
                 <li>
-                    <strong>Stateful Checkboxes</strong> - Struts<sup>2</sup> checkboxes do not require special 
+                    <strong>Stateful Checkboxes</strong> - Struts<sup>2</sup> checkboxes do not require special
                     handling for false values.
                 </li>
                 <li>
-                    <strong>Easy cancel handling</strong> - The Struts<sup>2</sup> Cancel button can go directly to 
-                    a different action. 
+                    <strong>Easy cancel handling</strong> - The Struts<sup>2</sup> Cancel button can go directly to
+                    a different action.
                 </li>
                 <li>
-                    <strong>POJO forms</strong> - No more ActionForms! We can use any JavaBean we like or 
-                    put properties directly on our Action classes. No need to use all String properties! 
+                    <strong>POJO forms</strong> - No more ActionForms! We can use any JavaBean we like or
+                    put properties directly on our Action classes. No need to use all String properties!
                 </li>
                 <li>
-                    <strong>POJO Actions</strong> - Any class can be used as an Action class. Even the 
-                    interface is optional! 
+                    <strong>POJO Actions</strong> - Any class can be used as an Action class. Even the
+                    interface is optional!
                 </li>
                 <li>
-                    <strong>Easy Spring integration</strong> - Struts<sup>2</sup> Actions are Spring-aware. Just 
+                    <strong>Easy Spring integration</strong> - Struts<sup>2</sup> Actions are Spring-aware. Just
                     add Spring beans!
                 </li>
                 <li>
-                    <strong>First-class AJAX support</strong> - The AJAX theme gives interactive 
-                    applications a boost. 
+                    <strong>First-class AJAX support</strong> - The AJAX theme gives interactive
+                    applications a boost.
                 </li>
                 </ul></li>
 
                 <li>
-                    <em>Deploy!</em> 
+                    <em>Deploy!</em>
                 <ul>
                 <li>
-                    <strong>QuickStart</strong> - Configuration files are reloadable so many changes 
-                    can be made on the fly without restarting a web container. 
+                    <strong>QuickStart</strong> - Configuration files are reloadable so many changes
+                    can be made on the fly without restarting a web container.
                 </li>
                 <li>
-                    <strong>Easy plugins</strong> - Framework extensions can be added by dropping in a JAR. 
-                    No manual configuration required! Bundled plugins add support for JavaServer Faces, 
+                    <strong>Easy plugins</strong> - Framework extensions can be added by dropping in a JAR.
+                    No manual configuration required! Bundled plugins add support for JavaServer Faces,
                     JasperReports, JFreeChart, Tiles, and more ...
                 </li>
                 <li>
-                    <strong>Easy portlets</strong> - Automatic portlet support allows portal and servlet 
+                    <strong>Easy portlets</strong> - Automatic portlet support allows portal and servlet
                     deployments with no code changes.
                 </li>
 
                 </ul></li>
                 <li>
-                <em>Maintain!</em> 
+                <em>Maintain!</em>
                 <ul>
                 <li>
-                    <strong>Easy-to-test Actions</strong> - Struts<sup>2</sup> Actions are HTTP independent and 
-                    can be tested without resorting to mock objects. 
+                    <strong>Easy-to-test Actions</strong> - Struts<sup>2</sup> Actions are HTTP independent and
+                    can be tested without resorting to mock objects.
                 </li>
                 <li>
-                    <strong>Intelligent Defaults</strong> - Most framework configuration elements have a default 
-                    value that we can set and forget. 
+                    <strong>Intelligent Defaults</strong> - Most framework configuration elements have a default
+                    value that we can set and forget.
                 </li>
                 <li>
-                    <strong>Easy-to-customize controller</strong> - Struts 1 lets us customize the request 
-                    processor per module, Struts<sup>2</sup> lets us customize the request handling 
-                    per action, if desired. 
+                    <strong>Easy-to-customize controller</strong> - Struts 1 lets us customize the request
+                    processor per module, Struts<sup>2</sup> lets us customize the request handling
+                    per action, if desired.
                 </li>
                 <li>
-                    <strong>Easy-to-tweak tags</strong> - Struts<sup>2</sup> tag markup can be altered by changing 
-                    an underlying stylesheet. Individual tag markup can be changed by 
+                    <strong>Easy-to-tweak tags</strong> - Struts<sup>2</sup> tag markup can be altered by changing
+                    an underlying stylesheet. Individual tag markup can be changed by
                     editing a FreeMarker template. No need to grok the taglib API!
                     <em>JSP, FreeMarker, and Velocity tags are fully supported.</em>
                 </li>
                 <li>
-                    <strong>Integrating Debugging</strong> - Built-in debugging tools supporting profiling, 
+                    <strong>Integrating Debugging</strong> - Built-in debugging tools supporting profiling,
                     problem reports, and interactive object model queries.
                 </li>
-                </ul></li></ul>                                
+                </ul></li></ul>
             <p>
-            For more,  
+            For more,
             <a href="http://struts.apache.org/2.x/">
               visit the Apache Struts 2 website.
             </a>
@@ -153,14 +187,14 @@ limitations under the License.
             <hr/>
 
 
-            <h4 id="a20061020.1">20 Oct 2006 - New Struts Committer: David DeWolf</h4>            
+            <h4 id="a20061020.1">20 Oct 2006 - New Struts Committer: David DeWolf</h4>
             <p>
-            Please join us in welcoming David DeWolf as a new Struts committer. 
+            Please join us in welcoming David DeWolf as a new Struts committer.
             </p>
             <p>
             David is a FTP Server and Portals committer, and has been submitting
             high quality Struts and Tiles patches since April. As a member of the
-            JSR-286 Expert Group and 
+            JSR-286 Expert Group and
             <a href="http://portals.apache.org/pluto">Apache Pluto</a> project
             David brings invaluable Portals experience to the Struts team.
             </p>
@@ -169,103 +203,103 @@ limitations under the License.
             own dam patches!"</i>
             </p>
             <p>
-            PMC vote: 9 +1.            
+            PMC vote: 9 +1.
             </p>
             <hr/>
 
             <h4 id="a20061010">10 Oct 2006 - Struts v2.0.1 Development Build</h4>
-            
+
             <p>
-            The Apache Struts project is pleased to announce the availability of 
+            The Apache Struts project is pleased to announce the availability of
             the <a href="http://struts.apache.org/download.cgi#struts201">
-            Struts 2.0.1 development build</a>. 
+            Struts 2.0.1 development build</a>.
             </p>
-            
+
             <p>
-            Struts 2 was originally known as WebWork 2. After working independently 
-            for several years, the WebWork and Struts communities joined forces to 
-            create Struts 2. This new version of Struts is designed to be simpler to 
+            Struts 2 was originally known as WebWork 2. After working independently
+            for several years, the WebWork and Struts communities joined forces to
+            create Struts 2. This new version of Struts is designed to be simpler to
             use and closer to how Struts was always meant to be. Some key changes are:
             </p>
-            
+
             <ul>
             <li>
-                <em>Smarter!</em> 
+                <em>Smarter!</em>
                 <ul><li>
-                    <strong>Improved Design</strong> - All Struts 2 classes are based on interfaces. 
+                    <strong>Improved Design</strong> - All Struts 2 classes are based on interfaces.
                     Core interfaces are HTTP independent.
                 </li>
                 <li>
-                    <strong>Intelligent Defaults</strong> - Most configuration elements have a default 
-                    value that we can set and forget. 
+                    <strong>Intelligent Defaults</strong> - Most configuration elements have a default
+                    value that we can set and forget.
                 </li>
                 <li>
                     <strong>Enhanced Results</strong> - Unlike ActionForwards, Struts 2 Results can
-                    actually help prepare the response. 
+                    actually help prepare the response.
                 </li>
                 <li>
-                    <strong>Enhanced Tags</strong> - Struts 2 tags don't just output data, but provide 
-                    stylesheet-driven markup, so that we can create consistent pages 
+                    <strong>Enhanced Tags</strong> - Struts 2 tags don't just output data, but provide
+                    stylesheet-driven markup, so that we can create consistent pages
                     with less code.
                 </li>
                 <li>
-                    <strong>First-class AJAX support</strong> - The AJAX theme gives interactive 
-                    applications a significant boost. 
+                    <strong>First-class AJAX support</strong> - The AJAX theme gives interactive
+                    applications a significant boost.
                 </li>
                 <li>
-                    <strong>Stateful Checkboxes</strong> - Struts 2 checkboxes do not require special 
+                    <strong>Stateful Checkboxes</strong> - Struts 2 checkboxes do not require special
                     handling for false values.
                 </li>
                 <li>
-                    <strong>QuickStart</strong> - Many changes can be made on the fly without restarting 
-                    a web container. 
+                    <strong>QuickStart</strong> - Many changes can be made on the fly without restarting
+                    a web container.
                 </li></ul></li>
                 <li>
-                    <em>Easier!</em> 
+                    <em>Easier!</em>
                 <ul>
                 <li>
-                    <strong>Easy-to-test Actions</strong> - Struts 2 Actions are HTTP independent and 
-                    can be tested without resorting to mock objects. 
+                    <strong>Easy-to-test Actions</strong> - Struts 2 Actions are HTTP independent and
+                    can be tested without resorting to mock objects.
                 </li>
                 <li>
-                    <strong>Easy-to-customize controller</strong> - Struts 1 lets us customize the request 
-                    processor per module, Struts 2 lets us customize the request handling 
-                    per action, if desired. 
+                    <strong>Easy-to-customize controller</strong> - Struts 1 lets us customize the request
+                    processor per module, Struts 2 lets us customize the request handling
+                    per action, if desired.
                 </li>
                 <li>
-                    <strong>Easy-to-tweak tags</strong> - Struts 2 tag markup can be altered by changing 
-                    an underlying stylesheet. Individual tag markup can be changed by 
-                    editing a FreeMarker template. No need to grok the taglib API! Both 
-                    JSP and FreeMarker tags are fully supported. 
+                    <strong>Easy-to-tweak tags</strong> - Struts 2 tag markup can be altered by changing
+                    an underlying stylesheet. Individual tag markup can be changed by
+                    editing a FreeMarker template. No need to grok the taglib API! Both
+                    JSP and FreeMarker tags are fully supported.
                 </li>
                 <li>
-                    <strong>Easy cancel handling</strong> - The Struts 2 Cancel button can go directly to 
-                    a different action. 
+                    <strong>Easy cancel handling</strong> - The Struts 2 Cancel button can go directly to
+                    a different action.
                 </li>
                 <li>
-                    <strong>Easy Spring integration</strong> - Struts 2 Actions are Spring-aware. Just 
+                    <strong>Easy Spring integration</strong> - Struts 2 Actions are Spring-aware. Just
                     add Spring beans!
                 </li>
                 <li>
-                    <strong>Easy plugins</strong> - Struts 2 extensions can be added by dropping in a JAR. 
+                    <strong>Easy plugins</strong> - Struts 2 extensions can be added by dropping in a JAR.
                     No manual configuration required!
                 </li></ul></li>
                 <li>
-                <em>POJO-ier!</em> 
+                <em>POJO-ier!</em>
                 <ul>
                 <li>
-                    <strong>POJO forms</strong> - No more ActionForms! We can use any JavaBean we like or 
-                    put properties directly on our Action classes. No need to use all 
-                    String properties! 
+                    <strong>POJO forms</strong> - No more ActionForms! We can use any JavaBean we like or
+                    put properties directly on our Action classes. No need to use all
+                    String properties!
                 </li>
                 <li>
-                    <strong>POJO Actions</strong> - Any class can be used as an Action class. We don't 
-		    even have to implement an interface! 
+                    <strong>POJO Actions</strong> - Any class can be used as an Action class. We don't
+        even have to implement an interface!
                 </li></ul></li></ul>
             <p>
                 For more, <a href="http://struts.apache.org/2.x/index.html">visit the Apache Struts 2 site.</a>
             </p>
-            
+
             <hr/>
 
             <h4 id="a20060818.1">18 Aug 2006 - Struts v1.3.5 Beta</h4>
@@ -278,7 +312,7 @@ limitations under the License.
             <p><a href="http://struts.apache.org/download.cgi#struts135">
             http://struts.apache.org/download.cgi#struts135</a></p>
 
-            <p>It is also available in the central Maven repository under Group ID 
+            <p>It is also available in the central Maven repository under Group ID
             "org.apache.struts".</p>
 
             <p>Major changes since Struts 1.2 include</p>
@@ -343,7 +377,7 @@ limitations under the License.
             <hr/>
 
             <h4 id="a20060628.1">28 Jun 2006 - Shale to Become Top-Level
-                ASF Project</h4>            
+                ASF Project</h4>
             <p>
                On behalf of the ASF Board and Struts PMC, we are pleased to
                announce that Shale has been accepted as a top-level project of
@@ -361,10 +395,10 @@ limitations under the License.
                Shale to attract new developers and expand its growing community.
             </p>
 
-            
+
            <p>
-               The initial set of PMC members and committers for Shale is 
-               Craig McClanahan, James Mitchell, Greg Reddin, Sean Schofield, 
+               The initial set of PMC members and committers for Shale is
+               Craig McClanahan, James Mitchell, Greg Reddin, Sean Schofield,
                Wendy Smoak, Gary VanMatre, Matthias Wessendorf.
             </p>
 
@@ -392,102 +426,102 @@ limitations under the License.
                The initial Shale codebase was donated by Craig McClanahan, who
                also donated the original Struts codebase.
             </p>
-            
+
             <p>
-            [Note: To accomodate Shale, the original framework had been given 
-            the name "Action". Now that Shale has graduated, the "Action" 
+            [Note: To accomodate Shale, the original framework had been given
+            the name "Action". Now that Shale has graduated, the "Action"
             label is being dropped, and Struts is just Struts again.]
             </p>
 
             <hr/>
 
-            <h4 id="a20060603.3">03 Jun 2006 - New Struts Committer: 
-                Bob Lee</h4>            
+            <h4 id="a20060603.3">03 Jun 2006 - New Struts Committer:
+                Bob Lee</h4>
             <p>
-        Please join us in welcoming Bob Lee as a new Struts committer. 
+        Please join us in welcoming Bob Lee as a new Struts committer.
             </p>
             <p>
-        Some of us have known Bob for several years through his Struts, 
-        WebWork, and Dynaop work, or in person from a conference. 
-        At this last JavaOne, he met other PMC members: Craig, Martin, 
+        Some of us have known Bob for several years through his Struts,
+        WebWork, and Dynaop work, or in person from a conference.
+        At this last JavaOne, he met other PMC members: Craig, Martin,
         Gary, and Wendy -- and Bob is well known to the WebWork folks.
             </p>
             <p>
-        Bob's current focus is to develop a kinder, gentler API for 
-        Struts 2, having already submitted several patches and 
+        Bob's current focus is to develop a kinder, gentler API for
+        Struts 2, having already submitted several patches and
         <a href="http://wiki.apache.org/struts/RoughSpots">
-        constructively engaged the community</a> 
-        while handling criticisms well. He has committed several 
-        patches for WebWork and Xwork, started the Dynaop project, 
-        and has been peripherally involved in the Struts community 
-        for many years.  
+        constructively engaged the community</a>
+        while handling criticisms well. He has committed several
+        patches for WebWork and Xwork, started the Dynaop project,
+        and has been peripherally involved in the Struts community
+        for many years.
             </p>
             <p>
-        Welcome, Bob  ... Our only worry is that we haven't yet seen 
+        Welcome, Bob  ... Our only worry is that we haven't yet seen
         the Crazy part of Crazy Bob.
             </p>
             <p>
-        PMC vote: 8 +1 (binding), 4 +1 (non-binding).            
+        PMC vote: 8 +1 (binding), 4 +1 (non-binding).
             </p>
             <hr/>
-            
-            <h4 id="a20060603.2">03 Jun 2006 - New Struts Committer: Michael 
-                Jouravlev</h4>            
+
+            <h4 id="a20060603.2">03 Jun 2006 - New Struts Committer: Michael
+                Jouravlev</h4>
             <p>
-        Please join us in welcoming Michael Jouravlev as a new Struts 
-        committer. 
+        Please join us in welcoming Michael Jouravlev as a new Struts
+        committer.
             </p>
             <p>
-        Michael has been an active member of our community for a very 
-        long time. His posts to user@ and dev@ are consistently 
-        helpful. Michael often participates in development 
-        discussions, including the Action2 discussions. He has 
+        Michael has been an active member of our community for a very
+        long time. His posts to user@ and dev@ are consistently
+        helpful. Michael often participates in development
+        discussions, including the Action2 discussions. He has
         <a href="http://tinyurl.com/ls7ga">
-        submitted code and patches and collaborated on changes</a> 
+        submitted code and patches and collaborated on changes</a>
         that were accepted to the code base.
             </p>
             <p>
-        Michael has also make many contributions to the wiki, 
-        including reorganizing the area so that it is more useful to 
+        Michael has also make many contributions to the wiki,
+        including reorganizing the area so that it is more useful to
         others.
             </p>
             <p>
         Welcome, Michael ... Just don't start downsizing the fonts :)
             </p>
             <p>
-        PMC vote: 7 +1.            
+        PMC vote: 7 +1.
             </p>
             <hr/>
 
-            <h4 id="a20060603.1">03 Jun 2006 - New Struts Committer: Paul 
+            <h4 id="a20060603.1">03 Jun 2006 - New Struts Committer: Paul
                 Benedict</h4>
             <p>
-        Please join us in welcoming Paul Benedict as a new Struts 
-        committer. 
+        Please join us in welcoming Paul Benedict as a new Struts
+        committer.
         </p>
         <p>
-            Paul has been an earnest and helpful member of our community 
-            for well over a year now. He has submitted patches and ideas, 
-            andvmany useful posts to the user list. Paul was particularly 
-        active in the 
+            Paul has been an earnest and helpful member of our community
+            for well over a year now. He has submitted patches and ideas,
+            andvmany useful posts to the user list. Paul was particularly
+        active in the
         <a href="http://issues.apache.org/bugzilla/show_bug.cgi?id=38374">
-        discussion</a> 
-        that lead to the addition of the "Opt-in Cancel" feature, 
+        discussion</a>
+        that lead to the addition of the "Opt-in Cancel" feature,
         </p>
         <p>
-        In this and other discussions, Paul has demonstrated an 
-        ability to collaborate with others and create a better 
-        solution than the one originally proposed. 
+        In this and other discussions, Paul has demonstrated an
+        ability to collaborate with others and create a better
+        solution than the one originally proposed.
         </p>
         <p>
         Welcome, Paul ... Hey, we're always looking for release
-        managers! 
+        managers!
         </p>
         <p>
             PMC vote: 3 +1.
         </p>
             <hr/>
-            
+
             <h4 id="a20050328">23 Mar 2006 - Struts Shale Framework 1.0.2 Alpha</h4>
             <p>
                 The Struts team is pleased to announce the release of Struts Shale 1.0.2 Alpha.
@@ -557,7 +591,7 @@ limitations under the License.
             <p>
                 The Struts team is pleased to announce the release of Struts
                 1.2.9 for General Availability. This release is primarily to
-                <a href="http://www.frsirt.com/english/advisories/2006/1205">fix three security issues</a> 
+                <a href="http://www.frsirt.com/english/advisories/2006/1205">fix three security issues</a>
                 which have been identified and supersedes the earlier 1.2.8 version as
                 the latest official release of Struts from The Apache Software
                 Foundation.
