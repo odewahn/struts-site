@@ -1344,43 +1344,32 @@ limitations under the License.
 
                 <p>My first encounter with Struts was at the university in June
                     2003, when my teacher gave me an assignment in which I had
-                    to convert a sample web application using Struts. In this
-                    sample webapp I also used Tiles.</p>
-
-                <p>After that the same teacher gave me my thesis assignment, in
+                    to convert a sample web application using Struts and Tiles.
+                    After that the same teacher gave me my thesis assignment, in
                     which I had to develop the missing part of a web application
-                    rapid prototyping tool based on Struts and Tiles.</p>
+                    rapid prototyping tool based on the same technologies.</p>
 
                 <p>After my graduation, I worked for a year at the same
                     university and my job was to enhance that tool to support
                     multi-user and multi-device applications, with different
                     modelling techniques, so my experience with Struts and
-                    especially Tiles grew more and more. I discovered and
-                    enhanced
-                    <a href="http://mutidimensions.sourceforge.net/">Dimensions</a>,
-                    that extends Tiles to create multi-user and multi-device
-                    applications. It was then when I learned a lot of Tiles
-                    internals.</p>
+                    Tiles grew more and more.</p>
 
                  <p>My job at the university finished and I went into the "real
-                    world", but I continued to work on Dimensions as a hobby,
-                    and I kept my subscription in both users and developers
+                    world", but I kept my subscription in both users and developers
                     Struts mailing lists. One day I noticed that Greg Reddin was
-                    working on a stand-alone version of Tiles, so I decided to
-                    rework Dimensions accordingly. I submitted some patches for
-                    bugs and enhancements in Tiles. After a while, in June
-                    2006, I've been invited by Greg Reddin himself to become a
+                    working on a stand-alone version of Tiles, so I submitted some
+                    patches for bugs and enhancements in Tiles. After a while, in
+                    June 2006, I've been invited by Greg Reddin himself to become a
                     committer: you can't imagine my joy!</p>
 
-                 <p>My current job does not involve Struts nor Tiles anymore
-                    (sigh) but I go on writing code for Tiles in the spare time.
-                    My Java EE interests are in the view layer and in
-                    synchronization between client's browser and application
-                    server: the latter led me to create
+                 <p>I am currently working on the integration between Struts 1
+                    and Tiles 2. My other Java EE interests are in the view
+                    layer (I am a developer and administrator of
+                    <a href="http://mutidimensions.sourceforge.net/">Dimensions</a>)
+                    and in synchronization between client's browser and application
+                    server: the latter led me to create                    
                     <a href="http://scopes.sourceforge.net/">Scopes</a>.</p>
-
-                 <p>I hope that Tiles will become a great software and I will do
-                    my best.</p>
 
                 <h4 id="ddewolf">David H. DeWolf -- Committer</h4>
                  <p>When I graduated from school in 1999 I headed to Flower Mound,
