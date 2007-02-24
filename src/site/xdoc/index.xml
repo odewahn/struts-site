@@ -162,11 +162,9 @@ limitations under the License.
             </p>
 
             <p>
-
                 The Apache Struts Project offers two major versions of the
                 Struts framework.
-                <a href="http://struts.apache.org/1.x/index.html">Struts 1</a>
-                is recognized as
+                Struts 1 is recognized as
                 <em>the</em> most popular web application framework for Java.
                 The 1.x framework is mature, well-documented, and widely
                 supported.
@@ -175,25 +173,16 @@ limitations under the License.
             </p>
 
             <p>
-                <a href="http://struts.apache.org/2.x/index.html">Struts 2</a>
-                was originally known as
+                Struts 2 was originally known as
                 <a href="http://www.opensymphony.com/webwork">WebWork 2</a>.
                 After working independently for several years,
                 the WebWork and Struts communities
                 <a href="announce-2005.html#a20051214.3">joined forces</a>
                 to create Struts 2.
-                The new framework is the best choice for teams who value
+                The 2.x framework is the best choice for teams who value
                 elegant solutions to difficult problems.
-                A <a href="downloads.html">BETA release</a>
-                is now available.
             </p>
 
-            <p>
-                For more about the future of Struts, see our
-                <a href="roadmap.html">Roadmap FAQ, </a> especially
-                <a href="roadmap.html#now">"What should I use with
-                my next project?".</a>
-             </p>
        </section>
 
         <section>
