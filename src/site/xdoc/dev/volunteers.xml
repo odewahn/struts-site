@@ -155,6 +155,10 @@ limitations under the License.
                         <strong>Ian Roughley</strong>
                         (roughley at apache.org)
                     </li>
+                    <li>
+                        <strong>Paul Benedict</strong>
+                        (pbenedict at apache.org)
+                    </li>
                 </ul>
             </subsection>
 
@@ -172,16 +176,8 @@ limitations under the License.
                         (dgeary at apache.org)
                     </li>
                     <li>
-                        <strong>Richard Feit</strong>
-                        (rich at apache.org)
-                    </li>
-                    <li>
                         <strong>Michael Jouravlev</strong>
                         (mikus at apache.org)
-                    </li>
-                    <li>
-                        <strong>Paul Benedict</strong>
-                        (pbenedict at apache.org)
                     </li>
                     <li>
                         <strong>Antonio Petrelli</strong>
@@ -190,6 +186,22 @@ limitations under the License.
                     <li>
                        <strong>David H. DeWolf</strong>
                        (ddewolf at apache.org)
+                   </li>
+                    <li>
+                       <strong>Philip Luppens</strong>
+                       (phil at apache.org)
+                   </li>
+                    <li>
+                       <strong>Tom Schneider</strong>
+                       (tschneider at apache.org)
+                   </li>
+                    <li>
+                       <strong>Musachy Barroso</strong>
+                       (musachy at apache.org)
+                   </li>
+                    <li>
+                       <strong>Henri Yandell</strong>
+                       (bayard at apache.org)
                    </li>
                 </ul>
             </subsection>
@@ -204,6 +216,10 @@ limitations under the License.
             </p>
             
                 <ul>
+                    <li>
+                        Richard Feit
+                        (rich at apache.org)
+                    </li>
                     <li>
                         David M. Karr
                         (dmkarr at apache.org) (PMC) 
