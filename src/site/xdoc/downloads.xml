@@ -48,8 +48,8 @@ limitations under the License.
                                 </a> ("best available")
                             </li>
                             <li>
-                                <a href="http://struts.apache.org/download.cgi#struts135">
-                                    Struts 1.3.5
+                                <a href="http://struts.apache.org/download.cgi#struts138">
+                                    Struts 1.3.8
                                 </a>
                             </li>
                             <li>
@@ -115,6 +115,9 @@ limitations under the License.
             <ul>
                 <li>
                     <a href="http://struts.apache.org/2.0.6/index.html">Struts 2.0.6</a>
+                </li>
+                <li>
+                    <a href="http://struts.apache.org/1.3.8/index.html">Struts 1.3.8</a>
                 </li>
                 <li>
                     <a href="http://struts.apache.org/1.3.5/index.html">Struts 1.3.5</a>

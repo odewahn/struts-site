@@ -30,6 +30,30 @@ limitations under the License.
                 Skip to: <a href="announce-2005.html">Announcements - 2005</a>
             </p>
 
+            <h4 id="a20070310">10 March 2007 - Struts v1.3.8 GA Release</h4>
+
+            <p>
+              The Apache Struts group is pleased to announce that Struts 1.3.8
+              is available as a "General Availability" release. The GA
+              designation is our highest quality grade.
+            </p>
+
+            <p>
+               Struts 1.3.8 is available in a full distribution, or as separate
+               library, source, example and documentation distributions.
+            </p>
+
+            <p>
+               <a href="http://struts.apache.org/download.cgi#struts138">
+                http://struts.apache.org/download.cgi#struts138</a>
+            </p>
+
+            <p>
+               It is also available in the central Maven repository under Group ID
+               ID "org.apache.struts".
+            </p>
+
+
             <h4 id="a20070223">22 Feb 2007 - Struts v2.0.6 GA Release</h4>
 
             <p>
