@@ -39,6 +39,38 @@ limitations under the License.
             </p>
 
             <p>
+              This release has over 40 bug fixes and improvements since 1.3.5!
+              New Features include:
+            </p>
+
+            <ul>
+            <li>
+                <strong>Action ID</strong><br />
+                New <code>actionId</code> attribute to uniquely identify action mappings 
+                within a module. Just as the TilesRequestProcessor could recognize a tile
+                definition and resolve it to the intended JSP, so does Struts now have
+                built-in recognition for URIs that begin with an actionId and will
+                automatically translate forwards.
+            </li>
+            <li>
+                <strong>I18N Properties</strong><br />
+                Tag libraries now include the HTML I18N properties. This allows sites
+                that specialize in internationalization to specify both bi-directional
+                text and language at the tag level.
+            </li>
+            <li>
+                <strong>Dynamic Link Parameters</strong><br />
+                The Struts &lt;html:link&gt;, &lt;html:frame&gt;, &lt;html:rewrite&gt; tag
+                libraries now allow their bodies to nest the new &lt;html:param&gt; tag.
+            </li>
+            <li>
+                <strong>Property MessageResources Modes</strong><br />
+                Compatibility mode option which allows message resources to operate in
+                modes compatible with either JSTL or PropertyResourceBundle.
+            </li>
+            </ul>
+
+            <p>
                Struts 1.3.8 is available in a full distribution, or as separate
                library, source, example and documentation distributions.
             </p>
