@@ -51,6 +51,22 @@ limitations under the License.
 
                 <p>
                     <strong>
+                        Join the lists that are appropriate for your
+                        discussion.
+                    </strong>
+                    <br/>
+                    Please make sure that you are joining the list that is
+                    appropriate for the
+                    topic or product that you would like to discuss. For
+                    example,
+                    please do not join the Struts mailing list and ask
+                    questions about Tomcat.
+                    Instead, you should join the Tomcat User list and ask your
+                    questions
+                    there.
+                </p>
+                <p>
+                    <strong>
                         <a name="respect">Respect the mailing list type</a>
                     </strong>
                 </p>
@@ -100,91 +116,12 @@ limitations under the License.
                     with a future version of the framework.
                 </p>
                 <p>
-                    <strong>
-                        Join the lists that are appropriate for your
-                        discussion.
-                    </strong>
-                    <br/>
-                    Please make sure that you are joining the list that is
-                    appropriate for the
-                    topic or product that you would like to discuss. For
-                    example,
-                    please do not join the Struts mailing list and ask
-                    questions about Tomcat.
-                    Instead, you should join the Tomcat User list and ask your
-                    questions
-                    there.
-                </p>
-                <p>
                     If you would like to discuss a topic outside the usual scope of our mailing lists,
                     please create a
                     <a href="http://quicktopic.com/">
                         <strong>QuickTopic</strong>
                     </a>
                     and invite others to join the conversation.
-                </p>
-                <p>
-                    <strong>
-                        <a name="smart">Ask smart questions.</a>
-                    </strong>
-                    <br/>
-                    Every volunteer project obtains its strength from the
-                    people involved
-                    in it. You are welcome to join any of our mailing lists.
-                    You can
-                    choose to lurk, or actively participate; it's up to you.
-                    The level of
-                    community responsiveness to specific questions is
-                    generally directly
-                    proportional to the amount of effort you spend formulating
-                    your
-                    question. Eric Raymond and Rick Moen have even written an
-                    essay entitled
-                    <a
-                            href="http://www.catb.org/~esr/faqs/smart-questions.html">
-                        <strong>"Asking
-                            Smart Questions"</strong>
-                    </a>
-                    precisely on this topic.
-                </p>
-
-                <p>
-                    <strong>
-                        <a name="short">Keep your email short and to the point.</a>
-                    </strong>
-                    <br/>
-                    If your email is more than about a page of text, chances
-                    are that it
-                    won't get read by very many people. It is much better to
-                    try to pack a
-                    lot of informative information (see above about asking
-                    smart questions)
-                    into as small of an email as possible. If you are replying
-                    to a previous
-                    email, it is a good idea to only quote the parts that you
-                    are replying
-                    to and to remove the unnecessary bits. This makes it
-                    easier for people
-                    to follow a thread as well as making the email archives
-                    easier to search
-                    and read.
-                </p>
-
-                <p>
-                    <strong>
-                        <a name="plain">Do your best to ensure that you are not sending HTML
-                            or "Stylelized" email to the list.</a>
-                    </strong>
-                    <br/>
-                    If you are using Outlook or Outlook Express or Eudora,
-                    chances are that
-                    you are sending HTML email by default. There is usually a
-                    setting that
-                    will allow you to send "Plain Text" email. If you are
-                    using Microsoft
-                    products to send email, there are several bugs in the
-                    software that
-                    prevent you from turning off the sending of HTML email.
                 </p>
 
                 <p>
@@ -232,6 +169,45 @@ limitations under the License.
 
                 <p>
                     <strong>
+                        <a name="plain">Do your best to ensure that you are not sending HTML
+                            or "Stylelized" email to the list.</a>
+                    </strong>
+                    <br/>
+                    If you are using Outlook or Outlook Express or Eudora,
+                    chances are that
+                    you are sending HTML email by default. There is usually a
+                    setting that
+                    will allow you to send "Plain Text" email. If you are
+                    using Microsoft
+                    products to send email, there are several bugs in the
+                    software that
+                    prevent you from turning off the sending of HTML email.
+                </p>
+
+                <p>
+                    <strong>
+                        <a name="short">Keep your email short and to the point.</a>
+                    </strong>
+                    <br/>
+                    If your email is more than about a page of text, chances
+                    are that it
+                    won't get read by very many people. It is much better to
+                    try to pack a
+                    lot of informative information (see above about asking
+                    smart questions)
+                    into as small of an email as possible. If you are replying
+                    to a previous
+                    email, it is a good idea to only quote the parts that you
+                    are replying
+                    to and to remove the unnecessary bits. This makes it
+                    easier for people
+                    to follow a thread as well as making the email archives
+                    easier to search
+                    and read.
+                </p>
+
+                <p>
+                    <strong>
                         <a name="trolls">Don't feed the trolls.</a>
                     </strong>
                 </p>
@@ -259,6 +235,32 @@ limitations under the License.
                     Our spam filters will catch most types of commercial spam,
                     but troll spam is a hard for software to spot.
                     The best defense is to withhold from the troll what he or she wants most: A response.
+                </p>
+                <p>
+                    <strong>
+                        <a name="smart">Ask smart questions.</a>
+                    </strong>
+                    <br/>
+                    Every volunteer project obtains its strength from the
+                    people involved
+                    in it. You are welcome to join any of our mailing lists.
+                    You can
+                    choose to lurk, or actively participate; it's up to you.
+                    The level of
+                    community responsiveness to specific questions is
+                    generally directly
+                    proportional to the amount of effort you spend formulating
+                    your
+                    question. Eric Raymond and Rick Moen have even written an
+                    essay entitled
+                    <a
+                            href="http://www.catb.org/~esr/faqs/smart-questions.html">
+                        <strong>"Asking
+                            Smart Questions"</strong>
+                    </a>
+                    precisely on this topic. Please read the essay, follow its advice,
+                    and then post your smart questions to the appropriate list
+                    (not to Eric and Rick!).
                 </p>
             </subsection>
 
