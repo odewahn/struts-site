@@ -185,6 +185,63 @@ limitations under the License.
 
        </section>
 
+       <a name="Newbies"/>
+       <section name="Struts for Newbies">
+
+       <p>
+          If you are new to development with Struts,
+          here are some pointers on how to get started.
+       </p>
+
+       <p>
+         The framework "stands on the shoulders of giants".
+         To use Struts well, it's important to have a good grasp of the
+         fundamentals.
+         Start by reviewing the
+         <a href="http://struts.apache.org/primer.html">Key Technologies primer</a>,
+         and studying any unfamiliar topics.
+       </p>
+
+       <p>
+         Next, branch to either the
+         <a href="http://struts.apache.org/2.x/index.html">Struts 2</a> or
+         <a href="http://struts.apache.org/1.x/index.html">Struts 1</a>
+         documentation
+       </p>
+
+       <p>
+         The Struts 2 documentation is maintained as a wiki, but don't let that
+         stop you from scrolling through. We have organized the wiki so that
+         it can be read like a book, cover to cover. Just keep following the
+         Next links.
+       </p>
+
+       <p>
+         For Struts 1, the most up to date book would be
+         <a href="http://opensource.atlassian.com/confluence/oss/display/BOOKS/ISBN-0072231319">Struts: The Complete Reference</a>.
+         For newbies, <a href="http://opensource.atlassian.com/confluence/oss/display/BOOKS/ISBN-0764559575">Struts for Dummies</a>
+         is another good choice.
+       </p>
+
+       <p>
+         For Struts 2, <a href="http://opensource.atlassian.com/confluence/oss/display/BOOKS/ISBN-1932394532">WebWork in Action</a>
+         is a worthwhile resource, and there are a number of other online tutorials
+         for Struts 2 listed in the <a href="http://struts.apache.org/2.x/docs/tutorials.html#Tutorials-OtherResources">Tutorial section</a>.
+       </p>
+
+       <p>
+         And don't hesitate to
+         <a href="http://struts.apache.org/helping.html">get involved</a>.
+         The best way to help with any open source project is to improve the
+         documentation!
+         There are mountains of Struts know-how posted to the
+         <a href="http://struts.apache.org/mail.html">user mailing list</a>
+         that could be sholved into the documentation.
+         (How do you think this section started?)
+       </p>
+
+       </section>
+
         <section>
             <p class="right">
                 <strong>Next:</strong>
