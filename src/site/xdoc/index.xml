@@ -223,16 +223,20 @@ limitations under the License.
        </p>
 
        <p>
-         For Struts 1, the most up to date book would be
-         <a href="http://opensource.atlassian.com/confluence/oss/display/BOOKS/ISBN-0072231319">Struts: The Complete Reference</a>.
-         For newbies, <a href="http://opensource.atlassian.com/confluence/oss/display/BOOKS/ISBN-0764559575">Struts for Dummies</a>
-         is another good choice.
+         Better yet, turn first to the
+         <a href="http://www.infoq.com/minibooks/starting-struts2">
+         Starting with Struts2</a> book.
+         At 122 pages, it's a small book that doesn't try to replicate the
+         online Struts 2 Documentation. Instead, the book is a perfect complement
+         to the Struts 2 website. The "minibook" is available both as a free PDF
+         and in conventional printed form.
        </p>
 
        <p>
-         For Struts 2, <a href="http://www.infoq.com/minibooks/starting-struts2">Starting with Struts 2</a>
-         is a great complement to the Struts 2 documentation. The 122 page book is available both as a free PDF and in conventional printed form. There are also a number of online tutorials
-         for Struts 2 listed in the <a href="http://struts.apache.org/2.x/docs/tutorials.html#Tutorials-OtherResources">Tutorial section</a>.
+         For Struts 1, the most up-to-date book would be
+         <a href="http://opensource.atlassian.com/confluence/oss/display/BOOKS/ISBN-0072231319">Struts: The Complete Reference</a>.
+         For newbies, <a href="http://opensource.atlassian.com/confluence/oss/display/BOOKS/ISBN-0764559575">Struts for Dummies</a>
+         is another good choice.
        </p>
 
        <p>
