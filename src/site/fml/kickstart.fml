@@ -225,9 +225,13 @@ limitations under the License.
                     in your
                     email client before posting.
                 </p>
+                <p>
+                  Queries from the press (and ONLY queries from the press, NOT support questions or 
+                  anything else!) should go to our media relations address: [press (at) apache (dot) org].
+                </p>
             </answer>
         </faq>
-
+        
         <faq id="commercial">
             <question>Is commercial support available?</question>
             <answer>
@@ -269,6 +273,27 @@ limitations under the License.
                     can apply the patch to your copy of the framework and still use
                     the feature in your own application. (Which is what open
                     source is ~really~ all about.)
+                </p>
+            </answer>
+        </faq>
+        <faq>
+            <question>Is there a press kit for Apache Struts?</question>
+            <answer>
+                <p>
+                  No, outside of our <a href="announce.html">announcements page</a>, there is not a formal press or media kit for Apache Struts. 
+                  Queries from the press (and ONLY queries from the press, NOT support questions or 
+                  anything else!) should go to our media relations address: [press (at) apache (dot) org].
+                </p>
+            </answer>
+        </faq>
+        <faq>
+            <question>Where can I report a potential security vulnerability?</question>
+            <answer>
+                <p>
+                  If you believe you've found a security vulnerability in Apache Struts, please contact our 
+                  security address - any emails not relating to security vulnerabilities will be ignored without
+                  a reply (all security related information will be kept confidential unless otherwise indicated): 
+                  [security (at) apache (dot) org].
                 </p>
             </answer>
         </faq>
