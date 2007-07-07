@@ -225,10 +225,6 @@ limitations under the License.
                     in your
                     email client before posting.
                 </p>
-                <p>
-                  Queries from the press (and ONLY queries from the press, NOT support questions or 
-                  anything else!) should go to our media relations address: [press (at) apache (dot) org].
-                </p>
             </answer>
         </faq>
         
@@ -276,17 +272,17 @@ limitations under the License.
                 </p>
             </answer>
         </faq>
-        <faq>
+        <faq id="press">
             <question>Is there a press kit for Apache Struts?</question>
             <answer>
                 <p>
-                  No, outside of our <a href="announce.html">announcements page</a>, there is not a formal press or media kit for Apache Struts. 
+                  Except for our <a href="announce.html">announcements page</a>, there is not a formal press or media kit for Apache Struts. 
                   Queries from the press (and ONLY queries from the press, NOT support questions or 
                   anything else!) should go to our media relations address: [press (at) apache (dot) org].
                 </p>
             </answer>
         </faq>
-        <faq>
+        <faq id="security">
             <question>Where can I report a potential security vulnerability?</question>
             <answer>
                 <p>
