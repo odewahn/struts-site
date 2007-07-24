@@ -24,9 +24,17 @@ limitations under the License.
 
     <body>
 
+        <section name="Security Bulletin">
+            <p>
+            <strong><a href="http://struts.apache.org/download.cgi#struts209">Apache Struts 2.0.9</a>
+            includes an important security fix regarding <a href="http://struts.apache.org/2.x/docs/s2-001.html">a remote code exploit.</a></strong>
+            ALL USERS ARE STRONGLY ADVISED TO UPDATE TO STRUTS 2.0.9 IMMEDIATELY!
+            </p>
+         </section>
+
         <a name="Threads"/>
         <section name="Recent Threads">
-        <a href="docs/home.html"><img src="http://www.apache.org/ads/ApacheCon/2007-usa-125x125.png" alt="ApacheCon US 2007" hspace="16" align="right"/></a>
+        <a href="http://apachecon.com/"><img src="http://www.apache.org/ads/ApacheCon/2007-usa-125x125.png" alt="ApacheCon US 2007" hspace="16" align="right"/></a>
           <p>
               What do people who use Apache Struts have to say about using it?
               Browse the
@@ -35,6 +43,7 @@ limitations under the License.
               and see for yourself.
           </p>
           <ul>
+            <li><a href="http://www.nabble.com/-ANN--Struts-Downloads-Skyrocket-in-2007-tf4044764.html">Struts Downloads Skyrocket in 2007</a></li>
             <li><a href="http://www.nabble.com/-ANN--Connext-Graphs-tf3955090.html">Connext Graphs</a></li>
             <li><a href="http://www.nabble.com/-ANN--YUI-plugin-tf3947362.html">YUI Plugin</a></li>
             <li><a href="http://www.nabble.com/-S2--ANN--Unit-Testing-Struts-2-Actions-wired-with-Spring-using-JUnit-article-tf3951518.html">Unit Testing Struts 2 Actions wired with Spring</a></li>
@@ -51,16 +60,14 @@ limitations under the License.
               and the <a href="#Project">Apache Struts project.</a>
             </p>
 
-            <a name="2.0.8"/>
-            <subsection name="12 June 2007 - Struts 2.0.8 General Availability Release">
+            <a name="2.0.9"/>
+            <subsection name="24 July 2007 - Struts 2.0.9 General Availability Release with Important Security Fix">
             <p>
-             <a href="http://struts.apache.org/download.cgi#struts208">Apache Struts 2</a>
-             is an elegant, extensible framework
-             for creating enterprise-ready Java web applications.
-             Struts 2.0.8 is the <strong>best available</strong> version of Struts.
-             It was designated "General Availability"
-             (or "Ready for Primetime") quality on 12 June 2007.
+            <strong><a href="http://struts.apache.org/download.cgi#struts209">Apache Struts 2.0.9</a>
+            includes an important security fix regarding OGNL expression handling.</strong>
+            ALL USERS ARE STRONGLY ADVISED TO UPDATE TO STRUTS 2.0.9 AS SOON AS POSSIBLE!
             </p>
+
             </subsection>
 
             <a name="1.3.8"/>

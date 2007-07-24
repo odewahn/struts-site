@@ -24,18 +24,18 @@ limitations under the License.
 
     <body>
         <section name="Volunteers">
-                
+
         <p>
-        The project consists of a diverse group of volunteers who share 
-        common values regarding collaborative, community-based open source 
-        development. 
+        The project consists of a diverse group of volunteers who share
+        common values regarding collaborative, community-based open source
+        development.
         </p>
-        
+
 
             <a name="statistics"/>
             <subsection name="List Subscribers and Downloads">
 
-                <p>In July 2006, there were more than 2800 subscribers to
+                <p>In July 2007, there were more than 2800 subscribers to
                     STRUTS-USER (including the digest version). In addition to
                     the
                     regular subscribers, an unknown number of developers read
@@ -46,19 +46,25 @@ limitations under the License.
                 <p>According to recently released
                     <a href="http://www.apache.org/~vgritsenko/stats/projects/struts">
                         statistics,</a>
-                    Struts downloads range around 15,000 a month.
+                    Apache Struts downloads range around 150,000 a month
+                    from the main site, plus an unknown number of
+                    downloads through the mirroring system and Maven repository.
+                </p>
+                <p>In March 2007, Apache Struts downloads zoomed to
+                  to over 350,000 a month from the main site alone,
+                  in response to the releases of Struts 1.3.8 and Struts 2.0.8.
                 </p>
             </subsection>
 
             <a name="pmc"/>
             <subsection name="Project Management Committee Members">
-            
+
                 <p>
-                Committee members are listed in the chronological order, 
-                according to the date each person become a committer 
+                Committee members are listed in the chronological order,
+                according to the date each person become a committer
                 or committee member.
                 </p>
-            
+
                 <ul>
                     <li>
                         <strong>Craig R. McClanahan</strong>
@@ -164,17 +170,13 @@ limitations under the License.
 
             <a name="committers"/>
             <subsection name="Committers">
-            
+
                 <p>
-                Other committers are listed in the chronological order, 
+                Other committers are listed in the chronological order,
                 according to the date each person became a committer.
                 </p>
-                        
+
                 <ul>
-                    <li>
-                        <strong>David Geary</strong>
-                        (dgeary at apache.org)
-                    </li>
                     <li>
                         <strong>Michael Jouravlev</strong>
                         (mikus at apache.org)
@@ -216,31 +218,35 @@ limitations under the License.
 
             <a name="emeritus"/>
             <subsection name="Emeritus Volunteers">
-            
+
             <p>
-            Emeritus volunteers are no longer active in the project. 
-            An emeritus volunteers can become active again upon request. 
+            Emeritus volunteers are no longer active in the project.
+            An emeritus volunteers can become active again upon request.
             ("Merit never expires.")
             </p>
-            
+
                 <ul>
+                    <li>
+                        David Geary
+                        (dgeary at apache.org)
+                    </li>
                     <li>
                         Richard Feit
                         (rich at apache.org)
                     </li>
                     <li>
                         David M. Karr
-                        (dmkarr at apache.org) (PMC) 
+                        (dmkarr at apache.org) (PMC)
                     </li>
 
                     <li>
                         David Graham
-                        (dgraham at apache.org) (PMC) 
+                        (dgraham at apache.org) (PMC)
                     </li>
 
                     <li>
                         Steve Raeburn
-                        (Steve Raeburn (sraeburn at apache.org) (PMC) 
+                        (Steve Raeburn (sraeburn at apache.org) (PMC)
                     </li>
 
                     <li>
@@ -267,20 +273,20 @@ limitations under the License.
                     <li>Steve Raeburn</li>
 
                     <li>James Turner</li>
-                    
+
                     <li>Sean Schofield (PMC)</li>
-                    
+
                 </ul>
             </subsection>
 
             <a name="about"/>
             <subsection name="About the Committers">
-            
+
             <p>
-            Project committers are the core Apache Struts community. 
+            Project committers are the core Apache Struts community.
             </p>
-            
-            
+
+
                 <h4 id="craigmcc">Craig R. McClanahan -- PMC Member</h4>
 
                 <p>
@@ -526,6 +532,9 @@ limitations under the License.
                     throughout the United States, including CitiGroup,
                     Nationwide
                     Insurance, and the Pepsi Bottling Group.
+                    These consultations developed into a open source
+                    Struts training course that I offer through
+                    <a href="http://www.StrutsMentor.com">Struts Mentor</a>.
                 </p>
 
                 <p>
@@ -534,9 +543,11 @@ limitations under the License.
                     permitting
                     system. We started the work in Java, but the enterprise
                     migrated to ASP.NET in 2004. Rather than quit the team,
-                    I stuck it out. We are now working on a Struts subproject
-                    for
-                    ASP.NET called OverDrive.
+                    I stuck it out. We still use .NET on the backend,
+                    but on the frontend, we now use the Yahoo! User
+                    Interface (YUI) library, with a little help from
+                    <a href="http://yazaar.org/">Yazaar</a> and
+                    <a href="http://code.google.com/p/anvil/">Anvil</a>.
                 </p>
 
                 <h4 id="cedric">Cedric Dumoulin -- PMC Member</h4>
@@ -1340,7 +1351,7 @@ limitations under the License.
         inconvenient or plain wrong to me. I started to read what other people
         say. I found great value in Ted Husted's tips, as well as in the book
         by Chuck Cavaness. After a while I devised some practices of my own
-        (or just 
+        (or just
         <a href="http://www.theserverside.com/tt/articles/article.tss?l=RedirectAfterPost">rediscovered</a>
         something that others has been doing for long time)
         and since then I have been trying to improve Struts in different
@@ -1392,18 +1403,18 @@ limitations under the License.
                     layer (I am a developer and administrator of
                     <a href="http://mutidimensions.sourceforge.net/">Dimensions</a>)
                     and in synchronization between client's browser and application
-                    server: the latter led me to create                    
+                    server: the latter led me to create
                     <a href="http://scopes.sourceforge.net/">Scopes</a>.</p>
 
                 <h4 id="ddewolf">David H. DeWolf -- Committer</h4>
                  <p>When I graduated from school in 1999 I headed to Flower Mound,
-                    Texas (a Dallas Suberb) where my wife Teresa had grown up.  
-                    I was fortunate to find my first web development contract 
+                    Texas (a Dallas Suberb) where my wife Teresa had grown up.
+                    I was fortunate to find my first web development contract
                     and began my career on a portal development team providing
                     user interface implementation support.</p>
                  <p> Since that first job, I have worked for a few small
                     consulting companies providing J2EE design and development
-                    consulting to mid sized and Fortune 500 clients. Many of the 
+                    consulting to mid sized and Fortune 500 clients. Many of the
                     projects I've been involved in over the yeras have leveraged
                     struts and tiles.  I also have used other web frameworks
                     such as JSF and Tapestry.</p>
@@ -1423,13 +1434,18 @@ limitations under the License.
                     such as ApacheCon US 2005, Agile2006, and SD Best Practices 2006.
                     In my spare time, I enjoy spending time with my wife Teresa and
                     our 4 kids (under 6!), Sarah, Joseph, Rebekah, and Catherine. We
-                    now live in Northern Virginia.</p> 
+                    now live in Northern Virginia.</p>
             </subsection>
         </section>
         <section>
+            <p>
+              For more about volunteers at the ASF, visit
+              <a href="http://people.apache.org/">
+                people.apache.org</a>.
+            </p>
             <p class="right">
                 Next:
-                <a href="bylaws.html">PMC Charter</a>                
+                <a href="bylaws.html">PMC Charter</a>
             </p>
         </section>
     </body>
