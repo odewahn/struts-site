@@ -26,7 +26,7 @@ limitations under the License.
 
         <section name="Security Bulletin">
             <p>
-            <strong><a href="http://struts.apache.org/download.cgi#struts209">Apache Struts 2.0.9</a>
+            <strong><a href="http://struts.apache.org/download.cgi#struts209?update=200707231930">Apache Struts 2.0.9</a>
             includes an important security fix regarding <a href="http://struts.apache.org/2.x/docs/s2-001.html">a remote code exploit.</a></strong>
             ALL USERS ARE STRONGLY ADVISED TO UPDATE TO STRUTS 2.0.9 IMMEDIATELY!
             </p>
@@ -63,7 +63,7 @@ limitations under the License.
             <a name="2.0.9"/>
             <subsection name="24 July 2007 - Struts 2.0.9 General Availability Release with Important Security Fix">
             <p>
-            <strong><a href="http://struts.apache.org/download.cgi#struts209">Apache Struts 2.0.9</a>
+            <strong><a href="http://struts.apache.org/download.cgi#struts209?update=200707231930">Apache Struts 2.0.9</a>
             includes an important security fix regarding OGNL expression handling.</strong>
             ALL USERS ARE STRONGLY ADVISED TO UPDATE TO STRUTS 2.0.9 AS SOON AS POSSIBLE!
             </p>
