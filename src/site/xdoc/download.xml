@@ -108,7 +108,7 @@ limitations under the License.
                     <li>Full Distribution:
                         <ul>
                             <li>
-                                <a href="[preferred]/struts/binaries/struts-2.0.9-all.zip">struts-2.0.9-all.zip</a> (43mb)
+                                <a href="[preferred]/struts/binaries/struts-2.0.9-all.zip">struts-2.0.9-all.zip</a> (86mb)
                                 [<a href="http://www.apache.org/dist/struts/binaries/struts-2.0.9-all.zip.asc">PGP</a>]
                                 [<a href="http://www.apache.org/dist/struts/binaries/struts-2.0.9-all.zip.md5">MD5</a>]
                             </li>
@@ -124,7 +124,6 @@ limitations under the License.
                             </li>
                         </ul>
                     </li>
-<!--
                     <li>Blank Application only:
                         <ul>
                             <li>
@@ -134,11 +133,10 @@ limitations under the License.
                             </li>
                         </ul>
                     </li>
--->
                     <li>Essential Dependencies Only:
                         <ul>
                             <li>
-                                <a href="[preferred]/struts/library/struts-2.0.9-lib.zip">struts-2.0.9-lib.zip</a> (3mb)
+                                <a href="[preferred]/struts/library/struts-2.0.9-lib.zip">struts-2.0.9-lib.zip</a> (4mb)
                                 [<a href="http://www.apache.org/dist/struts/library/struts-2.0.9-lib.zip.asc">PGP</a>]
                                 [<a href="http://www.apache.org/dist/struts/library/struts-2.0.9-lib.zip.md5">MD5</a>]
                             </li>
@@ -148,7 +146,7 @@ limitations under the License.
                     <li>Documentation:
                         <ul>
                             <li>
-                                <a href="[preferred]/struts/documentation/struts-2.0.9-docs.zip">struts-2.0.9-docs.zip</a> (11mb)
+                                <a href="[preferred]/struts/documentation/struts-2.0.9-docs.zip">struts-2.0.9-docs.zip</a> (55mb)
                                 [<a href="http://www.apache.org/dist/struts/documentation/struts-2.0.9-docs.zip.asc">PGP</a>]
                                 [<a href="http://www.apache.org/dist/struts/documentation/struts-2.0.9-docs.zip.md5">MD5</a>]
                             </li>
@@ -158,7 +156,7 @@ limitations under the License.
                     <li>Source:
                         <ul>
                             <li>
-                                <a href="[preferred]/struts/source/struts-2.0.9-src.zip">struts-2.0.9-src.zip</a> (18mb)
+                                <a href="[preferred]/struts/source/struts-2.0.9-src.zip">struts-2.0.9-src.zip</a> (20mb)
                                 [<a href="http://www.apache.org/dist/struts/source/struts-2.0.9-src.zip.asc">PGP</a>]
                                 [<a href="http://www.apache.org/dist/struts/source/struts-2.0.9-src.zip.md5">MD5</a>]
                             </li>
@@ -168,7 +166,7 @@ limitations under the License.
                     <li>Alternative Java 4 JARs:
                         <ul>
                             <li>
-                                <a href="[preferred]/struts/binaries/struts-2.0.9-j4.zip">struts-2.0.9-j4.zip</a> (2mb)
+                                <a href="[preferred]/struts/binaries/struts-2.0.9-j4.zip">struts-2.0.9-j4.zip</a> (3mb)
                                 [<a href="http://www.apache.org/dist/struts/binaries/struts-2.0.9-j4.zip.asc">PGP</a>]
                                 [<a href="http://www.apache.org/dist/struts/binaries/struts-2.0.9-j4.zip.md5">MD5</a>]
                             </li>

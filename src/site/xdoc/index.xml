@@ -26,9 +26,9 @@ limitations under the License.
 
         <section name="Security Bulletin">
             <p>
-            <strong><a href="http://struts.apache.org/download.cgi#struts209?update=200707231930">Apache Struts 2.0.9</a>
+            <strong><a href="http://struts.apache.org/download.cgi#struts209">Apache Struts 2.0.9</a>
             includes an important security fix regarding <a href="http://struts.apache.org/2.x/docs/s2-001.html">a remote code exploit.</a></strong>
-            ALL USERS ARE STRONGLY ADVISED TO UPDATE TO STRUTS 2.0.9 IMMEDIATELY!
+            ALL DEVELOPERS ARE STRONGLY ADVISED TO UPDATE TO STRUTS 2.0.9 IMMEDIATELY!
             </p>
          </section>
 
@@ -56,16 +56,21 @@ limitations under the License.
         <section name="Recent Releases">
 
             <p>
-              Scroll down for more about <a href="#Welcome">Apache Struts</a>
-              and the <a href="#Project">Apache Struts project.</a>
+              Scroll down for more about <a href="#Welcome">Apache Struts</a>,
+              the <a href="#Project">Apache Struts project</a>, and <a href="#Newbies">Struts for Newbies</a>
             </p>
 
             <a name="2.0.9"/>
             <subsection name="24 July 2007 - Struts 2.0.9 General Availability Release with Important Security Fix">
             <p>
-            <strong><a href="http://struts.apache.org/download.cgi#struts209?update=200707231930">Apache Struts 2.0.9</a>
+            <strong><a href="http://struts.apache.org/download.cgi#struts209">Apache Struts 2.0.9</a>
             includes an important security fix regarding OGNL expression handling.</strong>
-            ALL USERS ARE STRONGLY ADVISED TO UPDATE TO STRUTS 2.0.9 AS SOON AS POSSIBLE!
+            ALL DEVELOPERS ARE STRONGLY ADVISED TO UPDATE TO STRUTS 2.0.9 AS SOON AS POSSIBLE!
+            </p>
+
+            <p>
+            For other changes included in Struts 2.0.9,
+            see the <a href="http://struts.apache.org/2.0.9/docs/release-notes-209.html">release notes</a>.
             </p>
 
             </subsection>
