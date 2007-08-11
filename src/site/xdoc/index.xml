@@ -60,6 +60,17 @@ limitations under the License.
               the <a href="#Project">Apache Struts project</a>, and <a href="#Newbies">Struts for Newbies</a>
             </p>
 
+            <a name="1.3.9"/>
+            <subsection name="01 Aug 2007 - Struts 1.3.9 Beta Release">
+            <p>
+                The latest release of Struts 1 is
+                <a href="http://struts.apache.org/download.cgi#struts139">Struts 1.3.9</a>,
+                which was promoted to "Beta" on 01 August 2007. For the latest
+                production release ("General Availability"), see
+                <a href="http://struts.apache.org/download.cgi#struts138">Struts 1.3.8</a>.
+            </p>
+            </subsection>
+
             <a name="2.0.9"/>
             <subsection name="24 July 2007 - Struts 2.0.9 General Availability Release with Important Security Fix">
             <p>
