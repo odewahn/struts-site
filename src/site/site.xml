@@ -77,6 +77,10 @@
                     name="Issue Tracker (JIRA)"
                     href="http://issues.apache.org/struts/"
                     />
+            <item
+                    name="Reporting Security Issues"
+                    href="security.html"
+                    />
         </menu>
 
         <menu name="Development">
