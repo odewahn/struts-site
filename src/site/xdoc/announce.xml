@@ -56,7 +56,10 @@ limitations under the License.
             <p>
             <strong><a href="http://struts.apache.org/download.cgi#struts209">Apache Struts 2.0.9</a>
             includes an important security fix regarding <a href="http://struts.apache.org/2.x/docs/s2-001.html">a remote code exploit.</a></strong>
-            ALL DEVELOPERS ARE STRONGLY ADVISED TO UPDATE TO STRUTS 2.0.9 IMMEDIATELY!
+            ALL STRUTS 2 DEVELOPERS ARE STRONGLY ADVISED TO UPDATE TO STRUTS 2.0.9 IMMEDIATELY!
+            </p>
+            <p>
+            <em>PLEASE NOTE that this bulletin DOES NOT apply to Struts 1.x!</em>
             </p>
 
             <p>

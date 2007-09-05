@@ -109,12 +109,12 @@
                     href="dev\releases.html"
                     />
             <item
-                    name="Volunteers"
-                    href="dev\volunteers.html"
-                    />
-            <item
                     name="PMC Charter"
                     href="dev\bylaws.html"
+                    />
+            <item
+                    name="Volunteers"
+                    href="dev\volunteers.html"
                     />
             <item
                     name="Sandbox"
@@ -194,8 +194,14 @@
                     name="Apache Bookstore"
                     href="http://www.ApacheBookstore.com/"
                     />
+
             <item
-                    name="Planet Struts"
+                    name="Our Blogs"
+                    href="http://people.apache.org/~rubys/planet/struts/"
+                    />
+
+            <item
+                    name="S2 Examples"
                     href="http://www.PlanetStruts.org/"
                     />
 

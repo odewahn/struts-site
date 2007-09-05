@@ -9,17 +9,17 @@
         <name>Apache Struts</name>
         <src>http://struts.apache.org/images/struts.gif</src>
         <href>http://struts.apache.org/</href>
-    </bannerRight>     
+    </bannerRight>
     <body>
         <links>
             <item
-                    name="Apache" 
-                    href="http://www.apache.org" /> 
-            <item   
-                    name="Struts 2" 
+                    name="Apache"
+                    href="http://www.apache.org" />
+            <item
+                    name="Struts 2"
                     href="http://struts.apache.org/2.x/" />
-            <item 
-                    name="Struts 1" 
+            <item
+                    name="Struts 1"
                     href="http://struts.apache.org/1.x/" />
         </links>
 
@@ -37,21 +37,22 @@
                     name="Nightly Builds"
                     href="builds.html"
                     />
-                   
+
             <item
                     name="Release Guidelines"
                     href="releases.html"
                     />
             <item
-                    name="Volunteers"
-                    href="volunteers.html"
-                    />
-            <item
                     name="PMC Charter"
                     href="bylaws.html"
                     />
-            <item 
-                    name="Sandbox" 
+            <item
+                    name="Volunteers"
+                    href="volunteers.html"
+                    />
+
+            <item
+                    name="Sandbox"
                     href="http://struts.apache.org/struts-sandbox/index.html"
                     />
             <item
