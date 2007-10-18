@@ -25,9 +25,65 @@ limitations under the License.
     <body>
 
         <section name="Announcements">
-
             <p class="right">
                 Skip to: <a href="announce-2006.html">Announcements - 2006</a>
+            </p>
+
+            <h4 id="a20071012b">12 October 2007 - New Struts Committer -- Dave Newton</h4>
+            <p>
+              Please join us in welcoming Dave Newton as a new Struts committer.
+            </p>
+            <p>
+              Dave's been doing "yeoman work" on the user list for some time now,
+              filing issues, and helping with the documentation. It's likely that
+              he's edited the most documentation pages of any non-committer.
+            </p>
+            <p>
+              Welcome, Dave, now you can update the JavaDocs to better match the
+              Confluence pages!
+            </p>
+            <p>
+              PMC vote: 5 +1.
+            </p>
+
+            <h4 id="a20071012">12 October 2007 - New Struts Committer -- Brian Pontarelli </h4>
+            <p>
+              Please join us in welcoming Brian Pontarelli as a new Struts committer.
+            </p>
+            <p>
+              Brian developed the SmartURLs plugin, which is being merged with the
+              CodeBehind plugin for bundling with Struts 2.1. The original
+              CodeBehind plugin and Zero-Configuration code, developed by Don Brown,
+              was loosely based on the ASP.NET approach. Brian's SmartURLs plugin
+              gives the original approach a more Struts-like spin and adds SEO URIs.
+            </p>
+            <p>
+              Welcome, Brian, I think we're all looking forward to an agile, XML-free future!
+            </p>
+            <p>
+              PMC vote: 4 +1; 1 +0.
+            </p>
+
+            <h4 id="a200709022">22 September 2007 - New Struts Committer -- Matt Raible</h4>
+            <p>
+              Please join us in welcoming Matt Raible as a new Struts committer.
+            </p>
+            <p>
+              Over many years, Matt Raible has been one the most involved members of
+              our community, for Struts 1, Struts 2, and WebWork. He's also a member
+              of the Apache Roller project, which recently migrated from Struts 1 to
+              Struts 2. Though sometimes critical, his comments are always meant to
+              be constructive. He's participated in over fifty JIRA tickets, and
+              over a hundred threads on struts-user and struts-dev. Of course, many
+              of us have also met Matt, since he frequently attends ApacheCon and
+              other conventions.
+            </p>
+            <p>
+              Welcome, Matt ... BTW, have you heard that our invalid property error
+              reporting sucks^g^g^g^g needs work?
+            </p>
+            <p>
+              PMC vote: 12 +1. (Could be a record!)
             </p>
 
             <h4 id="a20070801">01 August 2007 - Struts v1.3.9 Beta Release</h4>
@@ -283,7 +339,6 @@ limitations under the License.
             </p>
 
             <h4 id="a20070310">10 March 2007 - Struts v1.3.8 GA Release</h4>
-
             <p>
               The Apache Struts group is pleased to announce that Struts 1.3.8
               is available as a "General Availability" release. The GA
@@ -485,11 +540,58 @@ limitations under the License.
               Servlet API 2.4, JSP API 2.0, Java 5, Backported Java 4 JARs
               are also available.
             </p>
-
             <p>
               The release notes are
                 <a href="http://struts.apache.org/2.0.5/docs/release-notes-205.html">
                   available online</a>.
+            </p>
+            <hr/>
+
+            <h4 id="a20070129">29 Jan 2007 - New Struts Committer -- Philip Luppens </h4>
+            <p>
+              Phil, as he is generally known, is the most active member of the WebWork
+              user community, as judged by their forum/mailing list with over 1400
+              posts.  He has also been listed a WebWork developer, contributing ideas,
+              code, and documentation for several years and is a highly respected
+              member as the WebWork developers can attest.
+            </p>
+            <p>
+              Phil has also been actively involved in the Struts 2 project,
+              helping to keep the WebWork 2 tickets in sync as well as participating
+              in Struts developer discussions.
+            </p>
+            <p>
+              Welcome aboard, Phil, keep those syncronizations coming!
+            </p>
+
+            <h4 id="a20070129">29 Jan 2007 - New Struts Committer -- Tom Schneider</h4>
+            <p>
+              Tom has been around the Struts and WebWork communities for several
+              months in the Struts and WebWork [2] user and developer forums.  He has
+              opened several JIRA tickets with high quality patches.  He is
+              also the author of several Struts 2 plugins, and Tom has recently
+              been helping with defining plugins that provide tag libraries,
+              abstracting OGNL from XWork, and optimizing OGNL within the tags. He
+              has also been active in the Struts user mailing list providing users
+              with help with basic issues encountered when transitioning to Struts 2.
+            </p>
+            <p>
+              Welcome aboard, Tom, keep those optimizations coming!
+            </p>
+
+            <h4 id="a20070129">29 Jan 2007 - New Struts Committer -- Musachy Barrosso</h4>
+            <p>
+              Please join us in welcoming Musachy Barrosso as a new Struts committer.
+            </p>
+            <p>
+              Musachy has only been active in Struts since late October,
+              but since that time he has participated in hundreds of list
+              postings, filed a dozen JIRA tickets, and provided patches
+              for several others.
+            </p>
+            <p>
+              Welcome aboard, Musachy, we appreciate your help in
+              keeping the Ajax code clean!
             </p>
             <hr/>
         </section>

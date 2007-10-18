@@ -38,13 +38,12 @@ limitations under the License.
          <section name="ApacheCon US 2007 - Atlanta GA">
          <a href="http://apachecon.com/"><img src="http://www.apache.org/ads/ApacheCon/2007-usa-125x125.png" alt="ApacheCon US 2007" hspace="16" align="right"/></a>
             <p>
-              Three Struts presentations are scheduled for
+              Two Struts presentations are scheduled for
               <a href="http://www.us.apachecon.com/">ApacheCon US 2007</a>,
               which is being held in Atlanta GA, November 12-16.
             </p>
 
             <ul>
-              <li><a href="http://us.apachecon.com/us2007/program/talk/1883">Migrating to Ajax</a> (Ted Husted), 12 Nov @10a (five-hour training course)</li>
               <li><a href="http://us.apachecon.com/us2007/program/talk/1880">Using Groovy with Struts 2</a> (Mark Menard), 13 Nov @10a (five-hour training course)</li>
               <li><a href="http://us.apachecon.com/us2007/program/talk/2058">Go Light with Apache Struts 2 and REST</a> (Don Brown), 15 Nov @5:30p (one-hour presentation)</li>
             </ul>

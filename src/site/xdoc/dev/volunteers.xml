@@ -173,6 +173,10 @@ limitations under the License.
                         <strong>Antonio Petrelli</strong>
                         (apetrelli at apache.org)
                     </li>
+                    <li>
+                       <strong>Musachy Barroso</strong>
+                       (musachy at apache.org)
+                   </li>
                 </ul>
             </subsection>
 
@@ -208,10 +212,6 @@ limitations under the License.
                     <li>
                        <strong>Tom Schneider</strong>
                        (tschneider at apache.org)
-                   </li>
-                    <li>
-                       <strong>Musachy Barroso</strong>
-                       (musachy at apache.org)
                    </li>
                     <li>
                        <strong>Matt Raible</strong>
