@@ -3,7 +3,7 @@
     <bannerLeft>
         <name>Apache Software Foundation</name>
         <src>http://www.apache.org/images/asf-logo.gif</src>
-        <href>http://www.apache.org/</href>
+        <href>http://apache.org/foundation/sponsorship.html</href>
     </bannerLeft>
     <bannerRight>
         <name>Apache Struts</name>
@@ -14,7 +14,7 @@
         <links>
             <item
                     name="Apache"
-                    href="http://projects.apache.org" />
+                    href="http://apache.org/foundation/sponsorship.html" />
             <item
                     name="Struts 2.1.x"
                     href="http://struts.apache.org/2.1.0/" />
@@ -50,6 +50,10 @@
             <item
                     name="Website Stats"
                     href="http://people.apache.org/~vgritsenko/stats/projects/struts"
+                    />
+            <item
+                    name="Thanks!"
+                    href="http://apache.org/foundation/thanks.html"
                     />
         </menu>
 
