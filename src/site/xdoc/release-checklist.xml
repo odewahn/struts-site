@@ -40,7 +40,7 @@
             || 1. || ${DESCRIPTION} || ${STATUS} ||
 
             The Commons
-            [http://jakarta.apache.org/commons/releases/prepare.html
+            [http://commons.apache.org/releases/prepare.html
             Preparation Guide] is a helpful preparation backgrounder, but
             Commons
             uses the "beta/release-candidate/final" process.
@@ -78,7 +78,7 @@
             == Test Build Checklist (A) ==
 
             See also Commons
-            [http://jakarta.apache.org/commons/releases/release.html
+            [http://commons.apache.org/releases/release.html
             Step-by-Step Guide]
 
             || '''#''' || '''Description''' || '''Completed''' ||

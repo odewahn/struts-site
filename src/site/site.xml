@@ -126,7 +126,7 @@
                     />
             <item
                     name="Source Repository"
-                    href="http://svn.apache.org/viewcvs.cgi/struts/"
+                    href="http://svn.apache.org/viewvc/struts/"
                     />
         </menu>
 
@@ -144,12 +144,12 @@
                     href="http://tomcat.apache.org/"
                     />
             <item
-                    name="Jakarta Commons"
-                    href="http://jakarta.apache.org/commons/"
+                    name="Apache Commons"
+                    href="http://commons.apache.org/"
                     />
             <item
                     name="Velocity Struts"
-                    href="http://jakarta.apache.org/velocity/tools/struts/"
+                    href="http://velocity.apache.org/tools/devel/struts/"
                     />
         </menu>
 
@@ -168,8 +168,8 @@
                     href="http://tapestry.apache.org/"
                     />
             <item
-                    name="Jakarta Turbine"
-                    href="http://jakarta.apache.org/turbine/"
+                    name="Apache Turbine"
+                    href="http://turbine.apache.org/"
                     />
             <item
                     name="Spring MVC"
@@ -180,8 +180,8 @@
                     href="http://stripes.mc4j.org/confluence/display/stripes/Home"
                     />
             <item
-                    name="Wicket"
-                    href="http://wicket.sourceforge.net/"
+                    name="Apache Wicket"
+                    href="http://wicket.apache.org/"
                     />
          </menu>
 

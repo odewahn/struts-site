@@ -37,13 +37,13 @@ limitations under the License.
             <a name="Releasing"/>
             <subsection name="Release Process">
                 <p>A
-                    <a href="http://jakarta.apache.org/commons/releases/versioning.html">
+                    <a href="http://commons.apache.org/releases/versioning.html">
                         point release</a>
                     should be made before and after any product change that is
                     not a "fully-compatible change" (see link). This includes
                     moving a dependency from an internal package to an
                     external product, including products distributed through
-                    the Jakarta Commons. We should place any fully-compatible
+                    the Apache Commons. We should place any fully-compatible
                     changes in the hands of the community before starting on a
                     change that is only "interface" or "external-interface"
                     compatible.

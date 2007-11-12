@@ -1311,7 +1311,7 @@ limitations under the License.
                     easy to use with
                     <a href="http://stxx.sourceforge.net/">XSLT</a>
                     and
-                    <a href="http://jakarta.apache.org/velocity/tools/index.html">
+                    <a href="http://velocity.apache.org/tools/devel/">
                         Velocity Templates.</a>
                 </p>
 
@@ -1526,7 +1526,7 @@ limitations under the License.
                 </p>
                 <ul>
                     <li>
-                        <a href="http://jakarta.apache.org/commons/chain/">
+                        <a href="http://commons.apache.org/chain/">
                             Commons Chain of Responsiblity</a>
                     </li>
                     <li>
