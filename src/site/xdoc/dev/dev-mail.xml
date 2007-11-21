@@ -58,6 +58,28 @@ limitations under the License.
 
                    </ul>
 
+                    <li>
+                        <a href="http://struts.markmail.org/">Mark Mail</a>
+                    </li>
+                    <ul>
+                        <li>
+                            <a href="http://struts.markmail.org/search/?q=type:announcements/">
+                                Announcements</a>
+                        </li>
+                        <li>
+                            <a href="http://struts.markmail.org/search/?q=list%3Adev/">
+                                Dev. list</a>
+                        </li>
+                        <li>
+                            <a href="http://struts.markmail.org/search/?q=list%3Acommits/">
+                            Commits list</a>
+                        </li>
+                        <li>
+                            <a href="http://struts.markmail.org/search/?q=list%3Aissues/">
+                            Issues list</a>
+                        </li>
+                    </ul>
+
                     <li>Mail-Archive</li>
                     <ul>
                         <li>

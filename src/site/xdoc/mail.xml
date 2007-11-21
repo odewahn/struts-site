@@ -264,12 +264,17 @@ limitations under the License.
                 </p>
             </subsection>
 
+            <a name="Archives"/>
             <subsection name="Archives">
                 <p>Archives Carrying Struts User List</p>
                 <ul>
                     <li>
                         <a href="http://mail-archives.apache.org/mod_mbox/struts-user/">
                           ASF Mail Archives</a>
+                    </li>
+                    <li>
+                        <a href="http://struts.markmail.org/search/?q=list%3Auser/">
+                            Mark Mail</a>
                     </li>
                     <li>
                         <a href="http://www.mail-archive.com/user%40struts.apache.org/">
