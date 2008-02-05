@@ -221,6 +221,14 @@ limitations under the License.
                        <strong>Brian Pontarelli</strong>
                        (bpontarelli at apache.org)
                     </li>
+                    <li>
+                       <strong>Wes Wannemacher</strong>
+                       (wesw at apache.org)
+                    </li>
+                    <li>
+                       <strong>Jeromy Evans</strong>
+                       (jeromy at apache.org)
+                    </li>
                 </ul>
             </subsection>
 
@@ -229,45 +237,17 @@ limitations under the License.
 
             <p>
             Emeritus volunteers are no longer active in the project.
-            An emeritus volunteers can become active again upon request.
+            An emeritus volunteer can become active again upon request.
             ("Merit never expires.")
             </p>
 
                 <ul>
+                    <li>Luis Arias</li>
+
                     <li>
                         David Geary
                         (dgeary at apache.org)
                     </li>
-                    <li>
-                        Richard Feit
-                        (rich at apache.org)
-                    </li>
-                    <li>
-                        David M. Karr
-                        (dmkarr at apache.org) (PMC)
-                    </li>
-
-                    <li>
-                        David Graham
-                        (dgraham at apache.org) (PMC)
-                    </li>
-
-                    <li>
-                        Steve Raeburn
-                        (Steve Raeburn (sraeburn at apache.org) (PMC)
-                    </li>
-
-                    <li>
-                        Eddie Bush
-                        (ekbush at apache.org)
-                    </li>
-
-                    <li>
-                        <strong>Henri Yandell</strong>
-                        (bayard at apache.org)
-                    </li>
-
-                    <li>Luis Arias</li>
 
                     <li>Pierre Delilse</li>
 
@@ -283,11 +263,44 @@ limitations under the License.
 
                     <li>Arron Bates</li>
 
-                    <li>Steve Raeburn</li>
+                    <li>Steve Raeburn (PMC)</li>
 
                     <li>James Turner</li>
 
-                    <li>Sean Schofield (PMC)</li>
+                    <li>
+                      Sean Schofield (PMC)
+                      (schof at apache.org)
+                    </li>
+
+                    <li>
+                        Richard Feit
+                        (rich at apache.org)
+                    </li>
+
+                    <li>
+                        David M. Karr (PMC)
+                        (dmkarr at apache.org)
+                    </li>
+
+                    <li>
+                        David Graham (PMC)
+                        (dgraham at apache.org)
+                    </li>
+
+                    <li>
+                        Steve Raeburn (PMC)
+                        (Steve Raeburn (sraeburn at apache.org)
+                    </li>
+
+                    <li>
+                        Eddie Bush
+                        (ekbush at apache.org)
+                    </li>
+
+                    <li>
+                        Henri Yandell (PMC)
+                        (bayard at apache.org)
+                    </li>
 
                 </ul>
             </subsection>
