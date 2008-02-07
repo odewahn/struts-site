@@ -106,23 +106,28 @@
                     />
             <item
                     name="Development Lists"
-                    href="dev\dev-mail.html"
+                    href="dev/dev-mail.html"
                     />
             <item
                     name="Source Code"
-                    href="dev\builds.html"
+                    href="dev/builds.html"
                     />
             <item
                     name="Release Guidelines"
-                    href="dev\releases.html"
+                    href="dev/releases.html"
                     />
             <item
                     name="PMC Charter"
-                    href="dev\bylaws.html"
+                    href="dev/bylaws.html"
                     />
             <item
+                    name="Minutes"
+                    href="dev/minutes.html"
+                    />
+
+            <item
                     name="Volunteers"
-                    href="dev\volunteers.html"
+                    href="dev/volunteers.html"
                     />
             <item
                     name="Sandbox"
