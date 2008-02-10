@@ -126,20 +126,12 @@ limitations under the License.
                         (gvanmatre at apache.org)
                     </li>
                     <li>
-                        <strong>Greg Reddin</strong>
-                        (greddin at apache.org)
-                    </li>
-                    <li>
                         <strong>Laurie Harper</strong>
                         (laurieh at apache.org)
                     </li>
                     <li>
                         <strong>Jason Carreira</strong>
                         (jcarreira at apache.org)
-                    </li>
-                    <li>
-                        <strong>Patrick Lightbody</strong>
-                        (plightbo at apache.org)
                     </li>
                     <li>
                         <strong>Alexandru Popescu</strong>
@@ -156,10 +148,6 @@ limitations under the License.
                     <li>
                         <strong>Toby Jee</strong>
                         (tmjee at apache.org)
-                    </li>
-                    <li>
-                        <strong>Ian Roughley</strong>
-                        (roughley at apache.org)
                     </li>
                     <li>
                         <strong>Paul Benedict</strong>
@@ -289,7 +277,7 @@ limitations under the License.
 
                     <li>
                         Steve Raeburn (PMC)
-                        (Steve Raeburn (sraeburn at apache.org)
+                        (sraeburn at apache.org)
                     </li>
 
                     <li>
@@ -301,7 +289,18 @@ limitations under the License.
                         Henri Yandell (PMC)
                         (bayard at apache.org)
                     </li>
-
+                    <li>
+                        Patrick Lightbody (PMC)
+                        (plightbo at apache.org)
+                    </li>
+                    <li>
+                        Greg Reddin (PMC)
+                        (greddin at apache.org)
+                    </li>
+                    <li>
+                        Ian Roughley (PMC)
+                        (roughley at apache.org)
+                    </li>
                 </ul>
             </subsection>
 
