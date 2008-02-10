@@ -158,8 +158,8 @@ limitations under the License.
                         (apetrelli at apache.org)
                     </li>
                     <li>
-                       <strong>Musachy Barroso</strong>
-                       (musachy at apache.org)
+                        <strong>Musachy Barroso</strong>
+                        (musachy at apache.org)
                    </li>
                 </ul>
             </subsection>
@@ -186,36 +186,36 @@ limitations under the License.
                         (nilsga at apache.org)
                     </li>
                     <li>
-                       <strong>David H. DeWolf</strong>
-                       (ddewolf at apache.org)
+                        <strong>David H. DeWolf</strong>
+                        (ddewolf at apache.org)
                     </li>
                     <li>
-                       <strong>Philip Luppens</strong>
-                       (phil at apache.org)
+                        <strong>Philip Luppens</strong>
+                        (phil at apache.org)
                     </li>
                     <li>
-                       <strong>Tom Schneider</strong>
-                       (tschneider at apache.org)
+                        <strong>Tom Schneider</strong>
+                        (tschneider at apache.org)
                     </li>
                     <li>
-                       <strong>Matt Raible</strong>
-                       (mraible at apache.org)
+                        <strong>Matt Raible</strong>
+                        (mraible at apache.org)
                     </li>
                     <li>
-                       <strong>Dave Newton</strong>
-                       (davenewton at apache.org)
+                        <strong>Dave Newton</strong>
+                        (davenewton at apache.org)
                     </li>
                     <li>
-                       <strong>Brian Pontarelli</strong>
-                       (bpontarelli at apache.org)
+                        <strong>Brian Pontarelli</strong>
+                        (bpontarelli at apache.org)
                     </li>
                     <li>
-                       <strong>Wes Wannemacher</strong>
-                       (wesw at apache.org)
+                        <strong>Wes Wannemacher</strong>
+                        (wesw at apache.org)
                     </li>
                     <li>
-                       <strong>Jeromy Evans</strong>
-                       (jeromy at apache.org)
+                        <strong>Jeromy Evans</strong>
+                        (jeromy at apache.org)
                     </li>
                 </ul>
             </subsection>
@@ -231,60 +231,63 @@ limitations under the License.
 
                 <ul>
                     <li>Luis Arias</li>
-
                     <li>
                         David Geary
                         (dgeary at apache.org)
                     </li>
-
-                    <li>Pierre Delilse</li>
-
+                    <li>
+                        Pierre Delisle
+                        (pierred at apache.org)
+                    </li>
                     <li>Michael Schachter</li>
-
-                    <li>Vincent Massol</li>
-
-                    <li>David Winterfeldt</li>
-
-                    <li>Oleg Alexeev</li>
-
-                    <li>Rob Leland</li>
-
-                    <li>Arron Bates</li>
-
-                    <li>Steve Raeburn (PMC)</li>
-
-                    <li>James Turner</li>
-
                     <li>
-                      Sean Schofield (PMC)
-                      (schof at apache.org)
+                        Vincent Massol
+                        (vmassol at apache.org)
                     </li>
-
                     <li>
-                        Richard Feit
-                        (rich at apache.org)
+                        David Winterfeldt
+                        (dwinterfeldt at apache.org)
                     </li>
-
                     <li>
-                        David M. Karr (PMC)
-                        (dmkarr at apache.org)
+                        Oleg Alexeev
+                        (oalexeev at apache.org)
                     </li>
-
                     <li>
-                        David Graham (PMC)
-                        (dgraham at apache.org)
+                        Rob Leland
+                        (rleland at apache.org)
                     </li>
-
+                    <li>
+                        Arron Bates
+                        (arron at apache.org)
+                    </li>
                     <li>
                         Steve Raeburn (PMC)
                         (sraeburn at apache.org)
                     </li>
-
+                    <li>
+                        James Turner
+                        (turner at apache.org)
+                    </li>
+                    <li>
+                        Sean Schofield (PMC)
+                        (schof at apache.org)
+                    </li>
+                    <li>
+                        Richard Feit
+                        (rich at apache.org)
+                    </li>
+                    <li>
+                        David M. Karr (PMC)
+                        (dmkarr at apache.org)
+                    </li>
+                    <li>
+                        David Graham (PMC)
+                        (dgraham at apache.org)
+                    </li>
                     <li>
                         Eddie Bush
                         (ekbush at apache.org)
                     </li>
-
                     <li>
                         Henri Yandell (PMC)
                         (bayard at apache.org)
