@@ -61,8 +61,7 @@ limitations under the License.
             <p>
             For changes included in Struts 2.0.11.1,
             see the <a href="http://struts.apache.org/2.0.11.1/docs/release-notes-20111.html">release notes</a>.
-            Struts 2.0.11.1 provides important security bugfixes and improvements since the
-            2.0.11 GA release.
+            Struts 2.0.11.1 provides important security bugfixes since the 2.0.11 GA release.
             </p>
             </subsection>
 
