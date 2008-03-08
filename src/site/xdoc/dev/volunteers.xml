@@ -67,11 +67,6 @@ limitations under the License.
 
                 <ul>
                     <li>
-                        <strong>Craig R. McClanahan</strong>
-                        (craigmcc at apache.org)
-                    </li>
-
-                    <li>
                         <strong>Ted Husted</strong>
                         (husted at apache.org)
                     </li>
@@ -103,18 +98,8 @@ limitations under the License.
                     </li>
 
                     <li>
-                        <strong>Joe Germuska</strong>
-                        (germuska at apache.org)
-                    </li>
-
-                    <li>
                         <strong>Niall Pemberton</strong>
                         (niallp at apache.org)
-                    </li>
-
-                    <li>
-                        <strong>Hubert Rabago</strong>
-                        (hrabago at apache.org)
                     </li>
 
                     <li>
@@ -122,16 +107,8 @@ limitations under the License.
                         (wsmoak at apache.org)
                     </li>
                     <li>
-                        <strong>Gary VanMatre</strong>
-                        (gvanmatre at apache.org)
-                    </li>
-                    <li>
                         <strong>Laurie Harper</strong>
                         (laurieh at apache.org)
-                    </li>
-                    <li>
-                        <strong>Jason Carreira</strong>
-                        (jcarreira at apache.org)
                     </li>
                     <li>
                         <strong>Alexandru Popescu</strong>
@@ -304,6 +281,26 @@ limitations under the License.
                         Ian Roughley (PMC)
                         (roughley at apache.org)
                     </li>
+                    <li>
+                        Craig R. McClanahan (PMC)
+                        (craigmcc at apache.org)
+                    </li>
+                    <li>
+                        Joe Germuska (PMC)
+                        (germuska at apache.org)
+                    </li>
+                    <li>
+                        Hubert Rabago (PMC)
+                        (hrabago at apache.org)
+                    </li>
+                    <li>
+                        Gary VanMatre (PMC)
+                        (gvanmatre at apache.org)
+                    </li>
+                    <li>
+                        Jason Carreira (PMC)
+                        (jcarreira at apache.org)
+                    </li>
                 </ul>
             </subsection>
 
@@ -315,7 +312,7 @@ limitations under the License.
             </p>
 
 
-                <h4 id="craigmcc">Craig R. McClanahan -- PMC Member</h4>
+                <h4 id="craigmcc">Craig R. McClanahan -- Emeritus PMC Member</h4>
 
                 <p>
                     I've been involved with servlet and JSP technology since
@@ -775,7 +772,7 @@ limitations under the License.
                     to part of the Apache Struts group.
                 </p>
 
-                <h4 id="dgraham">David Graham -- PMC Member</h4>
+                <h4 id="dgraham">David Graham -- Emeritus PMC Member</h4>
 
                 <p>
                     I, like many others, discovered Struts when contemplating
@@ -979,7 +976,7 @@ limitations under the License.
                     OpenSolaris.org site for Sun.
                 </p>
 
-                <h4 id="ekbush">Eddie Bush -- Committer</h4>
+                <h4 id="ekbush">Eddie Bush -- Emeritus Committer</h4>
 
                 <p>
                     My first experiences with Java made me wince. The language
@@ -1116,7 +1113,7 @@ limitations under the License.
                     September 2004.
                 </p>
 
-                <h4 id="hrabago">Hubert Rabago -- PMC Member</h4>
+                <h4 id="hrabago">Hubert Rabago -- Emeritus PMC Member</h4>
                 <p>
                     I started working with Java early in 2000. We designed and
                     implemented a
@@ -1190,7 +1187,7 @@ limitations under the License.
                     invitation to become a Struts Committer in June, 2005, and
                     was invited to join the PMC in December, 2005.</p>
 
-                <h4 id="gvanmatre">Gary VanMatre -- PMC Member</h4>
+                <h4 id="gvanmatre">Gary VanMatre -- Emeritus PMC Member</h4>
 
                 <p>I landed an internship in college working with the big blue
                     iron where
@@ -1282,7 +1279,7 @@ limitations under the License.
                     Struts lies with the
                     Shale subproject.</p>
 
-                <h4 id="greddin">Greg Reddin -- PMC Member</h4>
+                <h4 id="greddin">Greg Reddin -- Emeritus PMC Member</h4>
 
                 <p>In early 2000 I was working on a client-server application
                     that
