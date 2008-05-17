@@ -410,7 +410,7 @@ limitations under the License.
                     <a href="#issues">issue tracker.</a>
                     If you see an issue that needs a patch you can write,
                     feel free to annex your patch.
-                    If you seen an issue that needs a unit test to prove its
+                    If you see an issue that needs a unit test to prove it's
                     fixed,
                     feel free to annex your test case.
                     If someone has posted a patch to an issue you'd like to
