@@ -63,6 +63,11 @@ limitations under the License.
                         <strong>Beta Releases</strong> - <em>Help test the next release!</em>
                         <ul>
                             <li>
+                                <a href="http://struts.apache.org/download.cgi#struts212">
+                                    Struts 2.1.2
+                                </a>
+                            </li>
+                            <li>
                                 <a href="http://struts.apache.org/download.cgi#struts139">
                                     Struts 1.3.9
                                 </a>

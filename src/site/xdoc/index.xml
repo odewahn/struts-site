@@ -50,6 +50,17 @@ limitations under the License.
               the <a href="#Project">Apache Struts project</a>, and <a href="#Newbies">Struts for Newbies</a>
             </p>
 
+            <a name="2.1.2"/>
+            <subsection name="26 May 2008 - Struts 2.1.2 Beta Release">
+            <p>
+                The latest release of Struts 2 is
+                <a href="http://struts.apache.org/download.cgi#struts212">Struts 2.1.2</a>,
+                which was promoted to "Beta" on 26 March 2008. For the latest
+                production release ("General Availability"), see
+                <a href="http://struts.apache.org/download.cgi#struts20111">Struts 2.0.11.1</a>.
+            </p>
+            </subsection>
+
             <a name="2.0.11.1"/>
             <subsection name="04 March 2008 - Struts 2.0.11.1 General Availability Release">
             <p>
