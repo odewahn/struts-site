@@ -72,11 +72,6 @@ limitations under the License.
                     </li>
 
                     <li>
-                        <strong>Cedric Dumoulin</strong>
-                        (cedric at apache.org)
-                    </li>
-
-                    <li>
                         <strong>Martin Cooper</strong>
                         , Vice President and Chair
                         (martinc at apache.org)
@@ -85,11 +80,6 @@ limitations under the License.
                     <li>
                         <strong>James Holmes</strong>
                         (jholmes at apache.org)
-                    </li>
-
-                    <li>
-                        <strong>James Mitchell</strong>
-                        (jmitchell at apache.org)
                     </li>
 
                     <li>
@@ -300,6 +290,14 @@ limitations under the License.
                     <li>
                         Jason Carreira (PMC)
                         (jcarreira at apache.org)
+                    </li>
+                    <li>
+                        Cedric Dumoulin (PMC)
+                        (cedric at apache.org)
+                    </li>
+                    <li>
+                        James Mitchell (PMC)
+                        (jmitchell at apache.org)
                     </li>
                 </ul>
             </subsection>
