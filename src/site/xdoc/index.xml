@@ -57,22 +57,22 @@ limitations under the License.
                 <a href="http://struts.apache.org/download.cgi#struts212">Struts 2.1.2</a>,
                 which was promoted to "Beta" on 26 March 2008. For the latest
                 production release ("General Availability"), see
-                <a href="http://struts.apache.org/download.cgi#struts20111">Struts 2.0.11.1</a>.
+                <a href="http://struts.apache.org/download.cgi#struts20112">Struts 2.0.11.2</a>.
             </p>
             </subsection>
 
-            <a name="2.0.11.1"/>
-            <subsection name="04 March 2008 - Struts 2.0.11.1 General Availability Release">
+            <a name="2.0.11.2"/>
+            <subsection name="20 June 2008 - Struts 2.0.11.2 General Availability Release">
             <p>
                 The latest release of Struts 2 is
-                <a href="http://struts.apache.org/download.cgi#struts20111">Struts 2.0.11.1</a>,
-                which was promoted to "General Availability" on 04 March 2008.
+                <a href="http://struts.apache.org/download.cgi#struts20112">Struts 2.0.11.2</a>,
+                which was promoted to "General Availability" on 20 June 2008.
             </p>
 
             <p>
-            For changes included in Struts 2.0.11.1,
-            see the <a href="http://struts.apache.org/2.0.11.1/docs/release-notes-20111.html">release notes</a>.
-            Struts 2.0.11.1 provides important security bugfixes since the 2.0.11 GA release.
+            For changes included in Struts 2.0.11.2,
+            see the <a href="http://struts.apache.org/2.0.11.2/docs/release-notes-20112.html">release notes</a>.
+            Struts 2.0.11.2 provides important security bugfixes since the 2.0.11.1 GA release.
             </p>
             </subsection>
 
