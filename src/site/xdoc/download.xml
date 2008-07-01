@@ -130,9 +130,9 @@ limitations under the License.
                     <li>Blank Application only:
                         <ul>
                             <li>
-                                <a href="[preferred]/struts/examples/struts2-blank-2.0.11.war">struts2-blank-2.0.11.war</a> (Also included in apps.) (3mb)
-                                [<a href="http://www.apache.org/dist/struts/examples/struts2-blank-2.0.11.war.asc">PGP</a>]
-                                [<a href="http://www.apache.org/dist/struts/examples/struts2-blank-2.0.11.war.md5">MD5</a>]
+                                <a href="[preferred]/struts/examples/struts2-blank-2.0.11.2.war">struts2-blank-2.0.11.2.war</a> (Also included in apps.) (3mb)
+                                [<a href="http://www.apache.org/dist/struts/examples/struts2-blank-2.0.11.2.war.asc">PGP</a>]
+                                [<a href="http://www.apache.org/dist/struts/examples/struts2-blank-2.0.11.2.war.md5">MD5</a>]
                             </li>
                         </ul>
                     </li>
@@ -169,9 +169,9 @@ limitations under the License.
                     <li>Alternative Java 4 JARs:
                         <ul>
                             <li>
-                                <a href="[preferred]/struts/binaries/struts-2.0.11.2-j4.zip">struts-2.0.11.2-j4.zip</a> (3mb)
-                                [<a href="http://www.apache.org/dist/struts/binaries/struts-2.0.11.2-j4.zip.asc">PGP</a>]
-                                [<a href="http://www.apache.org/dist/struts/binaries/struts-2.0.11.2-j4.zip.md5">MD5</a>]
+                                <a href="[preferred]/struts/binaries/struts-2.0.11.2-backport.zip">struts-2.0.11.2-backport.zip</a> (3mb)
+                                [<a href="http://www.apache.org/dist/struts/binaries/struts-2.0.11.2-backport.zip.asc">PGP</a>]
+                                [<a href="http://www.apache.org/dist/struts/binaries/struts-2.0.11.2-backport.zip.md5">MD5</a>]
                             </li>
                         </ul>
                     </li>
