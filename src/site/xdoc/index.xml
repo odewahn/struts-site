@@ -70,9 +70,44 @@ limitations under the License.
             </p>
 
             <p>
-            For changes included in Struts 2.0.11.2,
-            see the <a href="http://struts.apache.org/2.0.11.2/docs/release-notes-20112.html">release notes</a>.
-            Struts 2.0.11.2 provides important security bugfixes since the 2.0.11.1 GA release.
+                For changes included in Struts 2.0.11.2,
+                see the <a href="http://struts.apache.org/2.0.11.2/docs/release-notes-20112.html">release notes</a>.
+                Struts 2.0.11.2 provides important security bugfixes since the 2.0.11.1 GA release.
+            </p>
+            <p>
+                <b>IMPORTANT ADDITIONAL NOTES:</b>
+                <p/>
+                There are two known issues with this release:
+                <ol>
+                    <li>
+                        the integrated XWork 2.0.5 jar may cause problems when used in a combination of WebSphere 6.1 runtime environments with validation configuration via XML files.
+                        Possible Workarounds:
+                        <ul>
+                            <li>use annotation based validation definition instead XML based</li>
+                            <li>stay with Struts 2.0.11.1 including XWork 2.0.4, applying the following exclude rule to your parameter interceptor refs in struts.xml
+<pre>
+&lt;interceptor-ref name="params"&gt;
+    &lt;param name="excludeParams"&gt;.*[[^\\p{Graph}][\\\\#:=]].*&lt;/param&gt;
+&lt;/interceptor-ref&gt;
+</pre>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        the filtering mechanism implemeted in XWork's ParametersInterceptor to fix the described security issue does not completely avoid any possible malicious parameter name.
+                        Possible Workaround:
+                        <ul>
+                            <li>apply the following exclude rule to your parameter interceptor refs in struts.xml to avoid the usage of backslash charater in parameter names
+<pre>
+&lt;interceptor-ref name="params"&gt;
+    &lt;param name="excludeParams"&gt;.*\\.*&lt;/param&gt;
+&lt;/interceptor-ref&gt;
+</pre>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+                Both issues will be addressed in a soon upcoming XWork 2.0.6 release, followed by a new Struts 2.0 GA release including this new XWork version.
             </p>
             </subsection>
 
