@@ -97,7 +97,7 @@ limitations under the License.
                         the filtering mechanism implemeted in XWork's ParametersInterceptor to fix the described security issue does not completely avoid any possible malicious parameter name.
                         Possible Workaround:
                         <ul>
-                            <li>apply the following exclude rule to your parameter interceptor refs in struts.xml to avoid the usage of backslash charater in parameter names
+                            <li>apply the following exclude rule to your parameter interceptor refs in struts.xml to avoid the usage of backslash characters in parameter names
 <pre>
 &lt;interceptor-ref name="params"&gt;
     &lt;param name="excludeParams"&gt;.*\\.*&lt;/param&gt;
