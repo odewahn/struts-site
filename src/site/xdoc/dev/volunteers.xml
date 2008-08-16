@@ -127,7 +127,11 @@ limitations under the License.
                     <li>
                         <strong>Musachy Barroso</strong>
                         (musachy at apache.org)
-                   </li>
+                    </li>
+                    <li>
+                        <strong>Dave Newton</strong>
+                        (davenewton at apache.org)
+                    </li>
                 </ul>
             </subsection>
 
@@ -167,10 +171,6 @@ limitations under the License.
                     <li>
                         <strong>Matt Raible</strong>
                         (mraible at apache.org)
-                    </li>
-                    <li>
-                        <strong>Dave Newton</strong>
-                        (davenewton at apache.org)
                     </li>
                     <li>
                         <strong>Brian Pontarelli</strong>
