@@ -64,7 +64,7 @@ limitations under the License.
                 Struts 2.0.12 provides important security and bug fixes since the 2.0.11.2 GA release.
                 For more information about the security issues, see the corresponding
                 security bulletins <a href="http://struts.apache.org/2.0.12/docs/s2-003.html">S2-003</a>
-                and <a href="http://struts.apache.org/2.0.12/docs/s2-004.html">S2-003</a>.
+                and <a href="http://struts.apache.org/2.0.12/docs/s2-004.html">S2-004</a>.
                 All developers are strongly advised to update existing Struts 2 applications
                 to Struts 2.0.12.
             </p>
