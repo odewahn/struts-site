@@ -48,7 +48,7 @@ limitations under the License.
             and possible server filesystem resources read access in certain application
             server environments. For more information about the exploits, see the corresponding
             security bulletins <a href="http://struts.apache.org/2.0.12/docs/s2-003.html">S2-003</a>
-            and <a href="http://struts.apache.org/2.0.12/docs/s2-004.html">S2-003</a>.
+            and <a href="http://struts.apache.org/2.0.12/docs/s2-004.html">S2-004</a>.
             </p>
             <p>
             All developers are strongly advised to update existing Struts 2 applications
