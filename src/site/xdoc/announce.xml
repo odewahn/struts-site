@@ -29,6 +29,52 @@ limitations under the License.
                 Skip to: <a href="announce-2007.html">Announcements - 2007</a>
             </p>
 
+            <h4 id="a20081124">24 November 2008 - Struts 2.0.14 General Availability Release</h4>
+            <p>
+                The Apache Struts group is pleased to announce that Struts 2.0.14 is
+                available as a "General Availability" release. The GA designation is
+                our highest quality grade.
+            </p>
+            <p>
+                Apache Struts 2 is an elegant, extensible framework for creating
+                enterprise-ready Java web applications. The framework is designed to
+                streamline the full development cycle, from building, to deploying, to
+                maintaining applications over time.
+            </p>
+            <p>
+                This release is a bugfix release for version 2.0.12, which provided important
+                security fixes.
+                Struts 2.0.14 addresses two major bugs introduced with these security fixes,
+                keeping the FilterDispatcher from serving built in static resources,
+                and keeping conversion error messages from being displayed.
+            </p>
+            <p>
+                All developers are strongly encouraged to update existing Struts 2 applications
+                to Struts 2.0.14.
+            </p>
+            <p>
+                Struts 2.0.14 is available in a full distribution,
+                or as separate library, source, example and documentation
+                distributions, from the
+                <a href="http://struts.apache.org/download.cgi#struts2014">releases page</a>.
+                The release is also available through the central Maven repository under Group ID
+                "org.apache.struts". The
+                <a href="http://struts.apache.org/2.0.14/docs/release-notes-2014.html">release notes</a>
+                are available online.
+            </p>
+            <p>
+                The 2.0.x series of the Apache Struts framework has a minimum
+                requirement of the following specification versions: Servlet API 2.4,
+                JSP API 2.0, Java 5, Backported Java 4 JARs are also available.
+            </p>
+            <p>
+                Should any issues arise with your use of any version of the Struts
+                framework, please post your comments to the user list, and, if
+                appropriate, file a
+                <a href="https://issues.apache.org/struts/secure/Dashboard.jspa">tracking ticket</a>.
+            </p>
+
+
             <h4 id="a20081020">20 October 2008 - Struts 2.0.12 General Availability Release</h4>
             <p>
             The Apache Struts group is pleased to announce that Struts 2.0.12 is

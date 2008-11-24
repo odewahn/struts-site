@@ -50,23 +50,24 @@ limitations under the License.
               the <a href="#Project">Apache Struts project</a>, and <a href="#Newbies">Struts for Newbies</a>
             </p>
 
-            <a name="2.0.12"/>
-            <subsection name="20 October 2008 - Struts 2.0.12 General Availability Release">
+            <a name="2.0.14"/>
+            <subsection name="24 November 2008 - Struts 2.0.14 General Availability Release">
             <p>
                 The latest release of Struts 2 is
-                <a href="http://struts.apache.org/download.cgi#struts2012">Struts 2.0.12</a>,
-                which was promoted to "General Availability" on 20 October 2008.
+                <a href="http://struts.apache.org/download.cgi#struts2014">Struts 2.0.14</a>,
+                which was promoted to "General Availability" on 24 November 2008.
             </p>
 
             <p>
-                For changes included in Struts 2.0.12,
-                see the <a href="http://struts.apache.org/2.0.12/docs/release-notes-2012.html">release notes</a>.
-                Struts 2.0.12 provides important security and bug fixes since the 2.0.11.2 GA release.
-                For more information about the security issues, see the corresponding
-                security bulletins <a href="http://struts.apache.org/2.0.12/docs/s2-003.html">S2-003</a>
-                and <a href="http://struts.apache.org/2.0.12/docs/s2-004.html">S2-004</a>.
-                All developers are strongly advised to update existing Struts 2 applications
-                to Struts 2.0.12.
+                For changes included in Struts 2.0.14,
+                see the <a href="http://struts.apache.org/2.0.14/docs/release-notes-2014.html">release notes</a>.
+                Struts 2.0.14 is a bugfix release for version 2.0.12, which provided important
+                security fixes.
+                Struts 2.0.14 addresses two major bugs introduced with these security fixes,
+                keeping the FilterDispatcher from serving built in static resources,
+                and keeping conversion error messages from being displayed.
+                All developers are strongly encouraged to update existing Struts 2 applications
+                to Struts 2.0.14.
             </p>
             </subsection>
 
@@ -77,7 +78,7 @@ limitations under the License.
                 <a href="http://struts.apache.org/download.cgi#struts212">Struts 2.1.2</a>,
                 which was promoted to "Beta" on 26 March 2008. For the latest
                 production release ("General Availability"), see
-                <a href="http://struts.apache.org/download.cgi#struts2012">Struts 2.0.12</a>.
+                <a href="http://struts.apache.org/download.cgi#struts2014">Struts 2.0.14</a>.
             </p>
             </subsection>
 
