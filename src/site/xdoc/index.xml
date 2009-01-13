@@ -23,25 +23,6 @@ limitations under the License.
     </properties>
 
     <body>
-        <a name="Threads"/>
-        <section name="Recent Threads">
-          <p>
-              What do people who use Apache Struts have to say about using it?
-              Browse the
-                <strong><a href="http://www.nabble.com/Struts---User-f206.html">
-                  user mailing list,</a></strong>
-              and see for yourself.
-          <a href="http://apachecon.com/"><img src="http://www.apache.org/ads/ApacheCon/2008-usa-125x125.png" border="0" width="125" height="125" alt="ApacheCon US 2008" style="margin: 3px; display: block"align="right"/></a>
-          </p>
-          <ul>
-            <li><a href="http://www.nabble.com/-ANN--Practical-Apache-Struts2-Web-2.0-Projects-tf4845559.html">[ANN] Practical Apache Struts2 Web 2.0 Projects</a></li>
-            <li><a href="http://www.nabble.com/-s2--REST-and-Plugin-ideas-tf4824844.html">[s2] REST and Plugin ideas</a></li>
-            <li><a href="http://www.nabble.com/The-breadcrumbs-have-been-served%21-tf4619406.html">The breadcrumbs have been served!</a></li>
-            <li><a href="http://www.nabble.com/struts-1.2%3A-calling-an-action-by-javascript-tf4725382.html">Struts 1.2: calling an action by javascript</a></li>
-          </ul>
-
-        </section>
-
         <a name="Releases"/>
         <section name="Recent Releases">
 
@@ -49,6 +30,17 @@ limitations under the License.
               Scroll down for more about <a href="#Welcome">Apache Struts</a>,
               the <a href="#Project">Apache Struts project</a>, and <a href="#Newbies">Struts for Newbies</a>
             </p>
+            
+            <a name="2.1.6"/>
+            <subsection name="13 Jan 2009 - Struts 2.1.6 General Availability Release">
+
+            <p>
+                The latest production release of Struts 2 is
+                <a href="http://struts.apache.org/download.cgi#struts216">Struts 2.1.6</a>,
+                which was promoted to "General Availability"
+                (or "Ready for Primetime") on 12 Jan 2009.
+            </p>
+            </subsection>
 
             <a name="1.3.10"/>
             <subsection name="04 Dec 2008 - Struts 1.3.10 General Availability Release">
