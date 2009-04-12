@@ -67,11 +67,6 @@ limitations under the License.
 
                 <ul>
                     <li>
-                        <strong>Ted Husted</strong>
-                        (husted at apache.org)
-                    </li>
-
-                    <li>
                         <strong>Martin Cooper</strong>
                         , Vice President and Chair
                         (martinc at apache.org)
@@ -179,6 +174,10 @@ limitations under the License.
                     <li>
                         <strong>Jeromy Evans</strong>
                         (jeromy at apache.org)
+                    </li>
+                    <li>
+                        <strong>Mathias Bogaert</strong>
+                        (pathos at apache.org)
                     </li>
                 </ul>
             </subsection>
@@ -298,6 +297,10 @@ limitations under the License.
                     <li>
                         Antonio Petrelli (PMC)
                         (apetrelli at apache.org)
+                    </li>
+                    <li>
+                        Ted Husted (PMC)
+                        (husted at apache.org)
                     </li>
                 </ul>
             </subsection>
