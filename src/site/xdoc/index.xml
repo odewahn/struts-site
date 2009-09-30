@@ -31,14 +31,14 @@ limitations under the License.
               the <a href="#Project">Apache Struts project</a>, and <a href="#Newbies">Struts for Newbies</a>
             </p>
             
-            <a name="2.1.6"/>
-            <subsection name="13 Jan 2009 - Struts 2.1.6 General Availability Release">
+            <a name="2.1.8"/>
+            <subsection name="30 Sep 2009 - Struts 2.1.8 General Availability Release">
 
             <p>
                 The latest production release of Struts 2 is
-                <a href="http://struts.apache.org/download.cgi#struts216">Struts 2.1.6</a>,
+                <a href="http://struts.apache.org/download.cgi#struts218">Struts 2.1.8</a>,
                 which was promoted to "General Availability"
-                (or "Ready for Primetime") on 12 Jan 2009.
+                (or "Ready for Primetime") on 30 Sep 2009.
             </p>
             </subsection>
 
@@ -71,17 +71,6 @@ limitations under the License.
                 and keeping conversion error messages from being displayed.
                 All developers are strongly encouraged to update existing Struts 2 applications
                 to Struts 2.0.14.
-            </p>
-            </subsection>
-
-            <a name="2.1.2"/>
-            <subsection name="26 May 2008 - Struts 2.1.2 Beta Release">
-            <p>
-                The latest release of Struts 2 is
-                <a href="http://struts.apache.org/download.cgi#struts212">Struts 2.1.2</a>,
-                which was promoted to "Beta" on 26 March 2008. For the latest
-                production release ("General Availability"), see
-                <a href="http://struts.apache.org/download.cgi#struts2014">Struts 2.0.14</a>.
             </p>
             </subsection>
 
