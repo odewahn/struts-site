@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!--
-Copyright 1999-2005 The Apache Software Foundation
+Copyright 1999-2009 The Apache Software Foundation
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
@@ -29,9 +29,9 @@ limitations under the License.
                 Skip to: <a href="announce-2008.html">Announcements - 2008</a>
             </p>
 
-            <h4 id="a20093009">30 September 2009 - Struts 2.1.8 General Availability Release</h4>
+            <h4 id="a20091116">16 November 2009 - Struts 2.1.8.1 General Availability Release</h4>
             <p>
-              The Apache Struts group is pleased to announce that Struts 2.1.8 is
+              The Apache Struts group is pleased to announce that Struts 2.1.8.1 is
               available as a "General Availability" release. The GA designation is our
               highest quality grade.
             </p>
@@ -55,7 +55,7 @@ limitations under the License.
               suggest moving to Struts 2.1.
             </p>  
             <p>
-              Struts 2.1.6 is available in a full distribution, or as separate
+              Struts 2.1.8.1 is available in a full distribution, or as separate
               library, source, example and documentation distributions, from the
               releases page. The release is also available through the central Maven
               repository under Group ID "org.apache.struts". The release notes are
