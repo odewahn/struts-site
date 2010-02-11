@@ -295,7 +295,7 @@ limitations under the License.
                 </p>
                 <p>
                     For help with migrations, see the 
-                    <a href="http://struts.apache.org/2.x/WW/migration-guide.html">
+                    <a href="http://struts.apache.org/2.x/docs/migration-guide.html">
                     Struts 2 Migration Guide.</a>
                 </p>
             </answer>  
