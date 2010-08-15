@@ -26,12 +26,12 @@ limitations under the License.
 
         <section name="Announcements">
             <p class="right">
-                Skip to: <a href="announce-2009.html">Announcements - 2009</a>
+                Skip to: <a href="announce-2008.html">Announcements - 2008</a>
             </p>
 
-            <h4 id="a20100816">16 August 2010 - Struts 2.2.1 General Availability Release</h4>
+            <h4 id="a20091116">16 November 2009 - Struts 2.1.8.1 General Availability Release</h4>
             <p>
-              The Apache Struts group is pleased to announce that Struts 2.2.1 is
+              The Apache Struts group is pleased to announce that Struts 2.1.8.1 is
               available as a "General Availability" release. The GA designation is our
               highest quality grade.
             </p>
@@ -42,28 +42,27 @@ limitations under the License.
               maintaining applications over time.
             </p>  
             <p>
-              This release includes a number of new features and bug fixes since the
-              2.1.8.1 GA release, including important security fixes regarding remote
-              server context manipulation by injecting OGNL expressions in request parameters.
-              For more information about the exploits, see the corresponding
-              security bulletins <a href="http://struts.apache.org/2.2.1/docs/s2-005.html">S2-005</a>.
-            </p>
+              This release is a significant upgrade. We have worked hard to improve
+              some of the trouble spots from 2.0. In particular, we are releasing a
+              new plugin for XML-free configuration called the Conventions Plugin. This
+              release also features the new REST and Javatemplates plugins. The
+              AJAX functionality has been moved to a plugin to improve maintainability.
+              Many bugs have been fixed for this release, see release notes for more
+              details.
+            </p>  
             <p>
-              All developers are strongly advised to update existing Struts 2 applications
-              to Struts 2.2.1.
-            </p>
+              Struts 2.0 will continue to be supported, but for new projects, we
+              suggest moving to Struts 2.1.
+            </p>  
             <p>
-              Struts 2.2.1 is available in a full distribution,
-              or as separate library, source, example and documentation
-              distributions, from the
-              <a href="http://struts.apache.org/download.cgi#struts221">releases page</a>.
-              The release is also available through the central Maven repository under Group ID
-              "org.apache.struts". The
-              <a href="http://struts.apache.org/2.2.1/version-notes-221.html">release notes</a>
-              are available online.
-            </p>
+              Struts 2.1.8.1 is available in a full distribution, or as separate
+              library, source, example and documentation distributions, from the
+              releases page. The release is also available through the central Maven
+              repository under Group ID "org.apache.struts". The release notes are
+              available online.
+            </p>  
             <p>
-              The 2.2.x series of the Apache Struts framework has a minimum
+              The 2.1.x series of the Apache Struts framework has a minimum
               requirement of the following specification versions: Servlet API 2.4,
               JSP API 2.0, and Java 5.
             </p>  
@@ -75,7 +74,7 @@ limitations under the License.
         </section>    
         <section>
             <p class="right">
-                Skip to: <a href="announce-2009.html">Announcements - 2009</a>
+                Skip to: <a href="announce-2008.html">Announcements - 2008</a>
             </p>
 
             <p class="right">

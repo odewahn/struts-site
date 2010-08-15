@@ -32,14 +32,16 @@ limitations under the License.
               the <a href="#Project">Apache Struts project</a>, and <a href="#Newbies">Struts for Newbies</a>
             </p>
             
-            <a name="2.1.8.1"/>
-            <subsection name="16 Nov 2009 - Struts 2.1.8.1 General Availability Release">
+            <a name="2.2.1"/>
+            <subsection name="16 Aug 2010 - Struts 2.2.1 General Availability Release">
 
             <p>
                 The latest production release of Struts 2 is
-                <a href="http://struts.apache.org/download.cgi#struts2181">Struts 2.1.8.1</a>,
+                <a href="http://struts.apache.org/download.cgi#struts221">Struts 2.2.1</a>,
                 which was promoted to "General Availability"
-                (or "Ready for Primetime") on 16 Nov 2009.
+                (or "Ready for Primetime") on 16 Aug 2010.
+                Struts 2.2.1 includes important security fixes. All developers are strongly
+                encouraged to update existing Struts 2 applications to Struts 2.2.1.
             </p>
             </subsection>
 
@@ -70,8 +72,8 @@ limitations under the License.
                 Struts 2.0.14 addresses two major bugs introduced with these security fixes,
                 keeping the FilterDispatcher from serving built in static resources,
                 and keeping conversion error messages from being displayed.
-                All developers are strongly encouraged to update existing Struts 2 applications
-                to Struts 2.0.14.
+                All developers are strongly encouraged to update existing Struts 2.0.x applications
+                to at least to Struts 2.0.14.
             </p>
             </subsection>
 
