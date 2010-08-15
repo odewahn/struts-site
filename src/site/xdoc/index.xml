@@ -73,7 +73,7 @@ limitations under the License.
                 keeping the FilterDispatcher from serving built in static resources,
                 and keeping conversion error messages from being displayed.
                 All developers are strongly encouraged to update existing Struts 2.0.x applications
-                to at least to Struts 2.0.14.
+                to the latest available 2.2 version, or at least to Struts 2.0.14.
             </p>
             </subsection>
 
