@@ -29,9 +29,9 @@ limitations under the License.
                 Skip to: <a href="announce-2009.html">Announcements - 2009</a>
             </p>
 
-            <h4 id="a20100816">16 August 2010 - Struts 2.2.1 General Availability Release</h4>
+            <h4 id="a20101220">20 December 2010 - Struts 2.2.1.1 General Availability Release</h4>
             <p>
-              The Apache Struts group is pleased to announce that Struts 2.2.1 is
+              The Apache Struts group is pleased to announce that Struts 2.2.1.1 is
               available as a "General Availability" release. The GA designation is our
               highest quality grade.
             </p>
@@ -42,24 +42,23 @@ limitations under the License.
               maintaining applications over time.
             </p>  
             <p>
-              This release includes a number of new features and bug fixes since the
-              2.1.8.1 GA release, including important security fixes regarding remote
-              server context manipulation by injecting OGNL expressions in request parameters.
-              For more information about the exploits, see the corresponding
-              security bulletins <a href="http://struts.apache.org/2.2.1/docs/s2-005.html">S2-005</a>.
+              This release includes one important security fix regarding Dynamic Method
+              Invocation in the REST Plugin. In the previous versions DMI wasn't under control
+              in the REST Plugin and even setting struts.enable.DynamicMethodInvocation to false
+              didn't block DMI in the REST Plugin.
             </p>
             <p>
               All developers are strongly advised to update existing Struts 2 applications
-              to Struts 2.2.1.
+              to Struts 2.2.1.1.
             </p>
             <p>
-              Struts 2.2.1 is available in a full distribution,
+              Struts 2.2.1.1 is available in a full distribution,
               or as separate library, source, example and documentation
               distributions, from the
-              <a href="http://struts.apache.org/download.cgi#struts221">releases page</a>.
+              <a href="http://struts.apache.org/download.cgi#struts2211">releases page</a>.
               The release is also available through the central Maven repository under Group ID
               "org.apache.struts". The
-              <a href="http://struts.apache.org/2.2.1/docs/version-notes-221.html">release notes</a>
+              <a href="http://struts.apache.org/2.2.1.1/docs/version-notes-2211.html">release notes</a>
               are available online.
             </p>
             <p>
