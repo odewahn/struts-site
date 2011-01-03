@@ -303,7 +303,7 @@ limitations under the License.
                     Apache Struts
                     products is handled
                     through the
-                    <a href="http://issues.apache.org/struts/">Apache Struts 
+                    <a href="https://issues.apache.org/jira/browse/WW">Apache Struts 
                         JIRA instance.</a>
                     Please select the appropriate Apache Struts product from 
                     the list, 
@@ -348,7 +348,7 @@ limitations under the License.
 
                 <p>
                     Feature suggestions are also maintained in the
-                    <a href="#issues">JIRA issue 
+                    <a href="https://issues.apache.org/jira/browse/WW">JIRA issue 
                     tracker.</a>
                 </p>
 <!--
