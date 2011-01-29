@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <!--
+$Id $
 Copyright 1999-2006 The Apache Software Foundation
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -85,7 +86,7 @@ limitations under the License.
 
             <p>
                 Project releases are approved by vote of the
-                Apache Struts  <a href="bylaws.html">Project Management Committee.</a>
+                Apache Struts  <a href="dev/bylaws.html">Project Management Committee.</a>
                 Support for a release is provided by
                 <a href="dev/volunteers.html">project volunteers</a>
                 on the <a href="mail.html">User mailing list.</a>

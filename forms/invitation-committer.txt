@@ -8,7 +8,7 @@ review the 'How the ASF Works' pages:
 
 along with the Apache Struts PMC charter:
 
-* http://struts.apache.org/bylaws.html
+* http://struts.apache.org/dev/bylaws.html
 
 If you decide to accept the invitation, the first step would be to file an
 Individual Contributor License Agreement:
