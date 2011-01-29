@@ -8,7 +8,7 @@
     </bannerLeft>
     <bannerRight>
         <name>Apache Struts</name>
-        <src>http://struts.apache.org/images/struts.gif</src>
+        <src>images/struts.gif</src>
         <href>http://struts.apache.org/</href>
     </bannerRight>
     <body>
