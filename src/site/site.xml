@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <project name="Apache Struts">
+    <version position="none"/>
     <bannerLeft>
         <name>Apache Software Foundation</name>
         <src>http://www.apache.org/images/asf-logo.gif</src>
@@ -182,7 +183,7 @@
                     />
             <item
                     name="Spring MVC"
-                    href="http://www.springframework.org/docs/reference/mvc.html"
+                    href="http://static.springsource.org/spring/docs/current/spring-framework-reference/html/mvc.html"
                     />
             <item
                     name="Stripes"
@@ -211,16 +212,6 @@
             <item
                     name="Our Blogs"
                     href="http://people.apache.org/~rubys/planet/struts/"
-                    />
-
-            <item
-                    name="S2 Examples"
-                    href="http://www.PlanetStruts.org/"
-                    />
-
-            <item
-                    name="Struts Central"
-                    href="http://husted.com/central/"
                     />
 
             <item
