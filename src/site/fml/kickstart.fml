@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <!--
+$Id$
 Copyright 1999-2005 The Apache Software Foundation
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -44,15 +45,7 @@ limitations under the License.
                 is also available.
             </p>
             <p>
-            To learn more about using Apache Struts, you can also visit
-            <a href="http://husted.com/central/">Struts Central</a>,
-            which catalogs all the known resources about Apache Struts for both
-            <a href="http://struts.apache.org/1.x/">Struts 1</a> and  
-            <a href="http://struts.apache.org/2.x/">Struts 2</a>.
-            To keep up on the latest news about "everything Struts",
-            point your RSS reader at the
-            <a href="http://www.PlanetStruts.org/">Planet Struts</a> news site.
-            If you still have questions, you can search the
+            If you have questions, you can search the
             <a href="mail.html#archives">User Mailing List archives,</a>
             or <a href="mail.html">post your own question to the list</a>.
             (Plain old Google usually works too!)</p>
