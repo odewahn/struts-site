@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <!--
+$Id$
 Copyright 1999-2006 The Apache Software Foundation
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -196,7 +197,7 @@ limitations under the License.
                 <p>
                     As part of our continuous integration practice,
                     we also make available each morning the
-                    <a href="http://people.apache.org/builds/struts/nightlies/">
+                    <a href="https://hudson.apache.org/hudson/job/Struts2/org.apache.struts$struts2-assembly/lastBuild/">
                         latest development build.</a>
                     <em>Again: Use at your own risk!</em>
                 </p>

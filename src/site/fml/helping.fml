@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <!--
+$Id$
 Copyright 1999-2006 The Apache Software Foundation
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -700,7 +701,7 @@ limitations under the License.
                         or development release
                         and test it against your own applications.
                         Report any and all issues or suspected issues to
-                        <a href="http://issues.apache.org/struts/">
+                        <a href="#issues">
                             the issue tracker.</a>
                         The sooner we resolve any problems, the fewer
                         betas or
