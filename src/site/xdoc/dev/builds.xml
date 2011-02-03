@@ -197,7 +197,7 @@ limitations under the License.
                 <p>
                     As part of our continuous integration practice,
                     we also make available each morning the
-                    <a href="https://hudson.apache.org/hudson/job/Struts2/org.apache.struts$struts2-assembly/lastBuild/">
+                    <a href="https://hudson.apache.org/hudson/job/Struts2/lastStableBuild/org.apache.struts$struts2-assembly/">
                         latest development build.</a>
                     <em>Again: Use at your own risk!</em>
                 </p>
@@ -260,7 +260,7 @@ limitations under the License.
   &lt;repository>
     &lt;id>apache.snapshots&lt;/id>
     &lt;name>ASF Maven 2 Snapshot&lt;/name>
-    &lt;url>http://people.apache.org/repo/m2-snapshot-repository&lt;/url>
+    &lt;url>https://repository.apache.org/content/groups/snapshots-group/&lt;/url>
   &lt;/repository>
 &lt;/repositories></code></pre></p>
             </subsection>      
