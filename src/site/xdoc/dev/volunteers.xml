@@ -68,7 +68,6 @@ limitations under the License.
                 <ul>
                     <li>
                         <strong>Martin Cooper</strong>
-                        , Vice President and Chair
                         (martinc at apache.org)
                     </li>
 
@@ -101,6 +100,7 @@ limitations under the License.
                     </li>
                     <li>
                         <strong>Rene Gielen</strong>
+                        , Vice President and Chair
                         (rgielen at apache.org)
                     </li>
                     <li>
@@ -623,7 +623,7 @@ limitations under the License.
                     always try to first propose reusable pieces of code.
                 </p>
 
-                <h4 id="martinc">Martin Cooper -- PMC Chair</h4>
+                <h4 id="martinc">Martin Cooper -- PMC Member</h4>
 
                 <p>
                     Early in the year 2000, I was asked, by my employer at

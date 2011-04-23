@@ -23,7 +23,7 @@ also need to file a corporate agreement:
 The next step would be to send your first three choices for an Apache account
 name to the Struts PMC Chair:
 
-* Martin Cooper <martinc@apache.org>
+* Rene Gielen <rgielen@apache.org>
 
 Once the account is set up, you would be able to commit to the Struts source
 repository.
