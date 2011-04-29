@@ -170,10 +170,6 @@
                     href="http://cocoon.apache.org/"
                     />
             <item
-                    name="Apache Shale"
-                    href="http://shale.apache.org/"
-                    />
-            <item
                     name="Apache Tapestry"
                     href="http://tapestry.apache.org/"
                     />
@@ -187,7 +183,7 @@
                     />
             <item
                     name="Stripes"
-                    href="http://stripes.mc4j.org/confluence/display/stripes/Home"
+                    href="http://www.stripesframework.org/"
                     />
             <item
                     name="Apache Wicket"
