@@ -44,8 +44,8 @@ limitations under the License.
                         <strong>General Availability (GA) Releases</strong> - <em>Ready for Prime Time!</em>
                         <ul>
                             <li>
-                                <a href="http://struts.apache.org/download.cgi#struts2211">
-                                    Struts 2.2.1.1
+                                <a href="http://struts.apache.org/download.cgi#struts223">
+                                    Struts 2.2.3
                                 </a> ("best available")
                             </li>
                             <li>
@@ -94,7 +94,7 @@ limitations under the License.
                 volunteer subscribers to the list.
                 Issues with a release may be discussed on the list
                 and reported through the
-                <a href="http://issues.apache.org/jira/">issue tracker.</a>
+                <a href="https://issues.apache.org/jira/browse/WW">issue tracker.</a>
             </p>
 
             <p>
@@ -117,6 +117,9 @@ limitations under the License.
             </p>
 
             <ul>
+                <li>
+                    <a href="http://struts.apache.org/2.2.1.1/index.html">Struts 2.2.1.1</a>
+                </li>
                 <li>
                     <a href="http://struts.apache.org/2.2.1/index.html">Struts 2.2.1</a>
                 </li>
