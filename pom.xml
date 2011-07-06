@@ -121,6 +121,9 @@
                                 <get src="http://svn.apache.org/repos/asf/struts/struts2/trunk/core/src/main/resources/struts-2.1.7.dtd"
                                      dest="${project.build.directory}/site/dtds/struts-2.1.7.dtd"
                                      ignoreerrors="true"/>
+                                <get src="http://svn.apache.org/repos/asf/struts/struts2/trunk/core/src/main/resources/struts-2.3.dtd"
+                                     dest="${project.build.directory}/site/dtds/struts-2.3.dtd"
+                                     ignoreerrors="true"/>
                             </tasks>
                         </configuration>
                         <goals>
