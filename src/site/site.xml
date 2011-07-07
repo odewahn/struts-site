@@ -38,6 +38,10 @@
                     href="announce.html"
                     />
             <item
+                    name="License"
+                    href="http://www.apache.org/licenses/"
+                    />
+            <item
                     name="Kickstart FAQ"
                     href="kickstart.html"
                     />

@@ -27,6 +27,11 @@ limitations under the License.
         <section name="Apache Struts Releases">
 
             <p>
+                The Apache Struts web framework is a free open-source solution for creating
+                Java web applications.
+            </p>
+
+            <p>
                 Releases of the Apache Struts framework
                 are made available to the general public at no charge,
                 under the

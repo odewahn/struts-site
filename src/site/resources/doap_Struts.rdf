@@ -20,7 +20,7 @@
     <homepage rdf:resource="http://struts.apache.org" />
     <asfext:pmc rdf:resource="http://struts.apache.org" />
     <shortdesc>Apache Struts is a free open-source framework for creating Java web applications.</shortdesc>
-    <description>The Apache Struts Project offers two major versions of the Struts framework. Struts 1 is recognized as the most popular web application framework for Java. Struts 1 is the best choice for teams who value proven solutions to common problems. Struts 2 was originally known as WebWork 2. The 2.x framework is the best choice for teams who value elegant solutions to difficult problems.</description>
+    <description>The Apache Struts Project offers two major versions of the the Apache Struts web framework. Struts 1 is recognized as the most popular web application framework for Java. Struts 1 is the best choice for teams who value proven solutions to common problems. Struts 2 was originally known as WebWork 2. The 2.x framework is the best choice for teams who value elegant solutions to difficult problems.</description>
     <bug-database rdf:resource="http://issues.apache.org/struts/" />
     <mailing-list rdf:resource="http://struts.apache.org/mail.html" />
     <download-page rdf:resource="http://struts.apache.org/downloads.html" />

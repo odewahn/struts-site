@@ -32,19 +32,19 @@ limitations under the License.
               against applications using the Apache Struts framework.
             </p>
 
-            <p>
-              We strongly encourage folks to report such problems to our
+            <p><strong>
+              We strongly encourage folks to report such security problems to our
               private security mailing list first, before disclosing them
-              in a public forum.
+              in a public forum.</strong>
             </p>
 
             <p>
-              <strong>We cannot accept regular bug reports or other queries at
+              We cannot accept regular bug reports or other queries at
               this address, we ask that you use our
               <a href="http://issues.apache.org/jira/">issue tracker (JIRA)</a>
-              for those. <font color="red">All mail sent to this
+              for those. <span style="color:red;">All mail sent to this
               address that does not relate to security problems in the Apache
-              Struts source code will be ignored.</font></strong>
+              Struts source code will be ignored.</span>
             </p>
 
             <p>
@@ -64,6 +64,11 @@ limitations under the License.
             <p>
               <a href="http://httpd.apache.org/docs/trunk/misc/security_tips.html">
               General network server security tips</a>
+            </p>
+
+            <p>
+              <a href="http://www.apache.org/security/">
+              The Apache Security Team</a>
             </p>
 
         </section>
