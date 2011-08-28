@@ -250,6 +250,14 @@ limitations under the License.
                 </p>
 
                 <p>
+                    Please be aware that the Struts project follows general coding
+                    conventions. In short, these are the official Java coding conventions
+                    plus the rule to favor spaces over tabs for indenting. See more
+                    details at <a href="https://cwiki.apache.org/confluence/display/S2WIKI/Struts+2+Coding+Conventions">
+                    Struts 2 Coding Conventions (Wiki)</a>
+                </p>
+
+                <p>
                     To create a patch, you first have to
                     <a href="downloads.html#Source_Code">
                         checkout</a>
