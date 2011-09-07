@@ -29,9 +29,9 @@ limitations under the License.
                 Skip to: <a href="announce-2010.html">Announcements - 2010</a>
             </p>
 
-             <h4 id="a20100505">5 May 2011 - Struts 2.2.3 General Availability Release</h4>
+             <h4 id="a20100505">7 September 2011 - Struts 2.2.3.1 General Availability Release</h4>
             <p>
-              The Apache Struts group is pleased to announce that Struts 2.2.3 is
+              The Apache Struts group is pleased to announce that Struts 2.2.3.1 is
               available as a "General Availability" release. The GA designation is our
               highest quality grade.
             </p>
@@ -42,36 +42,25 @@ limitations under the License.
               maintaining applications over time.
             </p>
             <p>
-                Two important vulnerability were solved with this release:
+                An important vulnerability were solved with this release:
                 <ul>
-                    <li>Two important vulnerability were solved with this release:
-                        <ul>
-                            <li>XSS vulnerability in javatemplates plugin</li>
-                            <li>XSS vulnerability regarding DMI and dynamic action names</li>
-                        </ul>
-                    </li>
                     <li>
-                        OGNL was upgraded to version 3.0.1 which includes Javassist library,
-                        so you don't have to specify it as a separated dependency in your project
+                        User input was evaluated as an OGNL expression when there's a conversion error.
                     </li>
-                    <li>Shade of Commons library using maven-shade-plugin was removed from Struts 2 Core and other modules</li>
-                    <li>The whole project was adjusted to Maven 3 requirements</li>
-                    <li>Add ability to control devMode per request</li>
-                    <li>Many fixes and extensions to JSON plugin and REST plugin</li>
                 </ul>
             </p>
             <p>
               All developers are strongly advised to update existing Struts 2 applications
-              to Struts 2.2.3.
+              to Struts 2.2.3.1.
             </p>
             <p>
-              Struts 2.2.3 is available in a full distribution,
+              Struts 2.2.3.1 is available in a full distribution,
               or as separate library, source, example and documentation
               distributions, from the
-              <a href="http://struts.apache.org/download.cgi#struts223">releases page</a>.
+              <a href="http://struts.apache.org/download.cgi#struts2231">releases page</a>.
               The release is also available through the central Maven repository under Group ID
               "org.apache.struts". The
-              <a href="http://struts.apache.org/2.2.3/docs/version-notes-223.html">release notes</a>
+              <a href="http://struts.apache.org/2.2.3.1/docs/version-notes-2231.html">release notes</a>
               are available online.
             </p>
             <p>
