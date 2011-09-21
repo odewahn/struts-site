@@ -197,8 +197,8 @@ limitations under the License.
                 <p>
                     As part of our continuous integration practice,
                     we also make available each morning the
-                    <a href="https://hudson.apache.org/hudson/job/Struts2/lastStableBuild/org.apache.struts$struts2-assembly/">
-                        latest development build.</a>
+                    <a href="https://builds.apache.org/job/Struts2/lastStableBuild/org.apache.struts$struts2-assembly/">
+                        latest stable development build.</a>
                     <em>Again: Use at your own risk!</em>
                 </p>
 
