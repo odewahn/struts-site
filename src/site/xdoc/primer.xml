@@ -1373,7 +1373,7 @@ limitations under the License.
                 <p>
                     For more about how XML is used with Java applications
                     generally, see the
-                    <a href="http://java.sun.com/webservices/jaxp/dist/1.1/docs/tutorial/index.html">
+                    <a href="http://jaxp.java.net/">
                         Java API for XML Processing</a> Tutorial.
                     While the framework makes good use of this API internally,
                     it is not something most developers would use
@@ -1417,7 +1417,7 @@ limitations under the License.
                 </p>
 
                 <p>For more about JAAS, see the Sun Developer Network
-                    <a href="http://java.sun.com/products/jaas">product
+                    <a href="http://download.oracle.com/javase/6/docs/technotes/guides/security/jaas/JAASRefGuide.html">product
                         page</a>.
                 </p>
 
