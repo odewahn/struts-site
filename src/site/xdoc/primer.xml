@@ -313,7 +313,7 @@ limitations under the License.
                         in the Java Tutorial
                     </li>
                     <li>
-                        <a href="http://java.sun.com/docs/books/tutorial/essential/threads/index.html">
+                        <a href="http://docs.oracle.com/javase/tutorial/essential/concurrency/index.html">
                             Threads: Doing Two or More Tasks At Once
                         </a>
                         in the Java Language
@@ -347,7 +347,7 @@ limitations under the License.
                 <p> 
                     These papers can be especially helpful if you are
                     fact-finding or reviewing server-side
-                    <a href="http://directory.google.com/Top/Computers/Programming/Languages/Java/Server-Side/Libraries_and_Frameworks/">
+                    <a href="http://www.dmoz.org/Computers/Programming/Languages/Java/Enterprise_Edition/Libraries_and_Frameworks/">
                         frameworks</a>
                     .
                 </p>
@@ -479,7 +479,7 @@ limitations under the License.
 
                 <ul>
                     <li>
-                        <a href="http://java.sun.com/docs/books/tutorial/essential/attributes/properties.html">
+                        <a href="http://docs.oracle.com/javase/tutorial/essential/environment/properties.html">
                             Using Properties to Manage Program
                                 Attributes
                         </a>
@@ -1189,8 +1189,8 @@ limitations under the License.
                         </a>
                     </li>
                     <li>
-                        <a href="http://acegisecurity.org/">
-                            Acegi Security</a>
+                        <a href="http://www.springframework.org/spring-security/">
+                            Spring Security</a>
                     </li>
                     <li>
                         <a href="http://sslext.sourceforge.net/">
@@ -1324,7 +1324,7 @@ limitations under the License.
                 </p>
                 <p>
                     For an open source implementation of JSF, visit our
-                    sibling project, <a href="httpL//myfaces.apache.org">
+                    sibling project, <a href="http://myfaces.apache.org">
                     Apache MyFaces.</a>
                 </p>
 
@@ -1533,7 +1533,7 @@ limitations under the License.
                         <a href="http://springframework.org/">Spring</a>
                     </li>
                     <li>
-                        <a href="http://www.opensymphony.com/xwork/">XWork</a>
+                        <a href="http://struts.apache.org/2.x/">XWork</a>
                     </li>
                 </ul>
 
