@@ -49,8 +49,8 @@ limitations under the License.
                         <strong>General Availability (GA) Releases</strong> - <em>Ready for Prime Time!</em>
                         <ul>
                             <li>
-                                <a href="http://struts.apache.org/download.cgi#struts2231">
-                                    Struts 2.2.3.1
+                                <a href="http://struts.apache.org/download.cgi#struts231">
+                                    Struts 2.3.1
                                 </a> ("best available")
                             </li>
                             <li>
@@ -122,6 +122,9 @@ limitations under the License.
             </p>
 
             <ul>
+                <li>
+                    <a href="http://struts.apache.org/2.2.3.1/index.html">Struts 2.2.3.1</a>
+                </li>
                 <li>
                     <a href="http://struts.apache.org/2.2.3/index.html">Struts 2.2.3</a>
                 </li>
