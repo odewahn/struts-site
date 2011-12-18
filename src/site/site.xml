@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<project name="Apache Struts">
+<project name="Apache Struts" xmlns="http://maven.apache.org/DECORATION/1.1.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/DECORATION/1.1.0 http://maven.apache.org/xsd/decoration-1.1.0.xsd
+                             http://maven.apache.org/DECORATION/1.1.0 ">
     <version position="none"/>
     <bannerLeft>
         <name>Apache Software Foundation</name>
@@ -218,5 +221,6 @@
 
         </menu>
 
+        <footer>&copy; 2005-2011 The Apache Software Foundation - Apache Struts, Struts, Apache, the Apache feather logo, and the Apache Struts project logos are trademarks of The Apache Software Foundation.</footer>
     </body>
 </project>
