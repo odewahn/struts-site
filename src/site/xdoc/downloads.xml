@@ -54,26 +54,24 @@ limitations under the License.
                                 </a> ("best available")
                             </li>
                             <li>
-                                <a href="http://struts.apache.org/download.cgi#struts2014">
-                                    Struts 2.0.14
-                                </a> ("best available")
-                            </li>
-                            <li>
                                 <a href="http://struts.apache.org/download.cgi#struts1310">
                                     Struts 1.3.10
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://struts.apache.org/download.cgi">
-                                    Struts Scripting 1.0.1
                                 </a>
                             </li>
                         </ul>
                     </li>
                     <li>
                         <strong>Beta Releases</strong> - <em>Help test the next release!</em>
+                    </li>
+                    <li>
+                        <strong>Trunk Snapshots</strong> - <em>Get involved with the latest and greatest fixes and improvements</em>
                         <ul>
-                            
+                            <li><a href="https://builds.apache.org/job/Struts2/lastStableBuild/org.apache.struts$struts2-assembly/">
+                                Struts 2 Latest Snapshots from Hudson CI</a>
+                            </li>
+                            <li>
+                                Maven Snapshots are available from the <a href="https://repository.apache.org/">Apache Maven Repository</a>.
+                            </li>
                         </ul>
                     </li>
                     <li>
@@ -142,6 +140,9 @@ limitations under the License.
                 </li>
                 <li>
                     <a href="http://struts.apache.org/2.1.6/index.html">Struts 2.1.6</a>
+                </li>
+                <li>
+                    <a href="http://struts.apache.org/2.0.14/index.html">Struts 2.0.14</a>
                 </li>
                 <li>
                     <a href="http://struts.apache.org/2.0.12/index.html">Struts 2.0.12</a>

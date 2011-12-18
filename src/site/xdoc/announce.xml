@@ -29,6 +29,29 @@ limitations under the License.
                 Skip to: <a href="announce-2010.html">Announcements - 2010</a>
             </p>
 
+            <h4 id="a20111218">18 December 2011 - Struts 2.0.14 End of Life Announcement</h4>
+            <p>
+                The Apache Struts Team likes to inform you that the Struts 2.0 branch has reached it's end of life
+                and is no longer supported. All users of Struts 2.0.14 or earlier Struts 2 versions are strongly
+                advised to update their existing applications to Struts 2.3.x.
+            </p>
+            <p>
+                Struts 2.0.14 was for some time maintained in parallel to the 2.1 and 2.2 branches, since Struts 2.1
+                introduced some API and plugin changes that were likely to break existing user code on top of Struts 2.
+                However, the community interest in maintaining the Struts 2.0.x branch was not strong enough to
+                keep it sufficiently up to date, especially in terms of security fixes. There are several serious
+                security problems that, while being continuously addressed in later Struts 2 versions, did not make
+                it into the 2.0.x branch. For that reason the Apache Struts PMC decided to remove 2.0.14 as a supported
+                version.
+            </p>
+            <p>
+                For more information on how to upgrade existing applications running on top of Struts 2.0.x to
+                Struts 2.1 and later, please read the
+                <a href="https://cwiki.apache.org/S2WIKI/troubleshooting-guide-migrating-from-struts-20x-to-21x.html">
+                    Guide to migrating from Struts 2.0.x to 2.1.x</a>.
+            </p>
+
+
             <h4 id="a20111212">12 December 2011 - Struts 2.3.1 General Availability Release</h4>
            <p>
              The Apache Struts group is pleased to announce that Struts 2.3.1 is
@@ -42,15 +65,19 @@ limitations under the License.
              maintaining applications over time.
            </p>
            <p>
-           Two main new futures are:
+           Some new futures are:
            <ul>
                <li>
-                   New Portlet 2 plugin replaced the one Portlet plugin
+                   New Portlet 2.0 (JSR 286) plugin replaced the Portlet 1.0 (JSR 168) plugin
                </li>
                <li>
                    New CDI plugin was added to allow use CDI (JavaEE 6) as an Object Factory in Struts 2
                </li>
+               <li>
+                   The dependencies of the Struts2-Spring plugin were upgraded from  Spring 2.5 to 3.0
+               </li>
            </ul>
+           Besides that, various other bug fixes, improvements and security enhancements have been incorporated.
            </p>
            <p>
              All developers are strongly advised to update existing Struts 2 applications

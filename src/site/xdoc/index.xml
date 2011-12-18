@@ -56,27 +56,6 @@ limitations under the License.
             </p>
             </subsection>
 
-            <a name="2.0.14"/>
-            <subsection name="24 Nov 2008 - Struts 2.0.14 General Availability Release">
-            <p>
-                The latest release of Struts 2 is
-                <a href="http://struts.apache.org/download.cgi#struts2014">Struts 2.0.14</a>,
-                which was promoted to "General Availability" on 24 November 2008.
-            </p>
-
-            <p>
-                For changes included in Struts 2.0.14,
-                see the <a href="http://struts.apache.org/2.0.14/docs/release-notes-2014.html">release notes</a>.
-                Struts 2.0.14 is a bugfix release for version 2.0.12, which provided important
-                security fixes.
-                Struts 2.0.14 addresses two major bugs introduced with these security fixes,
-                keeping the FilterDispatcher from serving built in static resources,
-                and keeping conversion error messages from being displayed.
-                All developers are strongly encouraged to update existing Struts 2.0.x applications
-                to the latest available 2.2 version, or at least to Struts 2.0.14.
-            </p>
-            </subsection>
-
         </section>
 
         <a name="Welcome"/>
