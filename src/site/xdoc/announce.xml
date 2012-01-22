@@ -47,6 +47,9 @@ limitations under the License.
                    <li>
                        ParameterInterceptor vulnerability allowed remote command execution
                    </li>
+                   <li>
+                       Default acceptedParamNames has been updated to more restrictive values
+                   </li>
                </ul>
            </p>
            <p>
