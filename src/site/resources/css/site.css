@@ -27,3 +27,7 @@ a.externalLink, a.externalLink:link, a.externalLink:visited, a.externalLink:acti
 img.poweredBy {
     margin-left:17px;
 }
+
+.right {
+    float: right;
+}
