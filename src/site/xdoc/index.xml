@@ -32,16 +32,20 @@ limitations under the License.
               the <a href="#Project">Apache Struts project</a>, and <a href="#Newbies">Struts for Newbies</a>
             </p>
             
-            <a name="2.3.4"/>
-            <subsection name="12 May 2012 - Struts 2.3.4 General Availability Release">
+            <a name="2.3.4.1"/>
+            <subsection name="13 August 2012 - Struts 2.3.4.1 General Availability Release">
 
             <p>
                 The latest production release of Struts 2 is
-                <a href="http://struts.apache.org/download.cgi#struts234">Struts 2.3.4</a>,
+                <a href="http://struts.apache.org/download.cgi#struts2341">Struts 2.3.4.1</a>,
                 which was promoted to "General Availability"
-                (or "Ready for Primetime") on 24 May 2012.
-                The <a href="http://struts.apache.org/2.x/docs/version-notes-234.html">version notes</a>
+                (or "Ready for Primetime") on 11 August 2012.
+                The <a href="http://struts.apache.org/2.x/docs/version-notes-2341.html">version notes</a>
                 are available online.
+            </p>
+            <p>
+                Struts 2.3.4.1 includes important security fixes. Developers are recommended to update their Struts 2
+                applications to use Struts 2.3.4.1.
             </p>
             </subsection>
 

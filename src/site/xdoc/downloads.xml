@@ -49,8 +49,8 @@ limitations under the License.
                         <strong>General Availability (GA) Releases</strong> - <em>Ready for Prime Time!</em>
                         <ul>
                             <li>
-                                <a href="http://struts.apache.org/download.cgi#struts234">
-                                    Struts 2.3.4
+                                <a href="http://struts.apache.org/download.cgi#struts2341">
+                                    Struts 2.3.4.1
                                 </a> ("best available")
                             </li>
                             <li>
@@ -130,12 +130,29 @@ limitations under the License.
                 </thead>
                 <tr>
                     <td>
+                        <a href="http://struts.apache.org/2.3.4/index.html">Struts 2.3.4</a>
+                    </td>
+                    <td>12 May 2012</td>
+                    <td>
+                        <a href="http://struts.apache.org/2.x/docs/s2-010.html">S2-010</a>,
+                        <a href="http://struts.apache.org/2.x/docs/s2-011.html">S2-011</a>
+                    </td>
+                    <td>
+                        <a href="http://struts.apache.org/2.3.4/docs/version-notes-234.html">Version notes</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="http://struts.apache.org/2.3.3/index.html">Struts 2.3.3</a>
                     </td>
                     <td>16 April 2012</td>
-                    <td><br/></td>
                     <td>
-                        <a href="http://struts.apache.org/2.3.1.2/docs/version-notes-2312.html">Version notes</a>
+                        likely:
+                        <a href="http://struts.apache.org/2.x/docs/s2-010.html">S2-010</a>,
+                        <a href="http://struts.apache.org/2.x/docs/s2-011.html">S2-011</a>
+                    </td>
+                    <td>
+                        <a href="http://struts.apache.org/2.3.3/docs/version-notes-233.html">Version notes</a>
                     </td>
                 </tr>
                 <tr>
@@ -143,7 +160,11 @@ limitations under the License.
                         <a href="http://struts.apache.org/2.3.1.2/index.html">Struts 2.3.1.2</a>
                     </td>
                     <td>22 January 2012</td>
-                    <td><br/></td>
+                    <td>
+                        likely:
+                        <a href="http://struts.apache.org/2.x/docs/s2-010.html">S2-010</a>,
+                        <a href="http://struts.apache.org/2.x/docs/s2-011.html">S2-011</a>
+                    </td>
                     <td>
                         <a href="http://struts.apache.org/2.3.1.2/docs/version-notes-2312.html">Version notes</a>
                     </td>
@@ -155,6 +176,9 @@ limitations under the License.
                     <td>25 December 2011</td>
                     <td>
                         <a href="http://struts.apache.org/2.x/docs/s2-009.html">S2-009</a>
+                        likely:
+                        <a href="http://struts.apache.org/2.x/docs/s2-010.html">S2-010</a>,
+                        <a href="http://struts.apache.org/2.x/docs/s2-011.html">S2-011</a>
                     </td>
                     <td>
                         <a href="http://struts.apache.org/2.3.1.1/docs/version-notes-2311.html">Version notes</a>
@@ -168,7 +192,9 @@ limitations under the License.
                     <td>
                         <a href="http://struts.apache.org/2.x/docs/s2-008.html">S2-008</a>,
                         likely:
-                        <a href="http://struts.apache.org/2.x/docs/s2-009.html">S2-009</a>
+                        <a href="http://struts.apache.org/2.x/docs/s2-009.html">S2-009</a>,
+                        <a href="http://struts.apache.org/2.x/docs/s2-010.html">S2-010</a>,
+                        <a href="http://struts.apache.org/2.x/docs/s2-011.html">S2-011</a>
                     </td>
                     <td>
                         <a href="http://struts.apache.org/2.3.1/docs/version-notes-231.html">Version notes</a>
@@ -182,7 +208,9 @@ limitations under the License.
                     <td>
                         likely:
                         <a href="http://struts.apache.org/2.x/docs/s2-008.html">S2-008</a>,
-                        <a href="http://struts.apache.org/2.x/docs/s2-009.html">S2-009</a>
+                        <a href="http://struts.apache.org/2.x/docs/s2-009.html">S2-009</a>,
+                        <a href="http://struts.apache.org/2.x/docs/s2-010.html">S2-010</a>,
+                        <a href="http://struts.apache.org/2.x/docs/s2-011.html">S2-011</a>
                     </td>
                     <td>
                         <a href="http://struts.apache.org/2.2.3.1/docs/version-notes-2231.html">Version notes</a>
@@ -197,7 +225,9 @@ limitations under the License.
                         <a href="http://struts.apache.org/2.x/docs/s2-007.html">S2-007</a>,
                         likely:
                         <a href="http://struts.apache.org/2.x/docs/s2-008.html">S2-008</a>,
-                        <a href="http://struts.apache.org/2.x/docs/s2-009.html">S2-009</a>
+                        <a href="http://struts.apache.org/2.x/docs/s2-009.html">S2-009</a>,
+                        <a href="http://struts.apache.org/2.x/docs/s2-010.html">S2-010</a>,
+                        <a href="http://struts.apache.org/2.x/docs/s2-011.html">S2-011</a>
                     </td>
                     <td>
                         <a href="http://struts.apache.org/2.2.3/docs/version-notes-223.html">Version notes</a>
@@ -213,7 +243,9 @@ limitations under the License.
                         likely:
                         <a href="http://struts.apache.org/2.x/docs/s2-007.html">S2-007</a>,
                         <a href="http://struts.apache.org/2.x/docs/s2-008.html">S2-008</a>,
-                        <a href="http://struts.apache.org/2.x/docs/s2-009.html">S2-009</a>
+                        <a href="http://struts.apache.org/2.x/docs/s2-009.html">S2-009</a>,
+                        <a href="http://struts.apache.org/2.x/docs/s2-010.html">S2-010</a>,
+                        <a href="http://struts.apache.org/2.x/docs/s2-011.html">S2-011</a>
                     </td>
                     <td>
                         <a href="http://struts.apache.org/2.2.1.1/docs/version-notes-2211.html">Version notes</a>
@@ -229,7 +261,9 @@ limitations under the License.
                         <a href="http://struts.apache.org/2.x/docs/s2-006.html">S2-006</a>,
                         <a href="http://struts.apache.org/2.x/docs/s2-007.html">S2-007</a>,
                         <a href="http://struts.apache.org/2.x/docs/s2-008.html">S2-008</a>,
-                        <a href="http://struts.apache.org/2.x/docs/s2-009.html">S2-009</a>
+                        <a href="http://struts.apache.org/2.x/docs/s2-009.html">S2-009</a>,
+                        <a href="http://struts.apache.org/2.x/docs/s2-010.html">S2-010</a>,
+                        <a href="http://struts.apache.org/2.x/docs/s2-011.html">S2-011</a>
                     </td>
                     <td>
                         <a href="http://struts.apache.org/2.2.1/docs/version-notes-221.html">Version notes</a>
@@ -246,7 +280,9 @@ limitations under the License.
                         <a href="http://struts.apache.org/2.x/docs/s2-006.html">S2-006</a>,
                         <a href="http://struts.apache.org/2.x/docs/s2-007.html">S2-007</a>,
                         <a href="http://struts.apache.org/2.x/docs/s2-008.html">S2-008</a>,
-                        <a href="http://struts.apache.org/2.x/docs/s2-009.html">S2-009</a>
+                        <a href="http://struts.apache.org/2.x/docs/s2-009.html">S2-009</a>,
+                        <a href="http://struts.apache.org/2.x/docs/s2-010.html">S2-010</a>,
+                        <a href="http://struts.apache.org/2.x/docs/s2-011.html">S2-011</a>
                     </td>
                     <td>
                         <a href="http://struts.apache.org/2.1.8.1/docs/version-notes-2181.html">Version notes</a>
@@ -263,7 +299,9 @@ limitations under the License.
                         <a href="http://struts.apache.org/2.x/docs/s2-006.html">S2-006</a>,
                         <a href="http://struts.apache.org/2.x/docs/s2-007.html">S2-007</a>,
                         <a href="http://struts.apache.org/2.x/docs/s2-008.html">S2-008</a>,
-                        <a href="http://struts.apache.org/2.x/docs/s2-009.html">S2-009</a>
+                        <a href="http://struts.apache.org/2.x/docs/s2-009.html">S2-009</a>,
+                        <a href="http://struts.apache.org/2.x/docs/s2-010.html">S2-010</a>,
+                        <a href="http://struts.apache.org/2.x/docs/s2-011.html">S2-011</a>
                     </td>
                     <td>
                         <a href="http://struts.apache.org/2.1.8/docs/version-notes-218.html">Version notes</a>
@@ -280,7 +318,9 @@ limitations under the License.
                         <a href="http://struts.apache.org/2.x/docs/s2-006.html">S2-006</a>,
                         <a href="http://struts.apache.org/2.x/docs/s2-007.html">S2-007</a>,
                         <a href="http://struts.apache.org/2.x/docs/s2-008.html">S2-008</a>,
-                        <a href="http://struts.apache.org/2.x/docs/s2-009.html">S2-009</a>
+                        <a href="http://struts.apache.org/2.x/docs/s2-009.html">S2-009</a>,
+                        <a href="http://struts.apache.org/2.x/docs/s2-010.html">S2-010</a>,
+                        <a href="http://struts.apache.org/2.x/docs/s2-011.html">S2-011</a>
                     </td>
                     <td>
                         <a href="http://struts.apache.org/2.1.6/docs/version-notes-216.html">Version notes</a>
@@ -297,7 +337,9 @@ limitations under the License.
                         <a href="http://struts.apache.org/2.x/docs/s2-006.html">S2-006</a>,
                         <a href="http://struts.apache.org/2.x/docs/s2-007.html">S2-007</a>,
                         <a href="http://struts.apache.org/2.x/docs/s2-008.html">S2-008</a>,
-                        <a href="http://struts.apache.org/2.x/docs/s2-009.html">S2-009</a>
+                        <a href="http://struts.apache.org/2.x/docs/s2-009.html">S2-009</a>,
+                        <a href="http://struts.apache.org/2.x/docs/s2-010.html">S2-010</a>,
+                        <a href="http://struts.apache.org/2.x/docs/s2-011.html">S2-011</a>
                     </td>
                     <td>
                         <a href="http://struts.apache.org/2.0.14/docs/release-notes-2014.html">Release notes</a>
@@ -314,7 +356,9 @@ limitations under the License.
                         <a href="http://struts.apache.org/2.x/docs/s2-006.html">S2-006</a>,
                         <a href="http://struts.apache.org/2.x/docs/s2-007.html">S2-007</a>,
                         <a href="http://struts.apache.org/2.x/docs/s2-008.html">S2-008</a>,
-                        <a href="http://struts.apache.org/2.x/docs/s2-009.html">S2-009</a>
+                        <a href="http://struts.apache.org/2.x/docs/s2-009.html">S2-009</a>,
+                        <a href="http://struts.apache.org/2.x/docs/s2-010.html">S2-010</a>,
+                        <a href="http://struts.apache.org/2.x/docs/s2-011.html">S2-011</a>
                     </td>
                     <td>
                         <a href="http://struts.apache.org/2.0.12/docs/release-notes-2012.html">Release notes</a>
@@ -333,7 +377,9 @@ limitations under the License.
                         <a href="http://struts.apache.org/2.x/docs/s2-006.html">S2-006</a>,
                         <a href="http://struts.apache.org/2.x/docs/s2-007.html">S2-007</a>,
                         <a href="http://struts.apache.org/2.x/docs/s2-008.html">S2-008</a>,
-                        <a href="http://struts.apache.org/2.x/docs/s2-009.html">S2-009</a>
+                        <a href="http://struts.apache.org/2.x/docs/s2-009.html">S2-009</a>,
+                        <a href="http://struts.apache.org/2.x/docs/s2-010.html">S2-010</a>,
+                        <a href="http://struts.apache.org/2.x/docs/s2-011.html">S2-011</a>
                     </td>
                     <td>
                         <a href="http://struts.apache.org/2.0.11.2/docs/release-notes-20112.html">Release notes</a>
@@ -352,7 +398,9 @@ limitations under the License.
                         <a href="http://struts.apache.org/2.x/docs/s2-006.html">S2-006</a>,
                         <a href="http://struts.apache.org/2.x/docs/s2-007.html">S2-007</a>,
                         <a href="http://struts.apache.org/2.x/docs/s2-008.html">S2-008</a>,
-                        <a href="http://struts.apache.org/2.x/docs/s2-009.html">S2-009</a>
+                        <a href="http://struts.apache.org/2.x/docs/s2-009.html">S2-009</a>,
+                        <a href="http://struts.apache.org/2.x/docs/s2-010.html">S2-010</a>,
+                        <a href="http://struts.apache.org/2.x/docs/s2-011.html">S2-011</a>
                     </td>
                     <td>
                         <a href="http://struts.apache.org/2.0.11.1/docs/release-notes-20111.html">Release notes</a>
@@ -372,7 +420,9 @@ limitations under the License.
                         <a href="http://struts.apache.org/2.x/docs/s2-006.html">S2-006</a>,
                         <a href="http://struts.apache.org/2.x/docs/s2-007.html">S2-007</a>,
                         <a href="http://struts.apache.org/2.x/docs/s2-008.html">S2-008</a>,
-                        <a href="http://struts.apache.org/2.x/docs/s2-009.html">S2-009</a>
+                        <a href="http://struts.apache.org/2.x/docs/s2-009.html">S2-009</a>,
+                        <a href="http://struts.apache.org/2.x/docs/s2-010.html">S2-010</a>,
+                        <a href="http://struts.apache.org/2.x/docs/s2-011.html">S2-011</a>
                     </td>
                     <td>
                         <a href="http://struts.apache.org/2.0.11/docs/release-notes-2011.html">Release notes</a>
@@ -392,7 +442,9 @@ limitations under the License.
                         <a href="http://struts.apache.org/2.x/docs/s2-006.html">S2-006</a>,
                         <a href="http://struts.apache.org/2.x/docs/s2-007.html">S2-007</a>,
                         <a href="http://struts.apache.org/2.x/docs/s2-008.html">S2-008</a>,
-                        <a href="http://struts.apache.org/2.x/docs/s2-009.html">S2-009</a>
+                        <a href="http://struts.apache.org/2.x/docs/s2-009.html">S2-009</a>,
+                        <a href="http://struts.apache.org/2.x/docs/s2-010.html">S2-010</a>,
+                        <a href="http://struts.apache.org/2.x/docs/s2-011.html">S2-011</a>
                     </td>
                     <td>
                         <a href="http://struts.apache.org/2.0.9/docs/release-notes-209.html">Release notes</a>
@@ -413,7 +465,9 @@ limitations under the License.
                         <a href="http://struts.apache.org/2.x/docs/s2-006.html">S2-006</a>,
                         <a href="http://struts.apache.org/2.x/docs/s2-007.html">S2-007</a>,
                         <a href="http://struts.apache.org/2.x/docs/s2-008.html">S2-008</a>,
-                        <a href="http://struts.apache.org/2.x/docs/s2-009.html">S2-009</a>
+                        <a href="http://struts.apache.org/2.x/docs/s2-009.html">S2-009</a>,
+                        <a href="http://struts.apache.org/2.x/docs/s2-010.html">S2-010</a>,
+                        <a href="http://struts.apache.org/2.x/docs/s2-011.html">S2-011</a>
                     </td>
                     <td>
                         <a href="http://struts.apache.org/2.0.8/docs/release-notes-208.html">Release notes</a>
@@ -434,7 +488,9 @@ limitations under the License.
                         <a href="http://struts.apache.org/2.x/docs/s2-006.html">S2-006</a>,
                         <a href="http://struts.apache.org/2.x/docs/s2-007.html">S2-007</a>,
                         <a href="http://struts.apache.org/2.x/docs/s2-008.html">S2-008</a>,
-                        <a href="http://struts.apache.org/2.x/docs/s2-009.html">S2-009</a>
+                        <a href="http://struts.apache.org/2.x/docs/s2-009.html">S2-009</a>,
+                        <a href="http://struts.apache.org/2.x/docs/s2-010.html">S2-010</a>,
+                        <a href="http://struts.apache.org/2.x/docs/s2-011.html">S2-011</a>
                     </td>
                     <td>
                         <a href="http://struts.apache.org/2.0.6/docs/release-notes-206.html">Release notes</a>
